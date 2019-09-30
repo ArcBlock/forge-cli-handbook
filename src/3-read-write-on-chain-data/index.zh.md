@@ -1,6 +1,6 @@
 ---
-title: 'Chapter 3: Read/Write on Chain Data'
-description: 'Chapter 3: Read/Write on Chain Data'
+title: '读写链上数据'
+description: '读写链上数据'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
 category: 'book'

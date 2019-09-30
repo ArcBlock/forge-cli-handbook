@@ -1,5 +1,5 @@
 ---
-title: 'Inspect Chain Status'
+title: '查看链的状态'
 description: 'Inspect Chain Status'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'

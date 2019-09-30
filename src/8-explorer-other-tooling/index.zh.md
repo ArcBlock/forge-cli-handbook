@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 8: Explore Other Tooling'
+title: '工具箱列表'
 description: 'Chapter 8: Explore Other Tooling'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'

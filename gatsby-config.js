@@ -11,9 +11,9 @@ module.exports = {
         version: `v${version}`,
         sourceDirs: [path.resolve(__dirname, 'src')],
         siteMetadata: {
-          title: 'ArcBlock',
-          subtitle: 'Forge CLI',
+          title: 'Forge CLI',
           description: 'Forge SDK Documentation',
+          sidebarWidth: 360,
         },
         algoliaSearch: {
           enabled: process.env.NODE_ENV !== 'production',

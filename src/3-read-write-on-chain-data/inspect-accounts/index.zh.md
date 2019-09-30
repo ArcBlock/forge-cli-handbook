@@ -1,5 +1,5 @@
 ---
-title: 'Inspect Accounts'
+title: '查询账户'
 description: 'Inspect Accounts'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'

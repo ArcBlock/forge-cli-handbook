@@ -1,5 +1,5 @@
 ---
-title: 'Find local/remote releases'
+title: '查找本地或远程 Forge Release'
 description: 'Find local/remote releases'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'

@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 4: Forge Release Management'
+title: 'Forge Release 是啥'
 description: 'Chapter 4: Forge Release Management'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'

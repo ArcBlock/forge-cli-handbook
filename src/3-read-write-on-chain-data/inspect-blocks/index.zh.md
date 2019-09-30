@@ -1,5 +1,5 @@
 ---
-title: 'Inspect Blocks'
+title: '查询区块'
 description: 'Inspect Blocks'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'

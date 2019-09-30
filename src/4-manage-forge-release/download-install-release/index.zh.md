@@ -1,5 +1,5 @@
 ---
-title: 'Install/Download a release'
+title: '下载或激活特定 Forge Release'
 description: 'Install/Download a release'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'

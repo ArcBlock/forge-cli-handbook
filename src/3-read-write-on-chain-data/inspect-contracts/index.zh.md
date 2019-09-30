@@ -1,5 +1,5 @@
 ---
-title: 'Inspect Contracts'
+title: '查询合约'
 description: 'Inspect Contracts'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'

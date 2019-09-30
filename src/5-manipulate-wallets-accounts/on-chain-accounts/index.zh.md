@@ -1,5 +1,5 @@
 ---
-title: 'Working with on chain accounts'
+title: '使用远程钱包'
 description: 'Working with on chain accounts'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'

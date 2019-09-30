@@ -1,6 +1,6 @@
 ---
-title: 'What is Forge CLI?'
-description: 'What is Forge CLI?'
+title: '什么是 Forge CLI？'
+description: '我们在谈论 Forge 的时候到底在谈论什么？'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
 category: 'book'
@@ -9,4 +9,4 @@ tags:
   - 'forge'
 ---
 
-## What is Forge CLI?
+## Forge CLI 是什么？
