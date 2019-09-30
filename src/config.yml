@@ -1,0 +1,62 @@
+gitRepo: ArcBlock/forge-cli-handbook
+srcPath: src
+categories:
+  handbook:
+    basePath: /book
+    title: HandBook
+    link: /
+    priority: 999
+    sidebar:
+      "null":
+        - /
+      Introduction:
+        - /1-introduction
+        - /1-introduction/what-is-forge-cli
+        - /1-introduction/why-forge-cli
+        - /1-introduction/install-forge-cli
+        - /1-introduction/getting-started
+        - /1-introduction/initial-setup
+      Chain/Node Management:
+        - /2-manage-chain-node
+        - /2-manage-chain-node/create-config-chain
+        - /2-manage-chain-node/start-stop-chain
+        - /2-manage-chain-node/inspect-chain-status
+        - /2-manage-chain-node/upgrade-chain
+        - /2-manage-chain-node/reset-remove-chain
+      Read/Write on Chain Data:
+        - /3-read-write-on-chain-data
+        - /3-read-write-on-chain-data/inspect-transactions
+        - /3-read-write-on-chain-data/inspect-blocks
+        - /3-read-write-on-chain-data/inspect-accounts
+        - /3-read-write-on-chain-data/inspect-assets
+        - /3-read-write-on-chain-data/inspect-contracts
+      Forge Release Management:
+        - /4-manage-forge-release
+        - /4-manage-forge-release/find-release
+        - /4-manage-forge-release/download-install-release
+      Manipulate Wallets/Accounts:
+        - /5-manipulate-wallets-accounts
+        - /5-manipulate-wallets-accounts/local-wallets
+        - /5-manipulate-wallets-accounts/on-chain-accounts
+      Working with Contracts:
+        - /6-working-with-contracts
+        - /6-working-with-contracts/compile-deploy-contract
+        - /6-working-with-contracts/activate-deactivate-contract
+        - /6-working-with-contracts/create-own-contract
+      Working with Blocklets:
+        - /7-working-with-blocklets
+        - /7-working-with-blocklets/what-are-blocklets
+        - /7-working-with-blocklets/dapp-blocklets
+        - /7-working-with-blocklets/starter-blocklets
+        - /7-working-with-blocklets/contract-blocklets
+        - /7-working-with-blocklets/creating-blocklet
+      Explore Other Tooling:
+        - /8-explorer-other-tooling
+        - /8-explorer-other-tooling/forge-web
+        - /8-explorer-other-tooling/simulator
+        - /8-explorer-other-tooling/dapp-workshop
+        - /8-explorer-other-tooling/forge-swap-service
+      Customization:
+        - /9-customization
+      Troubleshooting:
+        - /10-troubleshooting

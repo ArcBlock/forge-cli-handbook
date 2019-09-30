@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "forge-cli-power-user",
+  "version": "0.1.0",
+  "description": "A book that helps you to become a power user on forge-cli",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "gatsby develop",
+    "build:gatsby": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcBlock/forge-cli-power-user.git"
+  },
+  "keywords": [],
+  "author": "wangshijun <wangshijun2010@gmail.com> (http://github.com/wangshijun)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArcBlock/forge-cli-power-user/issues"
+  },
+  "homepage": "https://github.com/ArcBlock/forge-cli-power-user#readme",
+  "dependencies": {
+    "@arcblock/gatsby-theme-docs": "^6.27.0",
+    "fs-extra": "^8.1.0",
+    "gatsby": "^2.15.28",
+    "hast-util-select": "^3.0.1",
+    "mdast-util-to-hast": "^6.0.2",
+    "remark": "^11.0.1",
+    "yaml": "^1.7.0"
+  }
+}
