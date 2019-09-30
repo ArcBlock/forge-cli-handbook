@@ -1,6 +1,8 @@
 ![Forge CLI Handbook](https://www.arcblock.io/.netlify/functions/badge/?text=Forge%20CLI%20Handbook)
 
-> A book that helps you to become a power user of forge-cli
+A book that helps you to become a power user of forge-cli
+
+> The book structure is defined in the following `Table of Contents` section and generated with script `tools/skeleton.js`
 
 ## Table of Contents
 
