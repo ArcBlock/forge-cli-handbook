@@ -7779,7 +7779,7 @@ hast-util-sanitize@^1.0.0:
   dependencies:
     xtend "^4.0.1"
 
-hast-util-select@^3.0.0:
+hast-util-select@^3.0.0, hast-util-select@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npm.taobao.org/hast-util-select/download/hast-util-select-3.0.1.tgz#1f642c91ab5fb41ca2d485e4e701739f39d42552"
   integrity sha1-H2QskatftByi1IXk5wFznznUJVI=
@@ -8636,7 +8636,7 @@ is-date-object@^1.0.1:
   resolved "https://registry.npm.taobao.org/is-date-object/download/is-date-object-1.0.1.tgz#9aa20eb6aeebbff77fbd33e74ca01b33581d3a16"
   integrity sha1-mqIOtq7rv/d/vTPnTKAbM1gdOhY=
 
-is-decimal@^1.0.0:
+is-decimal@^1.0.0, is-decimal@^1.0.2:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/is-decimal/download/is-decimal-1.0.3.tgz#381068759b9dc807d8c0dc0bfbae2b68e1da48b7"
   integrity sha1-OBBodZudyAfYwNwL+64raOHaSLc=
@@ -9925,7 +9925,7 @@ mdast-util-definitions@^1.2.0, mdast-util-definitions@^1.2.4:
   dependencies:
     unist-util-visit "^1.0.0"
 
-mdast-util-to-hast@6.0.2:
+mdast-util-to-hast@6.0.2, mdast-util-to-hast@^6.0.2:
   version "6.0.2"
   resolved "https://registry.npm.taobao.org/mdast-util-to-hast/download/mdast-util-to-hast-6.0.2.tgz#24a8791b7c624118637d70f03a9d29116e4311cf"
   integrity sha1-JKh5G3xiQRhjfXDwOp0pEW5DEc8=
@@ -12851,7 +12851,7 @@ remark-mdx@^1.5.0:
     remark-parse "7.0.1"
     unified "8.3.2"
 
-remark-parse@7.0.1:
+remark-parse@7.0.1, remark-parse@^7.0.0:
   version "7.0.1"
   resolved "https://registry.npm.taobao.org/remark-parse/download/remark-parse-7.0.1.tgz#0c13d67e0d7b82c2ad2d8b6604ec5fae6c333c2b"
   integrity sha1-DBPWfg17gsKtLYtmBOxfrmwzPCs=
@@ -12957,6 +12957,26 @@ remark-stringify@^6.0.0:
     unherit "^1.0.4"
     xtend "^4.0.1"
 
+remark-stringify@^7.0.0:
+  version "7.0.3"
+  resolved "https://registry.npm.taobao.org/remark-stringify/download/remark-stringify-7.0.3.tgz#9221e9770b0b395af83a0d5881a44b6fcb9d0a2a"
+  integrity sha1-kiHpdwsLOVr4Og1YgaRLb8udCio=
+  dependencies:
+    ccount "^1.0.0"
+    is-alphanumeric "^1.0.0"
+    is-decimal "^1.0.0"
+    is-whitespace-character "^1.0.0"
+    longest-streak "^2.0.1"
+    markdown-escapes "^1.0.0"
+    markdown-table "^1.1.0"
+    mdast-util-compact "^1.0.0"
+    parse-entities "^1.0.2"
+    repeat-string "^1.5.4"
+    state-toggle "^1.0.0"
+    stringify-entities "^2.0.0"
+    unherit "^1.0.4"
+    xtend "^4.0.1"
+
 remark@^10.0.0, remark@^10.0.1:
   version "10.0.1"
   resolved "https://registry.npm.taobao.org/remark/download/remark-10.0.1.tgz#3058076dc41781bf505d8978c291485fe47667df"
@@ -12965,6 +12985,15 @@ remark@^10.0.0, remark@^10.0.1:
     remark-parse "^6.0.0"
     remark-stringify "^6.0.0"
     unified "^7.0.0"
+
+remark@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.npm.taobao.org/remark/download/remark-11.0.1.tgz#3c16e1ed84c78a661299991bb8d5fa7ee5d18e3c"
+  integrity sha1-PBbh7YTHimYSmZkbuNX6fuXRjjw=
+  dependencies:
+    remark-parse "^7.0.0"
+    remark-stringify "^7.0.0"
+    unified "^8.2.0"
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
@@ -14187,6 +14216,17 @@ stringify-entities@^1.0.1:
     is-alphanumerical "^1.0.0"
     is-hexadecimal "^1.0.0"
 
+stringify-entities@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/stringify-entities/download/stringify-entities-2.0.0.tgz#fa7ca6614b355fb6c28448140a20c4ede7462827"
+  integrity sha1-+nymYUs1X7bChEgUCiDE7edGKCc=
+  dependencies:
+    character-entities-html4 "^1.0.0"
+    character-entities-legacy "^1.0.0"
+    is-alphanumerical "^1.0.0"
+    is-decimal "^1.0.2"
+    is-hexadecimal "^1.0.0"
+
 strip-ansi@3.0.1, strip-ansi@^3, strip-ansi@^3.0.0, strip-ansi@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npm.taobao.org/strip-ansi/download/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
@@ -14916,7 +14956,7 @@ unified@^7.0.0:
     vfile "^3.0.0"
     x-is-string "^0.1.0"
 
-unified@^8.4.0:
+unified@^8.2.0, unified@^8.4.0:
   version "8.4.0"
   resolved "https://registry.npm.taobao.org/unified/download/unified-8.4.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Funified%2Fdownload%2Funified-8.4.0.tgz#5bb8a05c2a0b9dcc56152312ad8e4578a0d90af7"
   integrity sha1-W7igXCoLncxWFSMSrY5FeKDZCvc=
@@ -15793,6 +15833,13 @@ yaml-loader@^0.5.0:
   integrity sha1-hrGYLYSo5CnmZH2T3poBaeHBWCc=
   dependencies:
     js-yaml "^3.5.2"
+
+yaml@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.npm.taobao.org/yaml/download/yaml-1.7.0.tgz#b4cddb83490051e6c4b6ffe2bb08221c23f4c6cf"
+  integrity sha1-tM3bg0kAUebEtv/iuwgiHCP0xs8=
+  dependencies:
+    "@babel/runtime" "^7.5.5"
 
 yargs-parser@^11.1.1:
   version "11.1.1"
