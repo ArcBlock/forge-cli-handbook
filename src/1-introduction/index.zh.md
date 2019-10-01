@@ -1,6 +1,6 @@
 ---
-title: 'Forge CLI 入门'
-description: 'Forge CLI 是什么？能做什么？使用需要具备什么条件？'
+title: '开始的开始'
+description: ''
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
 category: 'book'
@@ -9,12 +9,14 @@ tags:
   - 'forge'
 ---
 
-很高兴你能读到这本小书，在区块链的世界里面跟我们一起去探索、去建设！
+读完这个章节，你将能够使用 Forge CLI 完成一键发链，听起来是不是很酷？
 
-你应该已经知道 [ArcBlock](https://arcblockio.cn) 是一家什么样的公司：我们深信区块链会给人类协作方式带来的巨大变革，我们致力于开发简单、灵活但有可扩展的 dApp 开发框架。到目前为止我们已经发布了一系列框架和工具，而 Forge CLI 是开发者获取、使用这些工具的最佳解决方案：只需安装一条命令，就得到了整个区块链工具箱。
+- [Forge CLI 是什么](./what-is-forge-cli)：名字里面的 Forge 到底是啥？
+- [为什么有 Forge CLI](./why-forge-cli)：Forge CLI 的设计理念
+- [如何获取 Forge CLI](./install-forge-cli)：安装 Forge CLI 的几种姿势
+- [Hello Forge CLI](./getting-started)：**一键发链！一键发币！**
+- [Forge CLI 基本配置](./initial-setup)：为后续章节打好基础
 
-- [Forge CLI 是什么？](./what-is-forge-cli)
-- [为什么开发 Forge CLI](./why-forge-cli)
-- [如何安装 Forge CLI](./install-forge-cli)
-- [Hello Forge CLI](./getting-started)
-- [Forge CLI 基本配置](./initial-setup)
+---
+
+废话不多说，我们开始吧！
