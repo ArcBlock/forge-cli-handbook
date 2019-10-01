@@ -1,0 +1,1433 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 255
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 62
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 14
+
+  # The height of lines
+  lineHeight: 1
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 8
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 135
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[39m\e[0m\e[49m\e[44m\e[37m ~/Develop/arcblock \e[49m\e[34m\e[39m\r\n\e[01;39m\e[32m❯\e[39m \e[00m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 1496
+    content: "\e[H\e[2J\e[0m\e[27m\e[24m\e[J\e[39m\e[0m\e[49m\e[44m\e[37m ~/Develop/arcblock \e[49m\e[34m\e[39m\r\n\e[01;39m\e[32m❯\e[39m \e[00m\e[K"
+  - delay: 320
+    content: "\e[4mn\e[24m\e[90mpm install -g terminalizer --registry https://registry.npm.taobao.org\e[39m\e[69D"
+  - delay: 147
+    content: "\b\e[24m\e[1m\e[31mn\e[1m\e[31mp\e[0m\e[39m"
+  - delay: 149
+    content: "\b\b\e[0m\e[32mn\e[0m\e[32mp\e[32mm\e[39m"
+  - delay: 92
+    content: "\e[39m "
+  - delay: 167
+    content: "\e[39mi"
+  - delay: 179
+    content: "\e[39mn"
+  - delay: 93
+    content: "\e[39ms"
+  - delay: 105
+    content: "\e[39mt"
+  - delay: 63
+    content: "\e[39ma"
+  - delay: 69
+    content: "\e[39ml"
+  - delay: 139
+    content: "\e[39ml"
+  - delay: 137
+    content: "\e[39m "
+  - delay: 264
+    content: "\e[39m-"
+  - delay: 93
+    content: "\e[39mg"
+  - delay: 811
+    content: "\e[39m "
+  - delay: 258
+    content: "\e[39m@\e[90ma\e[90mr\e[90mc\e[90mb\e[90ml\e[90mo\e[90mc\e[90mk\e[90m/\e[90mf\e[90mo\e[90mr\e[90mg\e[90me\e[90m-\e[90mc\e[90ml\e[90mi\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[54D"
+  - delay: 915
+    content: "\e[39ma\e[39mr\e[39mc\e[39mb\e[39ml\e[39mo\e[39mc\e[39mk\e[39m/\e[39mf\e[39mo\e[39mr\e[39mg\e[39me\e[39m-\e[39mc\e[39ml\e[39mi"
+  - delay: 242
+    content: "\e[?1l\e>\e[?2004l\r\r\n"
+  - delay: 8
+    content: "\e]2;npm install -g @arcblock/forge-cli\a\e]1;npm\a"
+  - delay: 551
+    content: "\e[?25l⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 47
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 101
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 119
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m e8231f298034567a\e[0m\e[K\r"
+  - delay: 163
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ loadIdealTree:loadAllDepsIntoIdealTree: \e[7msill\e[0m \e[35minstall\e[0m loadIdealTree\e[0m\e[K\r"
+  - delay: 131
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 79
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mremoveObsoleteDep\e[0m removing regenerator-runtime@0.13.3 from the tree as its been replaced by a newer version or is no longer required\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ loadDep:lodash: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yaml@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ loadDep:lodash: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yaml@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ loadDep:lodash: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yaml@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ loadDep:lodash: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yaml@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m bn.js@5.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m bn.js@5.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m bn.js@5.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m bn.js@5.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-to-bn@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-to-bn@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-to-bn@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-to-bn@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m base-x@3.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m base-x@3.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m base-x@3.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m base-x@3.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m base-x@3.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safe-buffer@5.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safe-buffer@5.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safe-buffer@5.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safe-buffer@5.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-hex-prefix@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-hex-prefix@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-hex-prefix@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-hex-prefix@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-hex-prefix@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m tweetnacl@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m tweetnacl@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m tweetnacl@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m tweetnacl@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m tweetnacl@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m tweetnacl@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m inherits@2.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m inherits@2.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m inherits@2.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m inherits@2.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash@4.17.15 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash@4.17.15 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash@4.17.15 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash@4.17.15 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.upperfirst@4.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.upperfirst@4.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.upperfirst@4.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.upperfirst@4.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.upperfirst@4.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m camelize@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m camelize@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m camelize@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m camelize@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m blueimp-md5@2.12.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m blueimp-md5@2.12.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m blueimp-md5@2.12.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m blueimp-md5@2.12.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m blueimp-md5@2.12.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m graphql@14.5.8 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m graphql@14.5.8 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m graphql@14.5.8 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m graphql@14.5.8 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iterall@1.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iterall@1.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iterall@1.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iterall@1.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m websocket@1.0.30 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m websocket@1.0.30 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m websocket@1.0.30 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m websocket@1.0.30 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m websocket@1.0.30 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-typedarray@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-typedarray@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-typedarray@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-typedarray@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-typedarray@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-typedarray@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m raf@3.4.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m raf@3.4.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m raf@3.4.1 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m raf@3.4.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m asap@2.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m asap@2.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m asap@2.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m asap@2.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m asap@2.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 47
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mcleanup\e[0m remove extracted module\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mcleanup\e[0m remove extracted module\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mcleanup\e[0m remove extracted module\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mcleanup\e[0m remove extracted module\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ loadDep:tar: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.clone@4.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.clone@4.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.clone@4.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.clone@4.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.clone@4.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash.clone@4.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yargs@3.32.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yargs@3.32.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yargs@3.32.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yargs@3.32.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m colour@0.7.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m long@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs.realpath@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m wrappy@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m wrappy@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m wrappy@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m wrappy@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m concat-map@0.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m concat-map@0.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m concat-map@0.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m concat-map@0.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m concat-map@0.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string-width@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string-width@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string-width@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string-width@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string-width@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string-width@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string-width@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 58
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string-width@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string-width@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ loadDep:strip-ansi: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-ansi@3.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ loadDep:strip-ansi: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-ansi@3.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ loadDep:strip-ansi: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-ansi@3.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ loadDep:strip-ansi: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-ansi@3.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ loadDep:strip-ansi: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-ansi@3.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m code-point-at@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m code-point-at@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m code-point-at@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m code-point-at@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-is-nan@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-is-nan@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-is-nan@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-is-nan@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@2.1.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@2.1.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@2.1.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@2.1.1 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@2.1.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lcid@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lcid@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lcid@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lcid@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m local-or-home-npmrc@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m local-or-home-npmrc@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m local-or-home-npmrc@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m local-or-home-npmrc@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m local-or-home-npmrc@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m user-home@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m user-home@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m user-home@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m user-home@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m find-up@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m find-up@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m find-up@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m find-up@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m find-up@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m locate-path@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m locate-path@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m locate-path@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m locate-path@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-exists@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-exists@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-exists@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-exists@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-exists@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-limit@1.3.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-limit@1.3.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-limit@1.3.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-limit@1.3.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-try@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-try@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-try@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-try@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m os-homedir@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m os-homedir@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m os-homedir@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m os-homedir@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rc@1.2.8 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rc@1.2.8 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rc@1.2.8 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rc@1.2.8 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rc@1.2.8 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimist@1.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimist@1.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimist@1.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimist@1.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-system@2.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-system@2.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-system@2.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-system@2.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ loadDep:utils-extend: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m utils-extend@1.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ loadDep:utils-extend: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m utils-extend@1.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ loadDep:utils-extend: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m utils-extend@1.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ loadDep:utils-extend: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m utils-extend@1.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-match@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-match@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-match@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-match@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-match@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m supports-color@5.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m supports-color@5.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m supports-color@5.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m supports-color@5.5.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-convert@1.9.3 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-convert@1.9.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-convert@1.9.3 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-convert@1.9.3 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-convert@1.9.3 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-name@1.1.3 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-name@1.1.3 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-name@1.1.3 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-name@1.1.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-flag@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-flag@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-flag@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-flag@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-flag@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m chalk@1.1.3 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m chalk@1.1.3 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m chalk@1.1.3 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m chalk@1.1.3 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-ansi@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-ansi@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-ansi@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-ansi@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-ansi@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-stream@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-stream@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-stream@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-stream@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-stream@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@2.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@2.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@2.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@2.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m shebang-regex@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m shebang-regex@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m shebang-regex@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m shebang-regex@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m isexe@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m isexe@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m isexe@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m isexe@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m isexe@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:once: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pump@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:once: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pump@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:once: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pump@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:once: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pump@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@3.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@3.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@3.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@3.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@3.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m graceful-fs@4.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m graceful-fs@4.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m graceful-fs@4.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m graceful-fs@4.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m type-fest@0.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m type-fest@0.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m type-fest@0.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m type-fest@0.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m type-fest@0.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m async@2.6.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m async@2.6.1 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m async@2.6.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m async@2.6.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m git-up@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m git-up@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m git-up@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m git-up@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-url@5.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-url@5.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-url@5.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-url@5.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-url@5.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ loadDep:protocols: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m protocols@1.4.7 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ loadDep:protocols: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m protocols@1.4.7 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ loadDep:protocols: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m protocols@1.4.7 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ loadDep:protocols: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m protocols@1.4.7 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-path@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-path@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-path@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-path@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-path@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-path@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rxjs@5.5.12 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rxjs@5.5.12 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rxjs@5.5.12 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rxjs@5.5.12 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m mimic-fn@1.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m mimic-fn@1.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m mimic-fn@1.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m mimic-fn@1.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iconv-lite@0.4.24 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iconv-lite@0.4.24 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iconv-lite@0.4.24 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iconv-lite@0.4.24 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iconv-lite@0.4.24 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safer-buffer@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safer-buffer@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safer-buffer@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safer-buffer@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m os-tmpdir@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m os-tmpdir@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m os-tmpdir@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m os-tmpdir@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-promise@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-promise@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-promise@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-promise@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-promise@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ loadDep:through: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m inquirer@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ loadDep:through: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m inquirer@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ loadDep:through: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m inquirer@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ loadDep:through: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m inquirer@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m default-gateway@4.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m default-gateway@4.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m default-gateway@4.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m default-gateway@4.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-eof@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-eof@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-eof@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-eof@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-eof@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-finally@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-finally@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-finally@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-finally@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defaults@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defaults@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defaults@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defaults@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defaults@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defaults@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone@1.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone@1.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone@1.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone@1.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-ms@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-ms@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-ms@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-ms@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-ms@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m got@9.6.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m got@9.6.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m got@9.6.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m got@9.6.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @sindresorhus/is@0.14.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @sindresorhus/is@0.14.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @sindresorhus/is@0.14.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @sindresorhus/is@0.14.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defer-to-connect@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defer-to-connect@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defer-to-connect@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defer-to-connect@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defer-to-connect@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone-response@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone-response@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone-response@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone-response@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone-response@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m json-buffer@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m json-buffer@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m json-buffer@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m json-buffer@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m esprima@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m esprima@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m esprima@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m esprima@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pinkie-promise@2.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pinkie-promise@2.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pinkie-promise@2.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pinkie-promise@2.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pinkie@2.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pinkie@2.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pinkie@2.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pinkie@2.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m resolve-from@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m resolve-from@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m resolve-from@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m resolve-from@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m resolve-from@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m callsites@0.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m callsites@0.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m callsites@0.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m callsites@0.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rechoir@0.6.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rechoir@0.6.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rechoir@0.6.2 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rechoir@0.6.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m resolve@1.12.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m resolve@1.12.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m resolve@1.12.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m resolve@1.12.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-parse@1.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-parse@1.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-parse@1.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-parse@1.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-parse@1.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimist@0.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimist@0.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimist@0.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimist@0.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimist@0.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 102
+    content: "⸨\e[7m      \e[27m\e[90m░░░░░░░░░░░░\e[0m⸩ ⠦ diffTrees: \e[7msill\e[0m \e[35minstall\e[0m generateActionsToTake\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠧ extract:@arcblock/forge-cli: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/wangshijun/.npm/_locks/staging-f1dd6049c8407827.lock for /Users/wangshijun/.nvm/versions/node/v10.16.1/lib/node_modules/.staging\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠧ extract:@arcblock/forge-cli: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/wangshijun/.npm/_locks/staging-f1dd6049c8407827.lock for /Users/wangshijun/.nvm/versions/node/v10.16.1/lib/node_modules/.staging\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠧ extract:@arcblock/forge-cli: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/wangshijun/.npm/_locks/staging-f1dd6049c8407827.lock for /Users/wangshijun/.nvm/versions/node/v10.16.1/lib/node_modules/.staging\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ remove:@arcblock/forge-cli: \e[7msill\e[0m \e[35mdoSerial\e[0m remove 10\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ remove:@arcblock/forge-cli: \e[7msill\e[0m \e[35mdoSerial\e[0m remove 10\e[0m\e[K\r"
+  - delay: 42
+    content: "\r\e[K\e[?25h/Users/wangshijun/.nvm/versions/node/v10.16.1/bin/forge -> /Users/wangshijun/.nvm/versions/node/v10.16.1/lib/node_modules/@arcblock/forge-cli/bin/forge\r\n"
+  - delay: 5
+    content: "\r\n> @arcblock/forge-cli@0.39.1 postinstall /Users/wangshijun/.nvm/versions/node/v10.16.1/lib/node_modules/@arcblock/forge-cli\r\n> bin/forge\r\n\r\n"
+  - delay: 1131
+    content: "\r\n"
+  - delay: 6
+    content: "\e[36m██████╗ ██╗   ██╗     █████╗ ██████╗  ██████╗██████╗ ██╗      ██████╗  ██████╗██╗  ██╗\e[39m\r\n\e[36m██╔══██╗╚██╗ ██╔╝    ██╔══██╗██╔══██╗██╔════╝██╔══██╗██║     ██╔═══██╗██╔════╝██║ ██╔╝\e[39m\r\n\e[36m██████╔╝ ╚████╔╝     ███████║██████╔╝██║     ██████╔╝██║     ██║   ██║██║     █████╔╝ \e[39m\r\n\e[36m██╔══██╗  ╚██╔╝      ██╔══██║██╔══██╗██║     ██╔══██╗██║     ██║   ██║██║     ██╔═██╗ \e[39m\r\n\e[36m██████╔╝   ██║       ██║  ██║██║  ██║╚██████╗██████╔╝███████╗╚██████╔╝╚██████╗██║  ██╗\e[39m\r\n\e[36m╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝\e[39m\r\n\e[36m                                                                                      \e[39m\r\nUsage: forge [options] [command]\r\n\r\nOptions:\r\n  -V, --version                          output the version number\r\n  -v, --verbose                          Output runtime info when execute subcommand, useful for debug\r\n  -c, --chain-name <chainName>           Execute command use specific chain\r\n  -i, --config-path <path>               Forge config used when starting forge node and initializing gRPC clients\r\n  -r, --npmRegistry <registry>           Specify a custom npm registry\r\n  -y, --yes                              Assume that the answer to any confirmation question is yes\r\n  -d, --defaults                         Run command using default values for all questions\r\n  -m, --mirror <url>                     Mirror host used to download forge release\r\n  -g, --socket-grpc <endpoint>           Socket gRPC endpoint to connect, with this you can use forge-cli with a remote node\r\n  -h, --help                             output usage information\r\n\r\nCommands:\r\n  account <address>                      Get an account info by address\r\n  account:create                         Interactively create an account, guarded by a passphrase\r\n  account:delete <address>               Delete an account by address\r\n  account:list [role]                    List all accounts stored in this node\r\n  asset <address>                        Get asset info by address\r\n  block [options] [height]               Get the block info from the running node\r\n  blocklet:use|project:create [options]  Download and install a blocklet\r\n  chain:create|create-chain [chainName]  Create a new chain instance\r\n  chain:ls|chains                        List all chains\r\n  chain:remove|reset [<chainName>]       Remove chains\r\n  checkin                                Send a poke tx to the network to get tokens for test\r\n  config [options] [action]              Read/write chain/node config\r\n  declare:node                           Declare the current node to be a validator candidate\r\n  download [options] [version]           Download a forge release without activate it\r\n  help <subcommand>                      Show help of a sub command\r\n  install|init [options] [version]       Download and setup forge release on this machine\r\n  join <endpoint>                        Join a network by providing a valid forge web graphql endpoint\r\n  logs [type]                            Show logs for various forge components\r\n  ls                                     List forge releases installed locally\r\n  ls:remote                              List remote forge releases available for install\r\n  prepare [options]                      Prepare node for deploying a multi-node chain\r\n  protocol:activate [name|address]       Activate a transaction protocol by name or address\r\n  protocol:compile [sourceDir]           Compile a forge transaction protocol\r\n  protocol:deactivate [name|adderss]     Deactivate a transaction protocol\r\n  protocol:deploy [itxPath]              Deploy a compiled transaction protocol to ABT Node\r\n  protocol:ls                            List transaction protocols\r\n  ps                                     List running forge component processes\r\n  remote [shellName]                     Connects to the running system via a remote shell\r\n  simulator [action]                     Start/stop simulator and generate random traffic\r\n  stake [options] [show]                 Stake to various entities: node/user/asset\r\n  start [options] [<chainName>]          Start a chain daemon, if does not specify a chain name, it will start a default chain\r\n  status [type]                          List info of the running chain/node\r\n  stop [options] [<chainName>]           Stop the forge daemon and all forge components, if does not specify a chain name, it will start a default chain\r\n  tx [hash]                              Get a tx detail and display\r\n  tx:list                                List latest transactions\r\n  tx:send                                Send a signed tx to the network\r\n  tx:sign                                Sign a transaction (base64) according to sender’s wallet\r\n  unstake                                Revert stakes to various entities\r\n  upgrade [<chainName>]                  Upgrade chain node to new version without reset\r\n  use [version]                          Activate an already downloaded forge release\r\n  version [<chainName>]                  Output version for all forge components\r\n  wallet:create                          Create a local wallet and dump its public/private key\r\n  web [options] [action]                 Start/stop the web interface of running forge chain/node\r\n  workshop [action]                      Start/stop the dApps workshop\r\n\r\nExamples:\r\n\r\n  Please install a forge-release before running any other commands\r\n  > \e[36mforge install latest\e[39m\r\n  > \e[36mforge install --mirror http://arcblock.oss-cn-beijing.aliyuncs.com\e[39m\r\n\r\n  Curious about how to use a subcommand?\r\n  > \e[36mforge help install\e[39m\r\n  \r\n"
+  - delay: 16
+    content: "+ @arcblock/forge-cli@0.39.1\r\nupdated 1 package in 34.852s\r\n"
+  - delay: 16
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                                                                              \r \r"
+  - delay: 5
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 125
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[39m\e[0m\e[49m\e[44m\e[37m ~/Develop/arcblock \e[49m\e[34m\e[30m 36s \e[49m\e[39m\e[39m\r\n\e[01;39m\e[32m❯\e[39m \e[00m\e[K\e[?1h\e=\e[?2004h"

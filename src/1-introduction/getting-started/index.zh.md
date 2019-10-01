@@ -48,3 +48,15 @@ forge start my-forge-chain
 整个过程如下图示：
 
 ![](./images/create-chain.gif)
+
+然后，执行 `forge web open`，不出意外，你本地的浏览器会打开刚刚启动的这条链的区块浏览器，区块浏览器里面能看到链的基本信息。
+
+![](./images/forge-web.png)
+
+::: tip
+如果你是在云平台上的远端机器，`forge web open` 大概率无法工作，如果你想通过网络访问刚刚启动链的区块浏览器，需要这个机器有公网的 IP，并且打开 8210 端口。关于 Forge WEB 的更多介绍参见 [这里](../../8-explorer-other-tooling/forge-web)
+:::
+
+::: tip
+使用 `forge status` 也能检查当前链的状态，如果想查看链上币的配置，可以执行 `forge status core`，关于链状态的查看，更多参见[检查链的状态](../../2-manage-chain-node/inspect-chain-status)
+:::

@@ -137,6 +137,10 @@ Examples:
 ```
 
 ::: tip
+如果是中国大陆用户，使用淘宝的 npm 镜像来安装 Forge CLI 可能会更快，使用 `npm install -g @arcblock/forge-cli --registry https://registry.npm.taobao.org` 即可。
+:::
+
+::: tip
 执行 `forge help` 也能得到如上输出，这个输出中列出了 Forge CLI 支持的所有子命令。
 :::
 
