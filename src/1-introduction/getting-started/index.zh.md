@@ -29,7 +29,7 @@ forge install latest
 
 整个安装过程如下图所示：
 
-![](./images/install-release.gif)
+!TerminalPlayer[](./images/1-install-release.yml)
 
 ## 发链和发币
 
@@ -53,10 +53,10 @@ forge start my-forge-chain
 
 ![](./images/forge-web.png)
 
-::: tip
+::: warning
 如果你是在云平台上的远端机器，`forge web open` 大概率无法工作，如果你想通过网络访问刚刚启动链的区块浏览器，需要这个机器有公网的 IP，并且打开 8210 端口。关于 Forge WEB 的更多介绍参见 [这里](../../8-explorer-other-tooling/forge-web)
 :::
 
-::: tip
+::: success
 使用 `forge status` 也能检查当前链的状态，如果想查看链上币的配置，可以执行 `forge status core`，关于链状态的查看，更多参见[检查链的状态](../../2-manage-chain-node/inspect-chain-status)
 :::

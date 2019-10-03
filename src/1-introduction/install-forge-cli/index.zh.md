@@ -57,7 +57,7 @@ npm install -g @arcblock/forge-cli
 
 整个安装过程如下图所示：
 
-![](./images/install.gif)
+!TerminalPlayer[](./images/0-install-cli.yml)
 
 安装之后，直接执行 `forge`，如果得到如下输出，说明你已经安装成功：
 
@@ -136,12 +136,12 @@ Examples:
   > forge help install
 ```
 
-::: tip
-如果是中国大陆用户，使用淘宝的 npm 镜像来安装 Forge CLI 可能会更快，使用 `npm install -g @arcblock/forge-cli --registry https://registry.npm.taobao.org` 即可。
+::: success
+执行 `forge help` 也能得到如上输出，这个输出中列出了 Forge CLI 支持的所有子命令。
 :::
 
-::: tip
-执行 `forge help` 也能得到如上输出，这个输出中列出了 Forge CLI 支持的所有子命令。
+::: success
+如果是中国大陆用户，使用淘宝的 npm 镜像来安装 Forge CLI 可能会更快，使用 `npm install -g @arcblock/forge-cli --registry https://registry.npm.taobao.org` 即可。
 :::
 
 ----
