@@ -69,8 +69,10 @@ forge start my-forge-chain
 
 ## 检查币的状态
 
-如果想查看链上币的配置，可以执行 `forge status core`，看到这里
+如果想查看链上币的配置，可以执行 `forge status core`，在输出结果中查找 `token` 信息，如下图：
+
+![](./images/forge-status-core.png)
 
 ::: success
-关于链运行状态查看的更多细节参见[检查链的状态](../../2-manage-chain-node/inspect-chain-status)
+关于链运行状态查看的更多细节参见: [检查链的状态](../../2-manage-chain-node/inspect-chain-status)。
 :::
