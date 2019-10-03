@@ -11,7 +11,7 @@ tags:
 
 > 资深区块链开发者 Gavin Wood 能在 30 分钟内发一条链，用 Forge CLI 即使是技术小白也能把这个时间缩短 50%，当然需要你有个靠谱的网络环境，嘿嘿！
 
-## 安装 Forge 工具集
+## 安装 Forge
 
 我们已经安装好 Forge CLI，但是我们还没有把 Forge 的其他组件安装到电脑里面，继续执行如下命令来安装这些组件：
 
@@ -24,10 +24,10 @@ forge install latest
 :::
 
 ::: tip
-这里的 Forge 工具集也称为 Forge Release，想了解更多的细节可以参见：[Forge Release 管理](../../4-manage-forge-release)。
+如果想了解 Forge 发行版本的更多细节可以猛击：[Forge Release 管理](../../4-manage-forge-release)。
 :::
 
-整个安装过程如下图所示：
+Forge 安装过程如下所示：
 
 !TerminalPlayer[](./images/1-install-release.yml)
 
@@ -47,9 +47,13 @@ forge start my-forge-chain
 
 整个过程如下图示：
 
-![](./images/create-chain.gif)
+!TerminalPlayer[](./images/2-create-and-start-chain.yml)
 
-然后，执行 `forge web open`，不出意外，你本地的浏览器会打开刚刚启动的这条链的区块浏览器，区块浏览器里面能看到链的基本信息。
+然后，执行 `forge web open`，不出意外，你本地的浏览器会打开刚刚启动的这条链的区块浏览器，区块浏览器里面能看到链的基本信息：
+
+- 链的名称显示在左上角：my-forge-chain
+- 链的块高、交易数量、账户数量、验证人节点数量显示在仪表盘上
+- 如果你刷新这个页面，会看到块高在不停的变大，是因为即使没有交易的时候 forge 也在出空块
 
 ![](./images/forge-web.png)
 
@@ -57,6 +61,16 @@ forge start my-forge-chain
 如果你是在云平台上的远端机器，`forge web open` 大概率无法工作，如果你想通过网络访问刚刚启动链的区块浏览器，需要这个机器有公网的 IP，并且打开 8210 端口。关于 Forge WEB 的更多介绍参见 [这里](../../8-explorer-other-tooling/forge-web)
 :::
 
+## 检查链的状态
+
+到这里，我们的单节点的链已经启动了，怎么确定这个链的状态是正常的呢？执行 `forge status` 即可看到当前的链块高是多少：
+
+![](./images/forge-status.png)
+
+## 检查币的状态
+
+如果想查看链上币的配置，可以执行 `forge status core`，看到这里
+
 ::: success
-使用 `forge status` 也能检查当前链的状态，如果想查看链上币的配置，可以执行 `forge status core`，关于链状态的查看，更多参见[检查链的状态](../../2-manage-chain-node/inspect-chain-status)
+关于链运行状态查看的更多细节参见[检查链的状态](../../2-manage-chain-node/inspect-chain-status)
 :::

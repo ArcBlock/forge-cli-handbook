@@ -35,5 +35,3 @@ mirror: http://arcblockcn.oss-cn-beijing.aliyuncs.com
 除了 `registry` 和 `mirror` 两个配置项之外，Forge CLI 还支持更多其他的配置项，可参考[这里](../../9-customization)。
 
 ## 链管理员私钥
-
-TODO

@@ -1,5 +1,5 @@
 ---
-title: '如何获取 Forge CLI？'
+title: '如何安装 Forge CLI？'
 description: '不同用户使用 Forge CLI 的不同姿势'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
@@ -55,11 +55,9 @@ Node.js 环境安装好之后，可以直接用如下命令安装 Forge CLI：
 npm install -g @arcblock/forge-cli
 ```
 
-整个安装过程如下图所示：
+如果你更喜欢使用 yarn 来安装，则可以执行 `yarn global add @arcblock/forge-cli` 来完成安装。
 
-!TerminalPlayer[](./images/0-install-cli.yml)
-
-安装之后，直接执行 `forge`，如果得到如下输出，说明你已经安装成功：
+安装完成之后，直接执行 `forge`，没有报错且得到如下输出，说明你已经安装成功：
 
 ```bash
 
@@ -143,6 +141,8 @@ Examples:
 ::: success
 如果是中国大陆用户，使用淘宝的 npm 镜像来安装 Forge CLI 可能会更快，使用 `npm install -g @arcblock/forge-cli --registry https://registry.npm.taobao.org` 即可。
 :::
+
+> TODO: 安装过程的常见报错及解决办法
 
 ----
 
