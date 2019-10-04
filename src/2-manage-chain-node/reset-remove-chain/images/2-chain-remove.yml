@@ -1,0 +1,447 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 121
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 1000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: bar
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1.2
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1666
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 59
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 511
+    content: "\e[4mf\e[24m\e[90morge start test-chain\e[39m\e[21D"
+  - delay: 107
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 75
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 175
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 73
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 72
+    content: "\e[39m "
+  - delay: 157
+    content: "\e[39m\e[4mc\e[24m\e[90mh\e[90ma\e[90mi\e[90mn\e[90m:\e[90ml\e[90ms\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[15D"
+  - delay: 92
+    content: "\b\e[24mc\e[39mh"
+  - delay: 112
+    content: "\e[39ma"
+  - delay: 75
+    content: "\e[39mi"
+  - delay: 211
+    content: "\e[39mn"
+  - delay: 307
+    content: "\e[39m:"
+  - delay: 121
+    content: "\e[39mr\e[90me\e[90mset test-chain\e[39m\e[15D"
+  - delay: 54
+    content: "\e[39me"
+  - delay: 548
+    content: "\e[39mm\e[90mo\e[90mv\e[90me\e[90m \e[90mw\e[90ma\e[90mn\e[90mg\e[90ms\e[90mh\e[90mi\e[90mj\e[90mu\e[90mn\e[39m\e[14D"
+  - delay: 213
+    content: "\e[39mo"
+  - delay: 112
+    content: "\e[39mv"
+  - delay: 182
+    content: "\e[39me"
+  - delay: 512
+    content: "\e[39m "
+  - delay: 142
+    content: "\e[39m\e[4mt\e[24m\e[90me\e[90ms\e[90mt\e[90m-\e[90mc\e[90mh\e[90ma\e[90mi\e[8D"
+  - delay: 51
+    content: "\b\e[39m\e[4mt\e[39m\e[4me\e[24m"
+  - delay: 170
+    content: "\b\b\e[24mt\e[24me\e[39ms"
+  - delay: 154
+    content: "\e[39mt"
+  - delay: 222
+    content: "\e[39m-"
+  - delay: 140
+    content: "\e[39mc"
+  - delay: 148
+    content: "\e[39mh"
+  - delay: 57
+    content: "\e[39ma"
+  - delay: 93
+    content: "\e[39mi"
+  - delay: 211
+    content: "\e[39mn"
+  - delay: 349
+    content: "\e[?1l\e>"
+  - delay: 17
+    content: "\e[?2004l\r\r\n\e]2;forge chain:remove test-chain\a\e]1;forge\a\e]0;arcblock: forge chain:remove test-chain\a"
+  - delay: 1471
+    content: "\e[31m✖\e[39m Chain \e[36mtest-chain\e[39m is running! If you still want to remove it, please run \e[36mforge stop test-chain\e[39m first!\r\n"
+  - delay: 11
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 59
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 891
+    content: "\e[4mf\e[24m\e[90morge chain:remove test-chain\e[39m\e[28D"
+  - delay: 127
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 59
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 176
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 63
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 118
+    content: "\e[39m "
+  - delay: 205
+    content: "\e[39ms\e[90mt\e[90ma\e[90mr\e[90mt\e[39m\e[7P\e[11C       \e[22D"
+  - delay: 212
+    content: "\e[39mt"
+  - delay: 48
+    content: "\e[39mo\e[90mp\e[39m\e[P\e[11C \e[13D"
+  - delay: 137
+    content: "\e[39mp"
+  - delay: 481
+    content: "\e[39m \e[39mt\e[39me\e[39ms\e[39mt\e[39m-\e[39mc\e[39mh\e[39ma\e[39mi\e[39mn"
+  - delay: 247
+    content: "\e[?1l\e>"
+  - delay: 16
+    content: "\e[?2004l\r\r\n\e]2;forge stop test-chain\a\e]1;forge\a\e]0;arcblock: forge stop test-chain\a"
+  - delay: 1675
+    content: "\e[34mℹ\e[39m Stopping \e[33mtest-chain\e[39m chain...\r\n\e[?25l\e[36m▐⠂       ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐⠈       ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m▐ ⠂      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m▐ ⠠      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m▐  ⡀     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m▐  ⠠     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m▐   ⠂    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐   ⠈    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 88
+    content: "\e[2K\e[1G\e[36m▐    ⠂   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐    ⠠   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐     ⡀  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐     ⠠  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m▐      ⠂ ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐      ⠈ ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m▐       ⠂▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐       ⠠▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m▐       ⡀▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐      ⠠ ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐      ⠂ ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐     ⠈  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐     ⠂  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐    ⠠   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐    ⡀   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐   ⠠    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐   ⠂    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐  ⠈     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐  ⠂     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐ ⠠      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐ ⡀      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐⠠       ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐⠂       ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐⠈       ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐ ⠂      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐ ⠠      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐  ⡀     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐  ⠠     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐   ⠂    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m▐   ⠈    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐    ⠂   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐    ⠠   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐     ⡀  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐     ⠠  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐      ⠂ ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m▐      ⠈ ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐       ⠂▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐       ⠠▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐       ⡀▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m▐      ⠠ ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐      ⠂ ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐     ⠈  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐     ⠂  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐    ⠠   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐    ⡀   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐   ⠠    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐   ⠂    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m▐  ⠈     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐  ⠂     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐ ⠠      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐ ⡀      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m▐⠠       ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐⠂       ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐⠈       ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m▐ ⠂      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐ ⠠      ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐  ⡀     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐  ⠠     ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐   ⠂    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m▐   ⠈    ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m▐    ⠂   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐    ⠠   ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐     ⡀  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m▐     ⠠  ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m▐      ⠂ ▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to stop..."
+  - delay: 21
+    content: "\e[2K\e[1G\e[?25h\e[32m✔\e[39m Chain \e[33mtest-chain\e[39m stopped!\r\n\e[?25h"
+  - delay: 11
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 67
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m8s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 909
+    content: "\e[4mf\e[24m\e[90morge stop test-chain\e[39m\e[20D"
+  - delay: 145
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 79
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 175
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 46
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 142
+    content: "\e[39m "
+  - delay: 607
+    content: "\e[39m\e[4mc\e[24m\e[90mh\e[90ma\e[90mi\e[90mn\e[90m:\e[90mr\e[90me\e[90mm\e[90mo\e[90mv\e[90me\e[90m \e[90mt\e[90me\e[90mst-chain\e[39m\e[22D"
+  - delay: 82
+    content: "\b\e[24mc\e[39mh"
+  - delay: 114
+    content: "\e[39ma"
+  - delay: 83
+    content: "\e[39mi"
+  - delay: 190
+    content: "\e[39mn"
+  - delay: 353
+    content: "\e[39m:\e[39mr\e[39me\e[39mm\e[39mo\e[39mv\e[39me\e[39m \e[39mt\e[39me\e[39ms\e[39mt\e[39m-\e[39mc\e[39mh\e[39ma\e[39mi\e[39mn"
+  - delay: 215
+    content: "\e[?1l\e>"
+  - delay: 17
+    content: "\e[?2004l\r\r\n\e]2;forge chain:remove test-chain\a\e]1;forge\a\e]0;arcblock: forge chain:remove test-chain\a"
+  - delay: 1461
+    content: "\e[31mRemove chain will erase chain state, logs and configuration!\e[39m\r\n"
+  - delay: 13
+    content: "\e[32m?\e[39m \e[1m\e[31mAre you sure to continue remove the\e[39m \e[36mtest-chain\e[39m \e[31mchain\e[39m?\e[22m\e[0m \e[0m\e[2m(y/N) \e[22m\e[62D\e[62C"
+  - delay: 1085
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1m\e[31mAre you sure to continue remove the\e[39m \e[36mtest-chain\e[39m \e[31mchain\e[39m?\e[22m\e[0m \e[0m\e[2m(y/N) \e[22my\e[63D\e[63C"
+  - delay: 868
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1m\e[31mAre you sure to continue remove the\e[39m \e[36mtest-chain\e[39m \e[31mchain\e[39m?\e[22m\e[0m \e[0m\e[36mYes\e[39m\e[59D\e[59C\r\n\e[33m⚠\e[39m Removing chain \e[36mtest-chain\e[39m\r\n"
+  - delay: 122
+    content: "\e[34mℹ\e[39m rm -f /Users/wangshijun/.forge_chains/forge_test-chain\r\n\e[32m✔\e[39m Chain  \e[36mtest-chain\e[39m is removed\r\n"
+  - delay: 16
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 57
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1846
+    content: "\e[4mf\e[24m\e[90morge chain:remove test-chain\e[39m\e[28D"
+  - delay: 122
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 80
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 172
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 76
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 95
+    content: "\e[39m "
+  - delay: 143
+    content: "\e[39m\e[4mc\e[24m"
+  - delay: 84
+    content: "\b\e[24mc\e[39mh"
+  - delay: 116
+    content: "\e[39ma"
+  - delay: 47
+    content: "\e[39mi"
+  - delay: 204
+    content: "\e[39mn"
+  - delay: 342
+    content: "\e[39m:"
+  - delay: 287
+    content: "\e[39ml\e[90ms\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[16D"
+  - delay: 71
+    content: "\e[39ms"
+  - delay: 254
+    content: "\e[?1l\e>"
+  - delay: 17
+    content: "\e[?2004l\r\r\n\e]2;forge chain:ls\a\e]1;forge\a\e]0;arcblock: forge chain:ls\a"
+  - delay: 1281
+    content: "All Chains:\r\n"
+  - delay: 222
+    content: "\e[90m┌────────────────────┬───────────────┬───────────────┐\e[39m\r\n\e[90m│\e[39m\e[1m\e[36m Name               \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Version       \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Status        \e[39m\e[22m\e[90m│\e[39m\r\n\e[90m├────────────────────┼───────────────┼───────────────┤\e[39m\r\n\e[90m│\e[39m my-forge-chain     \e[90m│\e[39m v0.38.4       \e[90m│\e[39m \e[32mrunning\e[39m       \e[90m│\e[39m\r\n\e[90m└────────────────────┴───────────────┴───────────────┘\e[39m\r\n"
+  - delay: 10
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 59
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1457
+    content: "\e[?2004l\r\r\n"

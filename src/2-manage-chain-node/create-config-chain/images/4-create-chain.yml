@@ -1,0 +1,345 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 121
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 1000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: bar
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1.2
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1816
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 61
+    content: "\e]0;~/Develop/arcblock\a"
+  - delay: 5
+    content: "\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 605
+    content: "\e[4mf\e[24m\e[90morge chain:remove hello -y\e[39m\e[26D"
+  - delay: 131
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 89
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 165
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 68
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 127
+    content: "\e[39m "
+  - delay: 169
+    content: "\e[39m\e[4mc\e[24m"
+  - delay: 117
+    content: "\b\e[24mc\e[39mh"
+  - delay: 95
+    content: "\e[39ma"
+  - delay: 73
+    content: "\e[39mi"
+  - delay: 200
+    content: "\e[39mn"
+  - delay: 400
+    content: "\e[39m:"
+  - delay: 214
+    content: "\e[39mc\e[90mr\e[90me\e[90ma\e[90mt\e[2C\e[90mm\e[90my\e[90m-\e[90mf\e[90mo\e[90mr\e[90mg\e[90me\e[90m-chain -d\e[39m\e[23D"
+  - delay: 226
+    content: "\e[39mr"
+  - delay: 92
+    content: "\e[39me"
+  - delay: 81
+    content: "\e[39ma"
+  - delay: 169
+    content: "\e[39mt"
+  - delay: 37
+    content: "\e[39me"
+  - delay: 434
+    content: "\e[39m "
+  - delay: 158
+    content: "\e[39m\e[4mt\e[24m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[16D"
+  - delay: 70
+    content: "\b\e[4mt\e[4me\e[24m"
+  - delay: 146
+    content: "\b\b\e[24mt\e[24mes"
+  - delay: 181
+    content: t
+  - delay: 627
+    content: '-'
+  - delay: 147
+    content: c
+  - delay: 133
+    content: h
+  - delay: 54
+    content: a
+  - delay: 149
+    content: i
+  - delay: 190
+    content: 'n'
+  - delay: 326
+    content: "\e[?1l\e>"
+  - delay: 19
+    content: "\e[?2004l\r\r\n\e]2;forge chain:create test-chain\a\e]1;forge\a\e]0;arcblock: forge chain:create test-chain\a"
+  - delay: 1350
+    content: "\e[32m✔\e[39m chain name: test-chain\r\n"
+  - delay: 13
+    content: "\e[32m?\e[39m \e[1mPlease input block time (in seconds):\e[22m\e[0m \e[0m\e[2m(5) \e[22m\e[44D\e[44C"
+  - delay: 1488
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input block time (in seconds):\e[22m\e[0m \e[0m\e[36m5\e[39m\e[41D\e[41C\r\n\e[32m?\e[39m \e[1mDo you want to customize token config for this chain?\e[22m\e[0m \e[0m\e[2m(y/N) \e[22m\e[62D\e[62C"
+  - delay: 2739
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to customize token config for this chain?\e[22m\e[0m \e[0m\e[2m(y/N) \e[22my\e[63D\e[63C"
+  - delay: 823
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to customize token config for this chain?\e[22m\e[0m \e[0m\e[36mYes\e[39m\e[59D\e[59C\r\n\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22m\e[36D\e[36C"
+  - delay: 2133
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mT\e[37D\e[37C"
+  - delay: 197
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTe\e[38D\e[38C"
+  - delay: 172
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTes\e[39D\e[39C"
+  - delay: 183
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest\e[40D\e[40C"
+  - delay: 158
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest \e[41D\e[41C"
+  - delay: 306
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest C\e[42D\e[42C"
+  - delay: 134
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Ch\e[43D\e[43C"
+  - delay: 102
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Cha\e[44D\e[44C"
+  - delay: 76
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Chai\e[45D\e[45C"
+  - delay: 190
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Chain\e[46D\e[46C"
+  - delay: 78
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Chain \e[47D\e[47C"
+  - delay: 174
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Chain T\e[48D\e[48C"
+  - delay: 128
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Chain To\e[49D\e[49C"
+  - delay: 168
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Chain Tok\e[50D\e[50C"
+  - delay: 107
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Chain Toke\e[51D\e[51C"
+  - delay: 106
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[2m(ArcBlock) \e[22mTest Chain Token\e[52D\e[52C"
+  - delay: 278
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token name?\e[22m\e[0m \e[0m\e[36mTest Chain Token\e[39m\e[41D\e[41C\r\n\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22m\e[33D\e[33C"
+  - delay: 1818
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22mT\e[34D\e[34C"
+  - delay: 333
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22mTC\e[35D\e[35C"
+  - delay: 268
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22mTCT\e[36D\e[36C"
+  - delay: 2567
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22mTC\e[35D\e[35C"
+  - delay: 210
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22mT\e[34D\e[34C"
+  - delay: 1578
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22mTT\e[35D\e[35C"
+  - delay: 5723
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22m\r\n\e[31m>> \e[39mThe token symbol should start with a letter, only contain 0-9,a-z,A-Z, and length between 3~6\e[1A\e[96D\e[33C"
+  - delay: 2060
+    content: "\e[1B\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22mT\e[34D\e[34C"
+  - delay: 384
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22mTC\e[35D\e[35C"
+  - delay: 386
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[2m(ABT) \e[22mTCT\e[36D\e[36C"
+  - delay: 546
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token symbol?\e[22m\e[0m \e[0m\e[36mTCT\e[39m\e[30D\e[30C\r\n\e[32m?\e[39m \e[1mWhat's the token icon?\e[22m\e[0m \e[0m\e[2m(/Users/wangshijun/.forge_cli/tmp/token.png) \e[22m\e[70D\e[70C"
+  - delay: 1543
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat's the token icon?\e[22m\e[0m \e[0m\e[36m/Users/wangshijun/.forge_cli/tmp/token.png\e[39m\e[67D\e[67C\r\n\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22m\e[49D\e[49C"
+  - delay: 4279
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mT\e[50D\e[50C"
+  - delay: 153
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mTo\e[51D\e[51C"
+  - delay: 190
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mTok\e[52D\e[52C"
+  - delay: 87
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToke\e[53D\e[53C"
+  - delay: 111
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken\e[54D\e[54C"
+  - delay: 119
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken \e[55D\e[55C"
+  - delay: 128
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken o\e[56D\e[56C"
+  - delay: 201
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on\e[57D\e[57C"
+  - delay: 83
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on \e[58D\e[58C"
+  - delay: 78
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on t\e[59D\e[59C"
+  - delay: 64
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on te\e[60D\e[60C"
+  - delay: 146
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on tes\e[61D\e[61C"
+  - delay: 153
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on test\e[62D\e[62C"
+  - delay: 72
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on test \e[63D\e[63C"
+  - delay: 167
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on test c\e[64D\e[64C"
+  - delay: 95
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on test ch\e[65D\e[65C"
+  - delay: 89
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on test cha\e[66D\e[66C"
+  - delay: 94
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on test chai\e[67D\e[67C"
+  - delay: 224
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[2m(Forge token ABT) \e[22mToken on test chain\e[68D\e[68C"
+  - delay: 296
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhats the token description?\e[22m\e[0m \e[0m\e[36mToken on test chain\e[39m\e[50D\e[50C\r\n\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m0\e[49D\e[49C"
+  - delay: 4347
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m1\e[49D\e[49C"
+  - delay: 683
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m10\e[50D\e[50C"
+  - delay: 177
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m100\e[51D\e[51C"
+  - delay: 242
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m1,000\e[53D\e[53C"
+  - delay: 785
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m10,000\e[54D\e[54C"
+  - delay: 177
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m100,000\e[55D\e[55C"
+  - delay: 176
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m1,000,000\e[57D\e[57C"
+  - delay: 877
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m10,000,000\e[58D\e[58C"
+  - delay: 191
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m100,000,000\e[59D\e[59C"
+  - delay: 177
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[2m(7500000000) \e[22m1,000,000,000\e[61D\e[61C"
+  - delay: 1007
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token total supply:\e[22m\e[0m \e[0m\e[36m1000000000\e[39m\e[45D\e[45C\r\n\e[32m?\e[39m \e[1mPlease input token initial supply:\e[22m\e[0m \e[0m\e[2m(1000000000) \e[22m0\e[51D\e[51C"
+  - delay: 2412
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token initial supply:\e[22m\e[0m \e[0m\e[36m1000000000\e[39m\e[47D\e[47C\r\n\e[32m?\e[39m \e[1mPlease input token decimal:\e[22m\e[0m \e[0m\e[2m(18) \e[22m\e[35D\e[35C"
+  - delay: 1449
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input token decimal:\e[22m\e[0m \e[0m\e[36m18\e[39m\e[32D\e[32C\r\n\e[32m?\e[39m \e[1mDo you want to enable \"feel lucky\" (poke) feature for this chain?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22m\e[74D\e[74C"
+  - delay: 1381
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to enable \"feel lucky\" (poke) feature for this chain?\e[22m\e[0m \e[0m\e[36mYes\e[39m\e[71D\e[71C\r\n\e[32m?\e[39m \e[1mDo you want to customize \"feel lucky\" (poke) config for this chain?\e[22m\e[0m \e[0m\e[2m(y/N) \e[22m\e[76D\e[76C"
+  - delay: 1291
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to customize \"feel lucky\" (poke) config for this chain?\e[22m\e[0m \e[0m\e[2m(y/N) \e[22my\e[77D\e[77C"
+  - delay: 312
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to customize \"feel lucky\" (poke) config for this chain?\e[22m\e[0m \e[0m\e[36mYes\e[39m\e[73D\e[73C\r\n\e[32m?\e[39m \e[1mHow much token to give on a successful poke?\e[22m\e[0m \e[0m\e[2m(25) \e[22m0.0000\e[58D\e[58C"
+  - delay: 2469
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow much token to give on a successful poke?\e[22m\e[0m \e[0m\e[2m(25) \e[22m1.0000\e[58D\e[58C"
+  - delay: 325
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow much token to give on a successful poke?\e[22m\e[0m \e[0m\e[2m(25) \e[22m10.0000\e[59D\e[59C"
+  - delay: 713
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow much token to give on a successful poke?\e[22m\e[0m \e[0m\e[36m10\e[39m\e[49D\e[49C\r\n\e[32m?\e[39m \e[1mHow much token can be poked daily?\e[22m\e[0m \e[0m\e[2m(100000) \e[22m0\e[47D\e[47C"
+  - delay: 1646
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow much token can be poked daily?\e[22m\e[0m \e[0m\e[36m100000\e[39m\e[43D\e[43C\r\n\e[32m?\e[39m \e[1mHow much token can be poked in total?\e[22m\e[0m \e[0m\e[2m(146000000) \e[22m0\e[53D\e[53C"
+  - delay: 1952
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow much token can be poked in total?\e[22m\e[0m \e[0m\e[36m146000000\e[39m\e[49D\e[49C\r\n\e[32m?\e[39m \e[1mDo you want to include moderator config in the config?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22m\e[63D\e[63C"
+  - delay: 2314
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDo you want to include moderator config in the config?\e[22m\e[0m \e[0m\e[36mYes\e[39m\e[60D\e[60C\r\n\e[32m?\e[39m \e[1mSet moderator as token owner of (854000000 TCT) on chain start?\e[22m\e[0m \e[0m\e[2m(Y/n) \e[22m\e[72D\e[72C"
+  - delay: 4162
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mSet moderator as token owner of (854000000 TCT) on chain start?\e[22m\e[0m \e[0m\e[36mYes\e[39m\e[69D\e[69C\r\n"
+  - delay: 6
+    content: "\e[2m──────────────\e[22m\r\nConfig Preview\r\n\e[2m──────────────\e[22m\r\n\r\n\e[32mapp: \e[39m\r\n  \e[32mname: \e[39m      test-chain\r\n  \e[32mversion: \e[39m   \r\n  \e[32mpath: \e[39m      \r\n  \e[32mexecutable: \e[39m\r\n  \e[32msock_tcp: \e[39m  \r\n\e[32mforge: \e[39m\r\n  \e[32mproto_version: \e[39m\e[34m1\e[39m\r\n  \e[32mpath: \e[39m         /Users/wangshijun/.forge_chains/forge_test-chain/forge_release/core\r\n  \e[32mlogpath: \e[39m      logs\r\n  \e[32msock_grpc: \e[39m    tcp://127.0.0.1:28210\r\n  \e[32mpub_sub_key: \e[39m  ABTTOTHEMOON\r\n  \e[32mtransaction: \e[39m\r\n    \e[32mmax_asset_size: \e[39m\e[34m1000000\e[39m\r\n    \e[32mdeclare: \e[39m\r\n      \e[32mrestricted: \e[39m\e[31mfalse\e[39m\r\n    \e[32mdelegate: \e[39m\r\n      \e[32mtype_urls: \e[39m\r\n        \e[32m- \e[39mfg:t:transfer\r\n        \e[32m- \e[39mfg:t:exchange\r\n    \e[32mpoke: \e[39m\r\n      \e[32mdaily_limit: \e[39m\e[34m100000\e[39m\r\n      \e[32mamount: \e[39m     \e[34m10\e[39m\r\n  \e[32mstake: \e[39m\r\n    \e[32mtimeout: \e[39m\r\n      \e[32mgeneral: \e[39m       \e[34m10\e[39m\r\n      \e[32mstake_for_node: \e[39m\e[34m60\e[39m\r\n  \e[32mweb: \e[39m\r\n    \e[32menabled: \e[39m\e[32mtrue\e[39m\r\n  \e[32mprime: \e[39m\r\n    \e[32mmoderator: \e[39m\r\n      \e[32maddress: \e[39mz1c2CbKL9vFebhRUVoBPhNHtmX8wnY3t4Gk\r\n      \e[32mpk: \e[39m     sVZw27qF01237GbYu_tE568vF6UUQ-bIj1iRK-Z4HeQ\r\n      \e[32mbalance: \e[39m\e[34m0\e[39m\r\n    \e[32mtoken_holder: \e[39m\r\n      \e[32mbalance: \e[39m\e[34m146000000\e[39m\r\n  \e[32maccounts: \e[39m\r\n    \e[32m- \e[39m\r\n      \e[32maddress: \e[39mz1c2CbKL9vFebhRUVoBPhNHtmX8wnY3t4Gk\r\n      \e[32mpk: \e[39m     sVZw27qF01237GbYu_tE568vF6UUQ-bIj1iRK-Z4HeQ\r\n      \e[32mbalance: \e[39m\e[34m854000000\e[39m\r\n  \e[32mtoken_swap: \e[39m\r\n    \e[32mcommission_rate: \e[39m          \e[34m1000\e[39m\r\n    \e[32mrevoke_commission_rate: \e[39m   \e[34m500000\e[39m\r\n    \e[32mcommission_holder_address: \e[39mz1X9yFbKTzAmaKqBUEWqSHLpNeAYeWrVzSR\r\n    \e[32mwithdraw_interval: \e[39m        \e[34m26400\e[39m\r\n  \e[32mtoken: \e[39m\r\n    \e[32mname: \e[39m          Test Chain Token\r\n    \e[32msymbol: \e[39m        TCT\r\n    \e[32munit: \e[39m          arc\r\n    \e[32mdescription: \e[39m   Token on test chain\r\n    \e[32micon: \e[39m          data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABoCAYAAABxGuekAAAAAXNSR0IArs4c6QAAD5RJREFUeAHtnAnUHeMZx6VJLCG2ELElIkLtxFK7xu4QyqFqS6ylSovWcqhaU0GprWgQcmiKWms5xFLEvm+xbxHEFstHLAna3893H2dy8917595v7tyb5HvO+X3zzMw77/u8/5l5n2duzskss0w/1p1Qh8FY2Hr6CXv6ibQToQ6BCfC/BKPxl4MOy0CBdejjMQiBJxb8zwvbKWzPhvmgw2pQYDGuuRxC4PH4u8J/Csd2YXsefFvY9wYcAJ2hw1IoMAdtjoFJoMhfwonQDbQQelDr7iwrsL0D4oY8i79x4VzHpoQCO3J8HIRoV+H3LmpbLHSc3g7nVYhrr8XvFyc7tq0KrMrmXgiRnsBfv/XUNH9LCW3D2eBIaAH7+hpOBquVmdp6Mvvh8B0ozPuwL/wESlk5oeOaXjiXwvdgv1YrQ8DqZaayrsz2UPgMFGIynA5zQyVLI3T0sTrO/eAY8ihYxcwUthWzfBli8jfh969i5tUIHd1arYyHGNNqxqpmhrRlmdWtEJN9Hn/zGmZai9AOY9Vi9WIVYwxWNVY3VjkzhPkhcSb4YeEEP4aDoQvUYrUKHWP1wbGaiRv+Jr7VznRrnYl8f/gInJQfFudDD2iPtVfoGHsDHKubEPwefKuf6coGEu0zEJO4C3/FjGaQldCGY3WzL1jtGKvVj1WQ1VBTW1+iuwZC4Nfxt8844iyFjtDmwbHqsfox9k/hULA6aiqbi2iGgh8IBuoPPkeBHxBZWz2EjhiXxrEKigflJXyrpIabHwCD4V0wuO9hJCwM9bJ6Ch0xb4HzAoTgVktWTQ2xtRj1YYhgHsRfM4dI8hDaaVgVWR19As7RqsnqaV7IxRZllMvAp9cA3obdwac7D8tL6JjLAjhWS1ZNzvdDsJqyqqqLzU6vR8MX4IBfwUkwJ+RpeQsdc1sJ5y5w7vI0DIRMbQd6ewNikKvxl4BGWKOEjrluj/M6hBZWWX3jZK3blbnwbohOn8LfEBppjRbauVtNWVXFP6dZbVl1WX1VZQvS+gKIny8/wN8Pyv18yelcrBmEjokugjMSIl+9gz8YOkFZs0A/BD4Fn2IL+DPAgr5ZrJmEDk2stqy64s23GrMqa9O25OiLEI1vwV+mzZaNPRgfFIMaG8Y0o/sUW335VKuhT7nVmU/9j6aoIbBiK3qz2vMEZqx7NmmAVmFWY1Zlxvkl7AY/WIhsrfhXaKalojXC1r8+HfFzq//G2Ky2BoE9DqHr8Ag0DiST316cbIbkFzG69VWMWN2u58EmMn96uBgiOcZX5TRC+3vsPRCTeRJ/A2gGM7k4gfhCM0afmmZ4GCz3DoNkuXcq+weCcU4jNMd+sF/x900Iwf+F3wcaZSaah8B4/EXNrSWn232gkbYNg78GxiI3wJKg7QseKym0jeaA42AS2NhF/TjoBnnbYAY0BjP6zQX/lML2fbZzQ962AgPeAcYlz8LGkLRUQscFi+H4REeH4/F94vMys3iUTJZPyTp6DPvGZQLPy3ow0DkQS9hH+AdBZyi2qoSOi9fGeRRC8AfwV4+TddwOLYzp0uESkhR6APsm8G+gP9TTutD5b+FjUAOrn3NhPihlNQltZ07UamQCOJjJySzbC+phS9Cp9ajj/Ay0pNDuXwjGcqM7dbLN6HcsxEN2G/5yKcaqWejouzuOWfVrcPAWMOvOBlnaNXRm/yMTnRYL3ZNznxXaKUiW5ltyPYTAL+NvW8UA7RY6xuqHY5aNQMy+ZuEs7Od0Yr9fwCIQViy0x/8AtvWr0Ve8vWZyHQYuSfbrjTwCZoVqLDOhY9CNcZ6FENxsbFau1Uws/iRrf0cVddKW0Arg02b73xe1r2bXmnxPeA/sy/V/BCwEtVjmQhuE4ph9zcIGaVY2O/eAam1/LrCPN2D2oovbEtomW4PXmKxqGXM9rnu80If9jIEB0B6ri9ARkFnYbBy/SThxs3XaV3pe2n4ITnZ7KLZSQtvOJOV157mT0nrTbhR4nbwFu0AWVlehI0Cz8miICZi1N42TZbZnFq75b4k25YRelmu8wb5NK5a4Pg774fVn8EPMGCfB8eCHWlaWi9ARrFn6FQjBzeJLxcmi7U/ZnwyujSsXnYvdckLb5ixwrDvdKWE7cdwnN2K6En/xEm3bczhXoQ3UZGXWNns7ObP5MDC7J+0Wdjx/fvJgkV9JaJeuyBPbFV27Gvv3QQj8GP66RW2y3M1d6Aje7G0W94l1su+BWd5svxV47BNYAEpZJaG97jdgX6+Btb3jXgjJcfdh33HraQ0TOiY1AMesHk+W2X5cYf9gtuUsjdBWQM+A/d8MLQXfN+k06A55WMOFjkma3ZNrpUtL3zhZYptGaC89CuJGur0RSuUGTtXFmkZoZ2cS+gpCFKsAq4FS2b+S0MtzbbLasV/LvkbYVELXe52qNMFjaOBHyZ1wFSiwZdZLsBOktflpeBY8BZuC9fsJ4HLh/hrQcIunKe9AVmFAE5Ql3TKFwa0CrAYiJqsEq4Ww4ifa9fgAmAheYw3tB4vCa38Bjz8AnSBPm+qJduCYVJ5BONbd4NinQ9J8y6wKrEo8782warB6SAq9CfvPQcR/O/4KkLS52HkXbLNb8kQOflMIvWNh8h+wnafEpK2zrRJ8/RXKZDm24PuEhsCv4hfXzBz60Ybg2fZtmPPHo/V3Gi60a/Kb4OQNppItRQOrhhA2ti0cOxJmhXLmkvEIeN2J5RpmfK7hQpsAnfSTkCYZK9QQiHU4hL6bY8tBGlubRt+DFU6fNBdk0KahQi/KBPwxX7E2TDGZdWjzaKG914TYnxeOTWFrtTEfVLLLaWAf/67UMKPzDRU6JntVhcksxvloqzjjYVeIZLgLvtWFVUbcgAPwrUJKWbU3uVQ/aY83TOg0r691tEvLJFBAP2BcV7uBFkIPat2t+n+g+RPX2W/aZaswTE2bhgidJiFZiYwDhRCf+t6QtGKh45xVh9VHXHstfr84mdgmE/GvE8fr4TZE6CHMRBHehuISa1WO3Vs4b5snYH1oy0oJbVt/qbMKaQH78V/pT4bukLQ0pWWyfa1+7kInPxpcZ8N64gwHP0gU5n0wuHKVSDmhufQH68XfS8Eqw34nwBDwrQq7B8dzp8eBOmxzF9qnykn5keFku8Kh8Bl43E9wJ+wHSiVLI3T0sTrO/eAYYvViFaO19fnfeia7v7kKvSRx+wr7dK0BW8HLEJO/Cb8/pLVqhI4+fYusWmJMqxmrmn8Ujt3Mth6Wq9AmJSd4Hdxa8N1/HjaHaq0WoR3DqsXqxSrG8SeBb9qnhf0t2WZtuQm9EZE7KX+rmFLwP2Z7MHSBWqxWoWOsPjhWM8YlEwvbF9h2hSwtF6EN2gojJuSHxfnQA9pj7RU6xt4Ax+om4nN7WpzMaFt3oQcSaFLkV9g3+WRhWQltLFY3R4BvnEKbR0aC1VAWVjeh+xLdNRBPietg+LWuycUTzkpo1+zjIdZsKx/fOuN13T4UfCvbY5kLbZ08FKwuDNQffI6C2WAQJKsMheoPtVoWQu/M4MkqZBT7ViFLg1VQPBwv4Vsl1WqZCd2JCAbDu2Bw8eotjJ+0Wdk5DKJu9lV1PUxTN9NsKmuP0OXq6uQgW7BjcgzBrZaWTTZI6Wci9FoM9jBEMA/ir1khANe+iyD5Jbg3++W+BIu7rEXoXnQyAnwQjHcC7Ak+KKXMqsjq6BPwGqumM2FeSGvtEnpRRrkMImiT3u5QLmhOT2UD2BsDcZMex19vqhald6oR2jfpcGgBx/JNOgW6Q1pbgIZWS7F+f4i/P3SGSlaT0P7qdTR8AQb9FZwEc0KtthMXjoMQ/Ar83hU6Syv0tvTzaqLv6/H7Vei73OmVOHkXRKxP4w8sdwHnqhZ6By56A2KQq/GXgCxsDjo5FqJCsQo4DqwK2rJKQi/PRbdDxPoc/iZtdVTjse257nWI/q2y+pboK7XQK9PB3RCdPoW/IdTDFqfTURBjvYW/cxsDlRJ6ftqeA/GKT8Q/ENK84jSryqymrKrin9OstoaC1VfSKgq9IK0vgEhaH+DvB9UkLZrXZOty1WMQgt+Hv1qip2Khu3BOQRXWa6aAgit8vW0RBhgJka/ewR8MnUArKXRXTh4Cn4JBT4YzYB7I0wx0L3gPjMOJjICFICn0puy7NMRNGY3v0pG3WW1ZdUUcVmNWZSWFfjHR+Bb8ZaCRZnVglWC14CRaYGzBf6iw9fgrsA000nw4rL7eAWPy4Qjxh+P/YHEn3Cr2lq2Hm+bvUkRyAyTj1Fd4yzfLuGYxq7CTwKos4r0wgoui3ETyN6imKI8+8thuwiCK6wRcJlxKmtFcSp6AEPrUCNLkp+rJ5LcP+3kkv4gh7fZGGjqBQWkvyLHdwox1CbhsGOO7sAdEcsRttVXY3ANxJ57E36D1VNP8TSbDZglqNgI5EpLl3snsF5d708T7S468CSH4lfh9oBms2YT+BaK8DqHVdfh9qxHKT+5jIPnJfQL77fnkrmb8Um2bRegVCfBOCIGfwd+oVNBpji9Ko39CrDtv4+8C06w7HMvDGi10Dyb5d4gv0I/wD4DMvkDXprNHIO7gA/hrQN7WKKG7MNHfwcegBlPgbJgPMjef4j3AbOpgPuWXgNk2L2uE0JszuechHrJb8ZfNY8Jm02HwNTi42fYIMPvW2/IUuj+TifGc58vQkLJySQY2y8adfg3fLFxPi4nXc8JzM4HTYDI4t8/gj9AVGmpm22cgBDcbm5XrYfUU+icEvDe8D87lO7gIekLTmFnX7GsWNkizstnZLJ2l1Uvo9Qky+dl8L/urZhl41n2Zhc8Gs7KCm6UPArN2Fpa10L0J6gqIt3Ec/k5ZBJpXH2bl2yAmYNbeLIPBsxK6G7EcD1+CMU6CY2EOmC7NpGW2DsEVymxeq2Uh9M4MPh4iplH4i9UaUDNdNyvBHAZmbyf3DZwKZvdqrT1Cr85g90MI/Cj+OtUGMD20N3ubxc3mTtbsbpY326e1WoTuRecjIH5GmIC/J/gBNkPbAGY3BuLJehx/vZQzrkZo36TDoQXiTToFvzvMVGZ2N8uH4GZ/q4ByllbobenkVYi+r8fvV67jGf2cWf5YMOsrilXAcWBV0JZVEnp5LrodQmD/lXyTtjqaWY8tzsTN/iHQW/hWB8VWSuj5aXgufAv2MREOhM7QYW0osC7HHoMQ/D781RLtioX2Q0hBFdZr/FA6BxS+wyooYDWwF7wHime1cDH4r95JoTdl36UhbspofJeODqtSAasDqwTrbsVsgbEF/6HC1uOvwDbQYe1UYCmuvwHiyY2twlu+WcZ1WIYKWD28CC4lI8GlpMPqpIDJb+k69d3R7YygwP8BZjx0IBJLJOUAAAAASUVORK5CYII=\r\n    \e[32mdecimal: \e[39m       \e[34m18\e[39m\r\n    \e[32minitial_supply: \e[39m\e[34m1000000000\e[39m\r\n    \e[32mtotal_supply: \e[39m  \e[34m1000000000\e[39m\r\n    \e[32minflation_rate: \e[39m\e[34m0\e[39m\r\n    \e[32mtoken_decimal: \e[39m \e[34m18\e[39m\r\n\e[32mtendermint: \e[39m\r\n  \e[32mmoniker: \e[39m            test-chain\r\n  \e[32mpath: \e[39m               /Users/wangshijun/.forge_chains/forge_test-chain/forge_release/tendermint\r\n  \e[32mkeypath: \e[39m            /Users/wangshijun/.forge_chains/forge_test-chain/keys\r\n  \e[32mlogpath: \e[39m            logs\r\n  \e[32msock_proxy_app: \e[39m     unix://socks/tm_proxy_app.sock\r\n  \e[32msock_rpc: \e[39m           tcp://127.0.0.1:28221\r\n  \e[32msock_grpc: \e[39m          tcp://127.0.0.1:28222\r\n  \e[32msock_p2p: \e[39m           tcp://0.0.0.0:26656\r\n  \e[32msock_prof: \e[39m          \r\n  \e[32mpersistent_peers: \e[39m   \r\n  \e[32mseed_peers: \e[39m         \r\n  \e[32mtimeout_commit: \e[39m     5s\r\n  \e[32mcreate_empty_blocks: \e[39m\e[32mtrue\e[39m\r\n  \e[32mseed_mode: \e[39m          \e[31mfalse\e[39m\r\n  \e[32mrecheck: \e[39m            \e[31mfalse\e[39m\r\n  \e[32mgenesis: \e[39m\r\n    \e[32mgenesis_time: \e[39m2019-02-10T17:29:13.31415926Z\r\n    \e[32mchain_id: \e[39m    test-chain\r\n    \e[32mmax_bytes: \e[39m   \e[34m150000\e[39m\r\n    \e[32mmax_gas: \e[39m     \e[34m-1\e[39m\r\n    \e[32mapp_hash: \e[39m    \r\n    \e[32mvalidators: \e[39m\r\n      \e[32m- \e[39m\r\n\e[32mipfs: \e[39m\r\n  \e[32mpath: \e[39m   /Users/wangshijun/.forge_chains/forge_test-chain/forge_release/ipfs\r\n  \e[32mlogpath: \e[39mlogs\r\n\e[32mcache: \e[39m\r\n  \e[32mpath: \e[39m/Users/wangshijun/.forge_chains/forge_test-chain/forge_release/cache/mnesia_data_dir\r\n\e[32mworkshop: \e[39m\r\n  \e[32mpath: \e[39m/Users/wangshijun/.forge_chains/forge_test-chain/workshop\r\n  \e[32mdb: \e[39m  sqlite://workshop.sqlite3\r\n\r\n\e[2m──────────────\e[22m\r\n"
+  - delay: 21
+    content: "Initialized a new empty chain in /Users/wangshijun/.forge_chains/forge_test-chain\r\n\e[32m✔\e[39m Config file \e[36m/Users/wangshijun/.forge_chains/forge_test-chain/forge_release.toml\e[39m is updated!\r\n\e[34mℹ\e[39m Full configuration documentation: \e[36mhttps://docs.arcblock.io/forge/latest/core/configuration.html\e[39m!\r\n\e[2m──────────────\e[22m\r\n\e[34mℹ\e[39m Run \e[36mforge start test-chain\e[39m to start the chain\r\n"
+  - delay: 14
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 60
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m1m 5s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 5093
+    content: "\e[?2004l\r\r\n"

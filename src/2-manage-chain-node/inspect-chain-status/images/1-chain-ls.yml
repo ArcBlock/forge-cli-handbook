@@ -1,0 +1,157 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 121
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 1000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: bar
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"
+
+  # The size of the font
+  fontSize: 14
+
+  # The height of lines
+  lineHeight: 1.2
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 1642
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 60
+    content: "\e]0;~/Develop/arcblock\a"
+  - delay: 5
+    content: "\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 833
+    content: "\e[4mf\e[24m\e[90morge chain:ls\e[39m\e[13D"
+  - delay: 100
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 95
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 155
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 75
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 83
+    content: "\e[39m "
+  - delay: 151
+    content: "\e[39m\e[4mc\e[24m"
+  - delay: 91
+    content: "\b\e[24mc\e[39mh"
+  - delay: 103
+    content: "\e[39ma"
+  - delay: 57
+    content: "\e[39mi"
+  - delay: 207
+    content: "\e[39mn"
+  - delay: 417
+    content: "\e[39m:\e[39ml\e[39ms"
+  - delay: 197
+    content: "\e[?1l\e>"
+  - delay: 16
+    content: "\e[?2004l\r\r\n\e]2;forge chain:ls\a\e]1;forge\a\e]0;arcblock: forge chain:ls\a"
+  - delay: 1322
+    content: "All Chains:\r\n"
+  - delay: 397
+    content: "\e[90m┌────────────────────┬───────────────┬───────────────┐\e[39m\r\n\e[90m│\e[39m\e[1m\e[36m Name               \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Version       \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Status        \e[39m\e[22m\e[90m│\e[39m\r\n\e[90m├────────────────────┼───────────────┼───────────────┤\e[39m\r\n\e[90m│\e[39m my-forge-chain     \e[90m│\e[39m v0.38.4       \e[90m│\e[39m \e[32mrunning\e[39m       \e[90m│\e[39m\r\n\e[90m│\e[39m test-chain         \e[90m│\e[39m v0.38.4       \e[90m│\e[39m \e[31mstopped\e[39m       \e[90m│\e[39m\r\n\e[90m└────────────────────┴───────────────┴───────────────┘\e[39m\r\n"
+  - delay: 10
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 60
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 22
+    content: "\e[?2004l\r\r\n"
