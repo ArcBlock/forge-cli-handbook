@@ -19,18 +19,18 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^6.29.0":
-  version "6.29.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.29.0.tgz#eddf08b1fa7b0e9ad1f273d5692a63b48de2a42f"
-  integrity sha512-lZJJ61PoEAXxGve+2YKUyo8/zddvVxaBd0T1LQGHjs2R73aY1WuZlKqZCD9ke3pi2lLkR+SpGweDZ8nsZH7lmQ==
+"@arcblock/gatsby-theme-docs@^6.30.0":
+  version "6.30.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.30.0.tgz#2dcfde8b307ee123a95caa8a022ec5e94f5eeec9"
+  integrity sha512-INM2kYwv/vtiZCm7HXlYSNblUa61xTiyMwqUmReLk/7Kn/AjNXUcuS6LUnwEhG+mtdwru5gtkplL/uLr3P9Ogw==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^6.28.0"
     "@arcblock/gatsby-transformer-remark" "^6.28.0"
     "@arcblock/gatsby-transformer-terminal-recording" "^6.29.0"
     "@arcblock/remark-include" "^6.28.0"
-    "@arcblock/ux" "^0.28.1"
-    "@arcblock/www" "^6.29.0"
+    "@arcblock/ux" "^0.29.0"
+    "@arcblock/www" "^6.30.0"
     "@material-ui/core" "^4.4.0"
     "@material-ui/icons" "^4.2.1"
     "@mdx-js/mdx" "^1.1.0"
@@ -126,10 +126,10 @@
     lodash "^4.17.15"
     unist-util-select "^1.5.0"
 
-"@arcblock/react-hooks@^0.28.0":
-  version "0.28.0"
-  resolved "https://registry.npmjs.org/@arcblock/react-hooks/-/react-hooks-0.28.0.tgz#782d6b6c8ce0f6ecc5dba478c64ee6eb3adae4fa"
-  integrity sha512-Sngjpv3DsTlJoo3VECF5s3F9S1EuWVLHIRizhMfvhCtbnbOQWikhga7sPnsryF6Wzsz9br3NPvWgyAryFzTtGg==
+"@arcblock/react-hooks@^0.29.0":
+  version "0.29.0"
+  resolved "https://registry.npmjs.org/@arcblock/react-hooks/-/react-hooks-0.29.0.tgz#34c479129f5e3ff06248d855344a1e4d9aac531c"
+  integrity sha512-eqvfRIRkP6w4cqYoWdyFIXadmhOxeAbAzesRuw0jnz+vWlTRM0QLihSc6QD7ZUqInbf0ej5RPgqYPczeKddPTw==
   dependencies:
     event-target-shim "^5.0.1"
     qrcode.react "^0.9.3"
@@ -142,12 +142,12 @@
   dependencies:
     vfile "^2.0.0"
 
-"@arcblock/ux@^0.28.1":
-  version "0.28.1"
-  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-0.28.1.tgz#1b74cbb21f7b1c7a01f9cb10eff1eaa3794fa55c"
-  integrity sha512-podqz+fZTx/TriuCxlSljjG+qxd8VISNB+RJElEP0jolakR6z05LgkYOLXE7nQp4b+2cQoUkD258Ahhr3fXjnQ==
+"@arcblock/ux@^0.29.0":
+  version "0.29.0"
+  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-0.29.0.tgz#5769bbc23b10962d229c6b67d6bc13dbe5aa4f24"
+  integrity sha512-1onTsnoR8tQf2FPFDJ2Q4eLBBQHyc1GOM7y4urMV14K01pM+xQTShqadBNf1PnI8xVdtp7KjNB4JzER9yLQy6A==
   dependencies:
-    "@arcblock/react-hooks" "^0.28.0"
+    "@arcblock/react-hooks" "^0.29.0"
     "@babel/plugin-syntax-dynamic-import" "^7.2.0"
     copy-to-clipboard "^3.2.0"
     d3-geo "^1.11.6"
@@ -163,16 +163,16 @@
     rebound "^0.1.0"
     topojson-client "^3.0.0"
     versor "^0.0.4"
-    xterm "^4.0.2"
+    xterm "4.1.0-beta9"
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^6.29.0":
-  version "6.29.0"
-  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.29.0.tgz#bcd33859d43197723c9a94f17807a936d56112a4"
-  integrity sha512-IpoJBNRc7nWFS/7y4I5RpyftzhwE8pLw4gh0jku740W4Ziizp6wpoxotHrt5ix+KNsiLG0zFD0KXvfndSflYfw==
+"@arcblock/www@^6.30.0":
+  version "6.30.0"
+  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.30.0.tgz#1c6e1f51cb7ed657adbab20be82ecd36b7eaf218"
+  integrity sha512-dg7yjeLwFtnZZJX9X8MKhGfKMWhj1wfQ9Z7HJljSc6Pg5tdEUARB+6bkn13XN3BSnQwjchUdHJc9iHf/hJRe5w==
   dependencies:
-    "@arcblock/ux" "^0.28.1"
+    "@arcblock/ux" "^0.29.0"
     "@material-ui/core" "^4.4.0"
     "@material-ui/icons" "^3.0.2"
     axios "^0.19.0"
@@ -15860,10 +15860,10 @@ xterm-addon-web-links@^0.2.1:
   resolved "https://registry.npmjs.org/xterm-addon-web-links/-/xterm-addon-web-links-0.2.1.tgz#6d1f2ce613e09870badf17615e7a1170a31542b2"
   integrity sha512-2KnHtiq0IG7hfwv3jw2/jQeH1RBk2d5CH4zvgwQe00rLofSJqSfgnJ7gwowxxpGHrpbPr6Lv4AmH/joaNw2+HQ==
 
-xterm@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.npmjs.org/xterm/-/xterm-4.0.2.tgz#c6a1b9586c0786627625e2ee9e78ad519dbc8c99"
-  integrity sha512-NIr11b6C782TZznU8e6K/IMfmwlWMWRI6ba9GEDG9uX25SadkpjoMnzvxOS0Z/15sfrbn0rghPiarGDmmP0uhQ==
+xterm@4.1.0-beta9:
+  version "4.1.0-beta9"
+  resolved "https://registry.npmjs.org/xterm/-/xterm-4.1.0-beta9.tgz#8dcaca8bbf5b522427ac04e1c39cdd0bba1e39dc"
+  integrity sha512-3wBRgch+dmbiWD0huAVEZrHtV3CIX1PIsbi4lycFdypUB8Hz3V/1OgAyQvmKtmaILD+3UUxxmtJaVKJ5eayNag==
 
 y18n@^3.2.1:
   version "3.2.1"

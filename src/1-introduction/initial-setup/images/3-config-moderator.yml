@@ -1,0 +1,351 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 121
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 1000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: bar
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1.2
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1837
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 60
+    content: "\e]0;~/Develop/arcblock\a"
+  - delay: 5
+    content: "\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1213
+    content: "\e[4mf\e[24m\e[90morge chain:remove hello -y\e[39m\e[26D"
+  - delay: 101
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 60
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 174
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 69
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 153
+    content: "\e[39m "
+  - delay: 157
+    content: "\e[39m\e[4mw\e[24m\e[90ma\e[90ml\e[90ml\e[90me\e[90mt\e[90m:\e[90mc\e[90mr\e[90me\e[90ma\e[90mt\e[90me\e[90m \e[90m-\e[90m-\e[90md\e[90me\e[90mf\e[90ma\e[90mu\e[90mlts\e[39m\e[23D"
+  - delay: 66
+    content: "\b\e[24mw\e[39ma"
+  - delay: 101
+    content: "\e[39ml"
+  - delay: 164
+    content: "\e[39ml"
+  - delay: 122
+    content: "\e[39me"
+  - delay: 223
+    content: "\e[39mt"
+  - delay: 326
+    content: "\e[39m:\e[39mc\e[39mr\e[39me\e[39ma\e[39mt\e[39me\e[39m \e[39m-\e[39m-\e[39md\e[39me\e[39mf\e[39ma\e[39mu\e[39ml\e[39mt\e[39ms"
+  - delay: 343
+    content: "\e[?1l\e>"
+  - delay: 17
+    content: "\e[?2004l\r\r\n\e]2;forge wallet:create --defaults\a\e]1;forge\a\e]0;arcblock: forge wallet:create --defaults\a"
+  - delay: 1150
+    content: "\r\n\e[32mtype: \e[39m\r\n  \e[32mrole: \e[39m   ROLE_ACCOUNT\r\n  \e[32mpk: \e[39m     ED25519\r\n  \e[32mhash: \e[39m   SHA3\r\n  \e[32maddress: \e[39mBASE58\r\n\e[32maddress: \e[39m      z1c2CbKL9vFebhRUVoBPhNHtmX8wnY3t4Gk\r\n\e[32mpk_base16: \e[39m    0xb15670dbba85d35db7ec66d8bbfb44e7af2f17a51443e6c88f58912be6781de4\r\n\e[32msk_base16: \e[39m    0xfb858d25e61883db71556d4575a610e5d6a72ebc7d07ca42006e777766a7fba1b15670dbba85d35db7ec66d8bbfb44e7af2f17a51443e6c88f58912be6781de4\r\n\e[32mpk_base58: \e[39m    zCwFcTBjCqXfDL1hVeQEaYchMu4De3wZX31NcGyHwXJ9Z\r\n\e[32msk_base58: \e[39m    z62fdR82paZsy21uVzbe8KHRg2Ywm7HsZTNaVid9AXc6VEqQVhyTQy6HePFkH9wsm5cMWab735JR3km2J98vutjuV\r\n\e[32mpk_base64: \e[39m    sVZw27qF01237GbYu/tE568vF6UUQ+bIj1iRK+Z4HeQ=\r\n\e[32msk_base64: \e[39m    +4WNJeYYg9txVW1FdaYQ5danLrx9B8pCAG53d2an+6GxVnDbuoXTXbfsZti7+0Tnry8XpRRD5siPWJEr5ngd5A==\r\n\e[32mpk_base64_url: \e[39msVZw27qF01237GbYu_tE568vF6UUQ-bIj1iRK-Z4HeQ\r\n\e[32msk_base64_url: \e[39m-4WNJeYYg9txVW1FdaYQ5danLrx9B8pCAG53d2an-6GxVnDbuoXTXbfsZti7-0Tnry8XpRRD5siPWJEr5ngd5A\r\n\r\n"
+  - delay: 48
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 58
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 14824
+    content: "\e[32mv\e[39m\e[90mim ~/.forgerc.yml\e[39m\e[17D"
+  - delay: 62
+    content: "\b\e[32mv\e[32mi\e[39m"
+  - delay: 175
+    content: "\b\b\e[32mv\e[32mi\e[32mm\e[39m"
+  - delay: 861
+    content: "\e[39m \e[39m\e[4m~\e[39m\e[4m/\e[39m\e[4m.\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[39m\e[4me\e[39m\e[4mr\e[39m\e[4mc\e[39m\e[4m.\e[39m\e[4my\e[39m\e[4mm\e[39m\e[4ml\e[24m"
+  - delay: 609
+    content: "\e[?1l\e>"
+  - delay: 18
+    content: "\e[?2004l\r\r\n"
+  - delay: 12
+    content: "\e]2;vim ~/.forgerc.yml\a\e]1;vim\a\e]0;arcblock: vim ~/.forgerc.yml\a"
+  - delay: 114
+    content: "\e[?2004h\e[?1049h\e[?1h\e=\e[?2004h\e[1;25r\e[?12h\e[?12l\e[27m\e[29m\e[m\e[38;5;245m\e[H\e[2J\e[?25l\e[25;1H\"~/.forgerc.yml\" 3L, 115C"
+  - delay: 44
+    content: "\e[?2004l"
+  - delay: 53
+    content: "\e[?2004h"
+  - delay: 18
+    content: "\e[?2004l"
+  - delay: 12
+    content: "\e[?2004h"
+  - delay: 37
+    content: "\e[2;1H▽\e[6n\e[2;1H  \e[1;1H\e[>c\e]10;?\a\e]11;?\a"
+  - delay: 15
+    content: "\e[1;1H\e[1m\e[38;5;230m\e[48;5;245m ~/.forgerc.yml \e[m\e[38;5;245m\e[38;5;245m\e[48;5;235m \e[m\e[38;5;245m\e[38;5;240m\e[48;5;235m                                                                                             \e[m\e[38;5;245m\e[38;5;235m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;241m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;254m\e[48;5;241m buffers \e[m\e[38;5;245m\e[2;1H\e[38;5;240m\e[48;5;235m  \e[m\e[38;5;245m\e[93m  1 \e[m\e[38;5;245m\e[38;5;33m\e[48;5;235mautoUpgrade\e[m\e[38;5;245m\e[38;5;124m\e[48;5;235m:\e[m\e[38;5;245m\e[48;5;235m \e[m\e[38;5;245m\e[38;5;37m\e[48;5;235mfalse\e[m\e[38;5;245m\e[48;5;235m                                                                                                 \e[m\e[38;5;245m\e[3;1H\e[38;5;240m\e[48;5;235m    2 \e[m\e[38;5;245m\e[38;5;33mregistry\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m https://registry.npm.taobao.org\r\n\e[38;5;240m\e[48;5;235m    3 \e[m\e[38;5;245m\e[38;5;33mmirror\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m http://arcblockcn.oss-cn-beijing.aliyuncs.com\r\n\e[38;5;240m\e[48;5;235m  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \e[m\e[38;5;245m\e[5;3H\e[1m\e[38;5;124m~                                                                                                                      \e[6;3H~                                                                                                                      \e[7;3H~                                                                                                                      \e[8;3H~                                                                                                                      \e[9;3H~                                                                                                                      \e[10;3H~                                                                                                                      \e[11;3H~                                                                                                                      \e[12;3H~                                                                                                                      \e[13;3H~                                                                                                                      \e[14;3H~                                                                                                                      \e[15;3H~                                                                                                                      \e[16;3H~                                                                                                                      \e[17;3H~                                                                                                                      \e[18;3H~                                                                                                                      \e[19;3H~                                                                                                                      \e[20;3H~                                                                                                                      \e[21;3H~                                                                                                                      \e[22;3H~                                                                                                                      \e[23;3H~                                                                                                                      \e[m\e[38;5;245m\e[24;1H\e[1m\e[38;5;230m\e[48;5;245m NORMAL \e[m\e[38;5;245m\e[38;5;245m\e[48;5;241m>\e[m\e[38;5;245m\e[38;5;241m\e[48;5;235m>\e[m\e[38;5;245m\e[38;5;240m\e[48;5;235m ~/.forgerc.yml                                                        \e[m\e[38;5;245m\e[38;5;235m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;240m\e[48;5;235m yaml \e[m\e[38;5;245m\e[38;5;241m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;254m\e[48;5;241m utf-8[unix] \e[m\e[38;5;245m\e[38;5;245m\e[48;5;241m<\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m  33% :\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;245m   1\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:  1  \e[m\e[38;5;245m\e[38;5;166m\e[48;5;245m<\e[2;7H\e[?25h"
+  - delay: 6
+    content: "\e[?25l\e[?25h\e[?12$p"
+  - delay: 672
+    content: "\e[?25l\e[m\e[38;5;245m\e[25;111Hgj\e[2;7H\e[25;111H  \e[3;7H\e[2;3H\e[38;5;240m\e[48;5;235m  1 \e[m\e[38;5;245m\e[38;5;33mautoUpgrade\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m \e[38;5;37mfalse\e[m\e[38;5;245m\e[2;25H\e[K\e[3;3H\e[93m  2 \e[m\e[38;5;245m\e[38;5;33m\e[48;5;235mregistry\e[m\e[38;5;245m\e[38;5;124m\e[48;5;235m:\e[m\e[38;5;245m\e[48;5;235m https://registry.npm.taobao.org                                                                          \e[m\e[38;5;245m\e[24;106H\e[38;5;230m\e[48;5;245m66\e[m\e[38;5;245m\e[6C\e[1m\e[38;5;230m\e[48;5;245m2\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:\e[3;7H\e[?25h"
+  - delay: 190
+    content: "\e[?25l\e[m\e[38;5;245m\e[25;111Hgj\e[3;7H\e[25;111H  \e[4;7H\e[3;3H\e[38;5;240m\e[48;5;235m  2 \e[m\e[38;5;245m\e[38;5;33mregistry\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m https://registry.npm.taobao.org\e[3;48H\e[K\e[4;3H\e[93m  3 \e[m\e[38;5;245m\e[38;5;33m\e[48;5;235mmirror\e[m\e[38;5;245m\e[38;5;124m\e[48;5;235m:\e[m\e[38;5;245m\e[48;5;235m http://arcblockcn.oss-cn-beijing.aliyuncs.com                                                              \e[m\e[38;5;245m\e[24;105H\e[38;5;230m\e[48;5;245m100\e[m\e[38;5;245m\e[6C\e[1m\e[38;5;230m\e[48;5;245m3\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:\e[4;7H\e[?25h"
+  - delay: 460
+    content: "\e[?25l\e[m\e[38;5;245m\e[25;111Ho\e[4;7H\e[25;111H \e[5;7H\e[25;1H\e[38;5;33m-- INSERT --\e[m\e[38;5;245m\e[25;13H\e[K"
+  - delay: 16
+    content: "\e[1;1H\e[1m\e[38;5;230m\e[48;5;136m ~/.forgerc.yml+ \e[m\e[38;5;245m\e[38;5;136m\e[48;5;235m \e[m\e[38;5;245m\e[4;3H\e[38;5;240m\e[48;5;235m  3 \e[m\e[38;5;245m\e[38;5;33mmirror\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m http://arcblockcn.oss-cn-beijing.aliyuncs.com\e[4;60H\e[K\e[5;3H\e[93m  4 \e[m\e[38;5;245m\e[48;5;235m                                                                                                                   \e[m\e[38;5;245m\e[24;1H\e[1m\e[38;5;230m\e[48;5;136m INSERT\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;245m \e[m\e[38;5;245m\b\e[1m\e[38;5;230m\e[48;5;136m \e[m\e[38;5;245m\e[38;5;136m\e[48;5;241m>\e[m\e[38;5;245m\e[1C\e[38;5;245m\e[48;5;235m ~/.forgerc.yml[+]                                                     \e[m\e[38;5;245m\e[21C\e[38;5;136m\e[48;5;241m<\e[m\e[38;5;245m\e[38;5;230m\e[48;5;136m 100% :\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;136m   4\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:\e[m\e[38;5;245m\b\e[38;5;230m\e[48;5;136m:  1  \e[m\e[38;5;245m\e[38;5;166m\e[48;5;136m<\e[5;7H\e[?25h"
+  - delay: 506
+    content: "\e[?2004l\e[?2004h\e[?2004l\e[?2004h\e[?2004l\e[?2004h\e[?2004l\e[?2004h\e[?2004l"
+  - delay: 5
+    content: "\e[?2004h\e[?2004h"
+  - delay: 6
+    content: "\e[?25l\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[?25h"
+  - delay: 187
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mm\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m2\e[5;8H\e[?25h"
+  - delay: 174
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mo\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m3\e[5;9H\e[?25h"
+  - delay: 93
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235md\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m4\e[5;10H\e[?25h"
+  - delay: 167
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235me\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m5\e[5;11H\e[?25h"
+  - delay: 75
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mr\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m6\e[5;12H\e[?25h"
+  - delay: 512
+    content: "\e[?25l\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[?25h"
+  - delay: 193
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235ma\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m7\e[5;13H\e[?25h"
+  - delay: 266
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mt\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m8\e[5;14H\e[?25h"
+  - delay: 140
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mo\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m9\e[5;15H\e[?25h"
+  - delay: 61
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mr\e[m\e[38;5;245m\e[24;117H\e[38;5;230m\e[48;5;136m10\e[5;16H\e[?25h"
+  - delay: 282
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mS\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m1\e[5;17H\e[?25h"
+  - delay: 187
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235me\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m2\e[5;18H\e[?25h"
+  - delay: 224
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mc\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m3\e[5;19H\e[?25h"
+  - delay: 528
+    content: "\e[?25l\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[?25h"
+  - delay: 58
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mr\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m4\e[5;20H\e[?25h"
+  - delay: 43
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235me\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m5\e[5;21H\e[?25h"
+  - delay: 514
+    content: "\e[?25l\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[?25h"
+  - delay: 277
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mt\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m6\e[5;22H\e[?25h"
+  - delay: 499
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235mK\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m7\e[5;23H\e[?25h"
+  - delay: 176
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235me\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m8\e[5;24H\e[?25h"
+  - delay: 149
+    content: "\e[?25l\e[m\e[38;5;245m\e[48;5;235my\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m9\e[5;25H\e[?25h"
+  - delay: 358
+    content: "\e[?25l\e[m\e[38;5;245m\e[5;7H\e[38;5;33m\e[48;5;235mmoderatorSecretKey\e[m\e[38;5;245m\e[38;5;124m\e[48;5;235m:\e[m\e[38;5;245m\e[24;117H\e[38;5;230m\e[48;5;136m20\e[5;26H\e[?25h"
+  - delay: 390
+    content: "\e[?2004h\e[?25l\e[m\e[38;5;245m\e[48;5;235m.\e[m\e[38;5;245m\e[24;118H\e[38;5;230m\e[48;5;136m1\e[5;27H\e[?25h"
+  - delay: 340
+    content: "\e[?25l\e[m\e[38;5;245m\b\e[48;5;235m -4WNJeYYg9txVW1FdaYQ5danLrx9B8pCAG53d2an-6GxVnDbuoXTX\e[?25h\e[?25lbfsZti7-0Tnry8XpRRD5siPWJEr5ngd5A\e[m\e[38;5;245m\e[24;116H\e[38;5;230m\e[48;5;136m107\e[5;113H\e[?25h"
+  - delay: 510
+    content: "\e[?25l\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[?25h"
+  - delay: 471
+    content: "\e[m\e[38;5;245m\e[25;1H\e[K\e[5;112H\e[?25l\e[25;111H^[\e[5;112H\e[?25h"
+  - delay: 436
+    content: "\e[?25l\e[25;111H  \e[5;113H"
+  - delay: 13
+    content: "\e[24;1H\e[1m\e[38;5;230m\e[48;5;245m NORMAL\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;136m \e[m\e[38;5;245m\b\e[1m\e[38;5;230m\e[48;5;245m \e[m\e[38;5;245m\e[38;5;245m\e[48;5;241m>\e[93C<\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m 100% :\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;245m   4\e[m\e[38;5;245m\e[38;5;230m\e[48;5;136m:\e[m\e[38;5;245m\b\e[38;5;230m\e[48;5;245m:106  \e[m\e[38;5;245m\e[38;5;166m\e[48;5;245m<\e[5;112H\e[?25h\e[?25l\e[m\e[38;5;245m\e[25;111H:\e[5;112H\e[25;111H\e[K\e[25;1H:\e[?2004h\e[?25h"
+  - delay: 177
+    content: "w\b"
+  - delay: 72
+    content: " \bwq\e[?25l\e[?25h"
+  - delay: 1647
+    content: "\r\e[?25l\e[?2004l\"~/.forgerc.yml\" 4L, 222C written"
+  - delay: 89
+    content: "\r\r\r\n\e[39;49m\e[?2004l\e[?1l\e>\e[?25h\e[?1049l\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 57
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m12s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 8952
+    content: "\e[4mf\e[24m\e[90morge wallet:create --defaults\e[39m\e[29D"
+  - delay: 118
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 69
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 176
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 55
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 146
+    content: "\e[39m "
+  - delay: 650
+    content: "\e[39m\e[4mc\e[24m\e[90mh\e[90ma\e[90mi\e[90mn\e[90m:\e[90mr\e[90me\e[90mm\e[90mo\e[90mv\e[90me\e[90m \e[90mh\e[90me\e[90ml\e[90ml\e[90mo\e[90m \e[90m-\e[90my\e[39m\e[39m \e[39m \e[39m \e[23D"
+  - delay: 119
+    content: "\b\e[24mc\e[39mh"
+  - delay: 110
+    content: "\e[39ma"
+  - delay: 80
+    content: "\e[39mi"
+  - delay: 197
+    content: "\e[39mn"
+  - delay: 422
+    content: "\e[39m:"
+  - delay: 314
+    content: "\e[39mc\e[90mr\e[90me\e[90ma\e[90mt\e[9C\e[90md\e[90m -v\e[39m\e[17D"
+  - delay: 216
+    content: "\e[39mr"
+  - delay: 65
+    content: "\e[39me"
+  - delay: 90
+    content: "\e[39ma"
+  - delay: 133
+    content: "\e[39mt"
+  - delay: 55
+    content: "\e[39me"
+  - delay: 1053
+    content: "\e[39m \e[39mh\e[39me\e[39ml\e[39ml\e[39mo\e[39m \e[39m-\e[39md\e[39m \e[39m-\e[39mv"
+  - delay: 325
+    content: "\b\e[90mv\e[39m\b"
+  - delay: 183
+    content: "\b\e[90m-\b"
+  - delay: 178
+    content: "\b\e[90m \b"
+  - delay: 1656
+    content: "\e[39m\e[39m "
+  - delay: 333
+    content: "\e[39m|\e[39m \b"
+  - delay: 488
+    content: ' '
+  - delay: 179
+    content: "\e[32mg\e[39m"
+  - delay: 161
+    content: "\b\e[32mg\e[32mr\e[39m"
+  - delay: 62
+    content: "\b\b\e[1m\e[31mg\e[1m\e[31mr\e[1m\e[31me\e[0m\e[39m"
+  - delay: 57
+    content: "\b\b\b\e[0m\e[32mg\e[0m\e[32mr\e[0m\e[32me\e[32mp\e[39m"
+  - delay: 115
+    content: ' '
+  - delay: 2438
+    content: "\e[35D\e[39mf\e[39mo\e[39mr\e[39mg\e[39me\e[25C\e[39mg\e[39mr\e[39me\e[39mp \e[7mz1c2CbKL9vFebhRUVoBPhNHtmX8wnY3t4Gk\e[27m"
+  - delay: 1100
+    content: "\e[70D\e[32mf\e[32mo\e[32mr\e[32mg\e[32me\e[39m\e[25C\e[32mg\e[32mr\e[32me\e[32mp\e[39m \e[27mz\e[27m1\e[27mc\e[27m2\e[27mC\e[27mb\e[27mK\e[27mL\e[27m9\e[27mv\e[27mF\e[27me\e[27mb\e[27mh\e[27mR\e[27mU\e[27mV\e[27mo\e[27mB\e[27mP\e[27mh\e[27mN\e[27mH\e[27mt\e[27mm\e[27mX\e[27m8\e[27mw\e[27mn\e[27mY\e[27m3\e[27mt\e[27m4\e[27mG\e[27mk\e[?1l\e>"
+  - delay: 20
+    content: "\e[?2004l\r\r\n"
+  - delay: 5
+    content: "\e]2;forge chain:create hello -d | grep --color=auto  \a\e]1;forge\a\e]0;arcblock: forge chain:create hello -d | grep --color=auto  \a"
+  - delay: 1541
+    content: "      \e[32maddress: \e[39m\e[01;31m\e[Kz1c2CbKL9vFebhRUVoBPhNHtmX8wnY3t4Gk\e[m\e[K\r\n      \e[32maddress: \e[39m\e[01;31m\e[Kz1c2CbKL9vFebhRUVoBPhNHtmX8wnY3t4Gk\e[m\e[K\r\n"
+  - delay: 649
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 62
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1880
+    content: "\e[?2004l\r\r\n"

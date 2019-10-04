@@ -24,7 +24,7 @@ forge install latest
 :::
 
 ::: tip
-如果想了解 Forge 发行版本的更多细节可以猛击：[Forge Release 管理](../../4-manage-forge-release)。
+如果想了解 Forge 发行版本的更多细节可以猛击：[Forge 版本管理](../../4-manage-forge-release)。
 :::
 
 Forge 安装过程如下所示：
