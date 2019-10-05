@@ -10,53 +10,83 @@ categories:
       "null":
         - /
       Introduction:
-        - /1-introduction
-        - /1-introduction/what-is-forge-cli
-        - /1-introduction/why-forge-cli
-        - /1-introduction/install-forge-cli
-        - /1-introduction/getting-started
-        - /1-introduction/initial-setup
+        links:
+          - /1-introduction
+          - /1-introduction/what-is-forge-cli
+          - /1-introduction/why-forge-cli
+          - /1-introduction/install-forge-cli
+          - /1-introduction/getting-started
+          - /1-introduction/initial-setup
+        locales:
+          zh: '入门'
       Chain/Node Management:
-        - /2-manage-chain-node
-        - /2-manage-chain-node/create-config-chain
-        - /2-manage-chain-node/start-stop-chain
-        - /2-manage-chain-node/inspect-chain-status
-        - /2-manage-chain-node/upgrade-chain
-        - /2-manage-chain-node/reset-remove-chain
+        links:
+          - /2-manage-chain-node
+          - /2-manage-chain-node/create-config-chain
+          - /2-manage-chain-node/start-stop-chain
+          - /2-manage-chain-node/inspect-chain-status
+          - /2-manage-chain-node/upgrade-chain
+          - /2-manage-chain-node/reset-remove-chain
+        locales:
+          zh: '链节点管理'
       Read/Write on Chain Data:
-        - /3-read-write-on-chain-data
-        - /3-read-write-on-chain-data/inspect-transactions
-        - /3-read-write-on-chain-data/inspect-blocks
-        - /3-read-write-on-chain-data/inspect-accounts
-        - /3-read-write-on-chain-data/inspect-assets
-        - /3-read-write-on-chain-data/inspect-contracts
+        links:
+          - /3-read-write-on-chain-data
+          - /3-read-write-on-chain-data/inspect-transactions
+          - /3-read-write-on-chain-data/inspect-blocks
+          - /3-read-write-on-chain-data/inspect-accounts
+          - /3-read-write-on-chain-data/inspect-assets
+          - /3-read-write-on-chain-data/inspect-contracts
+        locales:
+          zh: '读写链上数据'
       Forge Release Management:
-        - /4-manage-forge-release
-        - /4-manage-forge-release/find-release
-        - /4-manage-forge-release/download-install-release
+        links:
+          - /4-manage-forge-release
+          - /4-manage-forge-release/find-release
+          - /4-manage-forge-release/download-install-release
+        locales:
+          zh: '版本管理'
       Manipulate Wallets/Accounts:
-        - /5-manipulate-wallets-accounts
-        - /5-manipulate-wallets-accounts/local-wallets
-        - /5-manipulate-wallets-accounts/on-chain-accounts
+        links:
+          - /5-manipulate-wallets-accounts
+          - /5-manipulate-wallets-accounts/local-wallets
+          - /5-manipulate-wallets-accounts/on-chain-accounts
+        locales:
+          zh: '操作钱包'
       Working with Contracts:
-        - /6-working-with-contracts
-        - /6-working-with-contracts/compile-deploy-contract
-        - /6-working-with-contracts/activate-deactivate-contract
-        - /6-working-with-contracts/create-own-contract
+        links:
+          - /6-working-with-contracts
+          - /6-working-with-contracts/compile-deploy-contract
+          - /6-working-with-contracts/activate-deactivate-contract
+          - /6-working-with-contracts/create-own-contract
+        locales:
+          zh: '使用智能合约'
       Working with Blocklets:
-        - /7-working-with-blocklets
-        - /7-working-with-blocklets/what-are-blocklets
-        - /7-working-with-blocklets/dapp-blocklets
-        - /7-working-with-blocklets/starter-blocklets
-        - /7-working-with-blocklets/contract-blocklets
-        - /7-working-with-blocklets/creating-blocklet
+        links:
+          - /7-working-with-blocklets
+          - /7-working-with-blocklets/what-are-blocklets
+          - /7-working-with-blocklets/dapp-blocklets
+          - /7-working-with-blocklets/starter-blocklets
+          - /7-working-with-blocklets/contract-blocklets
+          - /7-working-with-blocklets/creating-blocklet
+        locales:
+          zh: '使用基石程序'
       Explore Other Tooling:
-        - /8-explorer-other-tooling
-        - /8-explorer-other-tooling/forge-web
-        - /8-explorer-other-tooling/simulator
-        - /8-explorer-other-tooling/dapp-workshop
-        - /8-explorer-other-tooling/forge-swap-service
+        links:
+          - /8-explorer-other-tooling
+          - /8-explorer-other-tooling/forge-web
+          - /8-explorer-other-tooling/simulator
+          - /8-explorer-other-tooling/dapp-workshop
+          - /8-explorer-other-tooling/forge-swap-service
+        locales:
+          zh: '探索其他工具'
       Customization:
-        - /9-customization
+        links:
+          - /9-customization
+        locales:
+          zh: '高级用法'
       Troubleshooting:
-        - /10-troubleshooting
+        links:
+          - /10-troubleshooting
+        locales:
+          zh: '问题诊断'
