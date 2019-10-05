@@ -13,6 +13,7 @@ module.exports = {
         siteMetadata: {
           title: 'Forge CLI',
           description: 'Forge SDK Documentation',
+          logoUrl: '/book/',
           sidebarWidth: 360,
         },
         algoliaSearch: {
