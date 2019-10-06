@@ -38,5 +38,5 @@ Forge 的多重含义在下面这行图有很清晰的体现：
 Forge CLI 是众多 Forge 工具中的一个，也是开发者使用 Forge 及其周边工具的入口，把他比作区块链开发的瑞士军刀也不为过，因为安装 Forge CLI 之后，就可以方便获取和使用整个 Forge 工具箱。
 
 ::: success
-**在这本手册的后续小节中，如无特殊说明，我们将使用 Forge 来指代包含了所有 Forge 组件和工具的集合，比如我们说"安装 Forge"的时候，指的是安装 Forge 的一个发行版本，关于 Forge 发行版本的更多细节请[猛击这里](../../4-manage-forge-release)。**
+**包含特定版本 Forge 内核和各组件的集合组成一个 Forge 发行版本，我们说"安装 Forge"的时候，指的是安装 Forge 的一个发行版本，关于 Forge 发行版本的更多细节请[猛击这里](../../4-manage-forge-release)。**
 :::

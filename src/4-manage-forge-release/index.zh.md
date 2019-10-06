@@ -1,5 +1,5 @@
 ---
-title: 'Forge 发行版本是啥'
+title: '理解 Forge 发行版本'
 description: 'Forge 发行版本是什么？包括什么？'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
@@ -9,9 +9,9 @@ tags:
   - 'forge'
 ---
 
-Forge CLI 只是让开发者获取和使用 Forge 工具箱的桥梁，Forge 发行版就是包含了大部分工具组件的发布版本，会存储在 https://release.arcblock.io 上供开发者下载使用。
+Forge 发行版本可以认为是一个容器，容器里面装着 Forge 内核以及围绕其开发的各种工具。
 
-Forge 发行版本从开始的只包含 Forge 内核，到现在包含如下组件：
+随着产品和技术的迭代，Forge 发行版本里面从开始的只包含 Forge 内核，到现在包含如下组件：
 
 - Forge 内核: 交易处理引擎、和共识引擎、数据存储层的交互，每周会有大小版本发布
 - 核心智能合约: Forge 内置的交易合约，能够帮助开发者解决 99% 的账户、交易、跨链、链上治理等业务逻辑，随着 Forge 同步发版
@@ -23,3 +23,21 @@ Forge 发行版本从开始的只包含 Forge 内核，到现在包含如下组�
 - Forge Patron：集成测试工具，目前尚未公开发布
 - Forge Deploy：生产环境大规模部署的工具，目前只支持 AWS，尚未公开发布
 - Forge Compiler：智能合约编译工具，跟随 Forge 发版，在 Forge CLI 里面可用
+
+在 GitHub 上我们的一个 Forge 发行版本是这样的：
+
+![](./images/github-release.png)
+
+关于 Forge 发行版本有以下几个重要事实：
+
+- Forge 发行版本目前只支持 MacOS、CentOS、Ubuntu 等 Linux 系统，不支持 Windows
+- Forge 发行版本里面只包括各个工具的可执行文件或者编译后的代码，不包括源代码
+- Forge 发行版本存储在 [releases.arcblock.io](http://releases.arcblock.io/forge) 上供开发者下载使用
+- Forge 发行版本的最新版可以从 [latest.json](http://releases.arcblock.io/forge/latest.json) 查到
+- Forge 发行版本的完整历史可以从 [versions.json](http://releases.arcblock.io/forge/versions.json) 查到
+- 部分 Forge 工具箱的组件还不包含在 Forge 发行版本中，比如 Forge Deploy、Forge Patron
+- 为保障中国大陆开发者的下载速度，我们在阿里云上做了发行版的镜像 [arcblockcn.oss-cn-beijing.aliyuncs.com](http://arcblockcn.oss-cn-beijing.aliyuncs.com/forge/latest.json)
+
+::: success
+**Forge CLI 只是方便开发者获取 Forge 发行版本、使用发行版本内含组件的桥梁，为避免啰嗦和保持统一，后文中将用 `Forge` 来代称 Forge 的发行版本，小写的 `forge` 则指的是安装完 Forge CLI 之后在系统中产生的那个命令行工具。**
+:::

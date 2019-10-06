@@ -19,6 +19,13 @@ categories:
           - /1-introduction/initial-setup
         locales:
           zh: '入门'
+      Forge Release Management:
+        links:
+          - /4-manage-forge-release
+          - /4-manage-forge-release/find-release
+          - /4-manage-forge-release/download-install-release
+        locales:
+          zh: '发行版本管理'
       Chain/Node Management:
         links:
           - /2-manage-chain-node
@@ -39,20 +46,13 @@ categories:
           - /3-read-write-on-chain-data/inspect-contracts
         locales:
           zh: '读写链上数据'
-      Forge Release Management:
-        links:
-          - /4-manage-forge-release
-          - /4-manage-forge-release/find-release
-          - /4-manage-forge-release/download-install-release
-        locales:
-          zh: '版本管理'
       Manipulate Wallets/Accounts:
         links:
           - /5-manipulate-wallets-accounts
           - /5-manipulate-wallets-accounts/local-wallets
           - /5-manipulate-wallets-accounts/on-chain-accounts
         locales:
-          zh: '操作钱包'
+          zh: '使用钱包和账户'
       Working with Contracts:
         links:
           - /6-working-with-contracts
