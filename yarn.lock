@@ -19,18 +19,18 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^6.34.0":
-  version "6.34.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.34.0.tgz#308f6b8374e7e3dd9debd602c64536c4f1512ce6"
-  integrity sha512-TUCcC5n4o2kwbWWWhh44PutTw35FGQtJ9zqSa32DAtPSeMV7taujQNo6Dburd0ruTEDhQXNU4tcUToZGjA1Eyw==
+"@arcblock/gatsby-theme-docs@^6.35.0":
+  version "6.35.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.35.0.tgz#15252d995dd47fa75b896bf4d7e5fd7d0dd886cf"
+  integrity sha512-tZhwWi9fW1vF/17+P9tI01kGKfc6Cefe2tWpcnvBau7SezIftRDiNXttqCk4kX4Sc2kyUrw1IQRZ5L77Hb7jIg==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^6.28.0"
     "@arcblock/gatsby-transformer-remark" "^6.28.0"
     "@arcblock/gatsby-transformer-terminal-recording" "^6.29.0"
     "@arcblock/remark-include" "^6.28.0"
-    "@arcblock/ux" "^0.32.0"
-    "@arcblock/www" "^6.33.0"
+    "@arcblock/ux" "^0.33.0"
+    "@arcblock/www" "^6.35.0"
     "@material-ui/core" "^4.4.0"
     "@material-ui/icons" "^4.2.1"
     "@mdx-js/mdx" "^1.1.0"
@@ -126,10 +126,10 @@
     lodash "^4.17.15"
     unist-util-select "^1.5.0"
 
-"@arcblock/react-hooks@^0.32.0":
-  version "0.32.0"
-  resolved "https://registry.npmjs.org/@arcblock/react-hooks/-/react-hooks-0.32.0.tgz#c410e0234fc29bfd3d91772c6d6d94887ce88950"
-  integrity sha512-4S9vanZNykXll3mEdTBxqiTd+a2RimbKzxfrfLhNXe2xeLuYj3Bk7Y5DTCpY8mividq282nsr0S2jDAiHDi4Aw==
+"@arcblock/react-hooks@^0.33.0":
+  version "0.33.0"
+  resolved "https://registry.npmjs.org/@arcblock/react-hooks/-/react-hooks-0.33.0.tgz#c38a2bbd58e1e77b505825e1d86356a90263af5b"
+  integrity sha512-D39Z+jA55CJBQX8mF06QDaO0NpLIwr1zEZQkZsNpyACSbtR822uz4dIt+jwToyeBR51/Xilqhv/pROlJ3ESmCQ==
   dependencies:
     event-target-shim "^5.0.1"
     qrcode.react "^0.9.3"
@@ -142,12 +142,12 @@
   dependencies:
     vfile "^2.0.0"
 
-"@arcblock/ux@^0.32.0":
-  version "0.32.0"
-  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-0.32.0.tgz#7daff11407188304b3bc18da7b38220a1a92aed3"
-  integrity sha512-le7jG2nQB4uAt8qDRDq3SJZ7wmUsBQettO84qGWYgWmNCr3Jg7+gbTksy0/iY9LZJhtVAA13fd45ZmuMuZxGWg==
+"@arcblock/ux@^0.33.0":
+  version "0.33.0"
+  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-0.33.0.tgz#d71ba1ae181a5024f0c4e8e6f2fadbe6cfde30a9"
+  integrity sha512-vtf3DAqc/OVww7czSYttxxLuYDNcuSqwYBAUpe1nH0RGImQ/fHWW1rjYrEtN9JljCXZkUSfDlNRrNrgHRNRQyA==
   dependencies:
-    "@arcblock/react-hooks" "^0.32.0"
+    "@arcblock/react-hooks" "^0.33.0"
     "@babel/plugin-syntax-dynamic-import" "^7.2.0"
     copy-to-clipboard "^3.2.0"
     d3-geo "^1.11.6"
@@ -167,12 +167,12 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^6.33.0":
-  version "6.33.0"
-  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.33.0.tgz#28cf609b465645dcc30b2929e998d4de97f246ef"
-  integrity sha512-UqnS0RrE7lxosKzZBuM3CSU/03+KJHFKqV8lnDe72NgBHsCWROrBfQywHj4oMrCEeYBUaFyoRQRGFrIrNFV1xQ==
+"@arcblock/www@^6.35.0":
+  version "6.35.0"
+  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.35.0.tgz#dad65432230834b9d9dc733d90de281aae5c30fa"
+  integrity sha512-oX04gfVYQaRHCvIFHQ+Os/9gl2yWTBW03EGQOgIAWMlHUw3EcmmfvoIzYtcOUZKwQOj78nmc8l7Tij80eGIGPA==
   dependencies:
-    "@arcblock/ux" "^0.32.0"
+    "@arcblock/ux" "^0.33.0"
     "@material-ui/core" "^4.4.0"
     "@material-ui/icons" "^3.0.2"
     axios "^0.19.0"
