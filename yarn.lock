@@ -19,31 +19,31 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^6.32.0":
-  version "6.32.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.32.0.tgz#2807bb141f6e799ef789831bef6a559110639ef8"
-  integrity sha512-dtwAf2aZAdSYJPS7/iuNEGcsTRzHoNVlXGXz1qqCYTlgVL6Vs1XpBUiGA+dZEKT4WPGvZqFljZAl0+WYpaqQPA==
+"@arcblock/gatsby-theme-docs@^6.34.0":
+  version "6.34.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.34.0.tgz#308f6b8374e7e3dd9debd602c64536c4f1512ce6"
+  integrity sha512-TUCcC5n4o2kwbWWWhh44PutTw35FGQtJ9zqSa32DAtPSeMV7taujQNo6Dburd0ruTEDhQXNU4tcUToZGjA1Eyw==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^6.28.0"
     "@arcblock/gatsby-transformer-remark" "^6.28.0"
     "@arcblock/gatsby-transformer-terminal-recording" "^6.29.0"
     "@arcblock/remark-include" "^6.28.0"
-    "@arcblock/ux" "^0.29.0"
-    "@arcblock/www" "^6.30.0"
+    "@arcblock/ux" "^0.32.0"
+    "@arcblock/www" "^6.33.0"
     "@material-ui/core" "^4.4.0"
     "@material-ui/icons" "^4.2.1"
     "@mdx-js/mdx" "^1.1.0"
     "@mdx-js/react" "^1.0.27"
     "@svgr/webpack" "^4.1.0"
-    "@xmark/core" "^0.19.0"
-    "@xmark/theme-section-template" "^0.19.0"
-    "@xmark/theme-shower-ribbon" "^0.19.0"
-    "@xmark/transform-class-extension" "^0.19.0"
-    "@xmark/transform-gatsby-remark" "^0.19.0"
-    "@xmark/transform-section-template" "^0.19.0"
-    "@xmark/transform-shower" "^0.19.0"
-    "@xmark/transform-wrap-headings" "^0.19.0"
+    "@xmark/core" "^0.20.0"
+    "@xmark/theme-section-template" "^0.20.0"
+    "@xmark/theme-shower-ribbon" "^0.20.0"
+    "@xmark/transform-class-extension" "^0.20.0"
+    "@xmark/transform-gatsby-remark" "^0.20.0"
+    "@xmark/transform-section-template" "^0.20.0"
+    "@xmark/transform-shower" "^0.20.0"
+    "@xmark/transform-wrap-headings" "^0.20.0"
     algoliasearch "^3.33.0"
     debug "^4.1.1"
     gatsby "2.15.9"
@@ -126,10 +126,10 @@
     lodash "^4.17.15"
     unist-util-select "^1.5.0"
 
-"@arcblock/react-hooks@^0.29.0":
-  version "0.29.0"
-  resolved "https://registry.npmjs.org/@arcblock/react-hooks/-/react-hooks-0.29.0.tgz#34c479129f5e3ff06248d855344a1e4d9aac531c"
-  integrity sha512-eqvfRIRkP6w4cqYoWdyFIXadmhOxeAbAzesRuw0jnz+vWlTRM0QLihSc6QD7ZUqInbf0ej5RPgqYPczeKddPTw==
+"@arcblock/react-hooks@^0.32.0":
+  version "0.32.0"
+  resolved "https://registry.npmjs.org/@arcblock/react-hooks/-/react-hooks-0.32.0.tgz#c410e0234fc29bfd3d91772c6d6d94887ce88950"
+  integrity sha512-4S9vanZNykXll3mEdTBxqiTd+a2RimbKzxfrfLhNXe2xeLuYj3Bk7Y5DTCpY8mividq282nsr0S2jDAiHDi4Aw==
   dependencies:
     event-target-shim "^5.0.1"
     qrcode.react "^0.9.3"
@@ -142,12 +142,12 @@
   dependencies:
     vfile "^2.0.0"
 
-"@arcblock/ux@^0.29.0":
-  version "0.29.0"
-  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-0.29.0.tgz#5769bbc23b10962d229c6b67d6bc13dbe5aa4f24"
-  integrity sha512-1onTsnoR8tQf2FPFDJ2Q4eLBBQHyc1GOM7y4urMV14K01pM+xQTShqadBNf1PnI8xVdtp7KjNB4JzER9yLQy6A==
+"@arcblock/ux@^0.32.0":
+  version "0.32.0"
+  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-0.32.0.tgz#7daff11407188304b3bc18da7b38220a1a92aed3"
+  integrity sha512-le7jG2nQB4uAt8qDRDq3SJZ7wmUsBQettO84qGWYgWmNCr3Jg7+gbTksy0/iY9LZJhtVAA13fd45ZmuMuZxGWg==
   dependencies:
-    "@arcblock/react-hooks" "^0.29.0"
+    "@arcblock/react-hooks" "^0.32.0"
     "@babel/plugin-syntax-dynamic-import" "^7.2.0"
     copy-to-clipboard "^3.2.0"
     d3-geo "^1.11.6"
@@ -167,12 +167,12 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^6.30.0":
-  version "6.30.0"
-  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.30.0.tgz#1c6e1f51cb7ed657adbab20be82ecd36b7eaf218"
-  integrity sha512-dg7yjeLwFtnZZJX9X8MKhGfKMWhj1wfQ9Z7HJljSc6Pg5tdEUARB+6bkn13XN3BSnQwjchUdHJc9iHf/hJRe5w==
+"@arcblock/www@^6.33.0":
+  version "6.33.0"
+  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.33.0.tgz#28cf609b465645dcc30b2929e998d4de97f246ef"
+  integrity sha512-UqnS0RrE7lxosKzZBuM3CSU/03+KJHFKqV8lnDe72NgBHsCWROrBfQywHj4oMrCEeYBUaFyoRQRGFrIrNFV1xQ==
   dependencies:
-    "@arcblock/ux" "^0.29.0"
+    "@arcblock/ux" "^0.32.0"
     "@material-ui/core" "^4.4.0"
     "@material-ui/icons" "^3.0.2"
     axios "^0.19.0"
@@ -1963,12 +1963,12 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@xmark/core@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.npm.taobao.org/@xmark/core/download/@xmark/core-0.19.0.tgz#3529ca06894ae79c43d3f71be11a58ad3a3848bc"
-  integrity sha1-NSnKBolK55xD0/cb4RpYrTo4SLw=
+"@xmark/core@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@xmark/core/-/core-0.20.0.tgz#bce0062dd4aa295182d47181652211702e074be0"
+  integrity sha512-9H2yBmbjSEkNwQZD3qBQgYeRwMUV0D1pxHVX5nUn43VcNNp1b0lGTYh/68vuXCg5xhhACZ3BOwcS39d265bR3w==
   dependencies:
-    "@xmark/util" "^0.19.0"
+    "@xmark/util" "^0.20.0"
     debug "^4.1.1"
     gray-matter "^4.0.2"
     hast-util-to-html "^5.0.0"
@@ -1979,59 +1979,59 @@
     remark-attr "^0.8.3"
     remark-generic-extensions "^1.4.0"
 
-"@xmark/theme-section-template@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.npm.taobao.org/@xmark/theme-section-template/download/@xmark/theme-section-template-0.19.0.tgz#3f641de4afd668d68c29109ddd3faf858eb662d7"
-  integrity sha1-P2Qd5K/WaNaMKRCd3T+vhY62Ytc=
+"@xmark/theme-section-template@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@xmark/theme-section-template/-/theme-section-template-0.20.0.tgz#3fc7cb08c89c2020dc392ca0e0369901bf2682aa"
+  integrity sha512-ErET4Lv4cyIso4Clisu1pK6ALCQhSam/4jPDUvCcQcqDommIBvPXFYNoIb6pnOv+SeNevF0k0j2fY6+0NAKygg==
 
-"@xmark/theme-shower-ribbon@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.npm.taobao.org/@xmark/theme-shower-ribbon/download/@xmark/theme-shower-ribbon-0.19.0.tgz#192a39b46b97ac775ae02c417a3321d9c7facb38"
-  integrity sha1-GSo5tGuXrHda4CxBejMh2cf6yzg=
+"@xmark/theme-shower-ribbon@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@xmark/theme-shower-ribbon/-/theme-shower-ribbon-0.20.0.tgz#75112a77461bd7e2176c9f0d645bb04ef2a6201a"
+  integrity sha512-dV2788FPjPHuiwaa5eUlBl4BrGrvRqE8Dttf9RB+oG9FSZlyn7ea7AWqmkf+ERLx+SkJIlz9pdSUMqdAxKSWHw==
 
-"@xmark/transform-class-extension@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.npm.taobao.org/@xmark/transform-class-extension/download/@xmark/transform-class-extension-0.19.0.tgz#ad7a4d4b7680a7b0c73e6c1121e0a523395835c3"
-  integrity sha1-rXpNS3aAp7DHPmwRIeClIzlYNcM=
+"@xmark/transform-class-extension@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@xmark/transform-class-extension/-/transform-class-extension-0.20.0.tgz#dd3c607bd783013d78115fced746d5946d64652e"
+  integrity sha512-Bq0X5SQpe/PjXJae7izpxnaaYfV7wF7rAYNV/eLUgZADntcL9uYXNa2nhmONMCEdE15gmDZ3JtlwbRJEHUmUrw==
   dependencies:
-    "@xmark/util" "^0.19.0"
+    "@xmark/util" "^0.20.0"
     debug "^4.1.1"
     hast-util-select "^3.0.0"
     lodash.set "^4.3.2"
 
-"@xmark/transform-gatsby-remark@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.npm.taobao.org/@xmark/transform-gatsby-remark/download/@xmark/transform-gatsby-remark-0.19.0.tgz#b86d2123228dda40cd71b5adc010c3228675d533"
-  integrity sha1-uG0hIyKN2kDNcbWtwBDDIoZ11TM=
+"@xmark/transform-gatsby-remark@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@xmark/transform-gatsby-remark/-/transform-gatsby-remark-0.20.0.tgz#24c5c5483e17ec1068f113534967831353e5812d"
+  integrity sha512-Btuo9evsSfOtjhtR8b/af6c4kuUGQIdiu2ajU4yp3iEGvIw/PZG8XYGex0WVGX0p0nVTXhDPdQqf7ZoNwf9TbQ==
   dependencies:
-    "@xmark/util" "^0.19.0"
+    "@xmark/util" "^0.20.0"
     debug "^4.1.1"
     hast-util-select "^3.0.0"
 
-"@xmark/transform-section-template@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.npm.taobao.org/@xmark/transform-section-template/download/@xmark/transform-section-template-0.19.0.tgz#68d39adbc91f8a23e00becc1f177d2448ac950fa"
-  integrity sha1-aNOa28kfiiPgC+zB8XfSRIrJUPo=
+"@xmark/transform-section-template@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@xmark/transform-section-template/-/transform-section-template-0.20.0.tgz#cc8718df8c0daa7c3bb89003299569d66c933bd8"
+  integrity sha512-daDCri73jgEZRYowmffNEfjL+AfTwBPVr9FCxLGEjcrh8NamNI3MlYrchZuUVLQrStCsPCC81ZAja7Jnss55GA==
   dependencies:
-    "@xmark/transform-gatsby-remark" "^0.19.0"
-    "@xmark/util" "^0.19.0"
-    debug "^4.1.1"
-    hast-util-select "^3.0.0"
-    hastscript "^5.0.0"
-
-"@xmark/transform-shower@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.npm.taobao.org/@xmark/transform-shower/download/@xmark/transform-shower-0.19.0.tgz#55f3320e3a14e04701eca8e3b8386f4c64f05668"
-  integrity sha1-VfMyDjoU4EcB7KjjuDhvTGTwVmg=
-  dependencies:
+    "@xmark/transform-gatsby-remark" "^0.20.0"
+    "@xmark/util" "^0.20.0"
     debug "^4.1.1"
     hast-util-select "^3.0.0"
     hastscript "^5.0.0"
 
-"@xmark/transform-wrap-headings@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.npm.taobao.org/@xmark/transform-wrap-headings/download/@xmark/transform-wrap-headings-0.19.0.tgz#c0e2aefb60534be1c702ae145878f5a689e049b3"
-  integrity sha1-wOKu+2BTS+HHAq4UWHj1pongSbM=
+"@xmark/transform-shower@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@xmark/transform-shower/-/transform-shower-0.20.0.tgz#32cb5264f2d273611267ab1d3c945a9a885c286b"
+  integrity sha512-4RXKtFTkB7bD0PPBoFxj1tVAmkedUkFElQpcTmAANxgQRAF5+ypXRnXyf1Q5rJcWANmXm6QCEUyjWFncy+GebQ==
+  dependencies:
+    debug "^4.1.1"
+    hast-util-select "^3.0.0"
+    hastscript "^5.0.0"
+
+"@xmark/transform-wrap-headings@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@xmark/transform-wrap-headings/-/transform-wrap-headings-0.20.0.tgz#7439e364a41032282eb27885a897a354a836b20d"
+  integrity sha512-USQkOgHeRKt3lJTU0SY5RQI6uQ7uYQV7n4J7l9OU6OSzh8oLz/sIJ+ioifRHLHB7HBgHchMdIvSIl0jE7awjNA==
   dependencies:
     debug "^4.1.1"
     hyphenate-style-name "^1.0.3"
@@ -2039,10 +2039,10 @@
     lodash.last "^3.0.0"
     md-attr-parser "^1.2.1"
 
-"@xmark/util@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.npm.taobao.org/@xmark/util/download/@xmark/util-0.19.0.tgz#d4707d4142f41a0b1a0f060809f81b1ab7c6306a"
-  integrity sha1-1HB9QUL0GgsaDwYICfgbGrfGMGo=
+"@xmark/util@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/@xmark/util/-/util-0.20.0.tgz#036d3f84f9364e416e238a51dfc6cad69b24bce7"
+  integrity sha512-q0ZujYk+wn7gFFoloXX9JiXIbncC6KZywurpyoWuZIJBjh8vsL/Jj77Y80mf0V3LjxZ4Ayp4/oYuMXTm0dZU4Q==
   dependencies:
     hast-util-from-parse5 "^5.0.0"
     hast-util-select "^3.0.0"

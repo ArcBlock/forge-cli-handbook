@@ -19,7 +19,7 @@ tags:
 
 ## 用 `forge download` 下载 Forge
 
-跟 `forge install` 类似的还有个 `forge download` 命令，两者的功能几乎是相同的，不同点在于 `forge install` 下载完成后，会把当前 Forge CLI 默认使用的 Forge 版本切换到刚刚下载的版本，而 `forge download` 没有这个步骤，这是因为 Forge CLI 默认情况下是支持创建多条链的，并且支持不同的链可以选择使用不同的 Forge 版本，Forge CLI 创建新链的时候需要知道用户想使用哪个版本。
+跟 `forge install` 类似的还有个 `forge download` 命令，两者的功能几乎是相同的，不同点在于 `forge install` 下载完成后，会把当前 Forge CLI 默认使用的 Forge 版本切换到刚刚下载的版本，而 `forge download` 没有这个步骤，这是因为 Forge CLI 默认情况下是支持创建多条链的，并且支持不同的链使用不同的 Forge 版本，Forge CLI 创建新链的时候需要知道用户想使用哪个版本。
 
 **下载**和**安装**的区别就像是你要在电脑里面装一个软件时的下载和安装的区别。
 
