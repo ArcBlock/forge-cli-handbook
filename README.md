@@ -4,6 +4,15 @@ A book that helps you to become a power user of forge-cli
 
 > The book structure is defined in the following `Table of Contents` section and generated with script `tools/skeleton.js`
 
+## Getting Started
+
+```shell
+git clone git@github.com:ArcBlock/forge-cli-handbook.git
+cd forge-cli-handbook
+make init
+make run
+```
+
 ## Table of Contents
 
 - [Chapter 1: Introduction](./src/1-introduction)
