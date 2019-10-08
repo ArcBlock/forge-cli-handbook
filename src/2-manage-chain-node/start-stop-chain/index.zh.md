@@ -9,9 +9,9 @@ tags:
   - 'forge'
 ---
 
-配置好链和节点之后，我们可以用 Forge CLI 随时启动和停止创建过的链。
+配置好链节点之后，我们可以用 Forge CLI 随时启动和停止创建过的链。
 
-## 链的启动
+## 链节点的启动
 
 启动链的命令是 `forge start <chainName>`，比如可以执行 `forge start test-chain` 来启动 `test-chain`，执行过程如下：
 
@@ -43,7 +43,7 @@ tags:
 
 后两个接口地址在使用 [Forge SDK]() 的时候非常关键。
 
-## 链的停止
+## 链节点的停止
 
 有几种情形，我们需要把运行中的链停掉（这里的停指的是暂停运行，而不是把配置或者数据删掉）：
 
@@ -56,3 +56,7 @@ tags:
 !TerminalPlayer[](./images/7-stop-chain.yml)
 
 当然，如果你本地启动了多条链，有需要同时把他们都停掉，可以直接执行 `forge stop -a`，然后等几秒钟，所有的链就全部停掉了。
+
+::: warning
+为了简化 `forge start` 和 `forge stop` 后面直接跟链节点名称来指定要操作哪条链，而不用附加 `-c` 参数标志。
+:::
