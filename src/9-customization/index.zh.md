@@ -9,4 +9,9 @@ tags:
   - 'forge'
 ---
 
-## Chapter 9: Customization
+比如：
+
+- 全局配置项
+- 参数简写
+- 如何配置 tabtab 自动完成
+- 如何获取帮助
