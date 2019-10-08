@@ -116,3 +116,7 @@ tags:
 ❯ forge config -c test-chain | grep TTC
   symbol = "TTC"
 ```
+
+## 全面理解链节点配置
+
+Forge CLI 支持的链节点配置只是 Forge 所支持的配置项中最关键的一部分，关于完整的配置项列表，可以猛击[这里](https://docs.arcblockio.cn/zh/docs/instruction/configuration)
