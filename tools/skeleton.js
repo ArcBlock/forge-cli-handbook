@@ -88,8 +88,8 @@ Object.keys(groups).forEach(group => {
 });
 
 // Update config.yml
-const configPath = path.join(__dirname, '../src/config.yml');
-const config = yaml.parse(fse.readFileSync(configPath).toString());
-Object.assign(config.categories.handbook.sidebar, sidebar);
-fse.writeFileSync(configPath, yaml.stringify(config));
-console.log('config file updated');
+// const configPath = path.join(__dirname, '../src/config.yml');
+// const config = yaml.parse(fse.readFileSync(configPath).toString());
+// Object.assign(config.categories.handbook.sidebar, sidebar);
+// fse.writeFileSync(configPath, yaml.stringify(config));
+// console.log('config file updated');

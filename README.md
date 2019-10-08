@@ -16,6 +16,7 @@ A book that helps you to become a power user of forge-cli
   - [Create/Config a new Chain](./src/2-manage-chain-node/create-config-chain)
   - [Start/Stop the Chain](./src/2-manage-chain-node/start-stop-chain)
   - [Inspect Chain Status](./src/2-manage-chain-node/inspect-chain-status)
+  - [View Chain Log](./src/2-manage-chain-node/view-chain-log)
   - [Upgrade a Chain](./src/2-manage-chain-node/upgrade-chain)
   - [Reset/Remove a Chain](./src/2-manage-chain-node/reset-remove-chain)
 - [Chapter 3: Read/Write on Chain Data](./src/3-read-write-on-chain-data)

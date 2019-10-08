@@ -32,6 +32,7 @@ categories:
           - /2-manage-chain-node/create-config-chain
           - /2-manage-chain-node/start-stop-chain
           - /2-manage-chain-node/inspect-chain-status
+          - /2-manage-chain-node/view-chain-log
           - /2-manage-chain-node/upgrade-chain
           - /2-manage-chain-node/reset-remove-chain
         locales:
