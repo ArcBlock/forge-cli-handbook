@@ -28,6 +28,7 @@
     "@arcblock/gatsby-theme-docs": "^6.37.0",
     "fs-extra": "^8.1.0",
     "gatsby": "^2.15.28",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
     "hast-util-select": "^3.0.1",
     "mdast-util-to-hast": "^6.0.2",
     "remark": "^11.0.1",

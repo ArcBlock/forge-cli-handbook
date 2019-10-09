@@ -6655,6 +6655,14 @@ gatsby-plugin-mdx@^1.0.13:
     unist-util-remove "^1.0.3"
     unist-util-visit "^1.4.1"
 
+gatsby-plugin-netlify-cache@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/gatsby-plugin-netlify-cache/download/gatsby-plugin-netlify-cache-1.2.0.tgz#e68db9c5bd4ae103b4589f9be2a3cb9958750788"
+  integrity sha1-5o25xb1K4QO0WJ+b4qPLmVh1B4g=
+  dependencies:
+    babel-runtime "^6.26.0"
+    fs-extra "^7.0.0"
+
 gatsby-plugin-nprogress@^2.1.2:
   version "2.1.9"
   resolved "https://registry.npm.taobao.org/gatsby-plugin-nprogress/download/gatsby-plugin-nprogress-2.1.9.tgz#c8dcbf0ee113892e1c1b5488a729b9bd54b52e5a"

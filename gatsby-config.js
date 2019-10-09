@@ -26,5 +26,12 @@ module.exports = {
         extraPlugins: [],
       },
     },
+    // Speed up netlify build
+    {
+      resolve: 'gatsby-plugin-netlify-cache',
+      options: {
+        cachePublic: true,
+      },
+    },
   ],
 };
