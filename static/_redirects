@@ -1,0 +1,6 @@
+# https://www.netlify.com/docs/redirects/
+
+/  /zh/book/   302  Country=cn,hk,tw
+/  /zh/book/   302  Language=zh
+/  /en/book/   302
+/ch/* /zh/:splat 200
