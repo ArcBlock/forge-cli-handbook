@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/ArcBlock/forge-cli-power-user#readme",
   "dependencies": {
-    "@arcblock/gatsby-theme-docs": "^6.38.0",
+    "@arcblock/gatsby-theme-docs": "^6.39.0",
     "fs-extra": "^8.1.0",
     "gatsby": "^2.15.28",
     "gatsby-plugin-netlify-cache": "^1.2.0",
