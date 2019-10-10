@@ -57,7 +57,7 @@ npm install -g @arcblock/forge-cli
 
 如果你更喜欢使用 yarn 来安装，则可以执行 `yarn global add @arcblock/forge-cli` 来完成安装。
 
-安装完成之后，直接执行 `forge`，没有报错且得到如下输出，说明你已经安装成功：
+安装完成之后，你的系统里面就多出来一个叫 `forge` 的命令行工具（**Forge CLI 安装完产生的命令叫做 `forge` 而不是 `forge-cli`**），直接执行 `forge`，没有报错且得到如下输出，说明你已经安装成功：
 
 ```bash
 
@@ -142,7 +142,15 @@ Examples:
 如果是中国大陆用户，使用淘宝的 npm 镜像来安装 Forge CLI 可能会更快，使用 `npm install -g @arcblock/forge-cli --registry https://registry.npm.taobao.org` 即可。
 :::
 
-> TODO: 安装过程的常见报错及解决办法
+## 安装过程常见报错解决办法
+
+### 使用 root 账户安装？
+
+通常情况下，我们不建议使用 root 账户安装 Forge CLI，但是如果你一定要使用 root 账户来安装，需要执行这条命令：`npm install -g @arcblock/forge-cli --unsafe-perm`，否则会因为权限问题导致安装失败。
+
+### 使用 yarn 安装失败？
+
+如果你使用 `yarn` 安装之后，执行 `forge` 报错了，大概率是因为 `grpc` 的库没有本地编译，这时候请尝试用 `npm` 去安装。
 
 ----
 
