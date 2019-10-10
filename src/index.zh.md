@@ -32,16 +32,13 @@ Forge 框架把开发区块链应用所需要考虑的网络层、共识层、�
 
 ## 你要准备什么？
 
-- 安装有 MacOS、CentOS、Ubuntu 等 Linux 操作系统的设备或者云主机都可以
-- 安装有好用的命令行工具，比如 Mac 下面的 iTerm，或者 Linux 系统自带的终端程序
-- 安装了 Node.js 的运行环境，如果没有也没关系，我们在 [如何获取 Forge CLI](./1-introduction/install-forge-cli) 里有详细的讲解
-- 空闲时间和对区块链应用开发的好奇心
+- 安装有 MacOS、CentOS、Ubuntu 等 Linux 操作系统的设备或者云主机都可以 - 安装有好用的命令行工具，比如 Mac 下面的 iTerm，或者 Linux 系统自带的终端程序 - 安装了 Node.js 的运行环境，如果没有也没关系，我们在 [如何获取 Forge CLI](./1-introduction/install-forge-cli) 里有详细的讲解 - 空闲时间和对区块链应用开发的好奇心
 
 ## 本手册使用的术语
 
 - 如果没有特殊说明，CLI 是指 Forge CLI
-- 如果没有特殊说明，PK 是指 public key(公钥)
-- 如果没有特殊说明，SK 是指 security key(私钥)
+- 如果没有特殊说明，PK 是指 public key (公钥)
+- 如果没有特殊说明，SK 是指 security key (私钥)
 
 ## 内容组织方式
 
