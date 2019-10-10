@@ -13,9 +13,6 @@ tags:
 
 相信你应该已经知道 [ArcBlock](https://arcblockio.cn) 是一家什么样的公司：我们坚信区块链会给人类组织和协作方式带来巨大的变革，我们致力于开发简单易用、灵活可扩展的 dApp 开发框架和工具。到目前为止我们已经发布了 [Forge 框架](https://arcblockio.cn/zh/forge-sdk) 及围绕 Forge 框架的一系列工具，而 Forge CLI 是开发者获取、使用这些工具的最佳路径：只需安装一条命令，就得到了整个区块链工具箱。
 
-!ClickToCopy[单击我来复制]()
-!WalletDownload[下载 ABT 钱包]()
-
 ## 你能学到什么？
 
 相信你已经在开发自己的区块链应用摩拳擦掌，但诸如非对称加密、区块高度、共识算法等看起来高深莫测的名词可能又让你望而却步，繁琐冗长的开发环境配置也可能让你四处碰壁。
@@ -40,7 +37,13 @@ Forge 框架把开发区块链应用所需要考虑的网络层、共识层、�
 - 安装了 Node.js 的运行环境，如果没有也没关系，我们在 [如何获取 Forge CLI](./1-introduction/install-forge-cli) 里有详细的讲解
 - 空闲时间和对区块链应用开发的好奇心
 
-## 内容组织方式？
+## 本手册使用的术语
+
+- 如果没有特殊说明，CLI 是指 Forge CLI
+- 如果没有特殊说明，PK 是指 public key(公钥)
+- 如果没有特殊说明，SK 是指 security key(私钥)
+
+## 内容组织方式
 
 这本小书则是按照上面的大功能块去组织：
 
@@ -84,6 +87,7 @@ Forge 框架把开发区块链应用所需要考虑的网络层、共识层、�
   - [dApps Workshop](./8-explorer-other-tooling/dapp-workshop)
   - [跨链服务](./8-explorer-other-tooling/forge-swap-service)
 - [自定义你的 Forge CLI](./9-customization)
+  - [全局配置](./9-customization/global-config)
 - [诊断和调试](./10-troubleshooting)
 
 -----

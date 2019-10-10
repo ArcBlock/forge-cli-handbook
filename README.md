@@ -56,4 +56,5 @@ make run
   - [dApps Workshop](./src/8-explorer-other-tooling/dapp-workshop)
   - [Forge Swap](./src/8-explorer-other-tooling/forge-swap-service)
 - [Chapter 9: Customization](./src/9-customization)
+  - [Global Config](./src/9-customization/global-config)
 - [Chapter 10: Troubleshooting](./src/10-troubleshooting)

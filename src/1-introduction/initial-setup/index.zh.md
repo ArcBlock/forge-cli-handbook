@@ -24,7 +24,7 @@ touch ~/.forgerc.yml
 然后在其中输出如下内容：
 
 ```yaml
-registry: https://registry.npm.taobao.org
+npmRegistry: https://registry.npm.taobao.org
 mirror: http://arcblockcn.oss-cn-beijing.aliyuncs.com
 ```
 
@@ -32,7 +32,7 @@ mirror: http://arcblockcn.oss-cn-beijing.aliyuncs.com
 
 ![Custom Mirror](./images/custom-mirror.png)
 
-除了 `registry` 和 `mirror` 两个配置项之外，Forge CLI 还支持更多其他的配置项，可参考[这里](../../9-customization)。
+除了 `npmRegistry` 和 `mirror` 两个配置项之外，Forge CLI 还支持更多其他的配置项，可参考[这里](../../9-customization/global-config)。
 
 ## 配置链管理员
 

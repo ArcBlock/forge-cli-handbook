@@ -7,7 +7,7 @@ build:
 	@echo "Building the software..."
 
 init: install dep
-	@echo "Initializing the repo..."
+	@echo "Done!"
 
 travis-init:
 	@echo "Initialize software required for travis (normally ubuntu software)"
@@ -17,6 +17,7 @@ install:
 
 dep:
 	@echo "Install dependencies required for this repo..."
+	@yarn install
 
 pre-build: install dep
 	@echo "Running scripts before the build..."

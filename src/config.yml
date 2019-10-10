@@ -83,7 +83,7 @@ categories:
           zh: '探索其他工具'
       Customization:
         links:
-          - /9-customization
+          - /9-customization/global-config
         locales:
           zh: '高级用法'
       Troubleshooting:
