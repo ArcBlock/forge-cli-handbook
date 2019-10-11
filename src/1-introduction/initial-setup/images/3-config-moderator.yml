@@ -6,44 +6,44 @@ config:
   # the default is bash for Linux
   # or powershell.exe for Windows
   command: zsh
-  
+
   # Specify the current working directory path
   # the default is the current working directory path
   cwd: /Users/wangshijun/Develop/arcblock
-  
+
   # Export additional ENV variables
   env:
     recording: true
-  
+
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
   cols: 121
-  
+
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
   rows: 25
-  
+
   # Amount of times to repeat GIF
   # If value is -1, play once
   # If value is 0, loop indefinitely
   # If value is a positive number, loop n times
   repeat: 0
-  
+
   # Quality
   # 1 - 100
   quality: 100
-  
+
   # Delay between frames in ms
   # If the value is `auto` use the actual recording delays
   frameDelay: auto
-  
+
   # Maximum delay between frames in ms
   # Ignored if the `frameDelay` isn't set to `auto`
   # Set to `auto` to prevent limiting the max idle time
   maxIdleTime: 1000
-  
+
   # The surrounding frame box
   # The `type` can be null, window, floating, or solid`
   # To hide the title use the value null
@@ -55,7 +55,7 @@ config:
       border: 0px black solid
       # boxShadow: none
       # margin: 0px
-  
+
   # Add a watermark image to the rendered gif
   # You need to specify an absolute path for
   # the image on your machine or a URL, and you can also
@@ -68,25 +68,25 @@ config:
       bottom: 15px
       width: 100px
       opacity: 0.9
-  
+
   # Cursor style can be one of
   # `block`, `underline`, or `bar`
   cursorStyle: bar
-  
+
   # Font family
   # You can use any font that is installed on your machine
   # in CSS-like syntax
   fontFamily: "source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"
-  
+
   # The size of the font
   fontSize: 14
-  
+
   # The height of lines
   lineHeight: 1.2
-  
+
   # The spacing between letters
   letterSpacing: 0
-  
+
   # Theme
   theme:
     background: "transparent"
@@ -108,7 +108,7 @@ config:
     brightMagenta: "#ae89fe"
     brightCyan: "#b1c6ca"
     brightWhite: "#f9f9f4"
-  
+
 # Records, feel free to edit them
 records:
   - delay: 1837
@@ -180,17 +180,17 @@ records:
   - delay: 37
     content: "\e[2;1H▽\e[6n\e[2;1H  \e[1;1H\e[>c\e]10;?\a\e]11;?\a"
   - delay: 15
-    content: "\e[1;1H\e[1m\e[38;5;230m\e[48;5;245m ~/.forgerc.yml \e[m\e[38;5;245m\e[38;5;245m\e[48;5;235m \e[m\e[38;5;245m\e[38;5;240m\e[48;5;235m                                                                                             \e[m\e[38;5;245m\e[38;5;235m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;241m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;254m\e[48;5;241m buffers \e[m\e[38;5;245m\e[2;1H\e[38;5;240m\e[48;5;235m  \e[m\e[38;5;245m\e[93m  1 \e[m\e[38;5;245m\e[38;5;33m\e[48;5;235mautoUpgrade\e[m\e[38;5;245m\e[38;5;124m\e[48;5;235m:\e[m\e[38;5;245m\e[48;5;235m \e[m\e[38;5;245m\e[38;5;37m\e[48;5;235mfalse\e[m\e[38;5;245m\e[48;5;235m                                                                                                 \e[m\e[38;5;245m\e[3;1H\e[38;5;240m\e[48;5;235m    2 \e[m\e[38;5;245m\e[38;5;33mregistry\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m https://registry.npm.taobao.org\r\n\e[38;5;240m\e[48;5;235m    3 \e[m\e[38;5;245m\e[38;5;33mmirror\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m http://arcblockcn.oss-cn-beijing.aliyuncs.com\r\n\e[38;5;240m\e[48;5;235m  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \e[m\e[38;5;245m\e[5;3H\e[1m\e[38;5;124m~                                                                                                                      \e[6;3H~                                                                                                                      \e[7;3H~                                                                                                                      \e[8;3H~                                                                                                                      \e[9;3H~                                                                                                                      \e[10;3H~                                                                                                                      \e[11;3H~                                                                                                                      \e[12;3H~                                                                                                                      \e[13;3H~                                                                                                                      \e[14;3H~                                                                                                                      \e[15;3H~                                                                                                                      \e[16;3H~                                                                                                                      \e[17;3H~                                                                                                                      \e[18;3H~                                                                                                                      \e[19;3H~                                                                                                                      \e[20;3H~                                                                                                                      \e[21;3H~                                                                                                                      \e[22;3H~                                                                                                                      \e[23;3H~                                                                                                                      \e[m\e[38;5;245m\e[24;1H\e[1m\e[38;5;230m\e[48;5;245m NORMAL \e[m\e[38;5;245m\e[38;5;245m\e[48;5;241m>\e[m\e[38;5;245m\e[38;5;241m\e[48;5;235m>\e[m\e[38;5;245m\e[38;5;240m\e[48;5;235m ~/.forgerc.yml                                                        \e[m\e[38;5;245m\e[38;5;235m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;240m\e[48;5;235m yaml \e[m\e[38;5;245m\e[38;5;241m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;254m\e[48;5;241m utf-8[unix] \e[m\e[38;5;245m\e[38;5;245m\e[48;5;241m<\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m  33% :\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;245m   1\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:  1  \e[m\e[38;5;245m\e[38;5;166m\e[48;5;245m<\e[2;7H\e[?25h"
+    content: "\e[1;1H\e[1m\e[38;5;230m\e[48;5;245m ~/.forgerc.yml \e[m\e[38;5;245m\e[38;5;245m\e[48;5;235m \e[m\e[38;5;245m\e[38;5;240m\e[48;5;235m                                                                                             \e[m\e[38;5;245m\e[38;5;235m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;241m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;254m\e[48;5;241m buffers \e[m\e[38;5;245m\e[2;1H\e[38;5;240m\e[48;5;235m  \e[m\e[38;5;245m\e[93m  1 \e[m\e[38;5;245m\e[38;5;33m\e[48;5;235mautoUpgrade\e[m\e[38;5;245m\e[38;5;124m\e[48;5;235m:\e[m\e[38;5;245m\e[48;5;235m \e[m\e[38;5;245m\e[38;5;37m\e[48;5;235mfalse\e[m\e[38;5;245m\e[48;5;235m                                                                                                 \e[m\e[38;5;245m\e[3;1H\e[38;5;240m\e[48;5;235m    2 \e[m\e[38;5;245m\e[38;5;33mregistry\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m https://registry.npm.taobao.org\r\n\e[38;5;240m\e[48;5;235m    3 \e[m\e[38;5;245m\e[38;5;33mmirror\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m http://releases.arcblockio.cn\r\n\e[38;5;240m\e[48;5;235m  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \e[m\e[38;5;245m\e[5;3H\e[1m\e[38;5;124m~                                                                                                                      \e[6;3H~                                                                                                                      \e[7;3H~                                                                                                                      \e[8;3H~                                                                                                                      \e[9;3H~                                                                                                                      \e[10;3H~                                                                                                                      \e[11;3H~                                                                                                                      \e[12;3H~                                                                                                                      \e[13;3H~                                                                                                                      \e[14;3H~                                                                                                                      \e[15;3H~                                                                                                                      \e[16;3H~                                                                                                                      \e[17;3H~                                                                                                                      \e[18;3H~                                                                                                                      \e[19;3H~                                                                                                                      \e[20;3H~                                                                                                                      \e[21;3H~                                                                                                                      \e[22;3H~                                                                                                                      \e[23;3H~                                                                                                                      \e[m\e[38;5;245m\e[24;1H\e[1m\e[38;5;230m\e[48;5;245m NORMAL \e[m\e[38;5;245m\e[38;5;245m\e[48;5;241m>\e[m\e[38;5;245m\e[38;5;241m\e[48;5;235m>\e[m\e[38;5;245m\e[38;5;240m\e[48;5;235m ~/.forgerc.yml                                                        \e[m\e[38;5;245m\e[38;5;235m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;240m\e[48;5;235m yaml \e[m\e[38;5;245m\e[38;5;241m\e[48;5;235m<\e[m\e[38;5;245m\e[38;5;254m\e[48;5;241m utf-8[unix] \e[m\e[38;5;245m\e[38;5;245m\e[48;5;241m<\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m  33% :\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;245m   1\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:  1  \e[m\e[38;5;245m\e[38;5;166m\e[48;5;245m<\e[2;7H\e[?25h"
   - delay: 6
     content: "\e[?25l\e[?25h\e[?12$p"
   - delay: 672
     content: "\e[?25l\e[m\e[38;5;245m\e[25;111Hgj\e[2;7H\e[25;111H  \e[3;7H\e[2;3H\e[38;5;240m\e[48;5;235m  1 \e[m\e[38;5;245m\e[38;5;33mautoUpgrade\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m \e[38;5;37mfalse\e[m\e[38;5;245m\e[2;25H\e[K\e[3;3H\e[93m  2 \e[m\e[38;5;245m\e[38;5;33m\e[48;5;235mregistry\e[m\e[38;5;245m\e[38;5;124m\e[48;5;235m:\e[m\e[38;5;245m\e[48;5;235m https://registry.npm.taobao.org                                                                          \e[m\e[38;5;245m\e[24;106H\e[38;5;230m\e[48;5;245m66\e[m\e[38;5;245m\e[6C\e[1m\e[38;5;230m\e[48;5;245m2\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:\e[3;7H\e[?25h"
   - delay: 190
-    content: "\e[?25l\e[m\e[38;5;245m\e[25;111Hgj\e[3;7H\e[25;111H  \e[4;7H\e[3;3H\e[38;5;240m\e[48;5;235m  2 \e[m\e[38;5;245m\e[38;5;33mregistry\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m https://registry.npm.taobao.org\e[3;48H\e[K\e[4;3H\e[93m  3 \e[m\e[38;5;245m\e[38;5;33m\e[48;5;235mmirror\e[m\e[38;5;245m\e[38;5;124m\e[48;5;235m:\e[m\e[38;5;245m\e[48;5;235m http://arcblockcn.oss-cn-beijing.aliyuncs.com                                                              \e[m\e[38;5;245m\e[24;105H\e[38;5;230m\e[48;5;245m100\e[m\e[38;5;245m\e[6C\e[1m\e[38;5;230m\e[48;5;245m3\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:\e[4;7H\e[?25h"
+    content: "\e[?25l\e[m\e[38;5;245m\e[25;111Hgj\e[3;7H\e[25;111H  \e[4;7H\e[3;3H\e[38;5;240m\e[48;5;235m  2 \e[m\e[38;5;245m\e[38;5;33mregistry\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m https://registry.npm.taobao.org\e[3;48H\e[K\e[4;3H\e[93m  3 \e[m\e[38;5;245m\e[38;5;33m\e[48;5;235mmirror\e[m\e[38;5;245m\e[38;5;124m\e[48;5;235m:\e[m\e[38;5;245m\e[48;5;235m http://releases.arcblockio.cn                                                              \e[m\e[38;5;245m\e[24;105H\e[38;5;230m\e[48;5;245m100\e[m\e[38;5;245m\e[6C\e[1m\e[38;5;230m\e[48;5;245m3\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:\e[4;7H\e[?25h"
   - delay: 460
     content: "\e[?25l\e[m\e[38;5;245m\e[25;111Ho\e[4;7H\e[25;111H \e[5;7H\e[25;1H\e[38;5;33m-- INSERT --\e[m\e[38;5;245m\e[25;13H\e[K"
   - delay: 16
-    content: "\e[1;1H\e[1m\e[38;5;230m\e[48;5;136m ~/.forgerc.yml+ \e[m\e[38;5;245m\e[38;5;136m\e[48;5;235m \e[m\e[38;5;245m\e[4;3H\e[38;5;240m\e[48;5;235m  3 \e[m\e[38;5;245m\e[38;5;33mmirror\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m http://arcblockcn.oss-cn-beijing.aliyuncs.com\e[4;60H\e[K\e[5;3H\e[93m  4 \e[m\e[38;5;245m\e[48;5;235m                                                                                                                   \e[m\e[38;5;245m\e[24;1H\e[1m\e[38;5;230m\e[48;5;136m INSERT\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;245m \e[m\e[38;5;245m\b\e[1m\e[38;5;230m\e[48;5;136m \e[m\e[38;5;245m\e[38;5;136m\e[48;5;241m>\e[m\e[38;5;245m\e[1C\e[38;5;245m\e[48;5;235m ~/.forgerc.yml[+]                                                     \e[m\e[38;5;245m\e[21C\e[38;5;136m\e[48;5;241m<\e[m\e[38;5;245m\e[38;5;230m\e[48;5;136m 100% :\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;136m   4\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:\e[m\e[38;5;245m\b\e[38;5;230m\e[48;5;136m:  1  \e[m\e[38;5;245m\e[38;5;166m\e[48;5;136m<\e[5;7H\e[?25h"
+    content: "\e[1;1H\e[1m\e[38;5;230m\e[48;5;136m ~/.forgerc.yml+ \e[m\e[38;5;245m\e[38;5;136m\e[48;5;235m \e[m\e[38;5;245m\e[4;3H\e[38;5;240m\e[48;5;235m  3 \e[m\e[38;5;245m\e[38;5;33mmirror\e[m\e[38;5;245m\e[38;5;124m:\e[m\e[38;5;245m http://releases.arcblockio.cn\e[4;60H\e[K\e[5;3H\e[93m  4 \e[m\e[38;5;245m\e[48;5;235m                                                                                                                   \e[m\e[38;5;245m\e[24;1H\e[1m\e[38;5;230m\e[48;5;136m INSERT\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;245m \e[m\e[38;5;245m\b\e[1m\e[38;5;230m\e[48;5;136m \e[m\e[38;5;245m\e[38;5;136m\e[48;5;241m>\e[m\e[38;5;245m\e[1C\e[38;5;245m\e[48;5;235m ~/.forgerc.yml[+]                                                     \e[m\e[38;5;245m\e[21C\e[38;5;136m\e[48;5;241m<\e[m\e[38;5;245m\e[38;5;230m\e[48;5;136m 100% :\e[m\e[38;5;245m\e[1m\e[38;5;230m\e[48;5;136m   4\e[m\e[38;5;245m\e[38;5;230m\e[48;5;245m:\e[m\e[38;5;245m\b\e[38;5;230m\e[48;5;136m:  1  \e[m\e[38;5;245m\e[38;5;166m\e[48;5;136m<\e[5;7H\e[?25h"
   - delay: 506
     content: "\e[?2004l\e[?2004h\e[?2004l\e[?2004h\e[?2004l\e[?2004h\e[?2004l\e[?2004h\e[?2004l"
   - delay: 5

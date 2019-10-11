@@ -20,7 +20,7 @@ forge install latest
 ```
 
 ::: tip
-对于中国大陆的用户，可以使用阿里云的镜像来加速安装：`forge install --mirror http://arcblockcn.oss-cn-beijing.aliyuncs.com`
+对于中国大陆的用户，可以使用阿里云的镜像来加速安装：`forge install --mirror http://releases.arcblockio.cn`
 :::
 
 ::: tip

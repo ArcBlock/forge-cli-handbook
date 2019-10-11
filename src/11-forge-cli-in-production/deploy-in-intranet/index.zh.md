@@ -43,7 +43,7 @@ Forge CLI 和 Forge 及各种 Forge 组件是分开发布的，安装完 Forge C
 
 ### 准备 Forge Release 资源
 
-`https://arcblockcn.oss-cn-beijing.aliyuncs.com/forge_release.zip` 里面打包了 Forge v0.37.2 的所有组件，先把下载到本地，然后通过 `scp` 之类的命令传输到服务器上，在服务器上解压到特定目录，比如 `/home/work/`，得到如下的目录结构：
+`https://releases.arcblockio.cn/forge_release.zip` 里面打包了 Forge v0.37.2 的所有组件，先把下载到本地，然后通过 `scp` 之类的命令传输到服务器上，在服务器上解压到特定目录，比如 `/home/work/`，得到如下的目录结构：
 
 ```shell
 ❯ tree -L 2 /home/work/forge_release
