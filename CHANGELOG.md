@@ -1,3 +1,7 @@
+## 0.12.0 (October 11, 2019)
+
+
+
 ## 0.11.1 (October 10, 2019)
 
 - feat: add global config chapter
