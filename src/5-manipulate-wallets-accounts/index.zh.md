@@ -1,6 +1,6 @@
 ---
-title: '区分钱包和账户'
-description: 'Chapter 5: Manipulate Wallets/Accounts'
+title: '区块链核心概念'
+description: '要搞懂复杂系统的关键两步是：理解数据结构、理清数据流转'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
 category: 'book'
@@ -9,93 +9,30 @@ tags:
   - 'forge'
 ---
 
-## 何为钱包？
+区块链领域中的概念和术语很多，但是核心的几个是：账户、交易、区块、链（感兴趣的同学可参见比特币的 [Vocabulary] 和 [Developer Glossary])，正确理解这几个核心概念能够帮助我们在后面的实践中进行的更顺畅。
 
-区块链上下文中的钱包本质上管理的都是公私钥对，普通用户使用的钱包比如 ABT Wallet、ImToken 之类会管理多个公私钥对，更像是现实世界里面的钱包，本文探讨的钱包是计算机世界的钱包，即里面只有一对公私钥。
+区块链是账本，业内常将其比作银行系统，那么银行系统中存在的概念在区块链系统中也会存在，可以用银行账本中的概念来类比理解区块链的核心概念：
 
-## 两种钱包？
+- 账户（Account）是用户在银行的户头+密码的组合，在区块链世界中也是如此，不论是比特币还是以太坊的账户都由地址、公钥、私钥 3 部分构成，其中地址相当于用户名，而公钥+私钥相当于密码，尤其是私钥，丢失或者泄露就意味着失去账户（敏感信息、资金）的控制权；
+- 交易（Transaction）是账本中的任意一条收支记录，在区块链世界中可以指两个账户之间的转账交易、或者智能合约调用请求；
+- 区块（Block）是账本中的一页，账本的每页可能包含多笔收入和支出，同样，区块链中的每个区块都可能包含多笔交易；
+- 区块链（Blockchain）是装订成册的多页账本，账本不同页按照记录时间先后顺序组织，区块链中不同区块按被矿工打包的时间先后组织。
 
-在使用 forge-cli 的时候，你可能会碰到两种钱包，根据钱包保存的位置，可以分为远程钱包和本地钱包，产生这两种钱包的命令分别是：
+如果用图来标识这几个概念及之间的关联：
 
-### `forge account:create`
+![](./images/core-concepts.png)
 
-`forge account:create` 用来创建远程钱包，或者受托管的钱包，是通过 forge 提供的 gRPC 接口创建，钱包信息存储在处理这个 gRPC 请求的节点的磁盘上，当然是加密存储的，而创建远程钱包时需要设定的密码就是用来加密钱包的公私钥信息的，gRPC 接口在生成钱包公私钥的之后会自动去链上帮这个账户做 Declare，创建完成之后，可以直接用这个账户去发送交易了。需要注意的是，这里说的远程钱包其实不是严格意义上的远程，钱包文件都存在节点的磁盘上，并且不会在多个节点间同步。
+关于区块怎么生产，怎么实现不可篡改的实现机制、交易的有效性验证涉及到密码学知识，这里不做过多展开，感兴趣的同学可以移步到下面几个资源去学习：
 
-### `forge wallet:create`
+- 交互式的区块链核心技术学习网站 [Blockchain Demo](https://anders.com/blockchain/)，推荐指数 5 星
 
-`forge wallet:create` 用来创建本地钱包，是 SDK 通过数学的方式直接随机产生私钥，然后通过密码学计算公钥，组成公私钥对，整个过程没有 forge 的参与，这种方式创建出来的公私钥对比较适合用在代码中。
+## Forge 中的账户和钱包？
 
-在最新的 forge 里面，`createWallet` 接口也会返回钱包的公私钥对，只要能妥善保存之，也相当于创建了本地的公私钥对。
+在 Forge 里面，如果某个账户需要跟其他账户发生交易，需要拿着自己的公钥和地址去链上注册下，因为这个环节的存在，我们用含义类似但却不同的两个称呼来指代账户的存在形态：
 
-## SDK 里面的钱包
+- 钱包：用户用工具、或随机生成的公私钥对，钱包仅仅包含公私钥对，可以用来签名交易或验证别人的签名
+- 账户：在链上注册过，可以和其他账户发生交易，也可以通过地址从链上查到账户状态的钱包，账户隐含了跟他有关的各种其他状态和属性
 
-如何在 SDK 里面使用本地钱包呢？举个简单的例子（以 forge-js-sdk 为例）：
+区块链钱包本质上管理的都是公私钥对，普通用户使用的钱包比如 ABT Wallet、ImToken 之类会管理多个公私钥对，更像是现实世界里面的钱包。
 
-先准备好你的私钥，可以是 16 进制的格式、或者 base64 的格式。
-
-首先初始化项目：
-
-```shell
-npm init -y
-```
-
-然后添加依赖：
-
-```shell
-npm i @arcblock/forge-sdk base64-url -S
-```
-
-然后编写脚本 `dump.js`，把钱包信息打出来：
-
-```javascript
-const base64 = require('base64-url');
-const ForgeSDK = require('@arcblock/forge-sdk');
-
-const secretKey =
-  'pFV7aEv29U0-dBYfi7DTXnRTlFZI8dlA_YHWqhDRxYECdy6YxWlrvKKKoM-wN-ek2lOcgoiIpeCS00diKo5_Kw';
-// 如果是 base16 的私钥，不用做 base64 的转码
-const secretKeyHex = ForgeSDK.Util.bytesToHex(Buffer.from(base64.unescape(secretKey), 'base64'));
-const wallet = ForgeSDK.Wallet.fromSecretKey(secretKeyHex);
-
-console.log(wallet.toJSON());
-```
-
-到目前为止，我们只是把钱包打印出来了，怎么做更多的事情呢？去链上声明这个钱包，然后做一笔转账如何？编写 `transfer.js`：
-
-```javascript
-const base64 = require('base64-url');
-const ForgeSDK = require('@arcblock/forge-sdk');
-
-const secretKey =
-  'pFV7aEv29U0-dBYfi7DTXnRTlFZI8dlA_YHWqhDRxYECdy6YxWlrvKKKoM-wN-ek2lOcgoiIpeCS00diKo5_Kw';
-// 如果是 base16 的私钥，不用做 base64 的转码
-const secretKeyHex = ForgeSDK.Util.bytesToHex(Buffer.from(base64.unescape(secretKey), 'base64'));
-const wallet = ForgeSDK.Wallet.fromSecretKey(secretKeyHex);
-
-// 链接到本地的节点，执行 forge ps 能看到这个 endpoint
-ForgeSDK.connect('http://127.0.0.1:8210/api');
-
-(async () => {
-  // 如果私钥是你配置的链创世 token holder，不需要 declare
-  const declareHash = await ForgeSDK.sendDeclareTx({
-    tx: { itx: { moniker: 'test_user' } },
-    wallet,
-  });
-  console.log('wallet declared', declareHash);
-
-  // 发送转账，前提是账号里面有钱
-  const transferHash = await ForgeSDK.sendTransferTx({
-    tx: {
-      itx: {
-        // 收款人账户，可以写成你的 ABT Wallet 钱包账户，前提是这个账号 declare 过，不然会报错
-        to: 'z1VPwguZUA26dHrPhsukD9Hbzf6txeJGs7F',
-        // 100 --> 转账金额
-        // 18 --> 链配置文件里面的 token 精度，默认就是 18
-        value: ForgeSDK.Util.fromTokenToUnit(100, 18),
-      },
-    },
-    wallet,
-  });
-  console.log('transferred', transferHash);
-})();
-```
+而 Forge CLI 则准备了两组命令来操作**钱包**和**账户**。

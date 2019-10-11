@@ -37,6 +37,13 @@ categories:
           - /2-manage-chain-node/reset-remove-chain
         locales:
           zh: '链节点管理'
+      Manipulate Wallets/Accounts:
+        links:
+          - /5-manipulate-wallets-accounts
+          - /5-manipulate-wallets-accounts/local-wallets
+          - /5-manipulate-wallets-accounts/on-chain-accounts
+        locales:
+          zh: '使用钱包和账户'
       Read/Write on Chain Data:
         links:
           - /3-read-write-on-chain-data
@@ -47,13 +54,6 @@ categories:
           - /3-read-write-on-chain-data/inspect-contracts
         locales:
           zh: '读写链上数据'
-      Manipulate Wallets/Accounts:
-        links:
-          - /5-manipulate-wallets-accounts
-          - /5-manipulate-wallets-accounts/local-wallets
-          - /5-manipulate-wallets-accounts/on-chain-accounts
-        locales:
-          zh: '使用钱包和账户'
       Working with Contracts:
         links:
           - /6-working-with-contracts
