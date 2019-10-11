@@ -76,6 +76,12 @@ tags:
 
 命令行参数：-r, --npm-registry
 
+### releaseDir
+
+字符串(string), 以本地磁盘作为 Forge 发行版下载镜像。比较少用，部分需要在局域网部署和使用 Forge CLI 的可能会用到，具体用法参考[这里](../../11-forge-cli-in-production/deploy-in-intranet)
+
+默认值：不设置
+
 ## 例子
 
 ``` yml

@@ -23,7 +23,7 @@ npm --version
 如果两条命令都有正常的输出（没有 `command not found` 之类字眼且输出不为空），说明你的电脑中已经有了 Node.js 的运行环境。
 
 ::: error
-因为某些依赖库要求 Node.js 版本不低于 `v10.x`，所以使用 Forge CLI 时也需要 `v10.x` 及以上的 Node.js 版本，如果 `node --version` 输出的结果低于 `v10.x`，则需要按下面的提示更新到新的版本。
+因为部分依赖库要求 Node.js 版本不低于 `v10.x`，所以安装 Forge CLI 时也需要 `v10.x` 及以上的 Node.js 版本，如果 `node --version` 输出的结果低于 `v10.x`，则需要按下面的提示更新到新的版本。
 :::
 
 ### 安装或升级 Node.js 的两种方法
@@ -147,6 +147,19 @@ Examples:
 ### 使用 root 账户安装？
 
 通常情况下，我们不建议使用 root 账户安装 Forge CLI，但是如果你一定要使用 root 账户来安装，需要执行这条命令：`npm install -g @arcblock/forge-cli --unsafe-perm`，否则会因为权限问题导致安装失败。
+
+::: error
+虽然可以使用 root 身份安装 Forge CLI，但是不能用 root 身份去执行任何 Forge CLI 的子命令，更不能用 root 身份去创建、启动链节点，这是 Forge 的一个安全限制。这是 Linux 用户通常会遇到的一个问题。如何用非 root 身份来使用 Forge CLI 详见下面的说明。
+:::
+
+#### 如何以非 root 身份执行 Forge CLI？
+
+假设我们要用来执行 Forge CLI 的系统账户名为 `arcblock`，可以分两步：
+
+- 创建用户：执行 `adduser arcblock` 即可添加用户
+- 切换用户：执行 `su arcblock` 即可切换到该用户
+
+然后就可以按照上面的命令执行后续操作。
 
 ### 使用 yarn 安装失败？
 
