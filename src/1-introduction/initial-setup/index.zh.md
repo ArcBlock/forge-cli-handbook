@@ -25,7 +25,7 @@ touch ~/.forgerc.yml
 
 ```yaml
 npmRegistry: https://registry.npm.taobao.org
-mirror: http://releases.arcblockio.cn
+mirror: https://releases.arcblockio.cn
 ```
 
 这样，后续执行 Forge CLI 命令都会读取和使用这些配置，比如当你再次去安装某个版本的 Forge 时，如下图的黄色标识就表示使用了自定义的配置：

@@ -36,7 +36,7 @@ Forge 发行版本可以认为是一个容器，容器里面装着 Forge 内核�
 - Forge 发行版本的最新版可以从 [latest.json](http://releases.arcblock.io/forge/latest.json) 查到
 - Forge 发行版本的完整历史可以从 [versions.json](http://releases.arcblock.io/forge/versions.json) 查到
 - 部分 Forge 工具箱的组件还不包含在 Forge 发行版本中，比如 Forge Deploy、Forge Patron
-- 为保障中国大陆开发者的下载速度，我们在阿里云上做了发行版的镜像 [releases.arcblockio.cn](http://releases.arcblockio.cn/forge/latest.json)
+- 为保障中国大陆开发者的下载速度，我们在阿里云上做了发行版的镜像 [releases.arcblockio.cn](https://releases.arcblockio.cn/forge/latest.json)
 
 ::: success
 **Forge CLI 只是方便开发者获取 Forge 发行版本、使用发行版本内含组件的桥梁，为避免啰嗦和保持统一，后文中将用 `Forge` 来代称 Forge 的发行版本，小写的 `forge` 则指的是安装完 Forge CLI 之后在系统中产生的那个命令行工具。**

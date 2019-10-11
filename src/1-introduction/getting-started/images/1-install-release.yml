@@ -162,11 +162,11 @@ records:
   - delay: 18
     content: "\e[?2004l\r\r\n\e]2;forge install latest\a\e]1;forge\a\e]0;arcblock: forge install latest\a"
   - delay: 1257
-    content: "\e[34mℹ\e[39m Detected platform is: darwin\r\n\e[34mℹ\e[39m \e[33mUsing custom mirror: http://releases.arcblockio.cn\e[39m\r\n\e[?25l\e[36m⠈\e[39m Fetching forge release version..."
+    content: "\e[34mℹ\e[39m Detected platform is: darwin\r\n\e[34mℹ\e[39m \e[33mUsing custom mirror: https://releases.arcblockio.cn\e[39m\r\n\e[?25l\e[36m⠈\e[39m Fetching forge release version..."
   - delay: 162
     content: "\e[2K\e[1G\e[?25h\e[32m✔\e[39m Latest forge release version: v0.38.4\r\n"
   - delay: 267
-    content: "\e[34mℹ\e[39m Download latest version: v0.38.4.\r\n\e[34mℹ\e[39m Start download http://releases.arcblockio.cn/forge/0.38.4/forge_darwin_amd64.tgz\r\n"
+    content: "\e[34mℹ\e[39m Download latest version: v0.38.4.\r\n\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_darwin_amd64.tgz\r\n"
   - delay: 57
     content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/21.80 MB\e[0K"
   - delay: 101
@@ -284,7 +284,7 @@ records:
   - delay: 123
     content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 21.80/21.80 MB\e[0K\e[?25h\e[?7h\e8\r\n"
   - delay: 1765
-    content: "\e[34mℹ\e[39m Start download http://releases.arcblockio.cn/forge/0.38.4/simulator_darwin_amd64.tgz\r\n"
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/simulator_darwin_amd64.tgz\r\n"
   - delay: 126
     content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/9.15 MB\e[0K"
   - delay: 105
@@ -340,7 +340,7 @@ records:
   - delay: 62
     content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 9.15/9.15 MB\e[0K\e[?25h\e[?7h\e8\r\n"
   - delay: 788
-    content: "\e[34mℹ\e[39m Start download http://releases.arcblockio.cn/forge/0.38.4/forge_web_darwin_amd64.tgz\r\n"
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_web_darwin_amd64.tgz\r\n"
   - delay: 128
     content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/22.21 MB\e[0K"
   - delay: 105
@@ -460,7 +460,7 @@ records:
   - delay: 118
     content: "\e[?25h\e[?7h\e8\r\n"
   - delay: 1393
-    content: "\e[34mℹ\e[39m Start download http://releases.arcblockio.cn/forge/0.38.4/forge_starter_darwin_amd64.tgz\r\n"
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_starter_darwin_amd64.tgz\r\n"
   - delay: 79
     content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/4.69 MB\e[0K"
   - delay: 101
@@ -492,7 +492,7 @@ records:
   - delay: 42
     content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 4.69/4.69 MB\e[0K\e[?25h\e[?7h\e8\r\n"
   - delay: 325
-    content: "\e[34mℹ\e[39m Start download http://releases.arcblockio.cn/forge/0.38.4/forge_workshop_darwin_amd64.tgz\r\n"
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_workshop_darwin_amd64.tgz\r\n"
   - delay: 106
     content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/12.66 MB\e[0K"
   - delay: 104
@@ -564,7 +564,7 @@ records:
   - delay: 132
     content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 12.66/12.66 MB\e[0K\e[?25h\e[?7h\e8\r\n"
   - delay: 1120
-    content: "\e[34mℹ\e[39m Start download http://releases.arcblockio.cn/forge/0.38.4/forge_swap_darwin_amd64.tgz\r\n"
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_swap_darwin_amd64.tgz\r\n"
   - delay: 64
     content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/9.85 MB\e[0K"
   - delay: 101
