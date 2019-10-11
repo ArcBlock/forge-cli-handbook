@@ -1,6 +1,6 @@
 ---
 title: '全局配置'
-description: '全局配置'
+description: '如果你想偷懒，这里有一些技巧'
 keywords: 'forge, forge-cli'
 author: 'poulnzh'
 category: 'book'

@@ -58,3 +58,7 @@ make run
 - [Chapter 9: Customization](./src/9-customization)
   - [Global Config](./src/9-customization/global-config)
 - [Chapter 10: Troubleshooting](./src/10-troubleshooting)
+- [Chapter 11: Use Forge CLI in production](./src/11-forge-cli-in-production)
+  - [Join an existing network](./src/11-forge-cli-in-production/join-existing-network)
+  - [Deploy a multi node network](./src/11-forge-cli-in-production/deploy-multi-node-network)
+  - [Deploy a network in intranet](./src/11-forge-cli-in-production/deploy-in-intranet)

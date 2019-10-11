@@ -81,6 +81,14 @@ categories:
           - /8-explorer-other-tooling/forge-swap-service
         locales:
           zh: '探索其他工具'
+      Use Forge CLI in Production:
+        links:
+          - /11-forge-cli-in-production
+          - /11-forge-cli-in-production/join-existing-network
+          - /11-forge-cli-in-production/deploy-multi-node-network
+          - /11-forge-cli-in-production/deploy-in-intranet
+        locales:
+          zh: '生产环境指南'
       Customization:
         links:
           - /9-customization/global-config
