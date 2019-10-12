@@ -11,7 +11,7 @@ tags:
 
 ## 用 `forge install` 安装 Forge
 
-在 [极简入门](../../1-introduction/getting-started) 中我们已经知道如何获取 Forge 的发行版本，即使用 `forge install latest` 来安装最新版，当然如果你确切的知道想要安装的版本，比如说 `v0.37.7`，可以执行 `forge install v0.37.7`，关于安装 Forge 发行版本的详细用法见下面这个演示：
+在 [一键发链和发币](../../1-introduction/getting-started) 中我们已经知道如何获取 Forge 的发行版本，即使用 `forge install latest` 来安装最新版，当然如果你确切的知道想要安装的版本，比如说 `v0.37.7`，可以执行 `forge install v0.37.7`，关于安装 Forge 发行版本的详细用法见下面这个演示：
 
 !TerminalPlayer[](./images/1-forge-install.yml)
 
