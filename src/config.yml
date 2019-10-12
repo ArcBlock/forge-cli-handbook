@@ -86,6 +86,7 @@ categories:
           - /11-forge-cli-in-production
           - /11-forge-cli-in-production/join-existing-network
           - /11-forge-cli-in-production/deploy-multi-node-network
+          - /11-forge-cli-in-production/deploy-multi-party-node-network
           - /11-forge-cli-in-production/deploy-in-intranet
         locales:
           zh: '生产环境指南'
