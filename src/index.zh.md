@@ -81,6 +81,7 @@ Forge 框架把开发区块链应用所需要考虑的网络层、共识层、�
 - [生产环境指南](./src/11-forge-cli-in-production)
   - [加入现有的链](./src/11-forge-cli-in-production/join-existing-network)
   - [部署多节点的链](./src/11-forge-cli-in-production/deploy-multi-node-network)
+  - [部署多参与方的链](./src/11-forge-cli-in-production/deploy-multi-party-network)
   - [局域网部署方法](./src/11-forge-cli-in-production/deploy-in-intranet)
 - [探索其他工具](./8-explorer-other-tooling)
   - [区块浏览器](./8-explorer-other-tooling/forge-web)
