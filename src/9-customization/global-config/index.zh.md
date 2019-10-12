@@ -91,7 +91,7 @@ allowMultiChain: true
 autoUpgrade: true
 configPath: /tmp/test/forge_release.toml
 defaults: false,
-mirror: http://arcblock.oss-cn-beijing.aliyuncs.com
+mirror: https://releases.arcblockio.cn
 moderatorSecretKey: BbGCbsZRQuk4bJbtK4-1ZqJc41YDQvIXZC2BDpC4pGdZS2ai83D8N-QM9p9_FBzsmMZD2o4HzmE6gLo6Lxqf2Q,
 npmRegistry: https://registry.npm.taobao.org
 ```

@@ -130,7 +130,7 @@ records:
   - delay: 232
     content: "Last login: Sat Oct 12 11:41:47 2019 from 124.127.114.130\r\r\n\r\nWelcome to Alibaba Cloud Elastic Compute Service !\r\n\r\n"
   - delay: 17
-    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@abt]~# \e[K"
+    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
   - delay: 1150
     content: w
   - delay: 108
@@ -144,7 +144,7 @@ records:
   - delay: 217
     content: i
   - delay: 369
-    content: "\r\r\nroot\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@abt]~# \e[K"
+    content: "\r\r\nroot\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
   - delay: 1637
     content: c
   - delay: 50
@@ -266,7 +266,7 @@ records:
   - delay: 41
     content: "\r\n## Cleaning up...\r\n\r\n+ rm -f '/tmp/tmp.VNfLZIs1Rl'\r\n\r\n## Checking for existing installations...\r\n\r\n+ rpm -qa 'node|npm' | grep -v nodesource\r\n"
   - delay: 1020
-    content: "\r\n## Run `\e[1msudo yum install -y nodejs\e(B\e[m` to install Node.js 10.x and npm.\r\n## You may also need development tools to build native addons:\r\n     sudo yum install gcc-c++ make\r\n## To install the Yarn package manager, run:\r\n     curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo\r\n     sudo yum install yarn\r\n\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@abt]~# \e[K"
+    content: "\r\n## Run `\e[1msudo yum install -y nodejs\e(B\e[m` to install Node.js 10.x and npm.\r\n## You may also need development tools to build native addons:\r\n     sudo yum install gcc-c++ make\r\n## To install the Yarn package manager, run:\r\n     curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo\r\n     sudo yum install yarn\r\n\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
   - delay: 2439
     content: 'y'
   - delay: 63
@@ -460,7 +460,7 @@ records:
   - delay: 161
     content: "\r\nInstalled:\r\n  nodejs.x86_64 2:10.16.3-1nodesource                                                                                    \r\n\r\nComplete!\r\n"
   - delay: 26
-    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@abt]~# \e[K"
+    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
   - delay: 870
     content: 'n'
   - delay: 177
@@ -478,7 +478,7 @@ records:
   - delay: 210
     content: "\r\r\n"
   - delay: 152
-    content: "v10.16.3\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@abt]~# \e[K"
+    content: "v10.16.3\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
   - delay: 547
     content: 'n'
   - delay: 159
@@ -494,7 +494,7 @@ records:
   - delay: 377
     content: "\r\r\n"
   - delay: 51
-    content: "6.9.0\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@abt]~# \e[K"
+    content: "6.9.0\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
   - delay: 776
     content: 'n'
   - delay: 40
@@ -616,7 +616,7 @@ records:
   - delay: 154
     content: "\r\r\n"
   - delay: 234
-    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@abt]~# \e[K"
+    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
   - delay: 1312
     content: 'n'
   - delay: 149
@@ -1446,7 +1446,7 @@ records:
   - delay: 1198
     content: "\r\n\e[36m██████╗ ██╗   ██╗     █████╗ ██████╗  ██████╗██████╗ ██╗      ██████╗  ██████╗██╗  ██╗\e[39m\r\n\e[36m██╔══██╗╚██╗ ██╔╝    ██╔══██╗██╔══██╗██╔════╝██╔══██╗██║     ██╔═══██╗██╔════╝██║ ██╔╝\e[39m\r\n\e[36m██████╔╝ ╚████╔╝     ███████║██████╔╝██║     ██████╔╝██║     ██║   ██║██║     █████╔╝ \e[39m\r\n\e[36m██╔══██╗  ╚██╔╝      ██╔══██║██╔══██╗██║     ██╔══██╗██║     ██║   ██║██║     ██╔═██╗ \e[39m\r\n\e[36m██████╔╝   ██║       ██║  ██║██║  ██║╚██████╗██████╔╝███████╗╚██████╔╝╚██████╗██║  ██╗\e[39m\r\n\e[36m╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝\e[39m\r\n\e[36m                                                                                      \e[39m\r\nUsage: forge [options] [command]\r\n\r\nOptions:\r\n  -V, --version                          output the version number\r\n  -v, --verbose                          Output runtime info when execute subcommand, useful for debug\r\n  -c, --chain-name <chainName>           Execute command use specific chain\r\n  -i, --config-path <path>               Forge config used when starting forge node and initializing gRPC clients\r\n  -r, --npm-registry <registry>          Specify a custom npm registry\r\n  -y, --yes                              Assume that the answer to any confirmation question is yes\r\n  -d, --defaults                         Run command using default values for all questions\r\n  -m, --mirror <url>                     Mirror host used to download forge release\r\n  -g, --socket-grpc <endpoint>           Socket gRPC endpoint to connect, with this you can use forge-cli with a remote node\r\n  -h, --help                             output usage information\r\n\r\nCommands:\r\n  account <address>                      Get an account info by address\r\n  account:create                         Interactively create an account, guarded by a passphrase\r\n  account:delete <address>               Delete an account by address\r\n  account:list [role]                    List all accounts stored in this node\r\n  asset <address>                        Get asset info by address\r\n  block [options] [height]               Get the block info from the running node\r\n  blocklet:use|project:create [options]  Download and install a blocklet\r\n  chain:create|create-chain [chainName]  Create a new chain instance\r\n  chain:ls|chains                        List all chains\r\n  chain:remove <chainName>               Remove chain state and config\r\n  chain:reset <chainName>                Reset chain state, but keeps the config\r\n  checkin                                Send a poke tx to the network to get tokens for test\r\n  config [options] [action]              Read/write chain/node config\r\n  declare:node                           Declare the current node to be a validator candidate\r\n  download [options] [version]           Download a forge release without activate it\r\n  help [subcommand]                      Show help of a sub command\r\n  install|init [options] [version]       Download and setup forge release on this machine\r\n  join <endpoint>                        Join a network by providing a valid forge web graphql endpoint\r\n  logs [type]                            Show logs for various forge components\r\n  ls                                     List forge releases installed locally\r\n  ls:remote                              List remote f"
   - delay: 10
-    content: "orge releases available for install\r\n  prepare [options]                      Prepare node for deploying a multi-node chain\r\n  protocol:activate [name|address]       Activate a transaction protocol by name or address\r\n  protocol:compile [sourceDir]           Compile a forge transaction protocol\r\n  protocol:deactivate [name|adderss]     Deactivate a transaction protocol\r\n  protocol:deploy [itxPath]              Deploy a compiled transaction protocol to ABT Node\r\n  protocol:ls                            List transaction protocols\r\n  ps                                     List running forge component processes\r\n  remote [shellName]                     Connects to the running system via a remote shell\r\n  simulator [action]                     Start/stop simulator and generate random traffic\r\n  start [options] [<chainName>]          Start a chain daemon, if does not specify a chain name, it will start a default chain\r\n  status [type]                          List info of the running chain/node\r\n  stop [options] [<chainName>]           Stop the forge daemon and all forge components, if does not specify a chain name, it will start a default chain\r\n  tx [hash]                              Get a tx detail and display\r\n  tx:list                                List latest transactions\r\n  upgrade [<chainName>]                  Upgrade chain node to new version without reset\r\n  use [version]                          Activate an already downloaded forge release\r\n  version [<chainName>]                  Output version for all forge components\r\n  wallet:create                          Create a local wallet and dump its public/private key\r\n  web [options] [action]                 Start/stop the web interface of running forge chain/node\r\n  workshop [action]                      Start/stop the dApps workshop\r\n\r\nExamples:\r\n\r\n  Please install a forge-release before running any other commands\r\n  > \e[36mforge install latest\e[39m\r\n  > \e[36mforge install --mirror https://releases.arcblockio.cn\e[39m\r\n\r\n  Curious about how to use a subcommand?\r\n  > \e[36mforge help install\e[39m\r\n  \r\n+ @arcblock/forge-cli@0.39.12\r\nadded 402 packages from 214 contributors in 35.575s\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@abt]~# \e[K"
+    content: "orge releases available for install\r\n  prepare [options]                      Prepare node for deploying a multi-node chain\r\n  protocol:activate [name|address]       Activate a transaction protocol by name or address\r\n  protocol:compile [sourceDir]           Compile a forge transaction protocol\r\n  protocol:deactivate [name|adderss]     Deactivate a transaction protocol\r\n  protocol:deploy [itxPath]              Deploy a compiled transaction protocol to ABT Node\r\n  protocol:ls                            List transaction protocols\r\n  ps                                     List running forge component processes\r\n  remote [shellName]                     Connects to the running system via a remote shell\r\n  simulator [action]                     Start/stop simulator and generate random traffic\r\n  start [options] [<chainName>]          Start a chain daemon, if does not specify a chain name, it will start a default chain\r\n  status [type]                          List info of the running chain/node\r\n  stop [options] [<chainName>]           Stop the forge daemon and all forge components, if does not specify a chain name, it will start a default chain\r\n  tx [hash]                              Get a tx detail and display\r\n  tx:list                                List latest transactions\r\n  upgrade [<chainName>]                  Upgrade chain node to new version without reset\r\n  use [version]                          Activate an already downloaded forge release\r\n  version [<chainName>]                  Output version for all forge components\r\n  wallet:create                          Create a local wallet and dump its public/private key\r\n  web [options] [action]                 Start/stop the web interface of running forge chain/node\r\n  workshop [action]                      Start/stop the dApps workshop\r\n\r\nExamples:\r\n\r\n  Please install a forge-release before running any other commands\r\n  > \e[36mforge install latest\e[39m\r\n  > \e[36mforge install --mirror https://releases.arcblockio.cn\e[39m\r\n\r\n  Curious about how to use a subcommand?\r\n  > \e[36mforge help install\e[39m\r\n  \r\n+ @arcblock/forge-cli@0.39.12\r\nadded 402 packages from 214 contributors in 35.575s\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
   - delay: 2424
     content: f
   - delay: 96
@@ -1482,10 +1482,4 @@ records:
   - delay: 503
     content: "0.39.12\r\n"
   - delay: 7
-    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@abt]~# \e[K"
-  - delay: 1195
-    content: "\r\r\n\e[3;J\e[H\e[2JConnection to 39.96.78.165 closed.\r\r\n\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
-  - delay: 56
-    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m1m 43s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
-  - delay: 1420
-    content: "\e[?2004l\r\r\n"
+    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"

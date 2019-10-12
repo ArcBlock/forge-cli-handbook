@@ -1,5 +1,5 @@
 ---
-title: 'Forge CLI 极简入门'
+title: '一键发链和发币'
 description: 'Gavin Wood 能在 30 分钟内发一条链，用 Forge CLI 你能把这个时间缩的更短'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
@@ -14,6 +14,10 @@ tags:
 ## 安装 Forge
 
 我们已经安装好 Forge CLI，但是我们还没有把 Forge 的其他组件安装到电脑里面，继续执行如下命令来安装这些组件：
+
+::: warning
+如果你是用 root 身份安装的 Forge CLI，需要先创建非 root 账户，并且切换到该账户，再执行后续命令，参照 [安装 Forge CLI](../install-forge-cli)。
+:::
 
 ```bash
 forge install latest
