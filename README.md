@@ -61,4 +61,5 @@ make run
 - [Chapter 11: Use Forge CLI in production](./src/11-forge-cli-in-production)
   - [Join an existing network](./src/11-forge-cli-in-production/join-existing-network)
   - [Deploy a multi node network](./src/11-forge-cli-in-production/deploy-multi-node-network)
+  - [Deploy a multi-party-multi-node network](./src/11-forge-cli-in-production/deploy-multi-party-node-network)
   - [Deploy a network in intranet](./src/11-forge-cli-in-production/deploy-in-intranet)
