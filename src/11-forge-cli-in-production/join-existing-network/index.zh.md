@@ -30,7 +30,7 @@ Forge CLI 提供的 `join` 功能能让用户意见成为指定链的观察者�
 
 !TerminalPlayer[](./images/join-network.yml)
 
-操作的解释：
+关于上面演示的几点说明：
 
 - 执行 `forge chain:create shadow -d`，用默认配置创建新的链节点，命名为 shadow
 - 执行 `forge join http://127.0.0.1:8210/api -c shadow`，让 shadow 的节点加入本地的 `test-chain`
