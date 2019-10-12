@@ -76,3 +76,7 @@ forge start my-forge-chain
 ::: success
 关于链运行状态查看的更多细节参见: [检查链的状态](../../2-manage-chain-node/inspect-chain-status)。
 :::
+
+## 如何自定义配置？
+
+TODO: 如何自定义节点的配置项
