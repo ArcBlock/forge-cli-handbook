@@ -20,6 +20,7 @@ clean:
 
 deploy:
 	@echo "Building and publishing the documenation..."
+	@gem install travis -v 1.8.9
 	@.makefiles/trigger_main_build.sh
 
 run:
@@ -30,7 +31,6 @@ serve: build
 
 travis: init
 	@echo "Prepare travis build env"
-	@gem install travis -v 1.8.9
 
 include .makefiles/release.mk
 
