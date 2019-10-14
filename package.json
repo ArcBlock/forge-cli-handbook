@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "forge-cli-power-user",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "A book that helps you to become a power user on forge-cli",
   "main": "index.js",
   "directories": {
