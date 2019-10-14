@@ -1,12 +1,12 @@
 ---
-title: 'Forge CLI 是什么？'
-description: '我们在谈论 Forge 的时候到底在谈论什么？'
+title: Forge CLI 是什么？
+description: 我们在谈论 Forge 的时候到底在谈论什么？
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 毫不夸张的说，Forge CLI 是区块链应用开发的瑞士军刀，包含如下这些开箱即用的功能：

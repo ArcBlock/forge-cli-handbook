@@ -1,12 +1,12 @@
 ---
-title: 'Inspect Assets'
-description: 'Inspect Assets'
+title: Inspect Assets
+description: Inspect Assets
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Inspect Assets

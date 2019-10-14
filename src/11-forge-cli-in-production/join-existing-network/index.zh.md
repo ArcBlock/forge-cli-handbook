@@ -1,13 +1,13 @@
 ---
-title: '加入现有的链'
-description: '分布式公开账本的特性让人人都可以成为链的监督员'
+title: 加入现有的链
+description: 分布式公开账本的特性让人人都可以成为链的监督员
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'production'
-  - 'deployment'
+  - production
+  - deployment
 ---
 
 区块链常被技术人简单描述为：分布式的、公开的、不可篡改的账本，那么如果你使用了一个比较有趣的区块链应用，而这个应用的数据存储在自己的链上，除了自己去他们的链节点上查看数据之外，你还可以使用 Forge CLI 加入到那条链上去同步数据，成为观察者节点。

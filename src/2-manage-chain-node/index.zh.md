@@ -1,12 +1,12 @@
 ---
-title: '理解节点和链'
+title: 理解节点和链
 description: ''
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 在我们继续深入了解 Forge CLI 的连接点运维功能时，有必要澄清下**链**和**节点**这两个概念。

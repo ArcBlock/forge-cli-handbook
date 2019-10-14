@@ -1,12 +1,12 @@
 ---
-title: '查看链节点日志'
+title: 查看链节点日志
 description: ''
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## 查看链节点日志

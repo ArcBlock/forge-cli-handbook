@@ -2,11 +2,11 @@
 title: 'Chapter 4: Forge Release Management'
 description: 'Chapter 4: Forge Release Management'
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Chapter 4: Forge Release Management

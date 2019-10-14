@@ -1,12 +1,12 @@
 ---
-title: 'Install/Download a release'
-description: 'Install/Download a release'
+title: Install/Download a release
+description: Install/Download a release
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Install/Download a release

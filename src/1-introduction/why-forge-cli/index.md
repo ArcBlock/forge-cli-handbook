@@ -1,12 +1,12 @@
 ---
-title: 'Why Forge CLI?'
-description: 'Why Forge CLI?'
+title: Why Forge CLI?
+description: Why Forge CLI?
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Why Forge CLI?

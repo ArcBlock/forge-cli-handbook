@@ -1,13 +1,13 @@
 ---
-title: '理解生产环境'
-description: '生产环境？开发环境？'
+title: 理解生产环境
+description: 生产环境？开发环境？
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'deployment'
-  - 'production'
+  - deployment
+  - production
 ---
 
 开发过企业级应用的同学都知道**环境隔离**的重要性，在**开发环境**数据随时可以删掉重新构建，但是**线上环境**（或者这里说的生产环境），任何数据都应该当做资产来对待，在区块链上更是如此，因为链上的数据不仅仅属于节点运营方，还属于用户。

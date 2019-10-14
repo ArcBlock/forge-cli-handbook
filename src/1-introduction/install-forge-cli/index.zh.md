@@ -1,12 +1,12 @@
 ---
-title: '如何安装 Forge CLI？'
-description: '不同用户使用 Forge CLI 的不同姿势'
+title: 如何安装 Forge CLI？
+description: 不同用户使用 Forge CLI 的不同姿势
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 > 从本小节开始，所有的命令都需要在终端程序里面执行，如果你想学习下终端的基本用法，请移步[这里](https://sspai.com/post/45534)。

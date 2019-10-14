@@ -1,12 +1,12 @@
 ---
-title: 'Working with on chain accounts'
-description: 'Working with on chain accounts'
+title: Working with on chain accounts
+description: Working with on chain accounts
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Working with on chain accounts

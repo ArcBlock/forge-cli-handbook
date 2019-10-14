@@ -1,12 +1,12 @@
 ---
-title: 'Getting Started'
-description: 'Getting Started'
+title: Getting Started
+description: Getting Started
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Getting Started

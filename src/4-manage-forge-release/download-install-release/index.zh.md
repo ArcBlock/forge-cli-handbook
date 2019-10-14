@@ -1,12 +1,12 @@
 ---
-title: '获取 Forge 发行版本'
+title: 获取 Forge 发行版本
 description: ''
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## 用 `forge install` 安装 Forge

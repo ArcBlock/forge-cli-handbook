@@ -1,12 +1,12 @@
 ---
-title: '创建和发布基石程序'
-description: 'Create and publish your own Blocklet'
+title: 创建和发布基石程序
+description: Create and publish your own Blocklet
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Create and publish your own Blocklet

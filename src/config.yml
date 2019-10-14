@@ -2,7 +2,7 @@ gitRepo: ArcBlock/forge-cli-handbook
 srcPath: src
 categories:
   handbook:
-    basePath: /book
+    basePath: /handbook
     title: HandBook
     link: /
     priority: 999

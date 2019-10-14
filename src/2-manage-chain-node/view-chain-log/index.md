@@ -1,12 +1,12 @@
 ---
-title: 'View Chain Log'
-description: 'View Chain Log'
+title: View Chain Log
+description: View Chain Log
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## View Chain Log

@@ -1,12 +1,12 @@
 ---
-title: '区块链核心概念'
-description: '要搞懂复杂系统的关键两步是：理解数据结构、理清数据流转'
+title: 区块链核心概念
+description: 要搞懂复杂系统的关键两步是：理解数据结构、理清数据流转
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 区块链领域中的概念和术语很多，但是核心的几个是：账户、交易、区块、链（感兴趣的同学可参见比特币的 [Vocabulary] 和 [Developer Glossary])，正确理解这几个核心概念能够帮助我们在后面的实践中进行的更顺畅。

@@ -1,12 +1,12 @@
 ---
-title: '查看链的状态'
-description: '如何查看多条链的状态？如何查看单条链的状态？'
+title: 查看链的状态
+description: 如何查看多条链的状态？如何查看单条链的状态？
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## 看创建的所有链状态

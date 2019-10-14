@@ -1,12 +1,12 @@
 ---
-title: '创建和使用账户'
-description: '要发起交易，必须先注册账户，是不是和传统应用特别像？'
+title: 创建和使用账户
+description: 要发起交易，必须先注册账户，是不是和传统应用特别像？
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ### 创建账户

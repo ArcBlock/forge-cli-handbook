@@ -1,12 +1,12 @@
 ---
-title: '部署多方共建共享的链'
-description: '如果是社区的多个小团体想一起启动一条链，则需要一些手动的步骤'
+title: 部署多方共建共享的链
+description: 如果是社区的多个小团体想一起启动一条链，则需要一些手动的步骤
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## 基本步骤
@@ -38,8 +38,8 @@ tags:
 - 然后把 `beijing` 节点配置文件中的 `connection_string` 和 `terdermint.genesis.validators` 复制到 `shanghai` 节点的配置中
 - `forge start beijing`: 启动 `beijing` 节点
 - `forge start shanghai`: 启动 `shanghai` 节点
-- `forge status net -c beijing`: 查看 `beijing` 节点的网络信息，可以看到 `peer`  里面有 `shanghai` 节点
-- `forge status net -c shanghai`: 查看 `shanghai` 节点的网络信息，可以看到 `peer`  里面有 `beijing` 节点
+- `forge status net -c beijing`: 查看 `beijing` 节点的网络信息，可以看到 `peer` 里面有 `shanghai` 节点
+- `forge status net -c shanghai`: 查看 `shanghai` 节点的网络信息，可以看到 `peer` 里面有 `beijing` 节点
 
 ## 效果验证
 

@@ -2,11 +2,11 @@
 title: 'Chapter 6: Working with Contracts'
 description: 'Chapter 6: Working with Contracts'
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Chapter 6: Working with Contracts

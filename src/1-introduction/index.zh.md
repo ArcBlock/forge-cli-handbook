@@ -1,12 +1,12 @@
 ---
-title: '开始的开始'
+title: 开始的开始
 description: ''
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 读完这个章节，你将能够使用 Forge CLI 完成一键发链，听起来是不是很酷？

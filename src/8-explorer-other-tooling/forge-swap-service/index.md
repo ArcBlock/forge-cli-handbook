@@ -1,12 +1,12 @@
 ---
-title: 'Forge Swap'
-description: 'Forge Swap'
+title: Forge Swap
+description: Forge Swap
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Forge Swap

@@ -1,12 +1,12 @@
 ---
-title: 'Join an existing network'
-description: 'Join an existing network'
+title: Join an existing network
+description: Join an existing network
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Join an existing network

@@ -1,12 +1,12 @@
 ---
-title: '编译并部署合约'
-description: 'Compile/deploy a Contract'
+title: 编译并部署合约
+description: Compile/deploy a Contract
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Compile/deploy a Contract

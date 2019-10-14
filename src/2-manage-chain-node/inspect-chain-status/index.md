@@ -1,12 +1,12 @@
 ---
-title: 'Inspect Chain Status'
-description: 'Inspect Chain Status'
+title: Inspect Chain Status
+description: Inspect Chain Status
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Inspect Chain Status

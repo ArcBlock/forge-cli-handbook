@@ -1,12 +1,12 @@
 ---
-title: '生成和查看钱包'
-description: '钱包安全的关键在私钥，怎么保存它很重要'
+title: 生成和查看钱包
+description: 钱包安全的关键在私钥，怎么保存它很重要
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## 随机生成钱包

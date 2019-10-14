@@ -3,7 +3,7 @@ title: 'Forge CLI 使用手册'
 description: '你从这本手册能学到什么？内容是如何组织的？需要具备什么条件？'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
-category: 'book'
+category: 'handbook'
 layout: 'documentation'
 tags:
   - 'forge'
@@ -92,6 +92,6 @@ Forge 框架把开发区块链应用所需要考虑的网络层、共识层、�
   - [全局配置](./9-customization/global-config)
 - [诊断和调试](./10-troubleshooting)
 
------
+---
 
 还等什么？动手吧！

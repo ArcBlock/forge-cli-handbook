@@ -1,12 +1,12 @@
 ---
-title: '链的启动和停止'
+title: 链的启动和停止
 description: ''
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 配置好链节点之后，我们可以用 Forge CLI 随时启动和停止创建过的链。

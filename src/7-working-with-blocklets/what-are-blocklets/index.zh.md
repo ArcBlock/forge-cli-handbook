@@ -1,12 +1,12 @@
 ---
-title: '查找基石程序'
-description: 'What are Blocklets'
+title: 查找基石程序
+description: What are Blocklets
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## What are Blocklets

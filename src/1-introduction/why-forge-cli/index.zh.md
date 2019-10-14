@@ -1,12 +1,12 @@
 ---
-title: 'Forge CLI 的设计理念'
-description: '上帝说区块链行业缺少应用开发的瑞士军刀？所以我们就做了这个'
+title: Forge CLI 的设计理念
+description: 上帝说区块链行业缺少应用开发的瑞士军刀？所以我们就做了这个
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 Forge CLI 本着下面几个原则去设计和开发：

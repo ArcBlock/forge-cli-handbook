@@ -1,13 +1,13 @@
 ---
-title: '局域网部署方法'
-description: '如何在外网访问受限的环境中安装和部署 Forge 链'
+title: 局域网部署方法
+description: 如何在外网访问受限的环境中安装和部署 Forge 链
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
-  - 'deploy'
+  - forge
+  - deploy
 ---
 
 本教程适合于需要在外网访问受限的环境中安装 Forge CLI 并启动 Forge 链的用户。外网访问受限的是指安装和运行 Forge 链的机器只能访问局域网。正常情况下，要启动 Forge 链需要先安装 Forge CLI，然后用它来安装 Forge，这两步都需要访问外网。

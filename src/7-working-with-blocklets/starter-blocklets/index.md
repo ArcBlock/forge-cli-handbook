@@ -1,12 +1,12 @@
 ---
-title: 'Using Starter Blocklets'
-description: 'Using Starter Blocklets'
+title: Using Starter Blocklets
+description: Using Starter Blocklets
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Using Starter Blocklets

@@ -2,11 +2,11 @@
 title: 'Chapter 5: Manipulate Wallets/Accounts'
 description: 'Chapter 5: Manipulate Wallets/Accounts'
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Chapter 5: Manipulate Wallets/Accounts

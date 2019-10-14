@@ -1,12 +1,12 @@
 ---
-title: '链的创建和配置'
-description: '如何自定义自己的链？如何自定义链上的币？'
+title: 链的创建和配置
+description: 如何自定义自己的链？如何自定义链上的币？
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## 初始化链节点配置
@@ -30,7 +30,7 @@ tags:
 1. Please input block time (in seconds): **5**：出块时间为 5 秒
 1. Do you want to customize token config for this chain? **Yes**：选择自定义链上的币
 1. What's the token name? **Test Chain Token**：币的名称
-1. What's the token symbol? **TCT**：币的符号，至少3个字符
+1. What's the token symbol? **TCT**：币的符号，至少 3 个字符
 1. What's the token icon? **/Users/wangshijun/.forge_cli/tmp/token.png**：币的图标文件路径，建议是正方形的 PNG 图片
 1. Whats the token description? **Token on test chain**：币的描述
 1. Please input token total supply: **1000000000**：币的总供应量是 10 个亿

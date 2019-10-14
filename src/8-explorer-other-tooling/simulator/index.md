@@ -1,12 +1,12 @@
 ---
-title: 'Forge Simulator'
-description: 'Forge Simulator'
+title: Forge Simulator
+description: Forge Simulator
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Forge Simulator

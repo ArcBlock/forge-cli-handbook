@@ -1,12 +1,12 @@
 ---
-title: '查找 Forge 发行版本'
-description: 'Find local/remote releases'
+title: 查找 Forge 发行版本
+description: Find local/remote releases
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## 用 `forge ls` 查看已安装的 Forge

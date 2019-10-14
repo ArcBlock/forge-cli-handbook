@@ -1,12 +1,12 @@
 ---
-title: 'Using dApp Blocklets'
-description: 'Using dApp Blocklets'
+title: Using dApp Blocklets
+description: Using dApp Blocklets
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Using dApp Blocklets

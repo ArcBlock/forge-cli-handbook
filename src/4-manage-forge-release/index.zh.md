@@ -1,12 +1,12 @@
 ---
-title: '理解 Forge 发行版本'
-description: 'Forge 发行版本是什么？包括什么？'
+title: 理解 Forge 发行版本
+description: Forge 发行版本是什么？包括什么？
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 Forge 发行版本可以认为是一个容器，容器里面装着 Forge 内核以及围绕其开发的各种工具。

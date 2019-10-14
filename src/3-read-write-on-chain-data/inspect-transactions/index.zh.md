@@ -1,12 +1,12 @@
 ---
-title: '查询交易'
-description: 'Inspect Transactions'
+title: 查询交易
+description: Inspect Transactions
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Inspect Transactions

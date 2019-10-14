@@ -1,12 +1,12 @@
 ---
-title: 'What is Forge CLI?'
-description: 'What is Forge CLI?'
+title: What is Forge CLI?
+description: What is Forge CLI?
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## What is Forge CLI?

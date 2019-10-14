@@ -3,7 +3,7 @@ title: 'Forge CLI Handbook'
 description: '你从这本手册能学到什么？内容是如何组织的？需要具备什么条件？'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
-category: 'book'
+category: 'handbook'
 layout: 'documentation'
 tags:
   - 'forge'

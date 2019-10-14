@@ -1,12 +1,12 @@
 ---
-title: '创建自己的合约'
-description: 'Creating your own Contract'
+title: 创建自己的合约
+description: Creating your own Contract
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Creating your own Contract

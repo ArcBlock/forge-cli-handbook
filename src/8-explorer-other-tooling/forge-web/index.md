@@ -1,12 +1,12 @@
 ---
-title: 'Forge Web'
-description: 'Forge Web'
+title: Forge Web
+description: Forge Web
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Forge Web

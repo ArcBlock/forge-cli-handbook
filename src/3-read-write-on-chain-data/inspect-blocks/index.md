@@ -1,12 +1,12 @@
 ---
-title: 'Inspect Blocks'
-description: 'Inspect Blocks'
+title: Inspect Blocks
+description: Inspect Blocks
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Inspect Blocks

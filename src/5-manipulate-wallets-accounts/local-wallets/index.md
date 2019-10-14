@@ -1,12 +1,12 @@
 ---
-title: 'Creating local wallets'
-description: 'Creating local wallets'
+title: Creating local wallets
+description: Creating local wallets
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Creating local wallets

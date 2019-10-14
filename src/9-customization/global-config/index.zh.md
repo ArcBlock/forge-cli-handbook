@@ -1,12 +1,12 @@
 ---
-title: '全局配置'
-description: '如果你想偷懒，这里有一些技巧'
+title: 全局配置
+description: 如果你想偷懒，这里有一些技巧
 keywords: 'forge, forge-cli'
-author: 'poulnzh'
-category: 'book'
-layout: 'documentation'
+author: poulnzh
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 全局配置指的是在 `~/.forgerc.yml` 文件中支持的自定义配置。其中的有些配置可以通过命令行参数指定。
@@ -51,8 +51,8 @@ tags:
 
 可选值：
 
-- true: 当有交互操作时，CLI会使用该操作的默认值
-- false: 当有交互操作时，CLI会提示开发者填写信息
+- true: 当有交互操作时，CLI 会使用该操作的默认值
+- false: 当有交互操作时，CLI 会提示开发者填写信息
 
 ### mirror
 
@@ -84,7 +84,7 @@ tags:
 
 ## 例子
 
-``` yml
+```yml
 # ~/.forgerc.yml
 
 allowMultiChain: true

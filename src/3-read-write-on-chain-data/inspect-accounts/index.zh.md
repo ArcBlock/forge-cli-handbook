@@ -1,12 +1,12 @@
 ---
-title: '查询账户'
-description: 'Inspect Accounts'
+title: 查询账户
+description: Inspect Accounts
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Inspect Accounts

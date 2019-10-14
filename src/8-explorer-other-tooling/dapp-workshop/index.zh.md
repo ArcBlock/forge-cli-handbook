@@ -1,12 +1,12 @@
 ---
-title: 'dApps Workshop'
-description: 'dApps Workshop'
+title: dApps Workshop
+description: dApps Workshop
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## dApps Workshop

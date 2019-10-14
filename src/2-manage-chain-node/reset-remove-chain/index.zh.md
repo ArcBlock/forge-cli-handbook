@@ -1,12 +1,12 @@
 ---
-title: '链的重置和删除'
-description: '重置和删除有什么区别？怎么操作？'
+title: 链的重置和删除
+description: 重置和删除有什么区别？怎么操作？
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ::: error

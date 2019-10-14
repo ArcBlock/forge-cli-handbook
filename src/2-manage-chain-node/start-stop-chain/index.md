@@ -1,12 +1,12 @@
 ---
-title: 'Start/Stop the Chain'
-description: 'Start/Stop the Chain'
+title: Start/Stop the Chain
+description: Start/Stop the Chain
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Start/Stop the Chain

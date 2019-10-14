@@ -1,12 +1,12 @@
 ---
-title: 'What are Blocklets'
-description: 'What are Blocklets'
+title: What are Blocklets
+description: What are Blocklets
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## What are Blocklets

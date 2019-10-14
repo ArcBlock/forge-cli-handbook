@@ -1,12 +1,12 @@
 ---
-title: 'Reset/Remove a Chain'
-description: 'Reset/Remove a Chain'
+title: Reset/Remove a Chain
+description: Reset/Remove a Chain
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Reset/Remove a Chain

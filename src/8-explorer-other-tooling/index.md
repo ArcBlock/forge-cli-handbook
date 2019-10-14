@@ -2,11 +2,11 @@
 title: 'Chapter 8: Explore Other Tooling'
 description: 'Chapter 8: Explore Other Tooling'
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Chapter 8: Explore Other Tooling

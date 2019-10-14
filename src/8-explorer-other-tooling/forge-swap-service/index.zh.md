@@ -1,12 +1,12 @@
 ---
-title: '同构链跨链服务'
-description: 'Forge Swap'
+title: 同构链跨链服务
+description: Forge Swap
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Forge Swap

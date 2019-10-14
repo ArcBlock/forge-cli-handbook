@@ -1,12 +1,12 @@
 ---
-title: 'Deploy a network in intranet'
-description: 'Deploy a network in intranet'
+title: Deploy a network in intranet
+description: Deploy a network in intranet
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Deploy a network in intranet

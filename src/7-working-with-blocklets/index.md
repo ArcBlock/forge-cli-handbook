@@ -2,11 +2,11 @@
 title: 'Chapter 7: Working with Blocklets'
 description: 'Chapter 7: Working with Blocklets'
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Chapter 7: Working with Blocklets

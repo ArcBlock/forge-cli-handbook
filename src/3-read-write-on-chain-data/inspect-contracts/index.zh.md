@@ -1,12 +1,12 @@
 ---
-title: '查询合约'
-description: 'Inspect Contracts'
+title: 查询合约
+description: Inspect Contracts
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Inspect Contracts

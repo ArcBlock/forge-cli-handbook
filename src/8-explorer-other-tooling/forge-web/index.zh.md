@@ -1,12 +1,12 @@
 ---
-title: '节点区块浏览器'
-description: 'Forge Web'
+title: 节点区块浏览器
+description: Forge Web
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Forge Web

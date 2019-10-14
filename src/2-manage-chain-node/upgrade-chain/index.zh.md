@@ -1,12 +1,12 @@
 ---
-title: '链的软升级'
-description: 'Upgrade a Chain'
+title: 链的软升级
+description: Upgrade a Chain
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 在[如何获取最新版的 Forge](/tutorials/hard-upgrade)中我们介绍了如何进行 Forge 链的硬升级（需要重置本地链的状态），硬升级的做法在开发环境下比较方便，相当于清空数据库的记录。
@@ -46,7 +46,7 @@ Forge CLI 是 ArcBlock 官方开发和维护的管理本地 Forge 链、节点�
 
 ## 下载 Forge 最新版
 
-如果要把本地 Forge 链从 `v0.36.5` 升级到 `v0.37.0`，需要先下载 Forge  `v0.37.0` 的全部组件，执行如下命令：
+如果要把本地 Forge 链从 `v0.36.5` 升级到 `v0.37.0`，需要先下载 Forge `v0.37.0` 的全部组件，执行如下命令：
 
 ```shell
 forge download latest

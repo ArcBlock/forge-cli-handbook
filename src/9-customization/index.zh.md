@@ -1,12 +1,12 @@
 ---
-title: 'Forge CLI 高级用法'
+title: Forge CLI 高级用法
 description: 'Chapter 9: Customization'
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 比如：

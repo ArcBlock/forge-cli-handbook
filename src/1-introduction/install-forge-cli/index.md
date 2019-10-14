@@ -1,12 +1,12 @@
 ---
-title: 'How to get Forge CLI?'
-description: 'How to get Forge CLI?'
+title: How to get Forge CLI?
+description: How to get Forge CLI?
 keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'book'
-layout: 'documentation'
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## How to get Forge CLI?
