@@ -93,6 +93,7 @@ categories:
       Customization:
         links:
           - /9-customization/global-config
+          - /9-customization/multi-chain
         locales:
           zh: '高级用法'
       Troubleshooting:

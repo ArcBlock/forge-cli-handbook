@@ -88,8 +88,9 @@ Forge 框架把开发区块链应用所需要考虑的网络层、共识层、�
   - [流量模拟器](./8-explorer-other-tooling/simulator)
   - [dApps Workshop](./8-explorer-other-tooling/dapp-workshop)
   - [跨链服务](./8-explorer-other-tooling/forge-swap-service)
-- [自定义你的 Forge CLI](./9-customization)
+- [高级用法](./9-customization)
   - [全局配置](./9-customization/global-config)
+  - [多链支持](./9-customization/multi-chain)
 - [诊断和调试](./10-troubleshooting)
 
 ---

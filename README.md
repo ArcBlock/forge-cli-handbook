@@ -57,6 +57,7 @@ make run
   - [Forge Swap](./src/8-explorer-other-tooling/forge-swap-service)
 - [Chapter 9: Customization](./src/9-customization)
   - [Global Config](./src/9-customization/global-config)
+  - [Multi Chain](./src/9-customization/multi-chain)
 - [Chapter 10: Troubleshooting](./src/10-troubleshooting)
 - [Chapter 11: Use Forge CLI in production](./src/11-forge-cli-in-production)
   - [Join an existing network](./src/11-forge-cli-in-production/join-existing-network)

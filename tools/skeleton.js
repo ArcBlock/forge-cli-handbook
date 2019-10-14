@@ -51,7 +51,7 @@ title: '${title}'
 description: '${title}'
 keywords: 'forge, forge-cli'
 author: 'wangshijun'
-category: 'book'
+category: 'handbook'
 layout: 'documentation'
 tags:
   - 'forge'

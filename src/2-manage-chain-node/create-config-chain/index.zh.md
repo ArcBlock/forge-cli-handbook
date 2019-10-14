@@ -54,52 +54,14 @@ tags:
 
 ![](./images/config-get.png)
 
-细心的同学可能会看到，执行 `forge config` 的时候，打印出来的配置文件是 `my-forge-chain` 的配置文件，而不是我们刚刚创建的 `test-chain`，这是什么原因呢？
+细心的同学可能会看到，执行 `forge config` 的时候，打印出来的配置文件是 `my-forge-chain` 的配置文件，而不是我们刚刚创建的 `test-chain`。
 
-得先从 Forge CLI 所支持的多链模式说起。
-
-### 链节点数据的存储规则
-
-因为 Forge CLI 默认是支持创建和启动多条链的，每条链的节点都有自己的配置和数据存储目录，这些信息存储位置如下：
-
-```shell
-❯ tree ~/.forge_chains -L 2
-/Users/wangshijun/.forge_chains
-├── forge_my-forge-chain      # 这里存放 my-forge-chain 的所有信息
-│   ├── config.yml
-│   ├── forge_release         # my-forge-chain 的数据存储目录，包括日志、链状态等
-│   ├── forge_release.toml    # my-forge-chain 的配置文件
-│   └── keys                  # my-forge-chain 本地节点的公私钥信息
-│
-└── forge_test-chain          # 这里存放 test-chain 的所有信息
-    ├── config.yml
-    ├── forge_release         # test-chain 的数据存储目录，包括日志、链状态等
-    ├── forge_release.toml    # test-chain 的配置文件
-    └── keys                  # test-chain 本地节点的公私钥信息
-```
-
-### 多链时的查找规则
-
-当存在多条链时，Forge CLI 在接受到某条指令时，会看看用户是否制定了某条链，如果没有制定，会按照如下规则去查找：
-
-1. 查找当前正在运行中的链
-2. 如果有运行中的链，把运行中的链名称按字母升序排列，取第一个作为默认链
-3. 如果没有运行中的链，把所有链的名字按字母升序排列，取第一个作为默认连
-
-如果你是顺序阅读这本手册，到这里，我们创建的 `test-chain` 尚未启动，而 `my-forge-chain` 已经启动，根据上面的规则，打印出来的就是 `my-forge-chain` 的配置。
-
-::: warning
-并不是所有的 Forge CLI 自命令都需要指定链参数，比如 `forge install` 和 `forge download` 就不需要。
-:::
-
-### 为命令指定链名称
-
-那么如何查看 `test-chain` 的配置呢？Forge CLI 中跟链节点有关的命令都支持用 `--chainName` (简写为 `-c`) 参数来指定要操作的链，比如：
+那么如何查看 `test-chain` 的配置呢？Forge CLI 默认是支持多链的（详细文档参考[这里](../../9-customization/multi-chain)），可以执行 `forge config -c test-chain` 来查看 `test-chain` 的配置，如图：
 
 ![](./images/config-chain.png)
 
 ::: warning
-`-c` 或者 `--chain-name` 是绝大部分 Forge CLI 子命令支持的自定义链的参数，在只有一条链的情况下，完全可以忽略这个参数。
+关于 Forge CLI 多链支持的功能细节和详细语法请参考[这里](../../9-customization/multi-chain)。
 :::
 
 ## 修改链节点配置
