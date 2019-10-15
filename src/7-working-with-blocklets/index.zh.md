@@ -25,10 +25,10 @@ tags:
 
 ## 查找 Blocklet
 
-开发者可以通过[Blocklet 官网](https://blocklet.arcblock.io/blocklets)查找当前所有的 Blocklet。
+开发者可以通过 [Blocklet 官网](https://blocklet.arcblock.io/blocklets)查找当前所有的 Blocklet。
 
 ## 创建 Blocklet
 
-开发者也可以创建自己的 Blocklet，Forge CLI(>=0.39.14)提供了初始化一个空的 Blocklet 项目的指令。
+开发者也可以创建自己的 Blocklet，Forge CLI(>=0.39.14)提供了初始化一个 Blocklet 项目的指令。
 
 [详情>>](../creating-blocklet/index.zh.md)
