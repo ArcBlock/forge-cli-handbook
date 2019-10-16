@@ -40,7 +40,7 @@ Press ^C to quit.
 - color: 选择 Blocklet 的颜色主题，当前可选的有 `primary | secondary | error`
 - templates: 指定模板代码目录，如果有多个，使用逗号(`,`)分割
 
-::: warning
+::: success
 这里询问的只是部分常用的设置项，更详细的设置项可以看[这里](https://github.com/ArcBlock/blocklets#keyinfo-blockletjson)。
 :::
 
@@ -54,36 +54,20 @@ Press ^C to quit.
 └── templates/
 ```
 
+::: success
+当然，如果不想这么麻烦，可以使用 forge blocklet:init -y|-d 来使用默认参数完成初始化。
+:::
+
 ### 在 blocklet.json 中设置执行脚本
 
-`blocklet.json` 例子:
+通过 Blocklet 所创建的 dApp 在运行时可能会需要链、或者数据库的支持，那么 dApp 如何能设置这些配置呢？
 
-``` shell
-{
-  "name": "blocklet-demo",
-  "group": "dApp",
-  "color": "primary",
-  "templates": "templates",
-  "description": "",
-  "keywords": [],
-  "install-scripts": {
-    "install-dependencies": "echo 'no dependencies scripts'"
-  },
-  "hooks": {
-    "pre-copy": "echo 'no configure hooks'",
-    "configure": "echo 'no configure hooks'",
-    "post-copy": "echo 'no post-copy hooks'",
-    "on-complete": "echo 'no on-complete hooks'"
-  }
-}
-```
-
-在使用 `CLI` 基于 Blocklet 生成项目时，`CLI` 会通过 Blocklet 中设置的 `install-scripts` 和 `hooks` 脚本来初始化一些配置。
+可以通过 CLI 提供的 `钩子脚本` 来实现。CLI 将这些脚本分为两部分: Blocklet 自身需要执行的脚本，和生成的 dApp 需要的脚本。这两个配置项分别是在 `blocklet.json` 中的 `install-scripts` 和 `hooks` 两个节点设置的。
 
 #### 设置 install-scripts
 
 ::: warning
-install-scripts 脚本中脚本的执行是按照定义的顺序执行的
+install-scripts 节点中脚本的执行是按照定义的顺序执行的。
 :::
 
 这个节点的脚本的执行时机是`复制`模板代码前，同时先于 `hooks`执行；所以，**如果 Blocklet 自身有需要安装的依赖，可以放在这里。**
@@ -96,6 +80,10 @@ hooks 中当前支持下面四个阶段
 2. post-copy
 3. configure
 4. on-complete
+
+::: warning
+hooks 中的脚本是按照 pre-copy -> post-copy -> configure -> on-complete 的顺序执行的。
+:::
 
 ##### pre-copy
 
@@ -123,6 +111,28 @@ Run script to start:
 
 这样，开发者可以很方便的启动这个项目。
 
+`blocklet.json` 例子:
+
+``` shell
+{
+  "name": "blocklet-demo",
+  "group": "dApp",
+  "color": "primary",
+  "templates": "templates",
+  "description": "",
+  "keywords": [],
+  "install-scripts": {
+    "install-dependencies": "echo 'no dependencies scripts'"
+  },
+  "hooks": {
+    "pre-copy": "echo 'no configure hooks'",
+    "configure": "echo 'no configure hooks'",
+    "post-copy": "echo 'no post-copy hooks'",
+    "on-complete": "echo 'no on-complete hooks'"
+  }
+}
+```
+
 ## 测试
 
 可以使用 `CLI` 中的 `forge blocklet:use --local-blocklet <blocklet directory>` 指令来测试本地的 Blocklet 项目：
@@ -141,3 +151,21 @@ success Already up-to-date.
 通过 `--local-blocklet` 参数来指定本地 Blocklet 项目，从而测试刚刚创建的项目。
 
 ## 发布
+
+Blocklet 项目完成开发、测试后怎么发布到我们的[官网](https://blocklet.arcblock.io/blocklets/)呢？
+
+现在我们支持**人工审核**的方式，需要通过提交 PR 的方式来发布：
+
+1. Fork 这个项目 https://github.com/ArcBlock/blocklets
+2. 然后修改仓库中的 `register.yml`，把自己的 Github 项目地址放进去:
+
+``` yml
+---
+- repo: https://github.com/ArcBlock/forge-dapp-starters
+- repo: https://github.com/wangshijun/forge-product-factory-contract
+- repo: https://github.com/ArcBlock/forge-python-starter
+- repo: https://github.com/blocklet-demo
+```
+
+3. 然后提交 PR。
+4. 通过人工审核后，我们就把这个 PR 合并到主分支，构建完成后就可以在官网看到您的 Blocklet 项目了。
