@@ -11,6 +11,8 @@ tags:
 
 全局配置指的是在 `~/.forgerc.yml` 文件中支持的自定义配置。其中的有些配置可以通过命令行参数指定。
 
+## 配置项
+
 ### allowMultiChain
 
 布尔值(bool)，是否允许创建多条链。
@@ -90,8 +92,9 @@ tags:
 allowMultiChain: true
 autoUpgrade: true
 configPath: /tmp/test/forge_release.toml
-defaults: false,
+defaults: false
 mirror: https://releases.arcblockio.cn
-moderatorSecretKey: BbGCbsZRQuk4bJbtK4-1ZqJc41YDQvIXZC2BDpC4pGdZS2ai83D8N-QM9p9_FBzsmMZD2o4HzmE6gLo6Lxqf2Q,
+moderatorSecretKey: BbGCbsZRQuk4bJbtK4-1ZqJc41YDQvIXZC2BDpC4pGdZS2ai83D8N-QM9p9_FBzsmMZD2o4HzmE6gLo6Lxqf2Q
 npmRegistry: https://registry.npm.taobao.org
+releaseDir: /path/to/release-dir
 ```
