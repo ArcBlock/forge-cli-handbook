@@ -204,6 +204,13 @@ Examples:
 
 !TerminalPlayer[](./images/install-non-root.yml)
 
+## 如何升级 Forge CLI？
+
+Forge CLI 默认启用了自动检查更新的机制，在有新版的时候会提示更新，如果你没有通过[全局配置](../../9-customization/global-config)关闭自动检查更新，按照提示操作即可。如果你需要手动额更新，执行和安装完全相同的命令就可以覆盖更新了。
+
+- 如果你是用 `root` 账户安装的，先切换到 `root` 身份，然后执行：`npm install -g @arcblock/forge-cli --unsafe-perm`
+- 如果你不是用 `root` 账户安装的，直接在对应账户下执行：`npm install -g @arcblock/forge-cli` 即可
+
 ## 安装过程常见报错解决办法
 
 ### 使用 yarn 安装失败？
