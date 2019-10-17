@@ -14,7 +14,7 @@ tags:
 
 使用 `forge blocklet:init` 命令可以初始化一个 Blocklet 项目。在初始化的过程中，有几个变量需要设置一下:
 
-``` shell
+```shell
 $ forge blocklet:init
 This utility will walk you through create such files and folders(if not exists):
 - blocklet.json
@@ -46,7 +46,7 @@ Press ^C to quit.
 
 命令顺利执行完后会生成如下几个文件和目录：
 
-``` shell
+```shell
 ├── blocklet.json
 ├── blocklet.md
 ├── package.json
@@ -57,6 +57,41 @@ Press ^C to quit.
 ::: success
 当然，如果不想这么麻烦，可以使用 forge blocklet:init -y|-d 来使用默认参数完成初始化。
 :::
+
+### 这几个文件（目录）都有什么用？
+
+#### blocklet.json
+
+这个文件是 Blocklet 的核心文件，对于 Blocklet 的解析都是基于该文件的。
+该文件提供了 Blocklet 的`名字`，`类型`，`作者`等元信息，同时也包含基于该 Blocklet 创建一个应用所需要的脚本(详见下文`在 blocklet.json 中设置执行脚本`一节)。
+
+#### blocklet.md
+
+这个文件会默认展示为官网的 Blocklet 详情页内容，所以建议在该文档中包含下面的内容：
+
+- 这个 Blocklet 是什么？
+- 提供了哪些功能？
+- 用例
+- 使用该 Blocklet 的外部依赖
+
+#### package.json
+
+因为现在 Blocklet 是通过 npm 发包的，所以这个文件是必须得。
+
+此外，对于 `blocklet.json` 和 `package.json` 都支持的字段，如果 `blocklet.json` 中没有设置，官网或者 CLI 在解析的时候会使用 `package.json` 里的字段，比如描述信息等等。
+
+#### screenshots/
+
+这个目录是该 Blocklet 生成的 dApp 的一些截图，会展示在官网的 Blocklet 详情页，可以让其他开发者方便的看到都有哪些功能。
+
+详情页展示截图例子：
+![截图](./images/screenshot.png)
+
+#### 模板目录
+
+这个目录是放的使用该 Blocklet 生成 dApp 需要的源代码，例子中存放这些代码的目录是 `templates`。
+
+当然，这个也可以是个数组。
 
 ### 在 blocklet.json 中设置执行脚本
 
@@ -102,7 +137,7 @@ hooks 中的脚本是按照 pre-copy -> post-copy -> configure -> on-complete �
 
 这是最后一个阶段，完成前面的步骤后，顺利的话现在就可以启动项目了，所以可以把启动这个项目的命令放到这里，比如：
 
-``` shell
+```shell
 Run script to start:
 0. cd blocklet-demo
 1. make run-server
@@ -113,7 +148,7 @@ Run script to start:
 
 `blocklet.json` 例子:
 
-``` shell
+```shell
 {
   "name": "blocklet-demo",
   "group": "dApp",
@@ -137,7 +172,7 @@ Run script to start:
 
 可以使用 `CLI` 中的 `forge blocklet:use --local-blocklet <blocklet directory>` 指令来测试本地的 Blocklet 项目：
 
-``` shell
+```shell
 $ forge blocklet:use --local-blocklet /Users/zhenqiang/workcode/forge-python-starter
 ✔ Fetching blocklets information...
 yarn install v1.17.3
@@ -154,12 +189,15 @@ success Already up-to-date.
 
 Blocklet 项目完成开发、测试后怎么发布到我们的[官网](https://blocklet.arcblock.io/blocklets/)呢？
 
-现在我们支持**人工审核**的方式，需要通过提交 PR 的方式来发布：
+当前情况下，我们所有的 Blocklet 都必须发布在 `NPM` 上，同时，还必须将**已发布到 NPM** 上的 Blocklet 添加到我们的官方仓库，具体流程如下：
 
+现在我们只能支持**人工审核**的方式，需要通过提交 PR 的方式来发布。
+
+0. 将项目发布到 NPM
 1. Fork 这个项目 https://github.com/ArcBlock/blocklets
-2. 然后修改仓库中的 `register.yml`，把自己的 Github 项目地址放进去:
+1. 然后修改仓库中的 `register.yml`，把自己的 Github 项目地址放进去:
 
-``` yml
+```yml
 ---
 - repo: https://github.com/ArcBlock/forge-dapp-starters
 - repo: https://github.com/wangshijun/forge-product-factory-contract

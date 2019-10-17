@@ -11,9 +11,9 @@ tags:
 
 ## 定义
 
-> ArcBlock开放链访问协议让Blocklet可以和区块链通信，而分布式订阅网关则让基石程序可以和植根于用户浏览器或移动App的客户端代码通信。总之，Blocklet处于整个系统的核心位置。
+> ArcBlock 开放链访问协议让 Blocklet 可以和区块链通信，而分布式订阅网关则让基石程序可以和植根于用户浏览器或移动 App 的客户端代码通信。总之，Blocklet 处于整个系统的核心位置。
 >
-> Blocklet组件就是一组事先设计好、可以重用的Blocklet。
+> Blocklet 组件就是一组事先设计好、可以重用的 Blocklet。
 >
 > -《ArcBlock 技术白皮书》
 
@@ -28,7 +28,6 @@ tags:
 开发者也可以创建自己的 Blocklet，Forge CLI( >=0.39.14 ) 提供了初始化一个 Blocklet 项目的指令。
 
 [详情>>](../7-working-with-blocklets/creating-blocklet)
-
 
 ## 查找 Blocklet
 
