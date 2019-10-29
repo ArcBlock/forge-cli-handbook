@@ -1,5 +1,5 @@
 ---
-title: 部署多节点的链
+title: 部署多节点的私链
 description: 如果所有的节点都在你的掌控之中，我们提供了一键部署的工具
 keywords: 'forge, forge-cli'
 author: wangshijun
