@@ -9,7 +9,47 @@ tags:
   - forge
 ---
 
-全局配置指的是在 `~/.forgerc.yml` 文件中支持的自定义配置。其中的有些配置可以通过命令行参数指定。
+全局配置指的是在 `~/.forgerc.yml` 文件中支持的自定义配置。其中的有些配置可以通过命令行参数指定，详细的配置项解释可以查看下面的`配置项`一节。
+那么如何设置这些配置呢？
+
+## forge config 命令
+
+> 添加于 CLI v0.39.24
+
+当然，可以通过直接编辑 `~/.forgerc.yml` 文件来修改，不过 `CLI` 在 `0.39.24` 版本中添加了 `forge config` 命令来配置这些全局变量。
+
+### 查看当前配置项
+
+``` shell
+$ forge config -l
+
+allowMultiChain:    false
+defaults:           false
+npmRegistry:        https://registry.npmjs.org/
+mirror:             https://arcblockcn.oss-cn-beijing.aliyuncs.com/
+moderatorSecretKey: cBqbHWmgCfpeG8HhtD6-KuKUP5vtxD8I91hQdE0P-znEiDyIVZpMSzpxDMW9Ejjar5ozlWFmdwooZSOz4odD7g
+```
+
+### 查看某一个配置项
+
+``` shell
+$ forge config mirror
+https://arcblockcn.oss-cn-beijing.aliyuncs.com/
+```
+
+### 设置配置项
+
+```
+$ forge config mirror
+https://releases.arcblock.io/forge/0.39.2/forge_darwin_amd64.tgz
+
+# zhenqiang @ zhenqiangMacBook in ~/workcode/forge-cli on git:master o [10:31:46]
+$ forge config mirror https://arcblockcn.oss-cn-beijing.aliyuncs.com/
+
+# zhenqiang @ zhenqiangMacBook in ~/workcode/forge-cli on git:master o [10:32:26]
+$ forge config mirror
+https://arcblockcn.oss-cn-beijing.aliyuncs.com/
+```
 
 ## 配置项
 
@@ -21,17 +61,6 @@ tags:
 
 - true: 允许，这种情况下可以在本地创建多条链，方便开发、调试，推荐在开发环境下使用
 - false: 不允许，这种情况下`CLI` 会使用 `forge starter` 来启动链，稳定性更好，推荐在生产环境下使用
-
-默认值: true
-
-### autoUpgrade
-
-布尔值(bool)，是否允许检查 `CLI` 的更新。
-
-可选值：
-
-- true: 允许，`CLI` 会自动检查更新，如果有更新，会提示用户是否更新
-- false，不允许，开发者只能手动更新 `CLI`
 
 默认值: true
 
@@ -90,7 +119,6 @@ tags:
 # ~/.forgerc.yml
 
 allowMultiChain: true
-autoUpgrade: true
 configPath: /tmp/test/forge_release.toml
 defaults: false
 mirror: https://releases.arcblockio.cn

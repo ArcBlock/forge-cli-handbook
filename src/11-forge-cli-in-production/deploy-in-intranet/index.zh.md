@@ -107,7 +107,7 @@ releaseDir: /home/work/forge_release
 ✔ Expand release asset /home/work/.forge_cli/tmp/forge_workshop_darwin_amd64.tgz to /home/work/.forge_cli/release/forge_workshop/0.35.0
 ✔ Congratulations! forge v0.37.2 installed successfully!
 
-ℹ If you want to custom the config, run: forge config set
+ℹ If you want to custom the config, run: forge chain:config set
 ```
 
 如果你想现在就启动 Forge 链，可以直接 `forge start`，启动完成之后执行 `forge web open`，就能打开 Forge 链节点的控制面板和区块浏览器。
