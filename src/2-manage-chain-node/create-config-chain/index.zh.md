@@ -50,13 +50,13 @@ tags:
 
 ## 查看链节点配置
 
-新创建链的配置存放在什么地方？内容是什么样的呢？直接执行 `forge config` 就能把配置文件的路径和内容打印到终端里面，如下截屏：
+新创建链的配置存放在什么地方？内容是什么样的呢？直接执行 `forge chain:config` 就能把配置文件的路径和内容打印到终端里面，如下截屏：
 
 ![](./images/config-get.png)
 
-细心的同学可能会看到，执行 `forge config` 的时候，打印出来的配置文件是 `my-forge-chain` 的配置文件，而不是我们刚刚创建的 `test-chain`。
+细心的同学可能会看到，执行 `forge chain:config` 的时候，打印出来的配置文件是 `my-forge-chain` 的配置文件，而不是我们刚刚创建的 `test-chain`。
 
-那么如何查看 `test-chain` 的配置呢？Forge CLI 默认是支持多链的（详细文档参考[这里](../../9-customization/multi-chain)），可以执行 `forge config -c test-chain` 来查看 `test-chain` 的配置，如图：
+那么如何查看 `test-chain` 的配置呢？Forge CLI 默认是支持多链的（详细文档参考[这里](../../9-customization/multi-chain)），可以执行 `forge chain:config -c test-chain` 来查看 `test-chain` 的配置，如图：
 
 ![](./images/config-chain.png)
 
@@ -66,16 +66,16 @@ tags:
 
 ## 修改链节点配置
 
-既然创建时可以自定义链的配置，创建完之后呢？也是可以的，直接执行 `forge config set` 会出来 `forge chain:create` 类似的交互式界面，不同的是，这次不是全新的参数配置，而是在旧配置的基础上修改，需要注意的是，修改某条链的配置需要把节点停下来，并且链级别的配置一旦启动之后修改是无法生效的。
+既然创建时可以自定义链的配置，创建完之后呢？也是可以的，直接执行 `forge chain:config set` 会出来 `forge chain:create` 类似的交互式界面，不同的是，这次不是全新的参数配置，而是在旧配置的基础上修改，需要注意的是，修改某条链的配置需要把节点停下来，并且链级别的配置一旦启动之后修改是无法生效的。
 
-比如我们如果要修改 `test-chain` 的币符号为 `TTC`，执行 `forge config set -c test-chain`，过程如下：
+比如我们如果要修改 `test-chain` 的币符号为 `TTC`，执行 `forge chain:config set -c test-chain`，过程如下：
 
 !TerminalPlayer[](./images/5-config-set.yml)
 
 修改完之后，可用如下命令去验证：
 
 ```shell
-❯ forge config -c test-chain | grep TTC
+❯ forge chain:config -c test-chain | grep TTC
   symbol = "TTC"
 ```
 

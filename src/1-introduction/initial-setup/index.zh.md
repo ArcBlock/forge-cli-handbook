@@ -15,17 +15,13 @@ tags:
 
 答案是肯定的，和广泛使用的命令行工具类似，Forge CLI 也支持几个全局的配置项。
 
-全局配置项的存储位置在 `~/.forgerc.yml`，你需要先创建该文件：
-
-```bash
-touch ~/.forgerc.yml
-```
+全局配置项的存储位置在 `~/.forgerc.yml`，你可以使用 `forge config` 命令来配置：
 
 然后在其中输出如下内容：
 
 ```yaml
-npmRegistry: https://registry.npm.taobao.org
-mirror: https://releases.arcblockio.cn
+forge config npmRegistry  https://registry.npm.taobao.org
+forge config mirror https://releases.arcblockio.cn
 ```
 
 这样，后续执行 Forge CLI 命令都会读取和使用这些配置，比如当你再次去安装某个版本的 Forge 时，如下图的黄色标识就表示使用了自定义的配置：

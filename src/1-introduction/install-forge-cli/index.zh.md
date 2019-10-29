@@ -128,6 +128,14 @@ npm install -g @arcblock/forge-cli
 安装完成之后，你的系统里面就多出来一个叫 `forge` 的命令行工具（**Forge CLI 安装完产生的命令叫做 `forge` 而不是 `forge-cli`**），直接执行 `forge`，没有报错且得到如下输出，说明你已经安装成功：
 
 ```bash
+
+██████╗ ██╗   ██╗     █████╗ ██████╗  ██████╗██████╗ ██╗      ██████╗  ██████╗██╗  ██╗
+██╔══██╗╚██╗ ██╔╝    ██╔══██╗██╔══██╗██╔════╝██╔══██╗██║     ██╔═══██╗██╔════╝██║ ██╔╝
+██████╔╝ ╚████╔╝     ███████║██████╔╝██║     ██████╔╝██║     ██║   ██║██║     █████╔╝
+██╔══██╗  ╚██╔╝      ██╔══██║██╔══██╗██║     ██╔══██╗██║     ██║   ██║██║     ██╔═██╗
+██████╔╝   ██║       ██║  ██║██║  ██║╚██████╗██████╔╝███████╗╚██████╔╝╚██████╗██║  ██╗
+╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
+
 Usage: forge [options] [command]
 
 Options:
@@ -135,7 +143,7 @@ Options:
   -v, --verbose                          Output runtime info when execute subcommand, useful for debug
   -c, --chain-name <chainName>           Execute command use specific chain
   -i, --config-path <path>               Forge config used when starting forge node and initializing gRPC clients
-  -r, --npmRegistry <registry>           Specify a custom npm registry
+  -r, --npm-registry <registry>          Specify a custom npm registry
   -y, --yes                              Assume that the answer to any confirmation question is yes
   -d, --defaults                         Run command using default values for all questions
   -m, --mirror <url>                     Mirror host used to download forge release
@@ -149,15 +157,18 @@ Commands:
   account:list [role]                    List all accounts stored in this node
   asset <address>                        Get asset info by address
   block [options] [height]               Get the block info from the running node
+  blocklet:init                          Init a blocklet project
   blocklet:use|project:create [options]  Download and install a blocklet
+  chain:config [options] [action]        Read/write chain/node config
   chain:create|create-chain [chainName]  Create a new chain instance
   chain:ls|chains                        List all chains
-  chain:remove|reset [<chainName>]       Remove chains
+  chain:remove <chainName>               Remove chain state and config
+  chain:reset <chainName>                Reset chain state, but keeps the config
   checkin                                Send a poke tx to the network to get tokens for test
-  config [options] [action]              Read/write chain/node config
+  config [options] [key] [value]         Config forge cli configs
   declare:node                           Declare the current node to be a validator candidate
   download [options] [version]           Download a forge release without activate it
-  help <subcommand>                      Show help of a sub command
+  help [subcommand]                      Show help of a sub command
   install|init [options] [version]       Download and setup forge release on this machine
   join <endpoint>                        Join a network by providing a valid forge web graphql endpoint
   logs [type]                            Show logs for various forge components
