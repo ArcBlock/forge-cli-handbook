@@ -33,7 +33,7 @@ tags:
 - `forge prepare -c beijing --mode init --write-config`: 初始化 `beijing` 节点，验证人信息会直接写到配置里面
 - `forge prepare -c shanghai --mode init`: 初始化 `shanghai` 节点，验证人信息会直接打印到终端里面
 - `forge prepare -c beijing --mode join`: 更新 `beijing` 节点，把 `shanghai` 节点的链接串、验证人信息加进去
-- `forge config -c beijing | grep 'config file path'`: 找到 `beijing` 节点的配置文件路径
+- `forge chain:config -c beijing | grep 'config file path'`: 找到 `beijing` 节点的配置文件路径
 - 同样的找到 `shanghai` 节点的配置文件路径，并且把两个配置文件里面的 `chain_id` 修改为 `china`，这是我们的链的名字
 - 然后把 `beijing` 节点配置文件中的 `connection_string` 和 `terdermint.genesis.validators` 复制到 `shanghai` 节点的配置中
 - `forge start beijing`: 启动 `beijing` 节点
