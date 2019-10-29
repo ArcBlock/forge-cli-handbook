@@ -1,6 +1,10 @@
+## 0.27.0 (October 29, 2019)
+
+- chore: update forge config
+
 ## 0.26.0 (October 17, 2019)
 
-add bloclet:init chapter #3
+- add bloclet:init chapter #3
 
 ## 0.25.0 (October 17, 2019)
 
