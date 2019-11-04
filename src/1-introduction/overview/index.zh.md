@@ -30,7 +30,7 @@ $ forge -h
 Usage: forge [options] [command]
 
 Options:
-  -V, --version                       output the version number
+  -V, --version                       Output the version number
   -v, --verbose                       Output runtime info when execute subcommand, useful for debug
   -c, --chain-name <chainName>        Execute command use specific chain
   -i, --config-path <path>            Forge config used when starting forge node and initializing gRPC clients
@@ -39,7 +39,7 @@ Options:
   -d, --defaults                      Run command using default values for all questions
   -m, --mirror <url>                  Mirror host used to download forge release
   -g, --socket-grpc <endpoint>        Socket gRPC endpoint to connect, with this you can use forge-cli with a remote node
-  -h, --help                          output usage information
+  -h, --help                          Output usage information
 
 Commands:
   account <address>                   Get an account info by address
