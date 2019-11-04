@@ -1056,7 +1056,7 @@ records:
   - delay: 112
     content: "\b\e[33m \e[33mc\e[39m"
   - delay: 88
-    content: "\b\e[33mc\e[33mo\e[39m"
+    content: "\b\e[33mchain:c\e[33mo\e[39m"
   - delay: 215
     content: "\b\e[33mo\e[33mn\e[39m"
   - delay: 313
@@ -1080,13 +1080,13 @@ records:
   - delay: 294
     content: "\e[?1l\e>"
   - delay: 19
-    content: "\e[?2004l\r\r\n\e]2;forge config -c beijing | grep --color=auto  'forge config path'\a\e]1;forge\a\e]0;arcblock: forge config -c beijing | grep --color=auto  'forge config path'\a"
+    content: "\e[?2004l\r\r\n\e]2;forge chain:config -c beijing | grep --color=auto  'forge config path'\a\e]1;forge\a\e]0;arcblock: forge chain:config -c beijing | grep --color=auto  'forge config path'\a"
   - delay: 1274
     content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
   - delay: 59
     content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[31m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
   - delay: 2736
-    content: "\e[32mforge\e[39m config -c beijing | \e[32mgrep\e[39m \e[33m'forge config path'\e[39m"
+    content: "\e[32mforge\e[39m chain:config -c beijing | \e[32mgrep\e[39m \e[33m'forge config path'\e[39m"
   - delay: 590
     content: "\b"
   - delay: 501
@@ -1168,7 +1168,7 @@ records:
   - delay: 21
     content: "\e[?2004l\r\r\n"
   - delay: 82
-    content: "\e]2;forge config -c beijing | grep --color=auto  'config file path'\a\e]1;forge\a\e]0;arcblock: forge config -c beijing | grep --color=auto  'config file path'\a"
+    content: "\e]2;forge chain:config -c beijing | grep --color=auto  'config file path'\a\e]1;forge\a\e]0;arcblock: forge chain:config -c beijing | grep --color=auto  'config file path'\a"
   - delay: 1219
     content: "ℹ \e[01;31m\e[Kconfig file path\e[m\e[K: /Users/wangshijun/.forge_chains/forge_beijing/forge_release.toml\r\n"
   - delay: 49

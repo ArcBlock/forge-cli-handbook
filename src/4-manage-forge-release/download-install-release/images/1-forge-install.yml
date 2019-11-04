@@ -744,7 +744,7 @@ records:
   - delay: 43
     content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 9.85/9.85 MB\e[0K\e[?25h\e[?7h\e8\r\n"
   - delay: 1283
-    content: "\e[32m✔\e[39m Congratulations! forge v0.37.7 installed successfully!\r\n\r\n\e[34mℹ\e[39m If you want to custom the config, run: \e[36mforge config set\e[39m\r\n"
+    content: "\e[32m✔\e[39m Congratulations! forge v0.37.7 installed successfully!\r\n\r\n\e[34mℹ\e[39m If you want to custom the config, run: \e[36mforge chain:config set\e[39m\r\n"
   - delay: 32
     content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
   - delay: 57
@@ -1446,7 +1446,7 @@ records:
   - delay: 78
     content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 9.85/9.85 MB\e[0K\e[?25h\e[?7h\e8\r\n"
   - delay: 1053
-    content: "\e[32m✔\e[39m Congratulations! forge v0.37.7 installed successfully!\r\n\r\n\e[34mℹ\e[39m If you want to custom the config, run: \e[36mforge config set\e[39m\r\n"
+    content: "\e[32m✔\e[39m Congratulations! forge v0.37.7 installed successfully!\r\n\r\n\e[34mℹ\e[39m If you want to custom the config, run: \e[36mforge chain:config set\e[39m\r\n"
   - delay: 35
     content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
   - delay: 61
