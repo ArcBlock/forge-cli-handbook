@@ -41,17 +41,16 @@ categories:
         links:
           - /5-manipulate-wallets-accounts
           - /5-manipulate-wallets-accounts/local-wallets
-          - /5-manipulate-wallets-accounts/on-chain-accounts
         locales:
           zh: '使用钱包和账户'
       Read/Write on Chain Data:
         links:
           - /3-read-write-on-chain-data
+          - /3-read-write-on-chain-data/inspect-accounts
           - /3-read-write-on-chain-data/inspect-transactions
           - /3-read-write-on-chain-data/inspect-blocks
-          - /3-read-write-on-chain-data/inspect-accounts
           - /3-read-write-on-chain-data/inspect-assets
-          - /3-read-write-on-chain-data/inspect-contracts
+          # - /3-read-write-on-chain-data/inspect-contracts
         locales:
           zh: '读写链上数据'
       Working with Contracts:
