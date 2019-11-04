@@ -50,7 +50,7 @@ categories:
           - /3-read-write-on-chain-data/inspect-transactions
           - /3-read-write-on-chain-data/inspect-blocks
           - /3-read-write-on-chain-data/inspect-assets
-          # - /3-read-write-on-chain-data/inspect-contracts
+          - /3-read-write-on-chain-data/inspect-contracts
         locales:
           zh: '读写链上数据'
       Working with Contracts:
