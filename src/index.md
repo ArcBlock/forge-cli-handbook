@@ -34,6 +34,7 @@ tags:
 - [Introduction](./1-introduction)
   - [What is Forge CLI?](./1-introduction/what-is-forge-cli)
   - [Why Forge CLI?](./1-introduction/why-forge-cli)
+  - [Overview](./1-introduction/overview)
   - [How to get Forge CLI?](./1-introduction/install-forge-cli)
   - [Getting Started](./1-introduction/getting-started)
   - [Initial Setup](./1-introduction/initial-setup)
