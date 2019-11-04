@@ -57,8 +57,8 @@ categories:
         links:
           - /6-working-with-contracts
           - /6-working-with-contracts/compile-deploy-contract
-          - /6-working-with-contracts/activate-deactivate-contract
           - /6-working-with-contracts/create-own-contract
+          - /6-working-with-contracts/activate-deactivate-contract
         locales:
           zh: '使用智能合约'
       Working with Blocklets:
