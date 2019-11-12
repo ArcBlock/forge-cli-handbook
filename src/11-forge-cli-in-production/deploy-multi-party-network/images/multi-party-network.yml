@@ -576,7 +576,7 @@ records:
   - delay: 326
     content: "\e[?1l\e>"
   - delay: 17
-    content: "\e[?2004l\r\r\n\e]2;forge prepare -c beijing --mode init --write-config\a\e]1;forge\a\e]0;arcblock: forge prepare -c beijing --mode init --write-config\a"
+    content: "\e[?2004l\r\r\n\e]2;forge deploy:prepare -c beijing --mode init --write-config\a\e]1;forge\a\e]0;arcblock: forge deploy:prepare -c beijing --mode init --write-config\a"
   - delay: 1237
     content: "\e[34mℹ\e[39m working on \e[36mbeijing\e[39m chain\r\n"
   - delay: 36
@@ -708,7 +708,7 @@ records:
   - delay: 950
     content: "\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[15D\e[?1l\e>"
   - delay: 19
-    content: "\e[?2004l\e[90m --write-config\e[39m\e[15D\r\r\n\e]2;forge prepare -c shanghai --mode init\a\e]1;forge\a\e]0;arcblock: forge prepare -c shanghai --mode init\a"
+    content: "\e[?2004l\e[90m --write-config\e[39m\e[15D\r\r\n\e]2;forge deploy:prepare -c shanghai --mode init\a\e]1;forge\a\e]0;arcblock: forge deploy:prepare -c shanghai --mode init\a"
   - delay: 1332
     content: "\e[34mℹ\e[39m working on \e[36mshanghai\e[39m chain\r\n"
   - delay: 42
@@ -802,7 +802,7 @@ records:
   - delay: 901
     content: "\b\b\b\b\e[24mj\e[24mo\e[24mi\e[24mn\e[?1l\e>"
   - delay: 16
-    content: "\e[?2004l\r\r\n\e]2;forge prepare -c beijing --mode join\a\e]1;forge\a\e]0;arcblock: forge prepare -c beijing --mode join\a"
+    content: "\e[?2004l\r\r\n\e]2;forge deploy:prepare -c beijing --mode join\a\e]1;forge\a\e]0;arcblock: forge deploy:prepare -c beijing --mode join\a"
   - delay: 1160
     content: "\e[34mℹ\e[39m working on \e[36mbeijing\e[39m chain\r\n"
   - delay: 47

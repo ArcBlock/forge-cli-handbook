@@ -16,7 +16,7 @@ tags:
 - 所有的节点参与方都安装相同版本的 Forge CLI 和相同版本的 Forge
 - 所有的节点参与方准备好运行节点的机器，机器的网络条件需要满足节点间相互可达
 - 选出牵头节点负责收集各节点的验证人信息（这个信息不包括节点私钥，各节点私钥由各节点自己保存）
-- 各节点初始化自己的验证人信息：`forge prepare`，把验证人信息发给牵头节点
+- 各节点初始化自己的验证人信息：`forge deploy:prepare`，把验证人信息发给牵头节点
 - 收集到所有节点的验证人信息之后，组装一个正确的配置文件，同步给所有的参与节点
 - 所有的参与节点拿到配置之后启动各自的节点：`forge start`，链就算是启动了
 
@@ -30,9 +30,9 @@ tags:
 
 - `forge chain:create beijing -d`: 创建 `beijing` 节点
 - `forge chain:create shanghai -d`: 创建 `shanghai` 节点
-- `forge prepare -c beijing --mode init --write-config`: 初始化 `beijing` 节点，验证人信息会直接写到配置里面
-- `forge prepare -c shanghai --mode init`: 初始化 `shanghai` 节点，验证人信息会直接打印到终端里面
-- `forge prepare -c beijing --mode join`: 更新 `beijing` 节点，把 `shanghai` 节点的链接串、验证人信息加进去
+- `forge deploy:prepare -c beijing --mode init --write-config`: 初始化 `beijing` 节点，验证人信息会直接写到配置里面
+- `forge deploy:prepare -c shanghai --mode init`: 初始化 `shanghai` 节点，验证人信息会直接打印到终端里面
+- `forge deploy:prepare -c beijing --mode join`: 更新 `beijing` 节点，把 `shanghai` 节点的链接串、验证人信息加进去
 - `forge chain:config -c beijing | grep 'config file path'`: 找到 `beijing` 节点的配置文件路径
 - 同样的找到 `shanghai` 节点的配置文件路径，并且把两个配置文件里面的 `chain_id` 修改为 `china`，这是我们的链的名字
 - 然后把 `beijing` 节点配置文件中的 `connection_string` 和 `terdermint.genesis.validators` 复制到 `shanghai` 节点的配置中
