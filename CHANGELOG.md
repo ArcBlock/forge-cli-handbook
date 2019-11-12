@@ -1,3 +1,7 @@
+## 1.0.0 (November 12, 2019)
+
+- release v1.0.0
+
 ## 0.27.0 (October 29, 2019)
 
 - chore: update forge config in markdown file
