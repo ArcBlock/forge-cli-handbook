@@ -19,7 +19,7 @@ Forge 发行版本可以认为是一个容器，容器里面装着 Forge 内核�
 - Forge Web: Forge 链节点的 Web 管理界面和区块浏览器，使用方法参考[这里](../8-explorer-other-tooling/forge-web)，随着 Forge 内核同步发版
 - Forge SDK: 各种语言的 SDK，目前支持的语言包括 Elixir、Javascript、Java、Python、Rust，除 Elixir 与 Forge 同步发版之外，其他语言的 SDK 采用的是跟随发版
 - Forge Simulator：流量模拟器，使用方法参考[这里](../8-explorer-other-tooling/simulator)
-- dApp Workshop：dApp 原型工坊，跟随 Forge 法本
+- dApp Workshop：dApp 原型工坊，跟随 Forge 发版
 - Forge Patron：集成测试工具，目前尚未公开发布
 - Forge Deploy：生产环境大规模部署的工具，目前只支持 AWS，尚未公开发布
 - Forge Compiler：智能合约编译工具，跟随 Forge 发版，在 Forge CLI 里面可用
