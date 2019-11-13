@@ -71,7 +71,7 @@ Forge 框架把开发区块链应用所需要考虑的网络层、共识层、�
 - [使用智能合约](./6-working-with-contracts)
   - [编译和部署智能合约](./6-working-with-contracts/compile-deploy-contract)
   - [启用和停用智能合约](./6-working-with-contracts/activate-deactivate-contract)
-  - [创建自己的只能合约](./6-working-with-contracts/create-own-contract)
+  - [创建自己的智能合约](./6-working-with-contracts/create-own-contract)
 - [使用 Blocklet](./7-working-with-blocklets)
   - [到底什么是 Blocklet](./7-working-with-blocklets/what-are-blocklets)
   - [使用 dApp Blocklet](./7-working-with-blocklets/dapp-blocklets)
