@@ -19,14 +19,14 @@ categories:
           - /1-introduction/initial-setup
         locales:
           zh: '入门'
-      Forge Release Management:
+      Manage Release:
         links:
           - /4-manage-forge-release
           - /4-manage-forge-release/find-release
           - /4-manage-forge-release/download-install-release
         locales:
-          zh: 'Forge 版本管理'
-      Chain/Node Management:
+          zh: '发行版管理'
+      Manage Chain/Node:
         links:
           - /2-manage-chain-node
           - /2-manage-chain-node/create-config-chain
@@ -37,13 +37,13 @@ categories:
           - /2-manage-chain-node/reset-remove-chain
         locales:
           zh: '链节点管理'
-      Manipulate Wallets/Accounts:
+      Manipulate Wallets:
         links:
           - /5-manipulate-wallets-accounts
           - /5-manipulate-wallets-accounts/local-wallets
         locales:
-          zh: '使用钱包和账户'
-      Read/Write on Chain Data:
+          zh: '使用钱包'
+      Read/Write Data:
         links:
           - /3-read-write-on-chain-data
           - /3-read-write-on-chain-data/inspect-accounts
@@ -53,7 +53,7 @@ categories:
           - /3-read-write-on-chain-data/inspect-contracts
         locales:
           zh: '读写链上数据'
-      Working with Contracts:
+      Using Contracts:
         links:
           - /6-working-with-contracts
           - /6-working-with-contracts/compile-deploy-contract
@@ -61,7 +61,7 @@ categories:
           - /6-working-with-contracts/activate-deactivate-contract
         locales:
           zh: '使用智能合约'
-      Working with Blocklets:
+      Using Blocklets:
         links:
           - /7-working-with-blocklets
           - /7-working-with-blocklets/what-are-blocklets
@@ -70,8 +70,8 @@ categories:
           - /7-working-with-blocklets/contract-blocklets
           - /7-working-with-blocklets/creating-blocklet
         locales:
-          zh: '使用基石程序'
-      Explore Other Tooling:
+          zh: '使用 Blocklet'
+      Use Other Tools:
         links:
           - /8-explorer-other-tooling
           - /8-explorer-other-tooling/forge-web
@@ -79,8 +79,8 @@ categories:
           - /8-explorer-other-tooling/dapp-workshop
           - /8-explorer-other-tooling/forge-swap-service
         locales:
-          zh: '探索其他工具'
-      Use Forge CLI in Production:
+          zh: '使用其他工具'
+      Production Usage:
         links:
           - /11-forge-cli-in-production
           - /11-forge-cli-in-production/join-existing-network

@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 2: Chain/Node Management'
+title: 'Chain/Node Management'
 description: 'Chapter 2: Chain/Node Management'
 keywords: 'forge, forge-cli'
 author: wangshijun

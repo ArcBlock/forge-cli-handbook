@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 6: Working with Contracts'
+title: 'Working with Contracts'
 description: 'Chapter 6: Working with Contracts'
 keywords: 'forge, forge-cli'
 author: wangshijun

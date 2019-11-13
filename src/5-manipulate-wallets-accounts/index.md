@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 5: Manipulate Wallets/Accounts'
+title: 'Manipulate Wallets/Accounts'
 description: 'Chapter 5: Manipulate Wallets/Accounts'
 keywords: 'forge, forge-cli'
 author: wangshijun

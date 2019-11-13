@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 11: Use Forge CLI in production'
+title: 'Use Forge CLI in production'
 description: 'Chapter 11: Use Forge CLI in production'
 keywords: 'forge, forge-cli'
 author: wangshijun

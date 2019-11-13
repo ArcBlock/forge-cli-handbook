@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 1: Introduction'
+title: 'Introduction'
 description: 'Chapter 1: Introduction'
 keywords: 'forge, forge-cli'
 author: wangshijun

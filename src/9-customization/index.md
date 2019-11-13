@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 9: Customization'
+title: 'Customization'
 description: 'Chapter 9: Customization'
 keywords: 'forge, forge-cli'
 author: wangshijun

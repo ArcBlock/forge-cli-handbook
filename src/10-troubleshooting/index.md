@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 10: Troubleshooting'
+title: 'Troubleshooting'
 description: 'Chapter 10: Troubleshooting'
 keywords: 'forge, forge-cli'
 author: wangshijun

@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 3: Read/Write on Chain Data'
+title: 'Read/Write on Chain Data'
 description: 'Chapter 3: Read/Write on Chain Data'
 keywords: 'forge, forge-cli'
 author: wangshijun
