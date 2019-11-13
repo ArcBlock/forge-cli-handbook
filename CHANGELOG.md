@@ -1,6 +1,9 @@
+## 1.0.1 (November 13, 2019)
+
+- add upgrade rule to upgrade-chain chapter
+
 ## 1.0.0 (November 12, 2019)
 
-- release v1.0.0
 
 ## 0.27.0 (October 29, 2019)
 
