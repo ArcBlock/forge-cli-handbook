@@ -20,7 +20,7 @@ tags:
 基于 Forge CLI 创建的每条链的日志存储路径是相互独立的，比如我们 `test-chain` 的日志存储位置为：
 
 - Forge 错误日志：`~/.forge_chains/forge_test-chain/forge_release/core/logs/forge_error.log`
-- Forge 错误日志：`~/.forge_chains/forge_test-chain/forge_release/core/logs/forge_transaction.log`
+- Forge 交易日志：`~/.forge_chains/forge_test-chain/forge_release/core/logs/forge_transaction.log`
 - 共识引擎日志：`~/.forge_chains/forge_test-chain/forge_release/tendermint/logs/tendermint.log`
 
 ## 怎么看日志？
