@@ -65,10 +65,10 @@ categories:
         links:
           - /7-working-with-blocklets
           - /7-working-with-blocklets/what-are-blocklets
-          - /7-working-with-blocklets/dapp-blocklets
+          - /7-working-with-blocklets/creating-blocklet
           - /7-working-with-blocklets/starter-blocklets
           - /7-working-with-blocklets/contract-blocklets
-          - /7-working-with-blocklets/creating-blocklet
+          - /7-working-with-blocklets/dapp-blocklets
         locales:
           zh: '使用 Blocklet'
       Use Other Tools:
