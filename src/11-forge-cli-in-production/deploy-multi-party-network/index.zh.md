@@ -35,7 +35,7 @@ tags:
 - `forge deploy:prepare -c beijing --mode join`: 更新 `beijing` 节点，把 `shanghai` 节点的链接串、验证人信息加进去
 - `forge chain:config -c beijing | grep 'config file path'`: 找到 `beijing` 节点的配置文件路径
 - 同样的找到 `shanghai` 节点的配置文件路径，并且把两个配置文件里面的 `chain_id` 修改为 `china`，这是我们的链的名字
-- 然后把 `beijing` 节点配置文件中的 `connection_string` 和 `terdermint.genesis` 复制到 `shanghai` 节点的配置中
+- 然后把 `beijing` 节点配置文件中的 `persistent_peers` 和 `tendermint.genesis` 复制到 `shanghai` 节点的配置中
 - `forge start beijing`: 启动 `beijing` 节点
 - `forge start shanghai`: 启动 `shanghai` 节点
 - `forge status net -c beijing`: 查看 `beijing` 节点的网络信息，可以看到 `peer` 里面有 `shanghai` 节点
