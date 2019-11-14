@@ -488,7 +488,7 @@ records:
   - delay: 98
     content: "\b\e[4mp\e[39m\e[4mr\e[24m"
   - delay: 45
-    content: "\b\b\e[24mp\e[24mr\e[39me"
+    content: "\b\b\e[24mdeploy:p\e[24mr\e[39me"
   - delay: 171
     content: "\e[39mp"
   - delay: 134
@@ -596,7 +596,7 @@ records:
   - delay: 56
     content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m16s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
   - delay: 349
-    content: "\e[32mforge\e[39m prepare -c beijing --mode init --write-config"
+    content: "\e[32mforge\e[39m deploy:prepare -c beijing --mode init --write-config"
   - delay: 708
     content: "\b\e[90mg\e[39m\b"
   - delay: 259
@@ -728,7 +728,7 @@ records:
   - delay: 59
     content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m16s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
   - delay: 2871
-    content: "\e[4mf\e[24m\e[90morge prepare -c shanghai --mode init\e[39m\e[36D"
+    content: "\e[4mf\e[24m\e[90morge deploy:prepare -c shanghai --mode init\e[39m\e[36D"
   - delay: 117
     content: "\b\e[4mf\e[39m\e[4mo\e[24m"
   - delay: 93
@@ -744,7 +744,7 @@ records:
   - delay: 193
     content: "\b\e[4mp\e[39m\e[4mr\e[24m"
   - delay: 44
-    content: "\b\b\e[24mp\e[24mr\e[39me"
+    content: "\b\b\e[24mdeploy:p\e[24mr\e[39me"
   - delay: 201
     content: "\e[39mp"
   - delay: 81

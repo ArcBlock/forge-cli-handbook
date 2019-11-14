@@ -57,7 +57,7 @@ Forge 框架把开发区块链应用所需要考虑的网络层、共识层、�
   - [创建和配置链节点](./2-manage-chain-node/create-config-chain)
   - [启动和停止链节点](./2-manage-chain-node/start-stop-chain)
   - [查看链节点状态](./2-manage-chain-node/inspect-chain-status)
-  - [查看节点的日志](./2-manage-chain-node/upgrade-chain)
+  - [查看节点的日志](./2-manage-chain-node/view-chain-log)
   - [链的软升级](./2-manage-chain-node/upgrade-chain)
   - [链的充值和删除](./2-manage-chain-node/reset-remove-chain)
 - [处理钱包](./5-manipulate-wallets-accounts)
