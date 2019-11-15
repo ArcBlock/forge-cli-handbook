@@ -21,8 +21,8 @@ Forge 发行版本可以认为是一个容器，容器里面装着 Forge 内核�
 - Forge Simulator：流量模拟器，使用方法参考[这里](../8-explorer-other-tooling/simulator)
 - dApp Workshop：dApp 原型工坊，跟随 Forge 发版
 - Forge Patron：集成测试工具，目前尚未公开发布
-- Forge Deploy：生产环境大规模部署的工具，目前只支持 AWS，尚未公开发布
-- Forge Compiler：智能合约编译工具，跟随 Forge 发版，在 Forge CLI 里面可用
+- Forge Deploy：生产环境大规模部署的工具内部使用 Ansible，，目前只支持部署私链，可以从 [ArcBlock/forge-deploy-public](https://github.com/ArcBlock/forge-deploy-public) 获取源码
+- Forge Compiler：智能合约编译工具，跟随 Forge 发版，在 Forge CLI 里面可用，具体参见[这里](../6-working-with-contracts)
 
 在 GitHub 上我们的一个 Forge 发行版本是这样的：
 
