@@ -26,7 +26,7 @@ $ forge config -l
 allowMultiChain:    false
 defaults:           false
 npmRegistry:        https://registry.npmjs.org/
-mirror:             https://arcblockcn.oss-cn-beijing.aliyuncs.com/
+mirror:             https://releases.arcblockio.cn
 moderatorSecretKey: cBqbHWmgCfpeG8HhtD6-KuKUP5vtxD8I91hQdE0P-znEiDyIVZpMSzpxDMW9Ejjar5ozlWFmdwooZSOz4odD7g
 ```
 
@@ -34,7 +34,7 @@ moderatorSecretKey: cBqbHWmgCfpeG8HhtD6-KuKUP5vtxD8I91hQdE0P-znEiDyIVZpMSzpxDMW9
 
 ``` shell
 $ forge config mirror
-https://arcblockcn.oss-cn-beijing.aliyuncs.com/
+https://releases.arcblockio.cn
 ```
 
 ### 设置配置项
@@ -44,11 +44,11 @@ $ forge config mirror
 https://releases.arcblock.io/forge/0.39.2/forge_darwin_amd64.tgz
 
 # zhenqiang @ zhenqiangMacBook in ~/workcode/forge-cli on git:master o [10:31:46]
-$ forge config mirror https://arcblockcn.oss-cn-beijing.aliyuncs.com/
+$ forge config mirror https://releases.arcblockio.cn
 
 # zhenqiang @ zhenqiangMacBook in ~/workcode/forge-cli on git:master o [10:32:26]
 $ forge config mirror
-https://arcblockcn.oss-cn-beijing.aliyuncs.com/
+https://releases.arcblockio.cn
 ```
 
 ## 配置项
