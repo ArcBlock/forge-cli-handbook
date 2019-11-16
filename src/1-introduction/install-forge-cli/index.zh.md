@@ -112,7 +112,7 @@ npm install -g @arcblock/forge-cli
 ```
 
 ::: success
-如果是中国大陆用户，使用淘宝的 npm 镜像来安装 Forge CLI 可能会更快，使用 `npm install -g @arcblock/forge-cli --npm-registry https://registry.npm.taobao.org` 即可。
+如果是中国大陆用户，使用淘宝的 npm 镜像来安装 Forge CLI 可能会更快，使用 `npm install -g @arcblock/forge-cli --registry https://registry.npm.taobao.org` 即可。
 :::
 
 ::: success

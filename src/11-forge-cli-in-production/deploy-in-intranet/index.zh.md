@@ -18,7 +18,7 @@ tags:
 
 [Forge CLI](https://www.npmjs.com/package/@arcblock/forge-cli) 的所有版本都是发布在 npm 官方的 [package registry](https://registry.npmjs.org) 上的，大部分有局域网的企业都会给自己做这个 registry 的镜像，比如淘宝的镜像是 `https://registry.npm.taobao.org`。
 
-在局域网中安装 Forge CLI 需要先请网络管理员建立一个可用的 npm registry 镜像，并且适当设置镜像的同步频率。这样安装 Forge CLI 的时候直接使用：`npm install -g @arcblock/forge-cli --npm-registry https://registry.domain.com`。
+在局域网中安装 Forge CLI 需要先请网络管理员建立一个可用的 npm registry 镜像，并且适当设置镜像的同步频率。这样安装 Forge CLI 的时候直接使用：`npm install -g @arcblock/forge-cli --registry https://registry.domain.com`。
 
 如何让 Forge CLI 永久性的使用自定义的 `npm registry` 配置项？Forge CLI 在 0.37.10 版本之后支持全局配置 `npmRegistry` 选项。
 
