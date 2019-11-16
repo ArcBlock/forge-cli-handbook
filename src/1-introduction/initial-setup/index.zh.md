@@ -58,3 +58,7 @@ forge config mirror https://releases.arcblockio.cn
 !TerminalPlayer[](./images/3-config-moderator.yml)
 
 最后那行 `forge chain:create hello -d | grep z1c2CbKL9vFebhRUVoBPhNHtmX8wnY3t4Gk` 是为了检查 Forge CLI 是否自动包含了刚生成的管理员信息，因为 Forge CLI 在创建新链的时候会把链的配置打印出来，可以看到配置中包含了我们新配置的管理员。
+
+::: warning
+实际从链管理员私钥派生出管理员的地址是生成 DID 的过程，而 DID 到底如何生成则定义在我们的 [DID 协议里面](https://github.com/ArcBlock/abt-did-spec)，不同语言的 Forge SDK 里面都有对这个协议的实现。
+:::

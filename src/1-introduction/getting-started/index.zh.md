@@ -23,11 +23,11 @@ tags:
 forge install latest
 ```
 
-::: tip
+::: success
 对于中国大陆的用户，可以使用阿里云的镜像来加速安装：`forge install --mirror https://releases.arcblockio.cn`
 :::
 
-::: tip
+::: success
 如果想了解 Forge 发行版本的更多细节可以猛击：[Forge 版本管理](../../4-manage-forge-release)。
 :::
 
@@ -53,9 +53,11 @@ forge start my-forge-chain
 
 !TerminalPlayer[](./images/2-create-and-start-chain.yml)
 
-然后，执行 `forge web open`，不出意外，你本地的浏览器会打开刚刚启动的这条链的区块浏览器，区块浏览器里面能看到链的基本信息：
+然后，执行 `forge web open`，不出意外，你本地的浏览器会打开刚刚启动的这条链的区块浏览器，区块浏览器里面能看到链和节点的基本信息：
 
-- 链的名称显示在左上角：my-forge-chain
+- 节点的地理位置显示在左上角：`Beijing China`
+- 节点名称，节点各个核心组件的工作状态
+- 链的名称，币的符号、总供应量等等
 - 链的块高、交易数量、账户数量、验证人节点数量显示在仪表盘上
 - 如果你刷新这个页面，会看到块高在不停的变大，是因为即使没有交易的时候 forge 也在出空块
 
@@ -83,4 +85,8 @@ forge start my-forge-chain
 
 ## 如何自定义配置？
 
-TODO: 如何自定义节点的配置项
+执行 `forge chain:create my-forge-chain -d` 所创建出来的链实际使用了默认的配置项，如果你想自定义配置怎么做呢？
+
+::: warning
+执行 `forge chain:config set` 就可以打开[交互式的链节点配置过程](../../2-manage-chain-node/create-config-chain)，在里面可以配置出块时间、币的信息等等，但是需要注意的是，`forge chain:config set` 必须在启动链之前完成，部分配置在链启动之后不能直接通过配置文件修改了。Forge 完整的配置文档在[这里](/docs/instruction/configuration)。
+:::
