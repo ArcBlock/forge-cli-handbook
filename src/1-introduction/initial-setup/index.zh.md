@@ -54,7 +54,7 @@ forge config mirror https://releases.arcblockio.cn
 这样，我们只需要确保配置或者环境变量中有管理员私钥即可，具体步骤：
 
 - 用 `forge wallet:create --defaults` 来生成一个随机的管理员钱包，拿到钱包的私钥
-- 在 `~/.forgerc.yaml` 中配置 `moderatorSecretKey`
+- 在 `~/.forgerc.yml` 中配置 `moderatorSecretKey`
 - 创建新链，查看管理员配置是否符合预期
 
 整个过程如下：
