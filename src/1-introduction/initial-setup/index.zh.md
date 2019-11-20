@@ -47,6 +47,10 @@ forge config mirror https://releases.arcblockio.cn
 
 为了免去每次创建链的时候手动配置管理员的繁琐，Forge CLI 在创建链的时候会依次检查全局配置文件里面是否存在 `moderatorSecretKey`、环境变量 `FORGE_MODERATOR_SK` 是否存在，如果存在就会自动从这个私钥派生链管理员的公钥和地址，并将其包含在新创建的链配置中。
 
+::: success
+从 Forge CLI v1.0.0 开始，在创建链的时候如果环境变量和配置文件中都没有找到管理员私钥，Forge CLI 会提供自动生成的选项，自动生成的管理员私钥会存储在[全局配置文件](../../9-customization/global-config)中。
+:::
+
 这样，我们只需要确保配置或者环境变量中有管理员私钥即可，具体步骤：
 
 - 用 `forge wallet:create --defaults` 来生成一个随机的管理员钱包，拿到钱包的私钥

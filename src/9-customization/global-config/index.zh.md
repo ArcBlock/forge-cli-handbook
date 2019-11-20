@@ -95,7 +95,7 @@ https://releases.arcblockio.cn
 
 ### moderatorSecretKey
 
-字符串(string)，管理员(moderator)私钥(SK)。
+字符串(string)，管理员(moderator)私钥(SK)，如果在创建链的时候没有指定管理员私钥，并且系统环境变量中没有找到，Forge CLI 自动生成的管理员私钥就会存储在这个配置项里面。
 
 默认值：不设置
 
