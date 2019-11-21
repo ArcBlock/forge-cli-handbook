@@ -41,3 +41,11 @@ Forge CLI 提供的 `join` 功能能让用户意见成为指定链的观察者�
 ::: error
 基于 Forge 启动的链目前都是 POS 的链，这样的话并不是所有的节点都有资格出块，如果使用 `forge join` 把自己本地节点加入到现有的链，本地节点只同步数据，不参与出块，所以叫做观察者节点。
 :::
+
+## FAQ
+
+### 启动链时 `Forge Web` 启动失败，但是用 `forge ps` 命令能看到所有相关的进程
+
+可能是因为配置文件中 `tendermint.persistent_peers` 的 IP/端口 是不可访问的；如果是错误的 IP/端口，请修改为正确的 IP/端口。
+
+`persistent_peers` 例子: `30be24a8e4916ee3aab2ee22fb6c191efe057efe@122.27.114.130:37001`
