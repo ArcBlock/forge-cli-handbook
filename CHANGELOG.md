@@ -1,3 +1,7 @@
+## 1.0.2 (November 21, 2019)
+
+- chore: add FAQ to join ZH doc
+
 ## 1.0.1 (November 13, 2019)
 
 - add upgrade rule to upgrade-chain chapter
