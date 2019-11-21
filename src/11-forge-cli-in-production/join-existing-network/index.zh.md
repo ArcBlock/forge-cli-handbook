@@ -46,6 +46,6 @@ Forge CLI 提供的 `join` 功能能让用户意见成为指定链的观察者�
 
 ### 启动链时 `Forge Web` 启动失败，但是用 `forge ps` 命令能看到所有相关的进程
 
-可能是因为配置文件中 `tendermint.persistent_peers` 的 IP/端口 是不可访问的；如果是错误的 IP/端口，请修改为正确的 IP/端口。
+可能是因为配置文件中 `tendermint.persistent_peers` 的 IP 和端口不可访问造成的，可能的原因有 IP 是内网 IP在公网不可访问，或者端口号被防火墙屏蔽了（在云主机上这种情形比较常见），遇到这种情况把 IP 和端口号修改为公开可访问的大概率能解决问题。
 
 `persistent_peers` 例子: `30be24a8e4916ee3aab2ee22fb6c191efe057efe@122.27.114.130:37001`
