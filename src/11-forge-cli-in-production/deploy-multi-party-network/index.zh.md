@@ -41,6 +41,20 @@ tags:
 - `forge status net -c beijing`: 查看 `beijing` 节点的网络信息，可以看到 `peer` 里面有 `shanghai` 节点
 - `forge status net -c shanghai`: 查看 `shanghai` 节点的网络信息，可以看到 `peer` 里面有 `beijing` 节点
 
+::: error
+视频教程中多节点间配置文件的同步部分还需要特别注意保持以下几个信息的一致性，实操时如果发现不一致请你自己做好同步：
+
+**尤其是不同链节点的管理员私钥、初始持币账户都是由 Forge CLI 自动生成的情况。**
+
+- `tendermint.genesis.genesis_time` 确保所有链节点的启动时间是相同的
+- `forge.transaction` 确保所有链节点对交易处理的配置是相同的，比如交易大小限制，允许点对点授权的交易类型
+- `forge.prime` 链管理员的配置
+- `forge.token` 链上通证的配置
+- `forge.accounts` 链上通证初始持有账户列表的配置
+
+因为跟链有关的配置会在链初次启动是放到链的状态里面，如果不同节点间链的配置不同会导致联盟链无法启动。关于配置的更多文档参见[这里](/docs/instruction/configuration)。
+:::
+
 ## 效果验证
 
 接下来，如果执行：
