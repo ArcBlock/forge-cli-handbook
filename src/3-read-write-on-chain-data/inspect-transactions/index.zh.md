@@ -35,6 +35,10 @@ message DeclareTx {
 }
 ```
 
+::: warning
+关于 Forge 内置的 Transaction 可以参考 [Forge 文档](/docs/reference/txs)。
+:::
+
 ## 查看单笔交易？
 
 执行 `forge tx <hash>`，可以查看某笔链上交易（Transaction）的详情，比如发送者是谁，交易内容是什么，如下图：
