@@ -83,10 +83,13 @@ categories:
       Production Usage:
         links:
           - /11-forge-cli-in-production
+          - /11-forge-cli-in-production/use-forge-starter
           - /11-forge-cli-in-production/join-existing-network
           - /11-forge-cli-in-production/deploy-multi-node-network
           - /11-forge-cli-in-production/deploy-multi-party-network
           - /11-forge-cli-in-production/deploy-in-intranet
+          - /11-forge-cli-in-production/backup-and-recover
+          - /11-forge-cli-in-production/add-remove-validator
         locales:
           zh: '生产环境指南'
       Customization:
