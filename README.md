@@ -10,6 +10,20 @@ A book that helps you to become a power user of forge-cli
 git clone git@github.com:ArcBlock/forge-cli-handbook.git
 cd forge-cli-handbook
 make init
+```
+
+Then create a config file `.env` in repo root directory with the following content:
+
+```
+GATSBY_ALGOLIA_APP_ID="FU81LCBN51"
+GATSBY_ALGOLIA_ADMIN_KEY="this key is secret"
+GATSBY_ALGOLIA_SEARCH_KEY="2e4d21878c80877e17a6f9c80722eaeb"
+GATSBY_ALGOLIA_INDEX_NAME="forge-cli-handbook"
+```
+
+Then compile and server docs from local:
+
+```
 make run
 ```
 
