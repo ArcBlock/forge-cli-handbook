@@ -1,12 +1,14 @@
 ---
-title: 'Backup and Recover'
-description: 'Backup and Recover'
-keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'handbook'
-layout: 'documentation'
+title: Backup and recovery of nodes
+description: >-
+  How do I back up node data? How do I restore data from a backup? What to do
+  after a node crashes?
+keywords: "forge, forge-cli"
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Recover a crashed node

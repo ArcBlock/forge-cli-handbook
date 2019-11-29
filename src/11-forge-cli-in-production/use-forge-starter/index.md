@@ -1,12 +1,12 @@
 ---
-title: 'Enable Forge Starter'
-description: 'Enable Forge Starter'
-keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'handbook'
-layout: 'documentation'
+title: Enable Forge Daemon
+description: What's going on with the Forge daemon? how to use?
+keywords: "forge, forge-cli"
+author: wangshijun
+category: handbook
+layout: documentation
 tags:
-  - 'forge'
+  - forge
 ---
 
 ## Enable Forge Starter

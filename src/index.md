@@ -1,91 +1,109 @@
 ---
-title: 'Forge CLI Handbook'
-description: '你从这本手册能学到什么？内容是如何组织的？需要具备什么条件？'
-keywords: 'forge, forge-cli'
-author: 'wangshijun'
-category: 'handbook'
-layout: 'documentation'
+title: Forge CLI User Manual
+description: >-
+  What can you learn from this manual? How is the content organized? What are
+  the requirements?
+keywords: "forge, forge-cli"
+author: wangshijun
+category: handbook
+layout: documentation
+requireLogin: false
 tags:
-  - 'forge'
+  - forge
 ---
 
-很高兴你能读到这本小书，在区块链的世界里面开启一趟有趣的探索、建设之旅！
+I'm glad you can read this manual and start an interesting journey of exploration and construction in the world of blockchain!
 
-相信你应该已经知道 [ArcBlock](https://arcblockio.cn) 是一家什么样的公司：我们坚信区块链会给人类组织和协作方式带来巨大的变革，我们致力于开发简单易用、灵活可扩展的 dApp 开发框架和工具。到目前为止我们已经发布了 [Forge 框架](https://arcblockio.cn/zh/forge-sdk) 及围绕 Forge 框架的一系列工具，而 Forge CLI 是开发者获取、使用这些工具的最佳路径：只需安装一条命令，就得到了整个区块链工具箱。
+I believe you should already know [ArcBlock](https://arcblockio.cn) What kind of company it is: We firmly believe that blockchain will bring huge changes to human organization and collaboration, and we are committed to developing easy-to-use, flexible and scalable dApp development frameworks and tools. We have released so far [Forge framework](https://arcblockio.cn/zh/forge-sdk) And a series of tools around the Forge framework, and the Forge CLI is the best way for developers to obtain and use these tools: just install a command and get the entire blockchain toolbox.
 
-## 你能得到什么？
+## What can you learn
 
-毫不夸张的说，Forge CLI 是区块链应用开发的瑞士军刀，包含如下这些开箱即用的功能：
+I believe that you are already struggling to develop your own blockchain application, but terms that look so inscrutable such as asymmetric encryption, block height, consensus algorithm, etc. may make you discourage again, and the tedious and tedious development environment configuration may also let you You run into walls everywhere.
 
-- 管理你的应用链：包括开发环境、生产环境
-- 进行链上数据读写：区块、交易、账户、合约、资产等
-- 管理 Forge 及其周边工具的发行版本
-- 操作钱包和账户（Wallet 和 Account）
-- 完成智能合约的编译、部署和管理
-- 使用基石程序（Blocklet）进行快速开发
-- 使用区块浏览器、模拟器及 dApps Workshop
+The Forge framework encapsulates the network layer, consensus layer, data storage layer, and transaction processing layer that need to be considered for the development of blockchain applications. Developers only need to focus on the business logic that needs to be implemented. Forge CLI is more Furthermore, it allows non-developers to quickly create and launch their own chains and applications.
 
-这些功能在会你开发、部署、运行区块链应用的过程中提供帮助，比如创建测试用的链节点、把链部署到生产环境、使用基石程序快速开发等等。
+If you are a developer, you can learn from this manual:
 
-## 内容组织方式？
+- How to use the Forge CLI to quickly launch the dApp environment
+- How to deploy a production environment with the Forge CLI
+- How to use the Forge CLI for chain operation and maintenance, such as upgrading
+- How to quickly read data from or write data to the chain
+- How to deploy contracts on the chain, how to manage contracts
+- How to use Forge CLI to quickly reuse cornerstone programs
 
-这本小书则是按照上面的大功能块去组织：
+If you are not a developer, you can also start your own nodes to participate in the ArcBlock ecosystem by simple commands.
 
-- [Introduction](./1-introduction)
-  - [What is Forge CLI?](./1-introduction/what-is-forge-cli)
-  - [Why Forge CLI?](./1-introduction/why-forge-cli)
-  - [How to get Forge CLI?](./1-introduction/install-forge-cli)
-  - [Getting Started](./1-introduction/getting-started)
-  - [Initial Setup](./1-introduction/initial-setup)
-- [Manage Forge Release](./4-manage-forge-release)
-  - [Find Forge Releases](./4-manage-forge-release/find-release)
+## What are you going to prepare?
+
+- MacOS, CentOS, Ubuntu and other Linux operating systems or cloud hosts can be used
+- Installs useful command line tools, such as those on Mac [iTerm](https://www.iterm2.com/index.html), Or the terminal program that comes with the Linux system
+- installed [Node.js](https://nodejs.org/) Operating environment, if it does n’t matter, we are in [How to get the Forge CLI](./1-introduction/install-forge-cli) There are detailed explanations
+- Some free time and curiosity about the development of blockchain applications, the mastery and proficiency of any new skills need to be dedicated
+
+## Terminology used in this manual
+
+> The following terms can also be understood as abbreviations, or abbreviations.
+
+- Unless otherwise specified, CLI means Forge CLI
+- Unless otherwise specified, PK refers to the public key
+- Unless otherwise specified, SK means security key
+
+## Content organization
+
+The contents of this manual are organized according to the above large function blocks as follows:
+
+- [Meet Forge CLI](./1-introduction)
+  - [What is the Forge CLI?](./1-introduction/what-is-forge-cli)
+  - [Why develop Forge CLI?](./1-introduction/why-forge-cli)
+  - [How do I get the Forge CLI?](./1-introduction/install-forge-cli)
+  - [One-click issuing chain and one-click coin](./1-introduction/getting-started)
+  - [Necessary initial configuration](./1-introduction/initial-setup)
+- [Release management](./4-manage-forge-release)
+  - [Find Forge Distributions](./4-manage-forge-release/find-release)
   - [Get Forge Release](./4-manage-forge-release/download-install-release)
-- [Manage Chain/Node](./2-manage-chain-node)
-  - [Create/Config a new Chain](./2-manage-chain-node/create-config-chain)
-  - [Start/Stop the Chain](./2-manage-chain-node/start-stop-chain)
-  - [Inspect Chain Status](./2-manage-chain-node/inspect-chain-status)
-  - [View Chain Log](./2-manage-chain-node/view-chain-log)
-  - [Upgrade a Chain](./2-manage-chain-node/upgrade-chain)
-  - [Reset/Remove a Chain](./2-manage-chain-node/reset-remove-chain)
-- [Using Wallets](./5-manipulate-wallets-accounts)
-  - [Creating local wallets](./5-manipulate-wallets-accounts/local-wallets)
-- [Read/Write Data](./3-read-write-on-chain-data)
-  - [Inspect Transactions](./3-read-write-on-chain-data/inspect-transactions)
-  - [Inspect Blocks](./3-read-write-on-chain-data/inspect-blocks)
-  - [Inspect Accounts](./3-read-write-on-chain-data/inspect-accounts)
-  - [Inspect Assets](./3-read-write-on-chain-data/inspect-assets)
-  - [Inspect Contracts](./3-read-write-on-chain-data/inspect-contracts)
-- [Using Contracts](./6-working-with-contracts)
-  - [Compile/deploy a Contract](./6-working-with-contracts/compile-deploy-contract)
-  - [Activate/deactivate a Contract](./6-working-with-contracts/activate-deactivate-contract)
-  - [Creating your own Contract](./6-working-with-contracts/create-own-contract)
-- [Using Blocklets](./7-working-with-blocklets)
-  - [What are Blocklets](./7-working-with-blocklets/what-are-blocklets)
-  - [Using dApp Blocklets](./7-working-with-blocklets/dapp-blocklets)
-  - [Using Starter Blocklets](./7-working-with-blocklets/starter-blocklets)
-  - [Using Contract Blocklets](./7-working-with-blocklets/contract-blocklets)
-  - [Create and publish your own Blocklet](./7-working-with-blocklets/creating-blocklet)
-- [Production Usage](./11-forge-cli-in-production)
-  - [Use Forge Starter](./src/11-forge-cli-in-production/use-forge-starter)
-  - [Join an Existing Network](./11-forge-cli-in-production/join-existing-network)
-  - [Deploy a Multi Node Network](./11-forge-cli-in-production/deploy-multi-node-network)
-  - [Deploy a Multi Party Network](./11-forge-cli-in-production/deploy-multi-party-network)
-  - [Deploy a Network in Intranet](./11-forge-cli-in-production/deploy-in-intranet)
-  - [Recover a crashed node](./src/11-forge-cli-in-production/recover-from-crash)
-  - [Add or remove validator](./src/11-forge-cli-in-production/add-remove-validator)
-- [Use Other Tooling](./8-explorer-other-tooling)
-  - [Forge Web](./8-explorer-other-tooling/forge-web)
-  - [Forge Simulator](./8-explorer-other-tooling/simulator)
+- [Management chain and nodes](./2-manage-chain-node)
+  - [Create and configure chain nodes](./2-manage-chain-node/create-config-chain)
+  - [Starting and stopping chain nodes](./2-manage-chain-node/start-stop-chain)
+  - [View chain node status](./2-manage-chain-node/inspect-chain-status)
+  - [Viewing the logs of a node](./2-manage-chain-node/view-chain-log)
+  - [Soft upgrade of the chain](./2-manage-chain-node/upgrade-chain)
+  - [Reset and delete of the chain](./2-manage-chain-node/reset-remove-chain)
+- [Handle wallet](./5-manipulate-wallets-accounts)
+  - [Generate and view local wallets](./5-manipulate-wallets-accounts/local-wallets)
+- [Read and write data on the chain](./3-read-write-on-chain-data)
+  - [Reading transaction data](./3-read-write-on-chain-data/inspect-transactions)
+  - [Read block data](./3-read-write-on-chain-data/inspect-blocks)
+  - [Read account status](./3-read-write-on-chain-data/inspect-accounts)
+  - [Read asset data](./3-read-write-on-chain-data/inspect-assets)
+  - [Read contract data](./3-read-write-on-chain-data/inspect-contracts)
+- [Using smart contracts](./6-working-with-contracts)
+  - [Compile and deploy smart contracts](./6-working-with-contracts/compile-deploy-contract)
+  - [Enable and disable smart contracts](./6-working-with-contracts/activate-deactivate-contract)
+  - [Create your own smart contract](./6-working-with-contracts/create-own-contract)
+- [Use Blocklet](./7-working-with-blocklets)
+  - [What exactly is a blocklet](./7-working-with-blocklets/what-are-blocklets)
+  - [Use dApp Blocklet](./7-working-with-blocklets/dapp-blocklets)
+  - [Use Starter Blocklet](./7-working-with-blocklets/starter-blocklets)
+  - [Use contract blocklet](./7-working-with-blocklets/contract-blocklets)
+  - [Create and publish blocklets](./7-working-with-blocklets/creating-blocklet)
+- [Use other tools](./8-explorer-other-tooling)
+  - [Block Browser](./8-explorer-other-tooling/forge-web)
+  - [Traffic simulator](./8-explorer-other-tooling/simulator)
   - [dApps Workshop](./8-explorer-other-tooling/dapp-workshop)
-  - [Forge Swap](./8-explorer-other-tooling/forge-swap-service)
-- [Advanced Usage](./9-customization)
-  - [Global Config](./9-customization/global-config)
-  - [Multi Chain Support](./9-customization/multi-chain)
-- [Troubleshooting](./10-troubleshooting)
+  - [Cross-chain service](./8-explorer-other-tooling/forge-swap-service)
+- [Production Environment Guide](./src/11-forge-cli-in-production)
+  - [Enable daemon](./src/11-forge-cli-in-production/use-forge-starter)
+  - [Join an existing chain](./src/11-forge-cli-in-production/join-existing-network)
+  - [Deploying a multi-node chain](./src/11-forge-cli-in-production/deploy-multi-node-network)
+  - [Deploying a multi-party chain](./src/11-forge-cli-in-production/deploy-multi-party-network)
+  - [Local area network deployment method](./src/11-forge-cli-in-production/deploy-in-intranet)
+  - [Backup and recovery of nodes](./src/11-forge-cli-in-production/recover-from-crash)
+  - [Add or delete nodes](./src/11-forge-cli-in-production/add-remove-validator)
+- [Advanced usage](./9-customization)
+  - [Global configuration](./9-customization/global-config)
+  - [Multi-chain support](./9-customization/multi-chain)
+- [Diagnosis and commissioning](./10-troubleshooting)
 
-## 你需要准备什么？
+---
 
-- 安装有 MacOS、CentOS、Ubuntu 等 Linux 操作系统的设备或者云主机都可以
-- 安装有好用的命令行工具，比如 Mac 下面的 iTerm，或者 Linux 系统自带的终端程序
-- 安装了 Node.js 的运行环境，如果没有也没关系，我们在 [如何获取 Forge CLI](./1-introduction/install-forge-cli) 里有详细的讲解
-- 空闲时间和对区块链应用开发的好奇心
+What are you waiting for? Do it!
