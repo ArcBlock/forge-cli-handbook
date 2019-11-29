@@ -36,8 +36,6 @@ Forge CLI 提供的 `join` 功能能让用户意见成为指定链的观察者�
 - 执行 `forge join http://127.0.0.1:8210/api -c shadow`，让 shadow 的节点加入本地的 `test-chain`
 - 执行 `forge start shadow`，启动 shadow 节点
 
-> TODO: 演示的时候用远程的节点
-
 ::: error
 基于 Forge 启动的链目前都是 POS 的链，这样的话并不是所有的节点都有资格出块，如果使用 `forge join` 把自己本地节点加入到现有的链，本地节点只同步数据，不参与出块，所以叫做观察者节点。
 :::
@@ -49,3 +47,15 @@ Forge CLI 提供的 `join` 功能能让用户意见成为指定链的观察者�
 可能是因为配置文件中 `tendermint.persistent_peers` 的 IP 和端口不可访问造成的，可能的原因有 IP 是内网 IP在公网不可访问，或者端口号被防火墙屏蔽了（在云主机上这种情形比较常见），遇到这种情况把 IP 和端口号修改为公开可访问的大概率能解决问题。
 
 `persistent_peers` 例子: `30be24a8e4916ee3aab2ee22fb6c191efe057efe@122.27.114.130:37001`
+
+### 已有链远程返回的验证人节点数组不对？
+
+在 Forge 的配置文件验证人节点数组那段有一段特别的开始和结束标志：
+
+```toml
+### begin validators
+[[tendermint.genesis.validators]]
+### end validators
+```
+
+其中的 `### begin validators` 和 `### end validators` 是 Forge 在生成给其他节点加入时使用的配置时插入验证人节点数组的起始标记，需要加这两个标记才能保证生成的结果无误。
