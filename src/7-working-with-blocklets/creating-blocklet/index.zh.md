@@ -195,7 +195,7 @@ Blocklet 项目完成开发、测试后怎么发布到我们的[官网](https://
 
 0. 将项目发布到 NPM
 1. Fork 这个项目 https://github.com/ArcBlock/blocklets
-1. 然后修改仓库中的 `register.yml`，把自己的 Github 项目地址放进去:
+1. 然后修改仓库中的 `registry.yml`，把自己的 Github 项目地址放进去:
 
 ```yml
 ---
