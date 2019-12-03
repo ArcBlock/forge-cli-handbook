@@ -6,44 +6,44 @@ config:
   # the default is bash for Linux
   # or powershell.exe for Windows
   command: zsh
-  
+
   # Specify the current working directory path
   # the default is the current working directory path
   cwd: /Users/wangshijun/Develop/arcblock
-  
+
   # Export additional ENV variables
   env:
     recording: true
-  
+
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
   cols: 121
-  
+
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
   rows: 25
-  
+
   # Amount of times to repeat GIF
   # If value is -1, play once
   # If value is 0, loop indefinitely
   # If value is a positive number, loop n times
   repeat: 0
-  
+
   # Quality
   # 1 - 100
   quality: 100
-  
+
   # Delay between frames in ms
   # If the value is `auto` use the actual recording delays
   frameDelay: auto
-  
+
   # Maximum delay between frames in ms
   # Ignored if the `frameDelay` isn't set to `auto`
   # Set to `auto` to prevent limiting the max idle time
   maxIdleTime: 1000
-  
+
   # The surrounding frame box
   # The `type` can be null, window, floating, or solid`
   # To hide the title use the value null
@@ -55,7 +55,7 @@ config:
       border: 0px black solid
       # boxShadow: none
       # margin: 0px
-  
+
   # Add a watermark image to the rendered gif
   # You need to specify an absolute path for
   # the image on your machine or a URL, and you can also
@@ -68,25 +68,25 @@ config:
       bottom: 15px
       width: 100px
       opacity: 0.9
-  
+
   # Cursor style can be one of
   # `block`, `underline`, or `bar`
   cursorStyle: block
-  
+
   # Font family
   # You can use any font that is installed on your machine
   # in CSS-like syntax
   fontFamily: "source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"
-  
+
   # The size of the font
   fontSize: 14
-  
+
   # The height of lines
   lineHeight: 1.2
-  
+
   # The spacing between letters
   letterSpacing: 0
-  
+
   # Theme
   theme:
     background: "transparent"
@@ -108,7 +108,7 @@ config:
     brightMagenta: "#ae89fe"
     brightCyan: "#b1c6ca"
     brightWhite: "#f9f9f4"
-  
+
 # Records, feel free to edit them
 records:
   - delay: 2967
@@ -150,7 +150,7 @@ records:
   - delay: 1352
     content: "\e[32m✔\e[39m chain name: my-forge-chain\r\n\e[2m──────────────\e[22m\r\nConfig Preview\r\n\e[2m──────────────\e[22m\r\n\r\n\e[32mapp: \e[39m\r\n  \e[32mname: \e[39m      my-forge-chain\r\n  \e[32mversion: \e[39m   \r\n  \e[32mpath: \e[39m      \r\n  \e[32mexecutable: \e[39m\r\n  \e[32msock_tcp: \e[39m  \r\n\e[32mforge: \e[39m\r\n  \e[32mproto_version: \e[39m\e[34m1\e[39m\r\n  \e[32mpath: \e[39m         /Users/wangshijun/.forge_chains/forge_my-forge-chain/forge_release/core\r\n  \e[32mlogpath: \e[39m      logs\r\n  \e[32msock_grpc: \e[39m    tcp://127.0.0.1:28210\r\n  \e[32mpub_sub_key: \e[39m  ABTTOTHEMOON\r\n  \e[32mtransaction: \e[39m\r\n    \e[32mmax_asset_size: \e[39m\e[34m1000000\e[39m\r\n    \e[32mdeclare: \e[39m\r\n      \e[32mrestricted: \e[39m\e[31mfalse\e[39m\r\n    \e[32mdelegate: \e[39m\r\n      \e[32mtype_urls: \e[39m\r\n        \e[32m- \e[39mfg:t:transfer\r\n        \e[32m- \e[39mfg:t:exchange\r\n    \e[32mpoke: \e[39m\r\n      \e[32mdaily_limit: \e[39m\e[34m2500000\e[39m\r\n      \e[32mamount: \e[39m     \e[34m25\e[39m\r\n  \e[32mstake: \e[39m\r\n    \e[32mtimeout: \e[39m\r\n      \e[32mgeneral: \e[39m       \e[34m10\e[39m\r\n      \e[32mstake_for_node: \e[39m\e[34m60\e[39m\r\n  \e[32mweb: \e[39m\r\n    \e[32menabled: \e[39m\e[32mtrue\e[39m\r\n  \e[32mprime: \e[39m\r\n    \e[32mmoderator: \e[39m\r\n      \e[32maddress: \e[39mz1Yp4DGb8AoqmMGo9fRnffubG3kfyTHQBMp\r\n      \e[32mpk: \e[39m     2eZPQ908O0s_NlGt6yj6RSn3G3MyxvGjy0csxLG8Gvs\r\n      \e[32mbalance: \e[39m\e[34m0\e[39m\r\n    \e[32mtoken_holder: \e[39m\r\n  \e[32maccounts: \e[39m\r\n    \e[32m- \e[39m\r\n      \e[32maddress: \e[39mz1Yp4DGb8AoqmMGo9fRnffubG3kfyTHQBMp\r\n      \e[32mpk: \e[39m     2eZPQ908O0s_NlGt6yj6RSn3G3MyxvGjy0csxLG8Gvs\r\n      \e[32mbalance: \e[39m\e[34m3500000000\e[39m\r\n  \e[32mtoken_swap: \e[39m\r\n    \e[32mcommission_rate: \e[39m          \e[34m1000\e[39m\r\n    \e[32mrevoke_commission_rate: \e[39m   \e[34m500000\e[39m\r\n    \e[32mcommission_holder_address: \e[39mz1X9yFbKTzAmaKqBUEWqSHLpNeAYeWrVzSR\r\n    \e[32mwithdraw_interval: \e[39m        \e[34m26400\e[39m\r\n  \e[32mtoken: \e[39m\r\n    \e[32mname: \e[39m          ArcBlock\r\n    \e[32msymbol: \e[39m        ABT\r\n    \e[32munit: \e[39m          arc\r\n    \e[32mdescription: \e[39m   Forge token ABT\r\n    \e[32micon: \e[39m          data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABoCAYAAABxGuekAAAAAXNSR0IArs4c6QAAD5RJREFUeAHtnAnUHeMZx6VJLCG2ELElIkLtxFK7xu4QyqFqS6ylSovWcqhaU0GprWgQcmiKWms5xFLEvm+xbxHEFstHLAna3893H2dy8917595v7tyb5HvO+X3zzMw77/u8/5l5n2duzskss0w/1p1Qh8FY2Hr6CXv6ibQToQ6BCfC/BKPxl4MOy0CBdejjMQiBJxb8zwvbKWzPhvmgw2pQYDGuuRxC4PH4u8J/Csd2YXsefFvY9wYcAJ2hw1IoMAdtjoFJoMhfwonQDbQQelDr7iwrsL0D4oY8i79x4VzHpoQCO3J8HIRoV+H3LmpbLHSc3g7nVYhrr8XvFyc7tq0KrMrmXgiRnsBfv/XUNH9LCW3D2eBIaAH7+hpOBquVmdp6Mvvh8B0ozPuwL/wESlk5oeOaXjiXwvdgv1YrQ8DqZaayrsz2UPgMFGIynA5zQyVLI3T0sTrO/eAY8ihYxcwUthWzfBli8jfh969i5tUIHd1arYyHGNNqxqpmhrRlmdWtEJN9Hn/zGmZai9AOY9Vi9WIVYwxWNVY3VjkzhPkhcSb4YeEEP4aDoQvUYrUKHWP1wbGaiRv+Jr7VznRrnYl8f/gInJQfFudDD2iPtVfoGHsDHKubEPwefKuf6coGEu0zEJO4C3/FjGaQldCGY3WzL1jtGKvVj1WQ1VBTW1+iuwZC4Nfxt8844iyFjtDmwbHqsfox9k/hULA6aiqbi2iGgh8IBuoPPkeBHxBZWz2EjhiXxrEKigflJXyrpIabHwCD4V0wuO9hJCwM9bJ6Ch0xb4HzAoTgVktWTQ2xtRj1YYhgHsRfM4dI8hDaaVgVWR19As7RqsnqaV7IxRZllMvAp9cA3obdwac7D8tL6JjLAjhWS1ZNzvdDsJqyqqqLzU6vR8MX4IBfwUkwJ+RpeQsdc1sJ5y5w7vI0DIRMbQd6ewNikKvxl4BGWKOEjrluj/M6hBZWWX3jZK3blbnwbohOn8LfEBppjRbauVtNWVXFP6dZbVl1WX1VZQvS+gKIny8/wN8Pyv18yelcrBmEjokugjMSIl+9gz8YOkFZs0A/BD4Fn2IL+DPAgr5ZrJmEDk2stqy64s23GrMqa9O25OiLEI1vwV+mzZaNPRgfFIMaG8Y0o/sUW335VKuhT7nVmU/9j6aoIbBiK3qz2vMEZqx7NmmAVmFWY1Zlxvkl7AY/WIhsrfhXaKalojXC1r8+HfFzq//G2Ky2BoE9DqHr8Ag0DiST316cbIbkFzG69VWMWN2u58EmMn96uBgiOcZX5TRC+3vsPRCTeRJ/A2gGM7k4gfhCM0afmmZ4GCz3DoNkuXcq+weCcU4jNMd+sF/x900Iwf+F3wcaZSaah8B4/EXNrSWn232gkbYNg78GxiI3wJKg7QseKym0jeaA42AS2NhF/TjoBnnbYAY0BjP6zQX/lML2fbZzQ962AgPeAcYlz8LGkLRUQscFi+H4REeH4/F94vMys3iUTJZPyTp6DPvGZQLPy3ow0DkQS9hH+AdBZyi2qoSOi9fGeRRC8AfwV4+TddwOLYzp0uESkhR6APsm8G+gP9TTutD5b+FjUAOrn3NhPihlNQltZ07UamQCOJjJySzbC+phS9Cp9ajj/Ay0pNDuXwjGcqM7dbLN6HcsxEN2G/5yKcaqWejouzuOWfVrcPAWMOvOBlnaNXRm/yMTnRYL3ZNznxXaKUiW5ltyPYTAL+NvW8UA7RY6xuqHY5aNQMy+ZuEs7Od0Yr9fwCIQViy0x/8AtvWr0Ve8vWZyHQYuSfbrjTwCZoVqLDOhY9CNcZ6FENxsbFau1Uws/iRrf0cVddKW0Arg02b73xe1r2bXmnxPeA/sy/V/BCwEtVjmQhuE4ph9zcIGaVY2O/eAam1/LrCPN2D2oovbEtomW4PXmKxqGXM9rnu80If9jIEB0B6ri9ARkFnYbBy/SThxs3XaV3pe2n4ITnZ7KLZSQtvOJOV157mT0nrTbhR4nbwFu0AWVlehI0Cz8miICZi1N42TZbZnFq75b4k25YRelmu8wb5NK5a4Pg774fVn8EPMGCfB8eCHWlaWi9ARrFn6FQjBzeJLxcmi7U/ZnwyujSsXnYvdckLb5ixwrDvdKWE7cdwnN2K6En/xEm3bczhXoQ3UZGXWNns7ObP5MDC7J+0Wdjx/fvJgkV9JaJeuyBPbFV27Gvv3QQj8GP66RW2y3M1d6Aje7G0W94l1su+BWd5svxV47BNYAEpZJaG97jdgX6+Btb3jXgjJcfdh33HraQ0TOiY1AMesHk+W2X5cYf9gtuUsjdBWQM+A/d8MLQXfN+k06A55WMOFjkma3ZNrpUtL3zhZYptGaC89CuJGur0RSuUGTtXFmkZoZ2cS+gpCFKsAq4FS2b+S0MtzbbLasV/LvkbYVELXe52qNMFjaOBHyZ1wFSiwZdZLsBOktflpeBY8BZuC9fsJ4HLh/hrQcIunKe9AVmFAE5Ql3TKFwa0CrAYiJqsEq4Ww4ifa9fgAmAheYw3tB4vCa38Bjz8AnSBPm+qJduCYVJ5BONbd4NinQ9J8y6wKrEo8782warB6SAq9CfvPQcR/O/4KkLS52HkXbLNb8kQOflMIvWNh8h+wnafEpK2zrRJ8/RXKZDm24PuEhsCv4hfXzBz60Ybg2fZtmPPHo/V3Gi60a/Kb4OQNppItRQOrhhA2ti0cOxJmhXLmkvEIeN2J5RpmfK7hQpsAnfSTkCYZK9QQiHU4hL6bY8tBGlubRt+DFU6fNBdk0KahQi/KBPwxX7E2TDGZdWjzaKG914TYnxeOTWFrtTEfVLLLaWAf/67UMKPzDRU6JntVhcksxvloqzjjYVeIZLgLvtWFVUbcgAPwrUJKWbU3uVQ/aY83TOg0r691tEvLJFBAP2BcV7uBFkIPat2t+n+g+RPX2W/aZaswTE2bhgidJiFZiYwDhRCf+t6QtGKh45xVh9VHXHstfr84mdgmE/GvE8fr4TZE6CHMRBHehuISa1WO3Vs4b5snYH1oy0oJbVt/qbMKaQH78V/pT4bukLQ0pWWyfa1+7kInPxpcZ8N64gwHP0gU5n0wuHKVSDmhufQH68XfS8Eqw34nwBDwrQq7B8dzp8eBOmxzF9qnykn5keFku8Kh8Bl43E9wJ+wHSiVLI3T0sTrO/eAYYvViFaO19fnfeia7v7kKvSRx+wr7dK0BW8HLEJO/Cb8/pLVqhI4+fYusWmJMqxmrmn8Ujt3Mth6Wq9AmJSd4Hdxa8N1/HjaHaq0WoR3DqsXqxSrG8SeBb9qnhf0t2WZtuQm9EZE7KX+rmFLwP2Z7MHSBWqxWoWOsPjhWM8YlEwvbF9h2hSwtF6EN2gojJuSHxfnQA9pj7RU6xt4Ax+om4nN7WpzMaFt3oQcSaFLkV9g3+WRhWQltLFY3R4BvnEKbR0aC1VAWVjeh+xLdNRBPietg+LWuycUTzkpo1+zjIdZsKx/fOuN13T4UfCvbY5kLbZ08FKwuDNQffI6C2WAQJKsMheoPtVoWQu/M4MkqZBT7ViFLg1VQPBwv4Vsl1WqZCd2JCAbDu2Bw8eotjJ+0Wdk5DKJu9lV1PUxTN9NsKmuP0OXq6uQgW7BjcgzBrZaWTTZI6Wci9FoM9jBEMA/ir1khANe+iyD5Jbg3++W+BIu7rEXoXnQyAnwQjHcC7Ak+KKXMqsjq6BPwGqumM2FeSGvtEnpRRrkMImiT3u5QLmhOT2UD2BsDcZMex19vqhald6oR2jfpcGgBx/JNOgW6Q1pbgIZWS7F+f4i/P3SGSlaT0P7qdTR8AQb9FZwEc0KtthMXjoMQ/Ar83hU6Syv0tvTzaqLv6/H7Vei73OmVOHkXRKxP4w8sdwHnqhZ6By56A2KQq/GXgCxsDjo5FqJCsQo4DqwK2rJKQi/PRbdDxPoc/iZtdVTjse257nWI/q2y+pboK7XQK9PB3RCdPoW/IdTDFqfTURBjvYW/cxsDlRJ6ftqeA/GKT8Q/ENK84jSryqymrKrin9OstoaC1VfSKgq9IK0vgEhaH+DvB9UkLZrXZOty1WMQgt+Hv1qip2Khu3BOQRXWa6aAgit8vW0RBhgJka/ewR8MnUArKXRXTh4Cn4JBT4YzYB7I0wx0L3gPjMOJjICFICn0puy7NMRNGY3v0pG3WW1ZdUUcVmNWZSWFfjHR+Bb8ZaCRZnVglWC14CRaYGzBf6iw9fgrsA000nw4rL7eAWPy4Qjxh+P/YHEn3Cr2lq2Hm+bvUkRyAyTj1Fd4yzfLuGYxq7CTwKos4r0wgoui3ETyN6imKI8+8thuwiCK6wRcJlxKmtFcSp6AEPrUCNLkp+rJ5LcP+3kkv4gh7fZGGjqBQWkvyLHdwox1CbhsGOO7sAdEcsRttVXY3ANxJ57E36D1VNP8TSbDZglqNgI5EpLl3snsF5d708T7S468CSH4lfh9oBms2YT+BaK8DqHVdfh9qxHKT+5jIPnJfQL77fnkrmb8Um2bRegVCfBOCIGfwd+oVNBpji9Ko39CrDtv4+8C06w7HMvDGi10Dyb5d4gv0I/wD4DMvkDXprNHIO7gA/hrQN7WKKG7MNHfwcegBlPgbJgPMjef4j3AbOpgPuWXgNk2L2uE0JszuechHrJb8ZfNY8Jm02HwNTi42fYIMPvW2/IUuj+TifGc58vQkLJySQY2y8adfg3fLFxPi4nXc8JzM4HTYDI4t8/gj9AVGmpm22cgBDcbm5XrYfUU+icEvDe8D87lO7gIekLTmFnX7GsWNkizstnZLJ2l1Uvo9Qky+dl8L/urZhl41n2Zhc8Gs7KCm6UPArN2Fpa10L0J6gqIt3Ec/k5ZBJpXH2bl2yAmYNbeLIPBsxK6G7EcD1+CMU6CY2EOmC7NpGW2DsEVymxeq2Uh9M4MPh4iplH4i9UaUDNdNyvBHAZmbyf3DZwKZvdqrT1Cr85g90MI/Cj+OtUGMD20N3ubxc3mTtbsbpY326e1WoTuRecjIH5GmIC/J/gBNkPbAGY3BuLJehx/vZQzrkZo36TDoQXiTToFvzvMVGZ2N8uH4GZ/q4ByllbobenkVYi+r8fvV67jGf2cWf5YMOsrilXAcWBV0JZVEnp5LrodQmD/lXyTtjqaWY8tzsTN/iHQW/hWB8VWSuj5aXgufAv2MREOhM7QYW0osC7HHoMQ/D781RLtioX2Q0hBFdZr/FA6BxS+wyooYDWwF7wHime1cDH4r95JoTdl36UhbspofJeODqtSAasDqwTrbsVsgbEF/6HC1uOvwDbQYe1UYCmuvwHiyY2twlu+WcZ1WIYKWD28CC4lI8GlpMPqpIDJb+k69d3R7YygwP8BZjx0IBJLJOUAAAAASUVORK5CYII=\r\n    \e[32mdecimal: \e[39m       \e[34m18\e[39m\r\n    \e[32minitial_supply: \e[39m\e[34m7500000000\e[39m\r\n    \e[32mtotal_supply: \e[39m  \e[34m7500000000\e[39m\r\n    \e[32minflation_rate: \e[39m\e[34m0\e[39m\r\n\e[32mtendermint: \e[39m\r\n  \e[32mmoniker: \e[39m            my-forge-chain\r\n  \e[32mpath: \e[39m               /Users/wangshijun/.forge_chains/forge_my-forge-chain/forge_release/tendermint\r\n  \e[32mkeypath: \e[39m            /Users/wangshijun/.forge_chains/forge_my-forge-chain/keys\r\n  \e[32mlogpath: \e[39m            logs\r\n  \e[32msock_proxy_app: \e[39m     unix://socks/tm_proxy_app.sock\r\n  \e[32msock_rpc: \e[39m           tcp://127.0.0.1:28221\r\n  \e[32msock_grpc: \e[39m          tcp://127.0.0.1:28222\r\n  \e[32msock_p2p: \e[39m           tcp://0.0.0.0:26656\r\n  \e[32msock_prof: \e[39m          \r\n  \e[32mpersistent_peers: \e[39m   \r\n  \e[32mseed_peers: \e[39m         \r\n  \e[32mtimeout_commit: \e[39m     5s\r\n  \e[32mcreate_empty_blocks: \e[39m\e[32mtrue\e[39m\r\n  \e[32mseed_mode: \e[39m          \e[31mfalse\e[39m\r\n  \e[32mrecheck: \e[39m            \e[31mfalse\e[39m\r\n  \e[32mgenesis: \e[39m\r\n    \e[32mgenesis_time: \e[39m2019-02-10T17:29:13.31415926Z\r\n    \e[32mchain_id: \e[39m    my-forge-chain\r\n    \e[32mmax_bytes: \e[39m   \e[34m150000\e[39m\r\n    \e[32mmax_gas: \e[39m     \e[34m-1\e[39m\r\n    \e[32mapp_hash: \e[39m    \r\n    \e[32mvalidators: \e[39m\r\n      \e[32m- \e[39m\r\n\e[32mipfs: \e[39m\r\n  \e[32mpath: \e[39m   /Users/wangshijun/.forge_chains/forge_my-forge-chain/forge_release/ipfs\r\n  \e[32mlogpath: \e[39mlogs\r\n\e[32mcache: \e[39m\r\n  \e[32mpath: \e[39m/Users/wangshijun/.forge_chains/forge_my-forge-chain/forge_release/cache/mnesia_data_dir\r\n\e[32mworkshop: \e[39m\r\n  \e[32mpath: \e[39m/Users/wangshijun/.forge_chains/forge_my-forge-chain/workshop\r\n  \e[32mdb: \e[39m  sqlite://workshop.sqlite3\r\n\r\n\e[2m──────────────\e[22m\r\n"
   - delay: 11
-    content: "Initialized a new empty chain in /Users/wangshijun/.forge_chains/forge_my-forge-chain\r\n\e[32m✔\e[39m Config file \e[36m/Users/wangshijun/.forge_chains/forge_my-forge-chain/forge_release.toml\e[39m is updated!\r\n\e[34mℹ\e[39m Full configuration documentation: \e[36mhttps://docs.arcblock.io/forge/latest/core/configuration.html\e[39m!\r\n\e[2m──────────────\e[22m\r\n\e[34mℹ\e[39m Run \e[36mforge start my-forge-chain\e[39m to start the chain\r\n"
+    content: "Initialized a new empty chain in /Users/wangshijun/.forge_chains/forge_my-forge-chain\r\n\e[32m✔\e[39m Config file \e[36m/Users/wangshijun/.forge_chains/forge_my-forge-chain/forge_release.toml\e[39m is updated!\r\n\e[34mℹ\e[39m Full configuration documentation: \e[36mhttps://docs.arcblock.io/zh/docs/instruction/configuration\e[39m!\r\n\e[2m──────────────\e[22m\r\n\e[34mℹ\e[39m Run \e[36mforge start my-forge-chain\e[39m to start the chain\r\n"
   - delay: 608
     content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
   - delay: 63
