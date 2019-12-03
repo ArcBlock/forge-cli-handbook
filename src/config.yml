@@ -10,25 +10,25 @@ categories:
       "null":
         - /
       Introduction:
+        url: /1-introduction
         links:
-          - /1-introduction
           - /1-introduction/what-is-forge-cli
           - /1-introduction/why-forge-cli
           - /1-introduction/install-forge-cli
           - /1-introduction/getting-started
           - /1-introduction/initial-setup
         locales:
-          zh: '入门'
+          zh: "入门"
       Manage Release:
+        url: /4-manage-forge-release
         links:
-          - /4-manage-forge-release
           - /4-manage-forge-release/find-release
           - /4-manage-forge-release/download-install-release
         locales:
-          zh: '发行版管理'
+          zh: "发行版管理"
       Manage Chain/Node:
+        url: /2-manage-chain-node
         links:
-          - /2-manage-chain-node
           - /2-manage-chain-node/create-config-chain
           - /2-manage-chain-node/start-stop-chain
           - /2-manage-chain-node/inspect-chain-status
@@ -36,53 +36,53 @@ categories:
           - /2-manage-chain-node/upgrade-chain
           - /2-manage-chain-node/reset-remove-chain
         locales:
-          zh: '链节点管理'
+          zh: "链节点管理"
       Manipulate Wallets:
+        url: /5-manipulate-wallets-accounts
         links:
-          - /5-manipulate-wallets-accounts
           - /5-manipulate-wallets-accounts/local-wallets
         locales:
-          zh: '使用钱包'
+          zh: "使用钱包"
       Read/Write Data:
+        url: /3-read-write-on-chain-data
         links:
-          - /3-read-write-on-chain-data
           - /3-read-write-on-chain-data/inspect-accounts
           - /3-read-write-on-chain-data/inspect-transactions
           - /3-read-write-on-chain-data/inspect-blocks
           - /3-read-write-on-chain-data/inspect-assets
           - /3-read-write-on-chain-data/inspect-contracts
         locales:
-          zh: '读写链上数据'
+          zh: "读写链上数据"
       Using Contracts:
+        url: /6-working-with-contracts
         links:
-          - /6-working-with-contracts
           - /6-working-with-contracts/compile-deploy-contract
           - /6-working-with-contracts/create-own-contract
           - /6-working-with-contracts/activate-deactivate-contract
         locales:
-          zh: '使用智能合约'
+          zh: "使用智能合约"
       Using Blocklets:
+        url: /7-working-with-blocklets
         links:
-          - /7-working-with-blocklets
           - /7-working-with-blocklets/what-are-blocklets
           - /7-working-with-blocklets/creating-blocklet
           - /7-working-with-blocklets/starter-blocklets
           - /7-working-with-blocklets/contract-blocklets
           - /7-working-with-blocklets/dapp-blocklets
         locales:
-          zh: '使用 Blocklet'
+          zh: "使用 Blocklet"
       Use Other Tools:
+        url: /8-explorer-other-tooling
         links:
-          - /8-explorer-other-tooling
           - /8-explorer-other-tooling/forge-web
           - /8-explorer-other-tooling/simulator
           - /8-explorer-other-tooling/dapp-workshop
           - /8-explorer-other-tooling/forge-swap-service
         locales:
-          zh: '使用其他工具'
+          zh: "使用其他工具"
       Production Usage:
+        url: /11-forge-cli-in-production
         links:
-          - /11-forge-cli-in-production
           - /11-forge-cli-in-production/use-forge-starter
           - /11-forge-cli-in-production/join-existing-network
           - /11-forge-cli-in-production/deploy-multi-node-network
@@ -91,15 +91,17 @@ categories:
           - /11-forge-cli-in-production/backup-and-recover
           - /11-forge-cli-in-production/add-remove-validator
         locales:
-          zh: '生产环境指南'
+          zh: "生产环境指南"
       Customization:
+        url: /9-customization/global-config
         links:
           - /9-customization/global-config
           - /9-customization/multi-chain
         locales:
-          zh: '高级用法'
+          zh: "高级用法"
       Troubleshooting:
+        url: /10-troubleshooting
         links:
           - /10-troubleshooting
         locales:
-          zh: '问题诊断'
+          zh: "问题诊断"
