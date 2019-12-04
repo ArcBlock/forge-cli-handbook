@@ -1,6 +1,5 @@
 ---
 title: 故障排查技巧
-description: 'Chapter 10: Troubleshooting'
 keywords: 'forge, forge-cli'
 author: polunzh
 category: handbook
