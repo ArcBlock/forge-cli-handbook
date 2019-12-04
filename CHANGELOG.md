@@ -1,3 +1,7 @@
+## 1.0.3 (December 04, 2019)
+
+- chapter: add Chinese trouble shooting chapter
+
 ## 1.0.2 (November 21, 2019)
 
 - chore: add FAQ to join ZH doc
