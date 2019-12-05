@@ -40,10 +40,10 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^6.59.0":
-  version "6.59.0"
-  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.59.0.tgz#ab6c1d9a2ee448f987fe161aee5151bd57d3a5ea"
-  integrity sha512-DWHCCSFGUWpBGj0byx6jN0AvjJfwYI8z/W3/YHTK5wbJ9yMXsJeCvWv1vMcRexBP5ulKEvHluDBFoLQNSTA3Sw==
+"@arcblock/gatsby-theme-docs@^6.61.0":
+  version "6.61.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.61.0.tgz#9bf4676ac289340acfc5720c0f79802368af3ed8"
+  integrity sha512-zxy1q+SeDMqBTyL3HGl3IQnxWq9eozWjrVoZdXFfvIxbLwVnl9zOz4Wj6EBqTRGGuJHNgf6Z3woC88u3JanBXw==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^6.28.0"
@@ -51,7 +51,7 @@
     "@arcblock/gatsby-transformer-terminal-recording" "^6.29.0"
     "@arcblock/remark-include" "^6.28.0"
     "@arcblock/ux" "^0.50.0"
-    "@arcblock/www" "^6.56.0"
+    "@arcblock/www" "^6.61.0"
     "@material-ui/core" "^4.6.1"
     "@material-ui/icons" "^4.5.1"
     "@mdx-js/mdx" "^1.1.0"
@@ -66,6 +66,7 @@
     "@xmark/transform-shower" "^0.20.0"
     "@xmark/transform-wrap-headings" "^0.20.0"
     algoliasearch "^3.33.0"
+    autosuggest-highlight "^3.1.1"
     debug "^4.1.1"
     gatsby "2.17.15"
     gatsby-plugin-algolia "^0.3.2"
@@ -90,12 +91,12 @@
     gatsby-source-git "^1.0.1"
     gatsby-transformer-sharp "^2.3.5"
     github-markdown-css "^3.0.1"
-    instantsearch.css "^7.3.1"
     js-yaml "^3.13.1"
     md-attr-parser "^1.2.1"
     polished "^3.4.1"
     prop-types "^15.7.2"
     react "^16.12.0"
+    react-autosuggest "^9.4.3"
     react-dom "^16.12.0"
     react-instantsearch-dom "^5.7.0"
     react-use "^10.3.0"
@@ -188,10 +189,10 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^6.56.0":
-  version "6.56.0"
-  resolved "https://registry.yarnpkg.com/@arcblock/www/-/www-6.56.0.tgz#0b6a27ba28415620b6c916954c3183ff62efe0dc"
-  integrity sha512-rspA2lq2uOmhkLnDUiEoDGKgWhgQg8f/DspjvaxSZxSrmWvW9MtzfIzTOmdDpFOzP2ua6gFWq3FZ4ArCV4qhlg==
+"@arcblock/www@^6.61.0":
+  version "6.61.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/www/-/www-6.61.0.tgz#f9f0cacbd749738098a3796549b979f57a76a1db"
+  integrity sha512-TuhTIbxy5UhJss8MXytsJk3Ngj2uLdhT73H9ZqBIyIyiszpQx7lFisKeR3WAF75vopOFNbxQG6EFAxw2hi2dAw==
   dependencies:
     "@arcblock/did-connect" "^0.50.0"
     "@arcblock/ux" "^0.50.0"
@@ -2580,6 +2581,13 @@ autoprefixer@^9.6.1, autoprefixer@^9.7.1:
     num2fraction "^1.2.2"
     postcss "^7.0.23"
     postcss-value-parser "^4.0.2"
+
+autosuggest-highlight@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/autosuggest-highlight/-/autosuggest-highlight-3.1.1.tgz#70bb4f9125fe8a849e85f825f7bb2a1a4806743d"
+  integrity sha512-MQ6GNIGMMZbeA5FlBLXXgkZEthysCdYNkMV4MahB2/qB/9cwBnVsePUPnIqkMuzjzclTtDa67xln7cgLDu2f/g==
+  dependencies:
+    diacritic "0.0.2"
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -5140,6 +5148,11 @@ devcert-san@^0.3.3:
     mkdirp "^0.5.1"
     tmp "^0.0.31"
     tslib "^1.6.0"
+
+diacritic@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/diacritic/-/diacritic-0.0.2.tgz#fc2a887b5a5bc0a0a854fb614c7c2f209061ee04"
+  integrity sha1-/CqIe1pbwKCoVPthTHwvIJBh7gQ=
 
 diffie-hellman@^5.0.0:
   version "5.0.3"
@@ -8744,11 +8757,6 @@ inquirer@^7.0.0:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-instantsearch.css@^7.3.1:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/instantsearch.css/-/instantsearch.css-7.3.1.tgz#7ab74a8f355091ae040947a9cf5438f379026622"
-  integrity sha512-/kaMDna5D+Q9mImNBHEhb9HgHATDOFKYii7N1Iwvrj+lmD9gBJLqVhUw67gftq2O0QI330pFza+CRscIwB1wQQ==
-
 internal-ip@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/internal-ip/-/internal-ip-4.3.0.tgz#845452baad9d2ca3b69c635a137acb9a0dad0907"
@@ -11173,6 +11181,11 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
+object-assign@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-3.0.0.tgz#9bedd5ca0897949bca47e7ff408062d549f587f2"
+  integrity sha1-m+3VygiXlJvKR+f/QIBi1Un1h/I=
+
 object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -12750,6 +12763,24 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-autosuggest@^9.4.3:
+  version "9.4.3"
+  resolved "https://registry.yarnpkg.com/react-autosuggest/-/react-autosuggest-9.4.3.tgz#eb46852422a48144ab9f39fb5470319222f26c7c"
+  integrity sha512-wFbp5QpgFQRfw9cwKvcgLR8theikOUkv8PFsuLYqI2PUgVlx186Cz8MYt5bLxculi+jxGGUUVt+h0esaBZZouw==
+  dependencies:
+    prop-types "^15.5.10"
+    react-autowhatever "^10.1.2"
+    shallow-equal "^1.0.0"
+
+react-autowhatever@^10.1.2:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/react-autowhatever/-/react-autowhatever-10.2.0.tgz#bdd07bf19ddf78acdb8ce7ae162ac13b646874ab"
+  integrity sha512-dqHH4uqiJldPMbL8hl/i2HV4E8FMTDEdVlOIbRqYnJi0kTpWseF9fJslk/KS9pGDnm80JkYzVI+nzFjnOG/u+g==
+  dependencies:
+    prop-types "^15.5.8"
+    react-themeable "^1.1.0"
+    section-iterator "^2.0.0"
+
 react-dev-utils@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-4.2.3.tgz#5b42d9ea58d5e9e017a2f57a40a8af408a3a46fb"
@@ -12920,6 +12951,13 @@ react-sticky@^6.0.3:
   dependencies:
     prop-types "^15.5.8"
     raf "^3.3.0"
+
+react-themeable@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-themeable/-/react-themeable-1.1.0.tgz#7d4466dd9b2b5fa75058727825e9f152ba379a0e"
+  integrity sha1-fURm3ZsrX6dQWHJ4JenxUro3mg4=
+  dependencies:
+    object-assign "^3.0.0"
 
 react-transition-group@^4.3.0:
   version "4.3.0"
@@ -13855,6 +13893,11 @@ scroll-behavior@^0.9.10:
     dom-helpers "^3.2.1"
     invariant "^2.2.2"
 
+section-iterator@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/section-iterator/-/section-iterator-2.0.0.tgz#bf444d7afeeb94ad43c39ad2fb26151627ccba2a"
+  integrity sha1-v0RNev7rlK1Dw5rS+yYVFifMuio=
+
 section-matter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/section-matter/-/section-matter-1.0.0.tgz#e9041953506780ec01d59f292a19c7b850b84167"
@@ -14023,6 +14066,11 @@ shallow-compare@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/shallow-compare/-/shallow-compare-1.2.2.tgz#fa4794627bf455a47c4f56881d8a6132d581ffdb"
   integrity sha512-LUMFi+RppPlrHzbqmFnINTrazo0lPNwhcgzuAXVVcfy/mqPDrQmHAyz5bvV0gDAuRFrk804V0HpQ6u9sZ0tBeg==
+
+shallow-equal@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/shallow-equal/-/shallow-equal-1.2.0.tgz#fd828d2029ff4e19569db7e19e535e94e2d1f5cc"
+  integrity sha512-Z21pVxR4cXsfwpMKMhCEIO1PCi5sp7KEp+CmOpBQ+E8GpHwKOw2sEzk7sgblM3d/j4z4gakoWEoPcjK0VJQogA==
 
 shallowequal@^1.0.1, shallowequal@^1.1.0:
   version "1.1.0"
