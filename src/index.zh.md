@@ -96,7 +96,7 @@ Forge 框架把开发区块链应用所需要考虑的网络层、共识层、�
   - [部署多参与方的链](./src/11-forge-cli-in-production/deploy-multi-party-network)
   - [局域网部署方法](./src/11-forge-cli-in-production/deploy-in-intranet)
   - [节点的备份和恢复](./src/11-forge-cli-in-production/recover-from-crash)
-  - [验证节点的添加或删除](./src/11-forge-cli-in-production/add-remove-validator)
+  - [更新验证人节点](./src/11-forge-cli-in-production/add-remove-validator)
 - [高级用法](./9-customization)
   - [全局配置](./9-customization/global-config)
   - [多链支持](./9-customization/multi-chain)

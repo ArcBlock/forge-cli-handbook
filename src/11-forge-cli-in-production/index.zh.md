@@ -23,4 +23,6 @@ Forge CLI 的目标是在贯穿区块链应用环境搭建、开发、部署、�
 - 我有自己的机器，[如何用 Forge CLI 加入运行中的链去同步数据](./join-existing-network)？
 - 我开发了区块链应用，[如何用 Forge CLI 为这个应用部署的私链](./deploy-multi-node-network)？
 - 我有多个业务合作方，[如何用 Forge CLI 启动多方共建共享的联盟链](./deploy-multi-party-network)？
-- 我们的业务需要部署在局域网里面，[如何用 Forge CLI 在局域网里面部署](./deploy-in-intranet)？
+- 我需要在局域网部署，[如何用 Forge CLI 在局域网里面部署](./deploy-in-intranet)？
+- 随着业务和社区发展，[如何用 Forge CLI 更新验证人节点](./add-remove-validator)？
+- 作为链的运维，[如何做链节点的备份和恢复](./backup-and-recover)、[如何使用 Forge 守护进程](./use-forge-starter)
