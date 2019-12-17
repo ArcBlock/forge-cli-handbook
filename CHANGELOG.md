@@ -1,3 +1,7 @@
+## 1.0.4 (December 17, 2019)
+
+
+
 ## 1.0.3 (December 04, 2019)
 
 - chapter: add Chinese trouble shooting chapter
