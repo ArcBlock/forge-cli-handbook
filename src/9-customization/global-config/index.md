@@ -39,15 +39,15 @@ https://releases.arcblockio.cn
 
 ### Setting configuration items
 
-    $ forge config mirror
-    https://releases.arcblock.io/forge/0.39.2/forge_darwin_amd64.tgz
+```terminal
+$ forge config mirror
+https://releases.arcblock.io/forge/0.39.2/forge_darwin_amd64.tgz
 
-    # zhenqiang @ zhenqiangMacBook in ~/workcode/forge-cli on git:master o [10:31:46]
-    $ forge config mirror https://releases.arcblockio.cn
+$ forge config mirror https://releases.arcblockio.cn
 
-    # zhenqiang @ zhenqiangMacBook in ~/workcode/forge-cli on git:master o [10:32:26]
-    $ forge config mirror
-    https://releases.arcblockio.cn
+$ forge config mirror
+https://releases.arcblockio.cn
+```
 
 ## Configuration item
 
