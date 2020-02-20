@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@arcblock/did-connect@^0.67.6":
-  version "0.67.6"
-  resolved "https://registry.npmjs.org/@arcblock/did-connect/-/did-connect-0.67.6.tgz#d091c1a2ece07a05290f5161172d9e5b1d262e66"
-  integrity sha512-cuFOI9w8tu2aeylPM+haj5FrM7JKDA/J9FAX1B2Uxl4f0asL7mwQX7oOU2L8iiqOqiID1j5zBoJvVhrzfoSjAw==
+"@arcblock/did-connect@^0.67.7":
+  version "0.67.7"
+  resolved "https://registry.npmjs.org/@arcblock/did-connect/-/did-connect-0.67.7.tgz#ddd074ee0457341d7865db0ea26f7bb65f921221"
+  integrity sha512-l0m6omcGg4oywq7NFS8OZmekeVpCzLHI3Ku2Jt8lsnzMyiUNytG1BKylfx4kXDHfhayx2yUvEMifO12V/XVynw==
   dependencies:
     "@arcblock/did-react" "^0.67.4"
     "@arcblock/ux" "^0.67.3"
@@ -62,10 +62,10 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-docs@^6.84.0":
-  version "6.84.0"
-  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.84.0.tgz#4e903f3cb178c35c4cda36666b4425d2f276e12d"
-  integrity sha512-6fnqP8DumivaT8QGmX98eVUHJhoawat0nYEVdi57gwhj5nrD9cm22irlYEnlJS+ncPrwxepEdCH0yzqZuvjB8A==
+"@arcblock/gatsby-theme-docs@^6.85.0":
+  version "6.85.0"
+  resolved "https://registry.npmjs.org/@arcblock/gatsby-theme-docs/-/gatsby-theme-docs-6.85.0.tgz#06025589672f77d290b0fa553cf049db6ebbcd1d"
+  integrity sha512-OhjnALAGG0/Oc/ixOa2cBP11ipK2SLdxh7OUK4jcIVqggEyf1bKyqy1VEqoxHA0n6EpUjb3xR0NmBrqIvf9x0g==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^6.71.0"
@@ -73,7 +73,7 @@
     "@arcblock/gatsby-transformer-terminal-recording" "^6.81.0"
     "@arcblock/remark-include" "^6.71.0"
     "@arcblock/ux" "^0.67.3"
-    "@arcblock/www" "^6.84.0"
+    "@arcblock/www" "^6.85.0"
     "@material-ui/core" "^4.9.1"
     "@material-ui/icons" "4.5.1"
     "@svgr/webpack" "^4.1.0"
@@ -215,12 +215,12 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/www@^6.84.0":
-  version "6.84.0"
-  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.84.0.tgz#fe406f847a252e80df17593bf777334575e1a3db"
-  integrity sha512-1/9pxVLc5de7pGMFc5N3KgF+baOoD3l+F8VXMd9LshfA/G/jJe6JSlUB7YQ+ohxqEiU1XhM5LBhXcTtlWetLYw==
+"@arcblock/www@^6.85.0":
+  version "6.85.0"
+  resolved "https://registry.npmjs.org/@arcblock/www/-/www-6.85.0.tgz#e8538f0825d199b971e7dbde0dfb447841e1b5f7"
+  integrity sha512-JPb9i1KL6voKc+xS1Btuso4AuE7Cw9CPi82EmQKcW1c3psiwtCW8AikMbvFmzk8d3UBAbKhed5H9HPQES7d2/Q==
   dependencies:
-    "@arcblock/did-connect" "^0.67.6"
+    "@arcblock/did-connect" "^0.67.7"
     "@arcblock/ux" "^0.67.3"
     "@material-ui/core" "^4.9.1"
     "@material-ui/icons" "4.5.1"
