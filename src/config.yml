@@ -53,14 +53,6 @@ categories:
           - /3-read-write-on-chain-data/inspect-contracts
         locales:
           zh: "读写链上数据"
-      Using Contracts:
-        url: /6-working-with-contracts
-        links:
-          - /6-working-with-contracts/compile-deploy-contract
-          - /6-working-with-contracts/create-own-contract
-          - /6-working-with-contracts/activate-deactivate-contract
-        locales:
-          zh: "使用智能合约"
       Using Blocklets:
         url: /7-working-with-blocklets
         links:
