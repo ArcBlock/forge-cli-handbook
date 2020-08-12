@@ -40,7 +40,7 @@ Blockchain wallets essentially manage public-private key pairs. Wallets used by 
 
 ## DID in Forge?
 
-If you have knowledge of basic blockchain knowledge, you may ask that the wallet contains not only the private key and public key pair, but also the address. The estimated relationship between these three is: `私钥 --> 公钥 --> 地址`In the design of Forge, for the following reasons, the wallet address generation has several additional information embedded:
+If you have knowledge of basic blockchain knowledge, you may ask that the wallet contains not only the private key and public key pair, but also the address. The estimated relationship between these three is: `private key --> public key --> address`. In the design of Forge, for the following reasons, the wallet address generation has several additional information embedded:
 
 - The wallet public and private key algorithm in Forge supports extensions, such as currently supporting `SECP256K1`(As used by Ethereum) and `ED25519`(Higher security)
 - The encoding of the wallet address in Forge supports customization. For example, it can be `base64`(Ethereum address encoding method) can also be `base58`(Bitcoin address encoding method)
