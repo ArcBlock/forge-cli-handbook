@@ -1,0 +1,393 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 121
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 1000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: bar
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1.2
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1868
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 65
+    content: "\e]0;~/Develop/arcblock\a"
+  - delay: 6
+    content: "\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 866
+    content: "\e[4mf\e[24m\e[90morge config -c test-chain | grep TTC\e[39m\e[36D"
+  - delay: 114
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 79
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 184
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 65
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 102
+    content: "\e[39m "
+  - delay: 129
+    content: "\e[39ms\e[90mt\e[90ma\e[90mr\e[90mt\e[90m \e[90mm\e[90my\e[90m-\e[90mf\e[90mo\e[90mr\e[90mg\e[90me\e[5C\e[90mn\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[30D"
+  - delay: 139
+    content: "\e[39mt"
+  - delay: 128
+    content: "\e[39ma"
+  - delay: 57
+    content: "\e[39mr"
+  - delay: 196
+    content: "\e[39mt"
+  - delay: 131
+    content: "\e[39m "
+  - delay: 135
+    content: "\e[39m\e[4mt\e[24m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[13D"
+  - delay: 82
+    content: "\b\e[4mt\e[4me\e[24m"
+  - delay: 134
+    content: "\b\b\e[24mt\e[24mes"
+  - delay: 148
+    content: t
+  - delay: 156
+    content: '-'
+  - delay: 181
+    content: c
+  - delay: 130
+    content: h
+  - delay: 96
+    content: a
+  - delay: 91
+    content: i
+  - delay: 193
+    content: 'n'
+  - delay: 192
+    content: "\e[?1l\e>"
+  - delay: 18
+    content: "\e[?2004l\r\r\n\e]2;forge start test-chain\a\e]1;forge\a\e]0;arcblock: forge start test-chain\a"
+  - delay: 1457
+    content: "\e[?25l\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 311
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 99
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 99
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 108
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 95
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 99
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 99
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 106
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 99
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 106
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 99
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 106
+    content: "\e[2K\e[1G\e[36m▐\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▄\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▌\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▀\e[39m Waiting for chain \e[33mtest-chain\e[39m to start..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[?25h\e[32m✔\e[39m Chain \e[33mtest-chain\e[39m successfully started\r\n"
+  - delay: 67
+    content: "\e[?25l\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 334
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 99
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m▯\e[39m Waiting for forge web to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m▮\e[39m Waiting for forge web to start..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[?25h\e[32m✔\e[39m Forge web successfully started\r\n\e[34mℹ\e[39m forge web running at:     http://localhost:8211\r\n\e[34mℹ\e[39m graphql endpoint at:      http://localhost:8211/api\r\n"
+  - delay: 828
+    content: "\r\n Chain: \e[32mmy-forge-chain\e[39m \e[33mv0.38.4\e[39m\r\n\e[90m┌───────────────┬──────────┬──────────┬──────────┬──────────┬──────────────────────────────┐\e[39m\r\n\e[90m│\e[39m\e[1m\e[36m Name          \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m PID      \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Uptime   \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Memory   \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m CPU      \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Endpoint                     \e[39m\e[22m\e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m web           \e[90m│\e[39m 26602    \e[90m│\e[39m 4h       \e[90m│\e[39m 12.2 MB  \e[90m│\e[39m 0.13 %   \e[90m│\e[39m http://127.0.0.1:8210/api    \e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m forge         \e[90m│\e[39m 26472    \e[90m│\e[39m 4h       \e[90m│\e[39m 56.1 MB  \e[90m│\e[39m 1.78 %   \e[90m│\e[39m tcp://127.0.0.1:38210        \e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m tendermint    \e[90m│\e[39m 26498    \e[90m│\e[39m 4h       \e[90m│\e[39m 39.3 MB  \e[90m│\e[39m 0.67 %   \e[90m│\e[39m -                            \e[90m│\e[39m\r\n\e[90m└───────────────┴──────────┴──────────┴──────────┴──────────┴──────────────────────────────┘\e[39m\r\n\r\n Chain: \e[32mtest-chain\e[39m \e[33mv0.38.4\e[39m\r\n\e[90m┌───────────────┬──────────┬──────────┬──────────┬──────────┬──────────────────────────────┐\e[39m\r\n\e[90m│\e[39m\e[1m\e[36m Name          \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m PID      \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Uptime   \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Memory   \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m CPU      \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Endpoint                     \e[39m\e[22m\e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m web           \e[90m│\e[39m 55527    \e[90m│\e[39m 3s       \e[90m│\e[39m 139 MB   \e[90m│\e[39m 102.00 % \e[90m│\e[39m http://127.0.0.1:8211/api    \e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m forge         \e[90m│\e[39m 55398    \e[90m│\e[39m 12s      \e[90m│\e[39m 184 MB   \e[90m│\e[39m 61.33 %  \e[90m│\e[39m tcp://127.0.0.1:38211        \e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m tendermint    \e[90m│\e[39m 55424    \e[90m│\e[39m 10s      \e[90m│\e[39m 26.2 MB  \e[90m│\e[39m 2.00 %   \e[90m│\e[39m -                            \e[90m│\e[39m\r\n\e[90m└───────────────┴──────────┴──────────┴──────────┴──────────┴──────────────────────────────┘\e[39m\r\n\r\n\e[34mℹ\e[39m For interactive console, please run \e[36mforge remote -c test-chain\e[39m\r\n\e[34mℹ\e[39m For forge web interface, please run \e[36mforge web open -c test-chain\e[39m\r\n\e[34mℹ\e[39m For above process list, please run \e[36mforge ps\e[39m\r\n\e[34mℹ\e[39m If you want to know forge status detail, please run \e[36mforge status -c test-chain\e[39m\r\n\e[?25h"
+  - delay: 13
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 62
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m13s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2232
+    content: "\e[?2004l\r\r\n"

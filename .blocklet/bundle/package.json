@@ -1,0 +1,14 @@
+{
+  "name": "forge-cli-power-user",
+  "version": "1.0.7",
+  "description": "A book that helps you to become a power user on forge-cli",
+  "keywords": [],
+  "author": "wangshijun <wangshijun2010@gmail.com> (http://github.com/wangshijun)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcBlock/forge-cli-power-user.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArcBlock/forge-cli-power-user/issues"
+  }
+}

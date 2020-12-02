@@ -1,0 +1,179 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 121
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1.2
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 2233
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 59
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 618
+    content: "\e[4mf\e[24m\e[90morge wallet:create\e[39m\e[18D"
+  - delay: 86
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 76
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 188
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 61
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 123
+    content: "\e[39m "
+  - delay: 184
+    content: "\e[39m\e[4mw\e[24m"
+  - delay: 46
+    content: "\b\e[24mw\e[39ma"
+  - delay: 121
+    content: "\e[39ml"
+  - delay: 143
+    content: "\e[39ml"
+  - delay: 113
+    content: "\e[39me"
+  - delay: 200
+    content: "\e[39mt"
+  - delay: 311
+    content: "\e[39m:"
+  - delay: 178
+    content: "\e[39mc"
+  - delay: 191
+    content: "\e[39mr"
+  - delay: 57
+    content: "\e[39me"
+  - delay: 103
+    content: "\e[39ma"
+  - delay: 128
+    content: "\e[39mt"
+  - delay: 63
+    content: "\e[39me"
+  - delay: 599
+    content: "\e[?1l\e>"
+  - delay: 15
+    content: "\e[?2004l\r\r\n\e]2;forge wallet:create\a\e]1;forge\a\e]0;arcblock: forge wallet:create\a"
+  - delay: 894
+    content: "\e[?25l\e[32m?\e[39m \e[1mPlease select a role type:\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ ROLE_ACCOUNT\e[39m \r\n  ROLE_NODE \r\n  ROLE_DEVICE \r\n  ROLE_APPLICATION \r\n  ROLE_SMART_CONTRACT \r\n  ROLE_BOT \r\n  ROLE_ASSET \r\n\e[2m(Move up and down to reveal more choices)\e[22m\e[41D\e[41C"
+  - delay: 1769
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mPlease select a role type:\e[22m\e[0m \e[0m\e[36mROLE_ACCOUNT\e[39m\e[41D\e[41C\r\n\e[?25h\e[?25l\e[32m?\e[39m \e[1mPlease select a key pair algorithm:\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ ED25519\e[39m \r\n  SECP256K1 \e[12D\e[12C"
+  - delay: 1204
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mPlease select a key pair algorithm:\e[22m\e[0m \e[0m\e[36mED25519\e[39m\e[45D\e[45C\r\n\e[?25h\e[?25l\e[32m?\e[39m \e[1mPlease select a hash algorithm:\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n  KECCAK \r\n\e[36m❯ SHA3\e[39m \r\n  KECCAK_384 \r\n  SHA3_384 \r\n  KECCAK_512 \r\n  SHA3_512 \r\n  SHA2 \e[7D\e[7C"
+  - delay: 2823
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mPlease select a hash algorithm:\e[22m\e[0m \e[0m\e[36mSHA3\e[39m\e[38D\e[38C\r\n\e[?25h"
+  - delay: 10
+    content: "\e[?25l\e[32m?\e[39m \e[1mPlease select public/secret key encoding format:\e[22m\e[0m \e[0m(Press \e[36m\e[1m<space>\e[22m\e[39m to select, \e[36m\e[1m<a>\e[22m\e[39m to toggle all, \e[36m\e[1m<i>\e[22m\e[39m to invert selection)\r\n\e[36m❯\e[39m\e[32m◉\e[39m BASE16\r\n \e[32m◉\e[39m BASE58\r\n \e[32m◉\e[39m BASE64\r\n \e[32m◉\e[39m BASE64_URL\r\n ◯ BINARY\e[9D\e[9C"
+  - delay: 3350
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mPlease select public/secret key encoding format:\e[22m\e[0m \e[0m\e[36mBASE16, BASE58, BASE64, BASE64_URL\e[39m\e[85D\e[85C\r\n\e[?25h"
+  - delay: 21
+    content: "\r\n\e[32mtype: \e[39m\r\n  \e[32mrole: \e[39m   ROLE_ACCOUNT\r\n  \e[32mpk: \e[39m     ED25519\r\n  \e[32mhash: \e[39m   SHA3\r\n  \e[32maddress: \e[39mBASE58\r\n\e[32maddress: \e[39m      z1iqfecfm8AguBHZUMkY8VatoXSxcV3TAPf\r\n\e[32mpk_base16: \e[39m    0x796b742ea8e4d43b7904a7e2f861e79a537b2cc797a4507fc668b594e9d062ae\r\n\e[32msk_base16: \e[39m    0x15ce381de7b4732fb8a9e98eae33935f290850421716e35ef82d4021edd2e3b7796b742ea8e4d43b7904a7e2f861e79a537b2cc797a4507fc668b594e9d062ae\r\n\e[32mpk_base58: \e[39m    z9AyN7zVvpgkVNq8kmQ7GMSbfwedotZCUjPQbN26qQ5Ch\r\n\e[32msk_base58: \e[39m    zSHaYiz3nxH2We54LQxyenhYgHnkmtaMce3v5oLcW8zzqJk5e9AwmN9e4baeyrQ3TXtxHJJX9XvX5otU4sqhmevR\r\n\e[32mpk_base64: \e[39m    eWt0Lqjk1Dt5BKfi+GHnmlN7LMeXpFB/xmi1lOnQYq4=\r\n\e[32msk_base64: \e[39m    Fc44Hee0cy+4qemOrjOTXykIUEIXFuNe+C1AIe3S47d5a3QuqOTUO3kEp+L4YeeaU3ssx5ekUH/GaLWU6dBirg==\r\n\e[32mpk_base64_url: \e[39meWt0Lqjk1Dt5BKfi-GHnmlN7LMeXpFB_xmi1lOnQYq4\r\n\e[32msk_base64_url: \e[39mFc44Hee0cy-4qemOrjOTXykIUEIXFuNe-C1AIe3S47d5a3QuqOTUO3kEp-L4YeeaU3ssx5ekUH_GaLWU6dBirg\r\n\r\n\e[?25h"
+  - delay: 9
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 54
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m10s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1726
+    content: "\e[?2004l\r\r\n"
