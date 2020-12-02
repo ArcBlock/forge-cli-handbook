@@ -1,11 +1,7 @@
 name: forge-cli-power-user
-title: Handbook Docs
-version: 1.0.7
+version: 1.2.1
 description: A book that helps you to become a power user on forge-cli
 main: public
-files:
-  - public/
-  - blocklet.md
 repository:
   type: git
   url: 'git+https://github.com/ArcBlock/forge-cli-power-user.git'
@@ -18,6 +14,10 @@ author:
   url: 'http://github.com/wangshijun'
 license: MIT
 homepage: 'https://github.com/ArcBlock/forge-cli-power-user#readme'
+title: Forge Cli Docs
+files:
+  - public/
+  - blocklet.md
 group: static
 did: z8iZpcGEsTMspsrwNadmTs1puyR9Mfb1KCNL3
 community: 'https://gitter.im/ArcBlock/community'
@@ -28,11 +28,11 @@ interfaces:
   - type: web
     name: publicUrl
     path: /
-    prefix: /handbook
+    prefix: /forgecli
     port: BLOCKLET_PORT
     protocol: tcp
 environments: []
 screenshots: []
 specVersion: 1.0.2
 scripts: {}
-gitHash: 4c7781c77bb7e791c874c0b54c71ddbb599dea44
+gitHash: 82977603262f05a1175bb63d1890096fbd02b5c9

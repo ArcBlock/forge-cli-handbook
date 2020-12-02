@@ -1,6 +1,6 @@
 {
   "name": "forge-cli-power-user",
-  "version": "1.0.7",
+  "version": "1.2.1",
   "description": "A book that helps you to become a power user on forge-cli",
   "keywords": [
     "Docs",
@@ -15,14 +15,14 @@
     "type": "git",
     "url": "git+https://github.com/ArcBlock/forge-cli-power-user.git"
   },
-  "title": "Handbook Docs",
   "main": "public",
+  "license": "MIT",
+  "homepage": "https://github.com/ArcBlock/forge-cli-power-user#readme",
+  "title": "Forge Cli Docs",
   "files": [
     "public/",
     "blocklet.md"
   ],
-  "license": "MIT",
-  "homepage": "https://github.com/ArcBlock/forge-cli-power-user#readme",
   "group": "static",
   "did": "z8iZpcGEsTMspsrwNadmTs1puyR9Mfb1KCNL3",
   "community": "https://gitter.im/ArcBlock/community",
@@ -35,7 +35,7 @@
       "type": "web",
       "name": "publicUrl",
       "path": "/",
-      "prefix": "/handbook",
+      "prefix": "/forgecli",
       "port": "BLOCKLET_PORT",
       "protocol": "tcp"
     }
@@ -44,7 +44,7 @@
   "screenshots": [],
   "specVersion": "1.0.2",
   "scripts": {},
-  "gitHash": "4c7781c77bb7e791c874c0b54c71ddbb599dea44",
+  "gitHash": "82977603262f05a1175bb63d1890096fbd02b5c9",
   "path": "/static/forge-cli-power-user",
   "charging": {
     "price": 0
@@ -53,8 +53,8 @@
     "dynamicPathPrefix": true
   },
   "dist": {
-    "tarball": "forge-cli-power-user-1.0.7.tgz",
-    "integrity": "sha512-Rqjm27QJM2Ap3aK0aB0CTi5dtNKl2jD3il03P6BXKvkhFySkKAO+Vh6KKwkDW7IRHfPddi5auezQKJZNsueObw==",
-    "shasum": "3e66a2972b69d04aeeaf8f99474a04d947331819"
+    "tarball": "forge-cli-power-user-1.2.1.tgz",
+    "integrity": "sha512-x6lc0grRJz6b1usCJVfATSBqUMTY2oVpZ92zFC0aUhMJ7tgkKKRVFEUksgwEV3U5n68a7GSpTHb842l7vh8ldQ==",
+    "shasum": "418c66a73efbafca57db41fe01c36884b059bf5a"
   }
 }

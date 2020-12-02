@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const path = require('path');
 const { version } = require('./package.json');
-const pathPrefix = '/handbook/';
+const pathPrefix = '/forgecli/';
 
 module.exports = {
   pathPrefix,
@@ -17,7 +17,7 @@ module.exports = {
         official: true,
         disableI18n: false,
         showGetStarted: true,
-        sourceDirs: [path.resolve(__dirname, 'src', 'pages')],
+        sourceDirs: [path.resolve(__dirname, 'src')],
         siteMetadata: {
           title: 'Forge CLI',
           description: 'Forge SDK Documentation',
