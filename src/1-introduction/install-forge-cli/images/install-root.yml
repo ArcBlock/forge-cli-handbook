@@ -1,0 +1,1485 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 121
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 14
+
+  # The height of lines
+  lineHeight: 1.2
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 60
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 47
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 714
+    content: "\e[1m\e[31ms\e[0m\e[39m\e[90msh root@39.96.78.165\e[39m\e[20D"
+  - delay: 160
+    content: "\b\e[1m\e[31ms\e[1m\e[31ms\e[0m\e[39m"
+  - delay: 141
+    content: "\b\b\e[0m\e[32ms\e[0m\e[32ms\e[32mh\e[39m"
+  - delay: 403
+    content: "\e[39m \e[39mr\e[39mo\e[39mo\e[39mt\e[39m@\e[39m3\e[39m9\e[39m.\e[39m9\e[39m6\e[39m.\e[39m7\e[39m8\e[39m.\e[39m1\e[39m6\e[39m5"
+  - delay: 321
+    content: "\e[?1l\e>"
+  - delay: 18
+    content: "\e[?2004l\r\r\n\e]2;ssh root@39.96.78.165\a\e]1;root@39.96.78.165\a\e]0;arcblock: ssh root@39.96.78.165\a"
+  - delay: 232
+    content: "Last login: Sat Oct 12 11:41:47 2019 from 124.127.114.130\r\r\n\r\nWelcome to Alibaba Cloud Elastic Compute Service !\r\n\r\n"
+  - delay: 17
+    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
+  - delay: 1150
+    content: w
+  - delay: 108
+    content: "\bwh"
+  - delay: 158
+    content: o
+  - delay: 219
+    content: a
+  - delay: 71
+    content: m
+  - delay: 217
+    content: i
+  - delay: 369
+    content: "\r\r\nroot\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
+  - delay: 1637
+    content: c
+  - delay: 50
+    content: "\bcu"
+  - delay: 167
+    content: r
+  - delay: 26
+    content: l
+  - delay: 190
+    content: ' '
+  - delay: 278
+    content: '-'
+  - delay: 49
+    content: s
+  - delay: 63
+    content: L
+  - delay: 82
+    content: ' '
+  - delay: 89
+    content: h
+  - delay: 22
+    content: t
+  - delay: 43
+    content: t
+  - delay: 38
+    content: p
+  - delay: 64
+    content: s
+  - delay: 74
+    content: ':'
+  - delay: 94
+    content: /
+  - delay: 27
+    content: /
+  - delay: 209
+    content: r
+  - delay: 93
+    content: p
+  - delay: 200
+    content: m
+  - delay: 191
+    content: .
+  - delay: 232
+    content: 'n'
+  - delay: 177
+    content: o
+  - delay: 73
+    content: d
+  - delay: 151
+    content: e
+  - delay: 503
+    content: s
+  - delay: 122
+    content: o
+  - delay: 238
+    content: u
+  - delay: 65
+    content: r
+  - delay: 200
+    content: c
+  - delay: 184
+    content: e
+  - delay: 129
+    content: .
+  - delay: 175
+    content: c
+  - delay: 87
+    content: o
+  - delay: 177
+    content: m
+  - delay: 610
+    content: /
+  - delay: 303
+    content: s
+  - delay: 55
+    content: e
+  - delay: 187
+    content: t
+  - delay: 92
+    content: u
+  - delay: 372
+    content: p
+  - delay: 10
+    content: _
+  - delay: 66
+    content: '1'
+  - delay: 13
+    content: '0'
+  - delay: 11
+    content: .
+  - delay: 05
+    content: x
+  - delay: 25
+    content: ' '
+  - delay: 13
+    content: '|'
+  - delay: 59
+    content: ' '
+  - delay: 87
+    content: b
+  - delay: 76
+    content: a
+  - delay: 17
+    content: s
+  - delay: 65
+    content: h
+  - delay: 64
+    content: ' '
+  - delay: 27
+    content: '-'
+  - delay: 33
+    content: "\r\r\n"
+  - delay: 919
+    content: "\r\n## Installing the NodeSource Node.js 10.x repo...\r\n\r\n\r\n## Inspecting system...\r\n\r\n+ rpm -q --whatprovides redhat-release || rpm -q --whatprovides centos-release || rpm -q --whatprovides cloudlinux-release || rpm -q --whatprovides sl-release\r\n+ uname -m\r\n\r\n## Confirming \"el7-x86_64\" is supported...\r\n\r\n+ curl -sLf -o /dev/null 'https://rpm.nodesource.com/pub_10.x/el/7/x86_64/nodesource-release-el7-1.noarch.rpm'\r\n"
+  - delay: 815
+    content: "\r\n## Downloading release setup RPM...\r\n\r\n+ mktemp\r\n+ curl -sL -o '/tmp/tmp.VNfLZIs1Rl' 'https://rpm.nodesource.com/pub_10.x/el/7/x86_64/nodesource-release-el7-1.noarch.rpm'\r\n"
+  - delay: 616
+    content: "\r\n## Installing release setup RPM...\r\n\r\n+ rpm -i --nosignature --force '/tmp/tmp.VNfLZIs1Rl'\r\n"
+  - delay: 41
+    content: "\r\n## Cleaning up...\r\n\r\n+ rm -f '/tmp/tmp.VNfLZIs1Rl'\r\n\r\n## Checking for existing installations...\r\n\r\n+ rpm -qa 'node|npm' | grep -v nodesource\r\n"
+  - delay: 1020
+    content: "\r\n## Run `\e[1msudo yum install -y nodejs\e(B\e[m` to install Node.js 10.x and npm.\r\n## You may also need development tools to build native addons:\r\n     sudo yum install gcc-c++ make\r\n## To install the Yarn package manager, run:\r\n     curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo\r\n     sudo yum install yarn\r\n\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
+  - delay: 2439
+    content: 'y'
+  - delay: 63
+    content: "\byu"
+  - delay: 55
+    content: m i
+  - delay: 54
+    content: 'n'
+  - delay: 87
+    content: s
+  - delay: 31
+    content: t
+  - delay: 63
+    content: a
+  - delay: 66
+    content: l
+  - delay: 21
+    content: 'l '
+  - delay: 40
+    content: '-'
+  - delay: 03
+    content: 'y'
+  - delay: 30
+    content: ' '
+  - delay: 56
+    content: 'n'
+  - delay: 76
+    content: o
+  - delay: 89
+    content: d
+  - delay: 151
+    content: e
+  - delay: 240
+    content: j
+  - delay: 45
+    content: s
+  - delay: 99
+    content: "\r\r\n"
+  - delay: 124
+    content: "Loaded plugins: fastestmirror\r\n"
+  - delay: 75
+    content: "Loading mirror speeds from cached hostfile\r\n"
+  - delay: 58
+    content: " * centos-sclo-rh: mirrors.tuna.tsinghua.edu.cn\r\n * centos-sclo-sclo: mirrors.aliyun.com\r\n"
+  - delay: 455
+    content: "Resolving Dependencies\r\n--> Running transaction check\r\n---> Package nodejs.x86_64 2:10.16.3-1nodesource will be installed\r\n"
+  - delay: 1015
+    content: "--> Finished Dependency Resolution\r\n\r\nDependencies Resolved\r\n\r\n=========================================================================================================================\r\n Package                Arch                   Version                                  Repository                  Size\r\n=========================================================================================================================\r\nInstalling:\r\n nodejs                 x86_64                 2:10.16.3-1nodesource                    nodesource                  19 M\r\n\r\nTransaction Summary\r\n=========================================================================================================================\r\nInstall  1 Package\r\n\r\nTotal download size: 19 M\r\nInstalled size: 56 M\r\nDownloading packages:\r\n"
+  - delay: 350
+    content: "\rnodejs-10.16.3-1nodesource.x86_64.rpm          0% [                                    ]  0.0 B/s |    0 B  --:--:-- ETA \r"
+  - delay: 311
+    content: "\rnodejs-10.16.3-1nodesource.x86_64.rpm          4% [=-                                  ]  0.0 B/s | 831 kB  --:--:-- ETA \r"
+  - delay: 344
+    content: "\rnodejs-10.16.3-1nodesource.x86_64.rpm         35% [============-                       ] 9.5 MB/s | 6.7 MB  00:00:01 ETA \r"
+  - delay: 596
+    content: "\rnodejs-10.16.3-1nodesource.x86_64.rpm         69% [========================-           ]  10 MB/s |  13 MB  00:00:00 ETA \r"
+  - delay: 7
+    content: "\rnodejs-10.16.3-1nodesource.x86_64.rpm         94% [=================================-  ]  11 MB/s |  18 MB  00:00:00 ETA \r"
+  - delay: 89
+    content: "\rnodejs-10.16.3-1nodesource.x86_64.rpm                                                             |  19 MB  00:00:01     \r\n"
+  - delay: 16
+    content: "Running transaction check\r\n"
+  - delay: 111
+    content: "Running transaction test\r\n"
+  - delay: 198
+    content: "Transaction test succeeded\r\nRunning transaction\r\n"
+  - delay: 197
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [                                                               ] 1/1"
+  - delay: 9
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#                                                              ] 1/1"
+  - delay: 12
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##                                                             ] 1/1"
+  - delay: 6
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###                                                            ] 1/1"
+  - delay: 12
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [####                                                           ] 1/1"
+  - delay: 12
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#####                                                          ] 1/1"
+  - delay: 7
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [######                                                         ] 1/1"
+  - delay: 13
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#######                                                        ] 1/1"
+  - delay: 8
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [########                                                       ] 1/1"
+  - delay: 13
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#########                                                      ] 1/1"
+  - delay: 8
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##########                                                     ] 1/1"
+  - delay: 13
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###########                                                    ] 1/1"
+  - delay: 15
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [############                                                   ] 1/1"
+  - delay: 7
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#############                                                  ] 1/1"
+  - delay: 15
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##############                                                 ] 1/1"
+  - delay: 6
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###############                                                ] 1/1"
+  - delay: 14
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [################                                               ] 1/1"
+  - delay: 7
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#################                                              ] 1/1"
+  - delay: 15
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##################                                             ] 1/1"
+  - delay: 14
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###################                                            ] 1/1"
+  - delay: 6
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [####################                                           ] 1/1"
+  - delay: 15
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#####################                                          ] 1/1"
+  - delay: 6
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [######################                                         ] 1/1"
+  - delay: 15
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#######################                                        ] 1/1"
+  - delay: 12
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [########################                                       ] 1/1"
+  - delay: 6
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#########################                                      ] 1/1"
+  - delay: 10
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##########################                                     ] 1/1"
+  - delay: 8
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###########################                                    ] 1/1"
+  - delay: 12
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [############################                                   ] 1/1"
+  - delay: 10
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#############################                                  ] 1/1"
+  - delay: 8
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##############################                                 ] 1/1"
+  - delay: 11
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###############################                                ] 1/1"
+  - delay: 10
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [################################                               ] 1/1"
+  - delay: 12
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#################################                              ] 1/1\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##################################                             ] 1/1"
+  - delay: 13
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###################################                            ] 1/1"
+  - delay: 11
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [####################################                           ] 1/1"
+  - delay: 8
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#####################################                          ] 1/1"
+  - delay: 17
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [######################################                         ] 1/1\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#######################################                        ] 1/1"
+  - delay: 9
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [########################################                       ] 1/1"
+  - delay: 15
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#########################################                      ] 1/1"
+  - delay: 13
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##########################################                     ] 1/1"
+  - delay: 6
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###########################################                    ] 1/1"
+  - delay: 9
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [############################################                   ] 1/1"
+  - delay: 51
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#############################################                  ] 1/1"
+  - delay: 75
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##############################################                 ] 1/1"
+  - delay: 7
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###############################################                ] 1/1"
+  - delay: 26
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [################################################               ] 1/1"
+  - delay: 46
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#################################################              ] 1/1"
+  - delay: 177
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##################################################             ] 1/1\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###################################################            ] 1/1"
+  - delay: 56
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [####################################################           ] 1/1"
+  - delay: 98
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#####################################################          ] 1/1"
+  - delay: 53
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [######################################################         ] 1/1"
+  - delay: 65
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#######################################################        ] 1/1"
+  - delay: 9
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [########################################################       ] 1/1"
+  - delay: 67
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#########################################################      ] 1/1"
+  - delay: 79
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [##########################################################     ] 1/1"
+  - delay: 27
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [###########################################################    ] 1/1"
+  - delay: 68
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [############################################################   ] 1/1"
+  - delay: 44
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [#############################################################  ] 1/1"
+  - delay: 103
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64 [############################################################## ] 1/1"
+  - delay: 22
+    content: "\r  Installing : 2:nodejs-10.16.3-1nodesource.x86_64                                                                   1/1 \r\n"
+  - delay: 155
+    content: "\r  Verifying  : 2:nodejs-10.16.3-1nodesource.x86_64                                                                   1/1 \r\n"
+  - delay: 161
+    content: "\r\nInstalled:\r\n  nodejs.x86_64 2:10.16.3-1nodesource                                                                                    \r\n\r\nComplete!\r\n"
+  - delay: 26
+    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
+  - delay: 870
+    content: 'n'
+  - delay: 177
+    content: "\bno"
+  - delay: 96
+    content: d
+  - delay: 160
+    content: e
+  - delay: 84
+    content: ' '
+  - delay: 206
+    content: '-'
+  - delay: 87
+    content: v
+  - delay: 210
+    content: "\r\r\n"
+  - delay: 152
+    content: "v10.16.3\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
+  - delay: 547
+    content: 'n'
+  - delay: 159
+    content: "\bnp"
+  - delay: 144
+    content: m
+  - delay: 73
+    content: ' '
+  - delay: 259
+    content: '-'
+  - delay: 113
+    content: v
+  - delay: 377
+    content: "\r\r\n"
+  - delay: 51
+    content: "6.9.0\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
+  - delay: 776
+    content: 'n'
+  - delay: 40
+    content: "\bnp"
+  - delay: 42
+    content: m
+  - delay: 55
+    content: ' '
+  - delay: 19
+    content: c
+  - delay: 67
+    content: o
+  - delay: 55
+    content: 'n'
+  - delay: 83
+    content: f
+  - delay: 19
+    content: i
+  - delay: 15
+    content: g
+  - delay: 14
+    content: ' '
+  - delay: 13
+    content: s
+  - delay: 84
+    content: e
+  - delay: 33
+    content: t
+  - delay: 19
+    content: ' '
+  - delay: 17
+    content: r
+  - delay: 63
+    content: e
+  - delay: 26
+    content: g
+  - delay: 28
+    content: i
+  - delay: 81
+    content: s
+  - delay: 90
+    content: t
+  - delay: 81
+    content: r
+  - delay: 96
+    content: 'y'
+  - delay: 53
+    content: ' '
+  - delay: 54
+    content: h
+  - delay: 15
+    content: t
+  - delay: 52
+    content: t
+  - delay: 28
+    content: p
+  - delay: 13
+    content: s
+  - delay: 47
+    content: ':'
+  - delay: 43
+    content: /
+  - delay: 41
+    content: /
+  - delay: 77
+    content: r
+  - delay: 29
+    content: e
+  - delay: 47
+    content: g
+  - delay: 12
+    content: i
+  - delay: 21
+    content: s
+  - delay: 76
+    content: t
+  - delay: 38
+    content: r
+  - delay: 8
+    content: 'y'
+  - delay: 76
+    content: .
+  - delay: 21
+    content: 'n'
+  - delay: 64
+    content: p
+  - delay: 98
+    content: m
+  - delay: 39
+    content: .
+  - delay: 45
+    content: t
+  - delay: 52
+    content: a
+  - delay: 73
+    content: o
+  - delay: 21
+    content: b
+  - delay: 94
+    content: a
+  - delay: 98
+    content: o
+  - delay: 75
+    content: o
+  - delay: 81
+    content: r
+  - delay: 91
+    content: "\b \b"
+  - delay: 57
+    content: "\b \b"
+  - delay: 35
+    content: .
+  - delay: 39
+    content: o
+  - delay: 80
+    content: r
+  - delay: 86
+    content: g
+  - delay: 154
+    content: "\r\r\n"
+  - delay: 234
+    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
+  - delay: 1312
+    content: 'n'
+  - delay: 149
+    content: "\bnp"
+  - delay: 136
+    content: m
+  - delay: 45
+    content: ' '
+  - delay: 190
+    content: i
+  - delay: 191
+    content: 'n'
+  - delay: 80
+    content: s
+  - delay: 115
+    content: t
+  - delay: 81
+    content: a
+  - delay: 26
+    content: l
+  - delay: 34
+    content: l
+  - delay: 86
+    content: ' '
+  - delay: 28
+    content: '-'
+  - delay: 84
+    content: g
+  - delay: 32
+    content: ' '
+  - delay: 25
+    content: '@'
+  - delay: 21
+    content: a
+  - delay: 35
+    content: r
+  - delay: 37
+    content: c
+  - delay: 11
+    content: b
+  - delay: 27
+    content: l
+  - delay: 64
+    content: o
+  - delay: 26
+    content: c
+  - delay: 95
+    content: k
+  - delay: 32
+    content: /
+  - delay: 16
+    content: f
+  - delay: 18
+    content: o
+  - delay: 63
+    content: r
+  - delay: 41
+    content: ge-
+  - delay: 86
+    content: c
+  - delay: 11
+    content: l
+  - delay: 52
+    content: i
+  - delay: 96
+    content: ' '
+  - delay: 87
+    content: '-'
+  - delay: 42
+    content: '-'
+  - delay: 94
+    content: u
+  - delay: 89
+    content: 'n'
+  - delay: 61
+    content: s
+  - delay: 53
+    content: a
+  - delay: 80
+    content: f
+  - delay: 53
+    content: e
+  - delay: 21
+    content: '-'
+  - delay: 35
+    content: p
+  - delay: 11
+    content: e
+  - delay: 82
+    content: r
+  - delay: 89
+    content: m
+  - delay: 25
+    content: "\r\r\n"
+  - delay: 490
+    content: "\e[?25l"
+  - delay: 6
+    content: "[\e[90m..................\e[0m] / rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8816847d12252723\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[90m..................\e[0m] / rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8816847d12252723\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] / rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8816847d12252723\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] / rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8816847d12252723\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] / rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8816847d12252723\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[90m..................\e[0m] / rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8816847d12252723\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] / rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8816847d12252723\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] / rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8816847d12252723\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[90m..................\e[0m] / rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8816847d12252723\e[0m\e[K\r"
+  - delay: 95
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 120
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 29
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 47
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 66
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 38
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 58
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 44
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/forge-cli@0.39.12 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m bn.js@5.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 41
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m bn.js@5.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 58
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-to-bn@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-to-bn@1.7.0 checking installable status\e[0m\e[K\r"
+  - delay: 116
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safe-buffer@5.2.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safe-buffer@5.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 33
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safe-buffer@5.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safe-buffer@5.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-hex-prefix@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m strip-hex-prefix@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 137
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 14
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-hex-prefixed@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m elliptic@6.5.1 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m elliptic@6.5.1 checking installable status\e[0m\e[K\r"
+  - delay: 59
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash@4.17.15 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m lodash@4.17.15 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m camelize@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m camelize@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m @arcblock/sdk-util@0.24.0 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m graphql@14.5.8 checking installable status\e[0m\e[K\r"
+  - delay: 63
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iterall@1.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 186
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m iterall@1.2.2 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m websocket@1.0.30 checking installable status\e[0m\e[K\r"
+  - delay: 8
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-typedarray@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m asap@2.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 150
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 16
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 36
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 69
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 316
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 9
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 9
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 44
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 219
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 10
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 32
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 163
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 40
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 72
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 47
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 294
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m performance-now@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mcleanup\e[0m remove extracted module\e[0m\e[K\r"
+  - delay: 8
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mcleanup\e[0m remove extracted module\e[0m\e[K\r[\e[90m..................\e[0m] \\ loadDep:util-deprecate: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m protobufjs@5.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 34
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m protobufjs@5.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m protobufjs@5.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m protobufjs@5.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yargs@3.32.0 checking installable status\e[0m\e[K\r"
+  - delay: 251
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m yargs@3.32.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m optjs@3.2.2 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m optjs@3.2.2 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m optjs@3.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 16
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m optjs@3.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 32
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m optjs@3.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 58
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m optjs@3.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m optjs@3.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 82
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m minimatch@3.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 14
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m wrappy@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 69
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 33
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 74
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 29
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 62
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 44
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 72
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 22
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[90m..................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m brace-expansion@1.1.11 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m balanced-match@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m balanced-match@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 47
+    content: "[\e[90m..................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m window-size@0.1.4 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m window-size@0.1.4 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m window-size@0.1.4 checking installable status\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m window-size@0.1.4 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m window-size@0.1.4 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m window-size@0.1.4 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m window-size@0.1.4 checking installable status\e[0m\e[K\r"
+  - delay: 143
+    content: "[\e[90m..................\e[0m] \\ loadDep:strip-ansi: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m wrap-ansi@2.1.0 checking installable status\e[0m\e[K\r[\e[90m..................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m number-is-nan@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 11
+    content: "[\e[90m..................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@2.1.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] / loadDep:registry-url: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m invert-kv@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] / loadDep:registry-url: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m invert-kv@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pkg-dir@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m locate-path@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m p-limit@1.3.0 checking installable status\e[0m\e[K\r"
+  - delay: 59
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m os-homedir@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 41
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rc@1.2.8 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ini@1.3.5 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ini@1.3.5 checking installable status\e[0m\e[K\r"
+  - delay: 47
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m file-system@2.2.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] \\ loadDep:utils-extend: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m utils-extend@1.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] \\ loadDep:utils-extend: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m utils-extend@1.0.8 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m escape-string-regexp@1.0.5 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-convert@1.9.3 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m color-convert@1.9.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-flag@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m has-ansi@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m npm-run-path@3.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-key@3.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m isexe@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m isexe@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m isexe@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] / loadDep:once: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pump@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m \e[27m\e[90m.................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m type-fest@0.3.1 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m git-up@4.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] - loadDep:protocols: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m protocols@1.4.7 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m normalize-url@3.3.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m normalize-url@3.3.0 checking installable status\e[0m\e[K\r"
+  - delay: 43
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m rxjs@5.5.12 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m mimic-fn@1.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safer-buffer@2.1.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m is-promise@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 65
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] / loadDep:through: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m inquirer@3.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 38
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ansi-regex@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 59
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 44
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m shebang-regex@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m shebang-regex@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] | loadDep:strip-eof: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m execa@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m shebang-regex@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defaults@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m  \e[27m\e[90m................\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defaults@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m clone@1.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-ms@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m parse-ms@2.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m dns-packet@5.2.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip@1.1.5 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m cacheable-request@6.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] | fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m cacheable-request@6.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defer-to-connect@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defer-to-connect@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defer-to-connect@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m defer-to-connect@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m responselike@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m json-buffer@3.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ip-regex@4.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m ms@2.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 55
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 47
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 58
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 42
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 64
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 26
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] - fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m pinkie@2.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 47
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m callsites@0.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 168
+    content: "[\e[7m   \e[27m\e[90m...............\e[0m] / fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m path-parse@1.0.6 checking installable status\e[0m\e[K\r[\e[7m   \e[27m\e[90m...............\e[0m] \\ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m fs-minipass@1.2.7 checking installable status\e[0m\e[K\r"
+  - delay: 121
+    content: "[\e[7m      \e[27m\e[90m............\e[0m] / diffTrees: \e[7msill\e[0m \e[35minstall\e[0m generateActionsToTake\e[0m\e[K\r"
+  - delay: 139
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] / postinstall: \e[7msill\e[0m \e[35minstall\e[0m executeActions\e[0m\e[K\r"
+  - delay: 61
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] \\ extract:@arcblock/forge-cli: \e[34;40mverb\e[0m \e[35mlock\e[0m using /root/.npm/_locks/staging-a072192f34a17023.lock for\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] \\ extract:@arcblock/forge-cli: \e[34;40mverb\e[0m \e[35mlock\e[0m using /root/.npm/_locks/staging-a072192f34a17023.lock for\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] \\ extract:@arcblock/forge-cli: \e[34;40mverb\e[0m \e[35mlock\e[0m using /root/.npm/_locks/staging-a072192f34a17023.lock for\e[0m\e[K\r"
+  - delay: 64
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] | extract:@arcblock/forge-cli: \e[34;40mverb\e[0m \e[35mlock\e[0m using /root/.npm/_locks/staging-a072192f34a17023.lock for\e[0m\e[K\r"
+  - delay: 47
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] | extract:@arcblock/forge-cli: \e[34;40mverb\e[0m \e[35mlock\e[0m using /root/.npm/_locks/staging-a072192f34a17023.lock for\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] - extract:path-key: \e[7msill\e[0m \e[35mextract\e[0m progress@2.0.3\e[0m\e[K\r"
+  - delay: 59
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] | extract:asap: \e[7msill\e[0m \e[35mtarball\e[0m no local data for @arcblock/forge-cli@latest. Extracting by manifest.\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] / extract:asap: \e[7msill\e[0m \e[35mtarball\e[0m no local data for @arcblock/forge-cli@latest. Extracting by manifest.\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] \\ extract:colour: \e[7msill\e[0m \e[35mextract\e[0m colour@~0.7.1 extracted to /usr/lib/node_modules/.staging/colour-2d9\e[0m\e[K\r"
+  - delay: 70
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] / extract:bn.js: \e[7msill\e[0m \e[35mextract\e[0m bn.js@4.11.6 extracted to /usr/lib/node_modules/.staging/bn.js-8126fe\e[0m\e[K\r"
+  - delay: 42
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] \\ extract:@arcblock/forge-config: \e[7msill\e[0m \e[35mextract\e[0m inquirer-autocomplete-prompt@0.12.2\e[0m\e[K\r"
+  - delay: 55
+    content: "[\e[7m       \e[27m\e[90m...........\e[0m] | extract:bn.js: \e[7msill\e[0m \e[35mtarball\e[0m no local data for inquirer@^5.2.0. Extracting by manifest.\e[0m\e[K\r"
+  - delay: 58
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] / extract:blueimp-md5: \e[7msill\e[0m \e[35mextract\e[0m base64-url@^2.2.1 extracted to /usr/lib/node_modules/.staging/b\e[0m\e[K\r"
+  - delay: 61
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] | extract:leven: \e[7msill\e[0m \e[35mextract\e[0m @hutson/set-npm-auth-token-for-ci@4.0.3\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] | extract:pidusage: \e[7msill\e[0m \e[35mextract\e[0m minipass@2.9.0\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] | extract:json-stringify-pretty-compact: \e[7msill\e[0m \e[35mextract\e[0m is-admin@3.0.0\e[0m\e[K\r"
+  - delay: 58
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] | extract:internal-ip: \e[7msill\e[0m \e[35mtarball\e[0m no local data for get-stream@^4.1.0. Extracting by manifest.\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] / extract:y18n: \e[7msill\e[0m \e[35mextract\e[0m execa@1.0.0\e[0m\e[K\r"
+  - delay: 60
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] / extract:death: \e[7msill\e[0m \e[35mextract\e[0m pump@3.0.0\e[0m\e[K\r"
+  - delay: 66
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] - extract:inquirer-autocomplete-prompt: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/cli-progress/\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] / extract:crypto-js: \e[7msill\e[0m \e[35mextract\e[0m window-size@0.1.4\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] - extract:minizlib: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/is-admin/-/is-admin-3.0.0.tgz 314\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] / extract:cliui: \e[7msill\e[0m \e[35mextract\e[0m cliui@^3.0.3 extracted to /usr/lib/node_modules/.staging/cliui-9dd167\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m        \e[27m\e[90m..........\e[0m] / extract:ms: \e[7msill\e[0m \e[35mextract\e[0m type-fest@0.3.1\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] | extract:glob: \e[7msill\e[0m \e[35mextract\e[0m glob@^7.1.2 extracted to /usr/lib/node_modules/.staging/glob-f697f4d7\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] / extract:file-system: \e[7msill\e[0m \e[35mtarball\e[0m no local data for log-symbols@^2.2.0. Extracting by manifest.\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] / extract:which: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/debug/-/debug-2.6.9.tgz 228ms\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] \\ extract:ajax-request: \e[7msill\e[0m \e[35mextract\e[0m strip-hex-prefix@1.0.0\e[0m\e[K\r"
+  - delay: 165
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] / extract:symbol-observable: \e[7msill\e[0m \e[35mextract\e[0m string-width@1.0.2\e[0m\e[K\r[\e[7m         \e[27m\e[90m.........\e[0m] / extract:to-readable-stream: \e[7msill\e[0m \e[35mtarball\e[0m no local data for argparse@^1.0.7. Extracting by manifes\e[0m\e[K\r"
+  - delay: 7
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] \\ extract:typedarray-to-buffer: \e[7msill\e[0m \e[35mextract\e[0m typedarray-to-buffer@^3.1.5 extracted to /usr/lib/node\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] - extract:log-symbols: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/supports-color/-/supports-colo\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] \\ extract:signal-exit: \e[7msill\e[0m \e[35mextract\e[0m signal-exit@^3.0.2 extracted to /usr/lib/node_modules/.staging/\e[0m\e[K\r"
+  - delay: 62
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] | extract:tweetnacl: \e[7msill\e[0m \e[35mextract\e[0m tweetnacl@^1.0.1 extracted to /usr/lib/node_modules/.staging/twee\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] - extract:rx-lite-aggregates: \e[7msill\e[0m \e[35mextract\e[0m rx-lite-aggregates@^4.0.8 extracted to /usr/lib/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] / extract:shebang-command: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/shebang-regex/-/shebang-re\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m         \e[27m\e[90m.........\e[0m] - extract:safe-buffer: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/randombytes/-/randombytes-2.1.\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] \\ extract:debug: \e[7msill\e[0m \e[35mextract\e[0m os-locale@1.4.0\e[0m\e[K\r"
+  - delay: 71
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] | extract:git-up: \e[7msill\e[0m \e[35mextract\e[0m optjs@3.2.2\e[0m\e[K\r"
+  - delay: 65
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] / extract:p-locate: \e[7msill\e[0m \e[35mextract\e[0m nice-try@1.0.5\e[0m\e[K\r"
+  - delay: 41
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] / extract:parse-url: \e[7msill\e[0m \e[35mextract\e[0m @arcblock/sdk-util@0.24.0\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] \\ extract:parse-path: \e[7msill\e[0m \e[35mextract\e[0m elliptic@6.5.1\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] | extract:number-is-nan: \e[7msill\e[0m \e[35mextract\e[0m merge-stream@2.0.0\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] - extract:p-finally: \e[7msill\e[0m \e[35mextract\e[0m lodash.upperfirst@4.3.1\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] \\ extract:numeral: \e[7msill\e[0m \e[35mextract\e[0m numeral@^2.0.6 extracted to /usr/lib/node_modules/.staging/numeral-\e[0m\e[K\r"
+  - delay: 58
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] \\ extract:hmac-drbg: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/nan/-/nan-2.14.0.tgz 244ms\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] / extract:bn.js: \e[7msill\e[0m \e[35mextract\e[0m isexe@2.0.0\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m          \e[27m\e[90m........\e[0m] | extract:lcid: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/lowercase-keys/-/lowercase-keys-1.0.1\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m           \e[27m\e[90m.......\e[0m] \\ extract:merge-stream: \e[7msill\e[0m \e[35mtarball\e[0m no local data for is-buffer@^2.0.2. Extracting by manifest.\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m           \e[27m\e[90m.......\e[0m] / extract:is-typedarray: \e[7msill\e[0m \e[35mextract\e[0m is-typedarray@^1.0.0 extracted to /usr/lib/node_modules/.stag\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m           \e[27m\e[90m.......\e[0m] | extract:is-stream: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/%40arcblock/graphql-client/-/%40\e[0m\e[K\r"
+  - delay: 55
+    content: "[\e[7m           \e[27m\e[90m.......\e[0m] / extract:is-hex-prefixed: \e[7msill\e[0m \e[35mextract\e[0m is-fullwidth-code-point@2.0.0\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[7m           \e[27m\e[90m.......\e[0m] - extract:long: \e[7msill\e[0m \e[35mextract\e[0m fs.realpath@1.0.0\e[0m\e[K\r"
+  - delay: 58
+    content: "[\e[7m           \e[27m\e[90m.......\e[0m] | extract:js-sha3: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/which/-/which-1.3.1.tgz 326ms\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m           \e[27m\e[90m.......\e[0m] | extract:is-buffer: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 200 https://cdn.npm.taobao.org/dns-socket/-/dns-socket-4.2.0.tg\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[7m           \e[27m\e[90m.......\e[0m] / extract:shebang-command: \e[7msill\e[0m \e[35mextract\e[0m shebang-command@^1.2.0 extracted to /usr/lib/node_modules/.\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:http-cache-semantics: \e[7msill\e[0m \e[35mextract\e[0m http-cache-semantics@^4.0.0 extracted to /usr/lib/node\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:follow-redirects: \e[7msill\e[0m \e[35mextract\e[0m follow-redirects@1.5.10 extracted to /usr/lib/node_modules\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:@arcblock/graphql-client: \e[7msill\e[0m \e[35mextract\e[0m @arcblock/graphql-client@^0.38.9 extracted to /usr\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:esprima: \e[7msill\e[0m \e[35mextract\e[0m esprima@^4.0.0 extracted to /usr/lib/node_modules/.staging/esprima-\e[0m\e[K\r"
+  - delay: 42
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:google-protobuf: \e[7msill\e[0m \e[35mextract\e[0m google-protobuf@^3.9.0 extracted to /usr/lib/node_modules/.\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:bytebuffer: \e[7msill\e[0m \e[35mextract\e[0m bytebuffer@~5 extracted to /usr/lib/node_modules/.staging/bytebu\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:async: \e[7msill\e[0m \e[35mextract\e[0m async@2.6.1 extracted to /usr/lib/node_modules/.staging/async-ca4a302\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:async: \e[7msill\e[0m \e[35mextract\e[0m async@2.6.1 extracted to /usr/lib/node_modules/.staging/async-ca4a302\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:@arcblock/forge-cli: \e[7msill\e[0m \e[35mextract\e[0m @arcblock/forge-cli@latest extracted to /usr/lib/node_m\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] \\ extract:@arcblock/forge-cli: \e[7msill\e[0m \e[35mextract\e[0m @arcblock/forge-cli@latest extracted to /usr/lib/node_m\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:protobufjs: \e[7msill\e[0m \e[35mextract\e[0m protobufjs@^5.0.3 extracted to /usr/lib/node_modules/.staging/pr\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:protobufjs: \e[7msill\e[0m \e[35mextract\e[0m protobufjs@^5.0.3 extracted to /usr/lib/node_modules/.staging/pr\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:protobufjs: \e[7msill\e[0m \e[35mextract\e[0m protobufjs@^5.0.3 extracted to /usr/lib/node_modules/.staging/pr\e[0m\e[K\r"
+  - delay: 47
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:protobufjs: \e[7msill\e[0m \e[35mextract\e[0m protobufjs@^5.0.3 extracted to /usr/lib/node_modules/.staging/pr\e[0m\e[K\r"
+  - delay: 46
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] \\ extract:moment: \e[7msill\e[0m \e[35mextract\e[0m moment@^2.22.2 extracted to /usr/lib/node_modules/.staging/moment-f7\e[0m\e[K\r"
+  - delay: 63
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:ramda: \e[7msill\e[0m \e[35mextract\e[0m ramda@^0.25.0 extracted to /usr/lib/node_modules/.staging/ramda-aece0\e[0m\e[K\r"
+  - delay: 35
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:ramda: \e[7msill\e[0m \e[35mextract\e[0m ramda@^0.25.0 extracted to /usr/lib/node_modules/.staging/ramda-aece0\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:ramda: \e[7msill\e[0m \e[35mextract\e[0m ramda@^0.25.0 extracted to /usr/lib/node_modules/.staging/ramda-aece0\e[0m\e[K\r"
+  - delay: 55
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:ramda: \e[7msill\e[0m \e[35mextract\e[0m ramda@^0.25.0 extracted to /usr/lib/node_modules/.staging/ramda-aece0\e[0m\e[K\r"
+  - delay: 41
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:graphql: \e[7msill\e[0m \e[35mextract\e[0m graphql@^14.1.1 extracted to /usr/lib/node_modules/.staging/graphql\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:graphql: \e[7msill\e[0m \e[35mextract\e[0m graphql@^14.1.1 extracted to /usr/lib/node_modules/.staging/graphql\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:graphql: \e[7msill\e[0m \e[35mextract\e[0m graphql@^14.1.1 extracted to /usr/lib/node_modules/.staging/graphql\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:graphql: \e[7msill\e[0m \e[35mextract\e[0m graphql@^14.1.1 extracted to /usr/lib/node_modules/.staging/graphql\e[0m\e[K\r"
+  - delay: 47
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:lodash: \e[7msill\e[0m \e[35mextract\e[0m lodash@^4.17.15 extracted to /usr/lib/node_modules/.staging/lodash-5\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:figlet: \e[7msill\e[0m \e[35mextract\e[0m figlet@^1.2.1 extracted to /usr/lib/node_modules/.staging/figlet-65c\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] \\ extract:lodash: \e[7msill\e[0m \e[35mextract\e[0m lodash@4.17.14 extracted to /usr/lib/node_modules/.staging/lodash-89\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] \\ extract:lodash: \e[7msill\e[0m \e[35mextract\e[0m lodash@4.17.14 extracted to /usr/lib/node_modules/.staging/lodash-89\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 54
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 42
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 59
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@3.2.1 extracted to /usr/lib/node_modules/.staging/core-js-a\e[0m\e[K\r"
+  - delay: 45
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:rxjs: \e[7msill\e[0m \e[35mextract\e[0m rxjs@^5.5.2 extracted to /usr/lib/node_modules/.staging/rxjs-8e8c2299\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:rxjs: \e[7msill\e[0m \e[35mextract\e[0m rxjs@^5.5.2 extracted to /usr/lib/node_modules/.staging/rxjs-8e8c2299\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:rxjs: \e[7msill\e[0m \e[35mextract\e[0m rxjs@^5.5.2 extracted to /usr/lib/node_modules/.staging/rxjs-8e8c2299\e[0m\e[K\r"
+  - delay: 48
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:rxjs: \e[7msill\e[0m \e[35mextract\e[0m rxjs@^5.5.2 extracted to /usr/lib/node_modules/.staging/rxjs-8e8c2299\e[0m\e[K\r"
+  - delay: 49
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:rxjs: \e[7msill\e[0m \e[35mextract\e[0m rxjs@^5.5.2 extracted to /usr/lib/node_modules/.staging/rxjs-8e8c2299\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - extract:rxjs: \e[7msill\e[0m \e[35mextract\e[0m rxjs@^5.5.2 extracted to /usr/lib/node_modules/.staging/rxjs-8e8c2299\e[0m\e[K\r"
+  - delay: 55
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / finalize:@arcblock/forge-cli: \e[7msill\e[0m \e[35mdoSerial\e[0m finalize 3084\e[0m\e[K\r"
+  - delay: 53
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] \\ finalize:code-point-at: \e[7msill\e[0m \e[35mfinalize\e[0m /usr/lib/node_modules/@arcblock/forge-cli/node_modules/grpc\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - finalize:once: \e[7msill\e[0m \e[35mfinalize\e[0m /usr/lib/node_modules/@arcblock/forge-cli/node_modules/grpc/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] \\ finalize:mimic-response: \e[7msill\e[0m \e[35mfinalize\e[0m /usr/lib/node_modules/@arcblock/forge-cli/node_modules/mim\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - finalize:rx-lite: \e[7msill\e[0m \e[35mfinalize\e[0m /usr/lib/node_modules/@arcblock/forge-cli/node_modules/rx-lite\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | finalize:@arcblock/did: \e[7msill\e[0m \e[35mfinalize\e[0m /usr/lib/node_modules/@arcblock/forge-cli/node_modules/@arc\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] \\ finalize:@hutson/set-npm-auth-token-for-ci: \e[7msill\e[0m \e[35mfinalize\e[0m /usr/lib/node_modules/@arcblock/forge-c\e[0m\e[K\r"
+  - delay: 52
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - finalize:yaml: \e[7msill\e[0m \e[35mfinalize\e[0m /usr/lib/node_modules/@arcblock/forge-cli/node_modules/yaml\e[0m\e[K\r"
+  - delay: 61
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - refresh-package-json:@arcblock/forge-cli: \e[32;40mtiming\e[0m \e[35maction:finalize\e[0m Completed in 371ms\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - refresh-package-json:@arcblock/forge-cli: \e[32;40mtiming\e[0m \e[35maction:finalize\e[0m Completed in 371ms\e[0m\e[K\r"
+  - delay: 69
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | refresh-package-json:lodash: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-cli/\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] / refresh-package-json:minipass: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-cl\e[0m\e[K\r"
+  - delay: 65
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - refresh-package-json:yargs: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-cli/n\e[0m\e[K\r"
+  - delay: 43
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | refresh-package-json:debug: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-cli/n\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - refresh-package-json:rx-lite: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-cli\e[0m\e[K\r"
+  - delay: 57
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - refresh-package-json:debug: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-cli/n\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - refresh-package-json:debug: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-cli/n\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | refresh-package-json:minimist: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-cl\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - refresh-package-json:dns-packet: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - refresh-package-json:once: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge-cli/no\e[0m\e[K\r"
+  - delay: 51
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | refresh-package-json:safe-buffer: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /usr/lib/node_modules/@arcblock/forge\e[0m\e[K\r"
+  - delay: 56
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | preinstall:@arcblock/forge-cli: \e[32;40mtiming\e[0m \e[35maction:refresh-package-json\e[0m Completed in 719ms\e[0m\e[K\r"
+  - delay: 61
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] - build:escape-string-regexp: \e[7msill\e[0m \e[35mlinkStuff\e[0m escape-string-regexp@1.0.5 is installed into a global\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] \\ build:yargs: \e[7msill\e[0m \e[35mlinkStuff\e[0m yargs@3.32.0 is installed into a global node_modules\e[0m\e[K\r"
+  - delay: 50
+    content: "[\e[7m            \e[27m\e[90m......\e[0m] | build:yargs: \e[7msill\e[0m \e[35mlinkStuff\e[0m yargs@3.32.0 is installed into a global node_modules\e[0m\e[K\r"
+  - delay: 27
+    content: "\r\e[K\e[?25h/usr/bin/forge -> /usr/lib/node_modules/@arcblock/forge-cli/bin/forge\r\n"
+  - delay: 25
+    content: "\e[?25l[\e[7m            \e[27m\e[90m......\e[0m] \\ install:defaults: \e[32minfo\e[0m \e[35mlifecycle\e[0m defaults@1.0.3~install: defaults@1.0.3\e[0m\e[K\r"
+  - delay: 22
+    content: "\r\e[K\e[?25h\r\n> websocket@1.0.30 install /usr/lib/node_modules/@arcblock/forge-cli/node_modules/websocket\r\n> (node-gyp rebuild 2> builderror.log) || (exit 0)\r\n\r\n"
+  - delay: 4661
+    content: "make: Entering directory `/usr/lib/node_modules/@arcblock/forge-cli/node_modules/websocket/build'\r\n  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o\r\n"
+  - delay: 2097
+    content: "  SOLINK_MODULE(target) Release/obj.target/bufferutil.node\r\n"
+  - delay: 202
+    content: "  COPY Release/bufferutil.node\r\n  CXX(target) Release/obj.target/validation/src/validation.o\r\n"
+  - delay: 582
+    content: "  SOLINK_MODULE(target) Release/obj.target/validation.node\r\n"
+  - delay: 36
+    content: "  COPY Release/validation.node\r\n"
+  - delay: 26
+    content: "make: Leaving directory `/usr/lib/node_modules/@arcblock/forge-cli/node_modules/websocket/build'\r\n\r\n> grpc@1.24.0 install /usr/lib/node_modules/@arcblock/forge-cli/node_modules/grpc\r\n> node-pre-gyp install --fallback-to-build --library=static_library\r\n\r\n"
+  - delay: 198
+    content: "\e[37;40mnode-pre-gyp\e[0m \e[0m\e[30;43mWARN\e[0m \e[0m\e[35mUsing needle for node-pre-gyp https download\e[0m \r\n\e[0m"
+  - delay: 6882
+    content: "[grpc] Success: \"/usr/lib/node_modules/@arcblock/forge-cli/node_modules/grpc/src/node/extension_binary/node-v64-linux-x64-glibc/grpc_node.node\" is installed via remote\r\n"
+  - delay: 30
+    content: "\r\n> core-js@3.2.1 postinstall /usr/lib/node_modules/@arcblock/forge-cli/node_modules/core-js\r\n> node scripts/postinstall || echo \"ignore\"\r\n\r\n"
+  - delay: 71
+    content: "\e[96mThank you for using core-js (\e[94m https://github.com/zloirock/core-js \e[96m) for polyfilling JavaScript standard library!\e[0m\r\n\r\n\e[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: \e[0m\r\n\e[96m>\e[94m https://opencollective.com/core-js \e[0m\r\n\e[96m>\e[94m https://www.patreon.com/zloirock \e[0m\r\n\r\n\e[96mAlso, the author of core-js (\e[94m https://github.com/zloirock \e[96m) is looking for a good job -)\e[0m\r\n\r\n"
+  - delay: 47
+    content: "\r\n> @arcblock/forge-cli@0.39.12 postinstall /usr/lib/node_modules/@arcblock/forge-cli\r\n> bin/forge\r\n\r\n"
+  - delay: 1198
+    content: "\r\n\e[36m██████╗ ██╗   ██╗     █████╗ ██████╗  ██████╗██████╗ ██╗      ██████╗  ██████╗██╗  ██╗\e[39m\r\n\e[36m██╔══██╗╚██╗ ██╔╝    ██╔══██╗██╔══██╗██╔════╝██╔══██╗██║     ██╔═══██╗██╔════╝██║ ██╔╝\e[39m\r\n\e[36m██████╔╝ ╚████╔╝     ███████║██████╔╝██║     ██████╔╝██║     ██║   ██║██║     █████╔╝ \e[39m\r\n\e[36m██╔══██╗  ╚██╔╝      ██╔══██║██╔══██╗██║     ██╔══██╗██║     ██║   ██║██║     ██╔═██╗ \e[39m\r\n\e[36m██████╔╝   ██║       ██║  ██║██║  ██║╚██████╗██████╔╝███████╗╚██████╔╝╚██████╗██║  ██╗\e[39m\r\n\e[36m╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝\e[39m\r\n\e[36m                                                                                      \e[39m\r\nUsage: forge [options] [command]\r\n\r\nOptions:\r\n  -V, --version                          output the version number\r\n  -v, --verbose                          Output runtime info when execute subcommand, useful for debug\r\n  -c, --chain-name <chainName>           Execute command use specific chain\r\n  -i, --config-path <path>               Forge config used when starting forge node and initializing gRPC clients\r\n  -r, --npm-registry <registry>          Specify a custom npm registry\r\n  -y, --yes                              Assume that the answer to any confirmation question is yes\r\n  -d, --defaults                         Run command using default values for all questions\r\n  -m, --mirror <url>                     Mirror host used to download forge release\r\n  -g, --socket-grpc <endpoint>           Socket gRPC endpoint to connect, with this you can use forge-cli with a remote node\r\n  -h, --help                             output usage information\r\n\r\nCommands:\r\n  account <address>                      Get an account info by address\r\n  account:create                         Interactively create an account, guarded by a passphrase\r\n  account:delete <address>               Delete an account by address\r\n  account:list [role]                    List all accounts stored in this node\r\n  asset <address>                        Get asset info by address\r\n  block [options] [height]               Get the block info from the running node\r\n  blocklet:use|project:create [options]  Download and install a blocklet\r\n  chain:create|create-chain [chainName]  Create a new chain instance\r\n  chain:ls|chains                        List all chains\r\n  chain:remove <chainName>               Remove chain state and config\r\n  chain:reset <chainName>                Reset chain state, but keeps the config\r\n  checkin                                Send a poke tx to the network to get tokens for test\r\n  config [options] [action]              Read/write chain/node config\r\n  declare:node                           Declare the current node to be a validator candidate\r\n  download [options] [version]           Download a forge release without activate it\r\n  help [subcommand]                      Show help of a sub command\r\n  install|init [options] [version]       Download and setup forge release on this machine\r\n  join <endpoint>                        Join a network by providing a valid forge web graphql endpoint\r\n  logs [type]                            Show logs for various forge components\r\n  ls                                     List forge releases installed locally\r\n  ls:remote                              List remote f"
+  - delay: 10
+    content: "orge releases available for install\r\n  prepare [options]                      Prepare node for deploying a multi-node chain\r\n  protocol:activate [name|address]       Activate a transaction protocol by name or address\r\n  protocol:compile [sourceDir]           Compile a forge transaction protocol\r\n  protocol:deactivate [name|adderss]     Deactivate a transaction protocol\r\n  protocol:deploy [itxPath]              Deploy a compiled transaction protocol to ABT Node\r\n  protocol:ls                            List transaction protocols\r\n  ps                                     List running forge component processes\r\n  remote [shellName]                     Connects to the running system via a remote shell\r\n  simulator [action]                     Start/stop simulator and generate random traffic\r\n  start [options] [<chainName>]          Start a chain daemon, if does not specify a chain name, it will start a default chain\r\n  status [type]                          List info of the running chain/node\r\n  stop [options] [<chainName>]           Stop the forge daemon and all forge components, if does not specify a chain name, it will start a default chain\r\n  tx [hash]                              Get a tx detail and display\r\n  tx:list                                List latest transactions\r\n  upgrade [<chainName>]                  Upgrade chain node to new version without reset\r\n  use [version]                          Activate an already downloaded forge release\r\n  version [<chainName>]                  Output version for all forge components\r\n  wallet:create                          Create a local wallet and dump its public/private key\r\n  web [options] [action]                 Start/stop the web interface of running forge chain/node\r\n  workshop [action]                      Start/stop the dApps workshop\r\n\r\nExamples:\r\n\r\n  Please install a forge-release before running any other commands\r\n  > \e[36mforge install latest\e[39m\r\n  > \e[36mforge install --mirror https://releases.arcblockio.cn\e[39m\r\n\r\n  Curious about how to use a subcommand?\r\n  > \e[36mforge help install\e[39m\r\n  \r\n+ @arcblock/forge-cli@0.39.12\r\nadded 402 packages from 214 contributors in 35.575s\r\n\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"
+  - delay: 2424
+    content: f
+  - delay: 96
+    content: "\bfo"
+  - delay: 95
+    content: r
+  - delay: 78
+    content: g
+  - delay: 72
+    content: e
+  - delay: 88
+    content: ' '
+  - delay: 69
+    content: '-'
+  - delay: 62
+    content: '-'
+  - delay: 98
+    content: v
+  - delay: 86
+    content: e
+  - delay: 24
+    content: r
+  - delay: 88
+    content: s
+  - delay: 19
+    content: i
+  - delay: 27
+    content: o
+  - delay: 21
+    content: 'n'
+  - delay: 73
+    content: "\r\r\n"
+  - delay: 503
+    content: "0.39.12\r\n"
+  - delay: 7
+    content: "\e[1m\e[27m\e[1m\e[0m                                                                                                                        \r \r\r\e[0m\e[27m\e[24m\e[J[root@arcblock]~# \e[K"

@@ -1,0 +1,625 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 121
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 1000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"
+
+  # The size of the font
+  fontSize: 14
+
+  # The height of lines
+  lineHeight: 1.2
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 2099
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 61
+    content: "\e]0;~/Develop/arcblock\a"
+  - delay: 5
+    content: "\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 612
+    content: "\e[4mf\e[24m\e[90morge install latest\e[39m\e[19D"
+  - delay: 129
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 56
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 156
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 53
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 99
+    content: "\e[39m "
+  - delay: 222
+    content: "\e[39mi"
+  - delay: 239
+    content: "\e[39mn"
+  - delay: 483
+    content: "\e[39ms"
+  - delay: 133
+    content: "\e[39mt"
+  - delay: 48
+    content: "\e[39ma"
+  - delay: 126
+    content: "\e[39ml"
+  - delay: 113
+    content: "\e[39ml"
+  - delay: 111
+    content: "\e[39m "
+  - delay: 164
+    content: "\e[39ml"
+  - delay: 92
+    content: "\e[39ma"
+  - delay: 133
+    content: "\e[39mt"
+  - delay: 62
+    content: "\e[39me"
+  - delay: 149
+    content: "\e[39ms"
+  - delay: 144
+    content: "\e[39mt"
+  - delay: 162
+    content: "\e[?1l\e>"
+  - delay: 18
+    content: "\e[?2004l\r\r\n\e]2;forge install latest\a\e]1;forge\a\e]0;arcblock: forge install latest\a"
+  - delay: 1257
+    content: "\e[34mℹ\e[39m Detected platform is: darwin\r\n\e[34mℹ\e[39m \e[33mUsing custom mirror: https://releases.arcblockio.cn\e[39m\r\n\e[?25l\e[36m⠈\e[39m Fetching forge release version..."
+  - delay: 162
+    content: "\e[2K\e[1G\e[?25h\e[32m✔\e[39m Latest forge release version: v0.38.4\r\n"
+  - delay: 267
+    content: "\e[34mℹ\e[39m Download latest version: v0.38.4.\r\n\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_darwin_amd64.tgz\r\n"
+  - delay: 57
+    content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 1% || 0.31/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 3% || 0.62/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 4% || 0.93/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 6% || 1.28/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 8% || 1.65/21.80 MB\e[0K"
+  - delay: 108
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 9% || 2.02/21.80 MB\e[0K"
+  - delay: 114
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 11% || 2.34/21.80 MB\e[0K"
+  - delay: 110
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 12% || 2.65/21.80 MB\e[0K"
+  - delay: 107
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 13% || 2.90/21.80 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 15% || 3.18/21.80 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 16% || 3.49/21.80 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 18% || 3.91/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 19% || 4.15/21.80 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 20% || 4.43/21.80 MB\e[0K"
+  - delay: 110
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 22% || 4.71/21.80 MB\e[0K"
+  - delay: 117
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 23% || 4.98/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 25% || 5.39/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 27% || 5.81/21.80 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 28% || 6.21/21.80 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 30% || 6.59/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 32% || 6.91/21.80 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 34% || 7.35/21.80 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 35% || 7.73/21.80 MB\e[0K"
+  - delay: 117
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████████░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 38% || 8.18/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 39% || 8.55/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████░░░░░░░░░░░░░░░░░░░░░░░\e[39m 41% || 9.00/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████░░░░░░░░░░░░░░░░░░░░░░░\e[39m 43% || 9.37/21.80 MB\e[0K"
+  - delay: 107
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████████████████░░░░░░░░░░░░░░░░░░░░░░\e[39m 46% || 9.94/21.80 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████████████░░░░░░░░░░░░░░░░░░░░░\e[39m 48% || 10.42/21.80 MB\e[0K"
+  - delay: 108
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████░░░░░░░░░░░░░░░░░░░░\e[39m 50% || 10.84/21.80 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████░░░░░░░░░░░░░░░░░░░░\e[39m 51% || 11.04/21.80 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████████░░░░░░░░░░░░░░░░░░░\e[39m 52% || 11.34/21.80 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████████░░░░░░░░░░░░░░░░░░░\e[39m 53% || 11.66/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████████████████████░░░░░░░░░░░░░░░░░░\e[39m 56% || 12.24/21.80 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████████████████░░░░░░░░░░░░░░░░░\e[39m 58% || 12.60/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████████░░░░░░░░░░░░░░░░\e[39m 60% || 13.03/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████████████░░░░░░░░░░░░░░░\e[39m 62% || 13.50/21.80 MB\e[0K"
+  - delay: 207
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████████████░░░░░░░░░░░░░░░\e[39m 63% || 13.71/21.80 MB\e[0K"
+  - delay: 117
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████████████████████████░░░░░░░░░░░░░░\e[39m 66% || 14.36/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████████████████████░░░░░░░░░░░░░\e[39m 68% || 14.75/21.80 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████████████░░░░░░░░░░░░\e[39m 70% || 15.21/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████████████████░░░░░░░░░░░\e[39m 72% || 15.69/21.80 MB\e[0K"
+  - delay: 106
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████████████████░░░░░░░░░░░\e[39m 74% || 16.06/21.80 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████████████████████████████░░░░░░░░░░\e[39m 76% || 16.58/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████████████████████████░░░░░░░░░\e[39m 78% || 17.09/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████████████████░░░░░░░░\e[39m 81% || 17.62/21.80 MB\e[0K"
+  - delay: 133
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████████████████████░░░░░░░\e[39m 83% || 18.02/21.80 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████████████████████████████████░░░░░░\e[39m 85% || 18.50/21.80 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████████████████████████████░░░░░\e[39m 88% || 19.10/21.80 MB\e[0K"
+  - delay: 110
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████████████████████░░░░\e[39m 90% || 19.53/21.80 MB\e[0K"
+  - delay: 109
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████████████████████░░░░\e[39m 91% || 19.79/21.80 MB\e[0K"
+  - delay: 109
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m█████████████████████████████████████░░░\e[39m 93% || 20.24/21.80 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m██████████████████████████████████████░░\e[39m 94% || 20.46/21.80 MB\e[0K"
+  - delay: 112
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████████████████████████████████░\e[39m 96% || 21.01/21.80 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m███████████████████████████████████████░\e[39m 99% || 21.48/21.80 MB\e[0K"
+  - delay: 108
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 21.71/21.80 MB\e[0K"
+  - delay: 123
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 21.80/21.80 MB\e[0K\e[?25h\e[?7h\e8\r\n"
+  - delay: 1765
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/simulator_darwin_amd64.tgz\r\n"
+  - delay: 126
+    content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/9.15 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 3% || 0.27/9.15 MB\e[0K"
+  - delay: 109
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 7% || 0.61/9.15 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 10% || 0.95/9.15 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 13% || 1.20/9.15 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 17% || 1.53/9.15 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 20% || 1.86/9.15 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 23% || 2.14/9.15 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 27% || 2.50/9.15 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 31% || 2.86/9.15 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 36% || 3.31/9.15 MB\e[0K"
+  - delay: 114
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m████████████████░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 40% || 3.70/9.15 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m██████████████████░░░░░░░░░░░░░░░░░░░░░░\e[39m 45% || 4.16/9.15 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m████████████████████░░░░░░░░░░░░░░░░░░░░\e[39m 50% || 4.59/9.15 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m██████████████████████░░░░░░░░░░░░░░░░░░\e[39m 55% || 5.00/9.15 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m███████████████████████░░░░░░░░░░░░░░░░░\e[39m 58% || 5.34/9.15 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m█████████████████████████░░░░░░░░░░░░░░░\e[39m 63% || 5.78/9.15 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m███████████████████████████░░░░░░░░░░░░░\e[39m 67% || 6.13/9.15 MB\e[0K"
+  - delay: 106
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m████████████████████████████░░░░░░░░░░░░\e[39m 71% || 6.48/9.15 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m██████████████████████████████░░░░░░░░░░\e[39m 74% || 6.77/9.15 MB\e[0K"
+  - delay: 107
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m███████████████████████████████░░░░░░░░░\e[39m 78% || 7.17/9.15 MB\e[0K"
+  - delay: 111
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m█████████████████████████████████░░░░░░░\e[39m 84% || 7.65/9.15 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m███████████████████████████████████░░░░░\e[39m 87% || 7.96/9.15 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m█████████████████████████████████████░░░\e[39m 92% || 8.46/9.15 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m██████████████████████████████████████░░\e[39m 94% || 8.62/9.15 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 99% || 9.06/9.15 MB\e[0K"
+  - delay: 62
+    content: "\e[1G\e[34mℹ\e[39m Downloading simulator_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 9.15/9.15 MB\e[0K\e[?25h\e[?7h\e8\r\n"
+  - delay: 788
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_web_darwin_amd64.tgz\r\n"
+  - delay: 128
+    content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/22.21 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 1% || 0.28/22.21 MB\e[0K"
+  - delay: 110
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 3% || 0.67/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 4% || 0.94/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 6% || 1.26/22.21 MB\e[0K"
+  - delay: 108
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 8% || 1.70/22.21 MB\e[0K"
+  - delay: 110
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 9% || 2.03/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 11% || 2.49/22.21 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 13% || 2.90/22.21 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 15% || 3.24/22.21 MB\e[0K"
+  - delay: 114
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 17% || 3.73/22.21 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 19% || 4.19/22.21 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 21% || 4.64/22.21 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 23% || 5.00/22.21 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 24% || 5.35/22.21 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 26% || 5.71/22.21 MB\e[0K"
+  - delay: 122
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 27% || 6.04/22.21 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 29% || 6.55/22.21 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 31% || 6.94/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 33% || 7.38/22.21 MB\e[0K"
+  - delay: 113
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 35% || 7.79/22.21 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 37% || 8.16/22.21 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 39% || 8.59/22.21 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████████░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 40% || 8.92/22.21 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████░░░░░░░░░░░░░░░░░░░░░░░\e[39m 41% || 9.19/22.21 MB\e[0K"
+  - delay: 106
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████░░░░░░░░░░░░░░░░░░░░░░░\e[39m 43% || 9.65/22.21 MB\e[0K"
+  - delay: 111
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████████████░░░░░░░░░░░░░░░░░░░░░░\e[39m 46% || 10.12/22.21 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████░░░░░░░░░░░░░░░░░░░░░\e[39m 47% || 10.46/22.21 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████████████░░░░░░░░░░░░░░░░░░░░\e[39m 49% || 10.94/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████████░░░░░░░░░░░░░░░░░░░\e[39m 51% || 11.43/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████████░░░░░░░░░░░░░░░░░░░\e[39m 53% || 11.81/22.21 MB\e[0K"
+  - delay: 112
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████████████████░░░░░░░░░░░░░░░░░░\e[39m 55% || 12.14/22.21 MB\e[0K"
+  - delay: 108
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████████████████░░░░░░░░░░░░░░░░░░\e[39m 56% || 12.44/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████████░░░░░░░░░░░░░░░░░\e[39m 57% || 12.65/22.21 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████████████████░░░░░░░░░░░░░░░░\e[39m 59% || 13.08/22.21 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████████████████░░░░░░░░░░░░░░░░\e[39m 61% || 13.46/22.21 MB\e[0K"
+  - delay: 108
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████████████░░░░░░░░░░░░░░░\e[39m 62% || 13.84/22.21 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████████████████████░░░░░░░░░░░░░░\e[39m 65% || 14.33/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████████████░░░░░░░░░░░░░\e[39m 67% || 14.78/22.21 MB\e[0K"
+  - delay: 118
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████████████░░░░░░░░░░░░░\e[39m 68% || 15.12/22.21 MB\e[0K"
+  - delay: 106
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████████████████████░░░░░░░░░░░░\e[39m 70% || 15.56/22.21 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████████████████░░░░░░░░░░░\e[39m 71% || 15.86/22.21 MB\e[0K"
+  - delay: 110
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████████████████░░░░░░░░░░░\e[39m 73% || 16.32/22.21 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████████████████████████░░░░░░░░░░\e[39m 75% || 16.75/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████████████████░░░░░░░░░\e[39m 77% || 17.05/22.21 MB\e[0K"
+  - delay: 106
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████████████████░░░░░░░░░\e[39m 78% || 17.41/22.21 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████████████████████████░░░░░░░░\e[39m 81% || 17.99/22.21 MB\e[0K"
+  - delay: 112
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████████████████████░░░░░░░\e[39m 83% || 18.37/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████████████████████████████░░░░░░\e[39m 85% || 18.80/22.21 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████████████████████░░░░░\e[39m 87% || 19.27/22.21 MB\e[0K"
+  - delay: 110
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████████████████████░░░░░\e[39m 89% || 19.67/22.21 MB\e[0K"
+  - delay: 112
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████████████████████████████░░░░\e[39m 91% || 20.15/22.21 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████████████████████████░░░\e[39m 92% || 20.44/22.21 MB\e[0K"
+  - delay: 111
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m█████████████████████████████████████░░░\e[39m 94% || 20.82/22.21 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m██████████████████████████████████████░░\e[39m 95% || 21.14/22.21 MB\e[0K"
+  - delay: 108
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████████████████████████░\e[39m 97% || 21.49/22.21 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m███████████████████████████████████████░\e[39m 98% || 21.81/22.21 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_web_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 22.21/22.21 MB\e[0K"
+  - delay: 118
+    content: "\e[?25h\e[?7h\e8\r\n"
+  - delay: 1393
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_starter_darwin_amd64.tgz\r\n"
+  - delay: 79
+    content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/4.69 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 6% || 0.30/4.69 MB\e[0K"
+  - delay: 113
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 11% || 0.53/4.69 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 18% || 0.83/4.69 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 24% || 1.13/4.69 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 33% || 1.54/4.69 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m████████████████░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 41% || 1.93/4.69 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m████████████████████░░░░░░░░░░░░░░░░░░░░\e[39m 49% || 2.29/4.69 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m██████████████████████░░░░░░░░░░░░░░░░░░\e[39m 56% || 2.63/4.69 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m█████████████████████████░░░░░░░░░░░░░░░\e[39m 62% || 2.92/4.69 MB\e[0K"
+  - delay: 106
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m█████████████████████████████░░░░░░░░░░░\e[39m 72% || 3.40/4.69 MB\e[0K"
+  - delay: 111
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m█████████████████████████████████░░░░░░░\e[39m 83% || 3.87/4.69 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m████████████████████████████████████░░░░\e[39m 90% || 4.24/4.69 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m███████████████████████████████████████░\e[39m 97% || 4.55/4.69 MB\e[0K"
+  - delay: 42
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_starter_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 4.69/4.69 MB\e[0K\e[?25h\e[?7h\e8\r\n"
+  - delay: 325
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_workshop_darwin_amd64.tgz\r\n"
+  - delay: 106
+    content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/12.66 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 2% || 0.28/12.66 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 5% || 0.69/12.66 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 8% || 0.95/12.66 MB\e[0K"
+  - delay: 110
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 10% || 1.28/12.66 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 13% || 1.66/12.66 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 17% || 2.10/12.66 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 20% || 2.56/12.66 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 23% || 2.89/12.66 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 25% || 3.20/12.66 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 28% || 3.56/12.66 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 32% || 4.01/12.66 MB\e[0K"
+  - delay: 107
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 35% || 4.44/12.66 MB\e[0K"
+  - delay: 109
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m███████████████░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 38% || 4.81/12.66 MB\e[0K"
+  - delay: 107
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████████████████░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 41% || 5.20/12.66 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m██████████████████░░░░░░░░░░░░░░░░░░░░░░\e[39m 45% || 5.64/12.66 MB\e[0K"
+  - delay: 111
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m███████████████████░░░░░░░░░░░░░░░░░░░░░\e[39m 47% || 5.94/12.66 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████████████████████░░░░░░░░░░░░░░░░░░░░\e[39m 50% || 6.30/12.66 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m█████████████████████░░░░░░░░░░░░░░░░░░░\e[39m 53% || 6.66/12.66 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m██████████████████████░░░░░░░░░░░░░░░░░░\e[39m 55% || 6.95/12.66 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m███████████████████████░░░░░░░░░░░░░░░░░\e[39m 58% || 7.28/12.66 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████████████████████████░░░░░░░░░░░░░░░░\e[39m 61% || 7.71/12.66 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m█████████████████████████░░░░░░░░░░░░░░░\e[39m 63% || 8.02/12.66 MB\e[0K"
+  - delay: 111
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m██████████████████████████░░░░░░░░░░░░░░\e[39m 66% || 8.35/12.66 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████████████████████████████░░░░░░░░░░░░\e[39m 69% || 8.71/12.66 MB\e[0K"
+  - delay: 106
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m█████████████████████████████░░░░░░░░░░░\e[39m 72% || 9.08/12.66 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m██████████████████████████████░░░░░░░░░░\e[39m 74% || 9.43/12.66 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████████████████████████████████░░░░░░░░\e[39m 79% || 9.97/12.66 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m█████████████████████████████████░░░░░░░\e[39m 83% || 10.45/12.66 MB\e[0K"
+  - delay: 119
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m██████████████████████████████████░░░░░░\e[39m 85% || 10.75/12.66 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m███████████████████████████████████░░░░░\e[39m 88% || 11.19/12.66 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████████████████████████████████████░░░░\e[39m 91% || 11.55/12.66 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m██████████████████████████████████████░░\e[39m 94% || 11.93/12.66 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m███████████████████████████████████████░\e[39m 98% || 12.39/12.66 MB\e[0K"
+  - delay: 132
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_workshop_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 12.66/12.66 MB\e[0K\e[?25h\e[?7h\e8\r\n"
+  - delay: 1120
+    content: "\e[34mℹ\e[39m Start download https://releases.arcblockio.cn/forge/0.38.4/forge_swap_darwin_amd64.tgz\r\n"
+  - delay: 64
+    content: "\e7\e[?25l\e[?7l\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 0% || 0/9.85 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 2% || 0.22/9.85 MB\e[0K"
+  - delay: 108
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 5% || 0.45/9.85 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 7% || 0.67/9.85 MB\e[0K"
+  - delay: 111
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 12% || 1.16/9.85 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 17% || 1.66/9.85 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 21% || 2.05/9.85 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 25% || 2.50/9.85 MB\e[0K"
+  - delay: 110
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 29% || 2.89/9.85 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 34% || 3.32/9.85 MB\e[0K"
+  - delay: 103
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m███████████████░░░░░░░░░░░░░░░░░░░░░░░░░\e[39m 37% || 3.69/9.85 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m█████████████████░░░░░░░░░░░░░░░░░░░░░░░\e[39m 41% || 4.08/9.85 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m██████████████████░░░░░░░░░░░░░░░░░░░░░░\e[39m 45% || 4.47/9.85 MB\e[0K"
+  - delay: 104
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████████████████░░░░░░░░░░░░░░░░░░░░\e[39m 50% || 4.94/9.85 MB\e[0K"
+  - delay: 108
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m██████████████████████░░░░░░░░░░░░░░░░░░\e[39m 55% || 5.44/9.85 MB\e[0K"
+  - delay: 107
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████████████████████░░░░░░░░░░░░░░░░\e[39m 59% || 5.86/9.85 MB\e[0K"
+  - delay: 102
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m██████████████████████████░░░░░░░░░░░░░░\e[39m 65% || 6.43/9.85 MB\e[0K"
+  - delay: 100
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████████████████████████░░░░░░░░░░░░\e[39m 70% || 6.93/9.85 MB\e[0K"
+  - delay: 114
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m██████████████████████████████░░░░░░░░░░\e[39m 75% || 7.38/9.85 MB\e[0K"
+  - delay: 105
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████████████████████████████░░░░░░░░\e[39m 79% || 7.79/9.85 MB\e[0K"
+  - delay: 109
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m██████████████████████████████████░░░░░░\e[39m 84% || 8.29/9.85 MB\e[0K"
+  - delay: 101
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████████████████████████████████░░░░\e[39m 90% || 8.89/9.85 MB\e[0K"
+  - delay: 113
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m██████████████████████████████████████░░\e[39m 94% || 9.26/9.85 MB\e[0K"
+  - delay: 113
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m███████████████████████████████████████░\e[39m 98% || 9.63/9.85 MB\e[0K"
+  - delay: 92
+    content: "\e[1G\e[34mℹ\e[39m Downloading forge_swap_darwin_amd64.tgz |\e[36m████████████████████████████████████████\e[39m 100% || 9.85/9.85 MB\e[0K\e[?25h\e[?7h\e8\r\n"
+  - delay: 1245
+    content: "\e[32m✔\e[39m Congratulations! forge v0.38.4 installed successfully!\r\n\r\n\e[34mℹ\e[39m If you want to custom the config, run: \e[36mforge chain:config set\e[39m\r\n\e[?25h"
+  - delay: 30
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 61
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m31s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1583
+    content: "\e[?2004l\r\r\n"

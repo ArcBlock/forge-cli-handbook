@@ -1,0 +1,2975 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/wangshijun/Develop/arcblock
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 121
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: "@arcblock/forge-cli"
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 14
+
+  # The height of lines
+  lineHeight: 1.2
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 2199
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 51
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 654
+    content: "\e[4mf\e[24m\e[90morge stop -a\e[39m\e[12D"
+  - delay: 104
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 85
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 176
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 74
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 88
+    content: "\e[39m "
+  - delay: 125
+    content: "\e[39m\e[4mc\e[24m\e[90mh\e[90ma\e[90mi\e[90mn\e[90m:\e[90ml\e[90ms\e[39m\b\b\b\b\b\b\b"
+  - delay: 75
+    content: "\b\e[4mc\e[39m\e[4mh\e[24m"
+  - delay: 127
+    content: "\b\e[4mh\e[39m\e[4ma\e[24m"
+  - delay: 63
+    content: "\b\e[4ma\e[39m\e[4mi\e[24m"
+  - delay: 193
+    content: "\b\e[4mi\e[39m\e[4mn\e[24m"
+  - delay: 327
+    content: "\b\b\b\b\b\e[24mc\e[24mh\e[24ma\e[24mi\e[24mn\e[39m:"
+  - delay: 154
+    content: "\e[39mc\e[90mr\e[90meate asset-chain -d\e[39m\e[20D"
+  - delay: 193
+    content: "\e[39mr"
+  - delay: 86
+    content: "\e[39me"
+  - delay: 67
+    content: "\e[39ma"
+  - delay: 126
+    content: "\e[39mt"
+  - delay: 62
+    content: "\e[39me"
+  - delay: 154
+    content: "\e[39m "
+  - delay: 127
+    content: "\e[39m\e[4md\e[24m\e[90me\e[90mm\e[90mo\e[90m \e[90m-\e[90md\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[13D"
+  - delay: 153
+    content: "\b\e[4md\e[39m\e[4me\e[24m"
+  - delay: 88
+    content: "\b\e[4me\e[39m\e[4mm\e[24m"
+  - delay: 183
+    content: "\b\e[4mm\e[39m\e[4mo\e[24m"
+  - delay: 118
+    content: "\b\b\b\b\e[24md\e[24me\e[24mm\e[24mo\e[39m "
+  - delay: 298
+    content: "\e[39m-"
+  - delay: 87
+    content: "\e[39md"
+  - delay: 251
+    content: "\e[?1l\e>"
+  - delay: 15
+    content: "\e[?2004l\r\r\n\e]2;forge chain:create demo -d\a\e]1;forge\a\e]0;arcblock: forge chain:create demo -d\a"
+  - delay: 850
+    content: "\e[34mℹ\e[39m Working on \e[36mdemo\e[39m chain\r\n"
+  - delay: 45
+    content: "\e[32m✔\e[39m chain name: demo\r\n\e[2m──────────────\e[22m\r\nConfig Preview\r\n\e[2m──────────────\e[22m\r\n\r\n\e[32mapp: \e[39m\r\n  \e[32mname: \e[39m      demo\r\n  \e[32mversion: \e[39m   \r\n  \e[32mpath: \e[39m      \r\n  \e[32mexecutable: \e[39m\r\n  \e[32msock_tcp: \e[39m  \r\n\e[32mforge: \e[39m\r\n  \e[32mproto_version: \e[39m\e[34m1\e[39m\r\n  \e[32mpath: \e[39m         /Users/wangshijun/.forge_chains/forge_demo/forge_release/core\r\n  \e[32mlogpath: \e[39m      logs\r\n  \e[32msock_grpc: \e[39m    tcp://127.0.0.1:28210\r\n  \e[32mpub_sub_key: \e[39m  ABTTOTHEMOON\r\n  \e[32mtransaction: \e[39m\r\n    \e[32mmax_asset_size: \e[39m\e[34m1000000\e[39m\r\n    \e[32mdeclare: \e[39m\r\n      \e[32mrestricted: \e[39m\e[31mfalse\e[39m\r\n    \e[32mdelegate: \e[39m\r\n      \e[32mtype_urls: \e[39m\r\n        \e[32m- \e[39mfg:t:transfer\r\n        \e[32m- \e[39mfg:t:exchange\r\n    \e[32mpoke: \e[39m\r\n      \e[32mdaily_limit: \e[39m\e[34m2500000\e[39m\r\n      \e[32mamount: \e[39m     \e[34m25\e[39m\r\n  \e[32mstake: \e[39m\r\n    \e[32mtimeout: \e[39m\r\n      \e[32mgeneral: \e[39m       \e[34m10\e[39m\r\n      \e[32mstake_for_node: \e[39m\e[34m60\e[39m\r\n  \e[32mweb: \e[39m\r\n    \e[32menabled: \e[39m\e[32mtrue\e[39m\r\n  \e[32mprime: \e[39m\r\n    \e[32mmoderator: \e[39m\r\n      \e[32maddress: \e[39mz1VFy8hB9ndynkWAAH9P1a2L5WaU7AvtKGy\r\n      \e[32mpk: \e[39m     WUtmovNw_DfkDPaffxQc7JjGQ9qOB85hOoC6Oi8an9k\r\n      \e[32mbalance: \e[39m\e[34m0\e[39m\r\n    \e[32mtoken_holder: \e[39m\r\n  \e[32maccounts: \e[39m\r\n    \e[32m- \e[39m\r\n      \e[32maddress: \e[39mz1VFy8hB9ndynkWAAH9P1a2L5WaU7AvtKGy\r\n      \e[32mpk: \e[39m     WUtmovNw_DfkDPaffxQc7JjGQ9qOB85hOoC6Oi8an9k\r\n      \e[32mbalance: \e[39m\e[34m3500000000\e[39m\r\n  \e[32mtoken_swap: \e[39m\r\n    \e[32mcommission_rate: \e[39m          \e[34m1000\e[39m\r\n    \e[32mrevoke_commission_rate: \e[39m   \e[34m500000\e[39m\r\n    \e[32mcommission_holder_address: \e[39mz1X9yFbKTzAmaKqBUEWqSHLpNeAYeWrVzSR\r\n    \e[32mwithdraw_interval: \e[39m        \e[34m26400\e[39m\r\n  \e[32mtoken: \e[39m\r\n    \e[32mname: \e[39m          ArcBlock\r\n    \e[32msymbol: \e[39m        ABT\r\n    \e[32munit: \e[39m          arc\r\n    \e[32mdescription: \e[39m   Forge token ABT\r\n    \e[32micon: \e[39m          data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABoCAYAAABxGuekAAAAAXNSR0IArs4c6QAAD5RJREFUeAHtnAnUHeMZx6VJLCG2ELElIkLtxFK7xu4QyqFqS6ylSovWcqhaU0GprWgQcmiKWms5xFLEvm+xbxHEFstHLAna3893H2dy8917595v7tyb5HvO+X3zzMw77/u8/5l5n2duzskss0w/1p1Qh8FY2Hr6CXv6ibQToQ6BCfC/BKPxl4MOy0CBdejjMQiBJxb8zwvbKWzPhvmgw2pQYDGuuRxC4PH4u8J/Csd2YXsefFvY9wYcAJ2hw1IoMAdtjoFJoMhfwonQDbQQelDr7iwrsL0D4oY8i79x4VzHpoQCO3J8HIRoV+H3LmpbLHSc3g7nVYhrr8XvFyc7tq0KrMrmXgiRnsBfv/XUNH9LCW3D2eBIaAH7+hpOBquVmdp6Mvvh8B0ozPuwL/wESlk5oeOaXjiXwvdgv1YrQ8DqZaayrsz2UPgMFGIynA5zQyVLI3T0sTrO/eAY8ihYxcwUthWzfBli8jfh969i5tUIHd1arYyHGNNqxqpmhrRlmdWtEJN9Hn/zGmZai9AOY9Vi9WIVYwxWNVY3VjkzhPkhcSb4YeEEP4aDoQvUYrUKHWP1wbGaiRv+Jr7VznRrnYl8f/gInJQfFudDD2iPtVfoGHsDHKubEPwefKuf6coGEu0zEJO4C3/FjGaQldCGY3WzL1jtGKvVj1WQ1VBTW1+iuwZC4Nfxt8844iyFjtDmwbHqsfox9k/hULA6aiqbi2iGgh8IBuoPPkeBHxBZWz2EjhiXxrEKigflJXyrpIabHwCD4V0wuO9hJCwM9bJ6Ch0xb4HzAoTgVktWTQ2xtRj1YYhgHsRfM4dI8hDaaVgVWR19As7RqsnqaV7IxRZllMvAp9cA3obdwac7D8tL6JjLAjhWS1ZNzvdDsJqyqqqLzU6vR8MX4IBfwUkwJ+RpeQsdc1sJ5y5w7vI0DIRMbQd6ewNikKvxl4BGWKOEjrluj/M6hBZWWX3jZK3blbnwbohOn8LfEBppjRbauVtNWVXFP6dZbVl1WX1VZQvS+gKIny8/wN8Pyv18yelcrBmEjokugjMSIl+9gz8YOkFZs0A/BD4Fn2IL+DPAgr5ZrJmEDk2stqy64s23GrMqa9O25OiLEI1vwV+mzZaNPRgfFIMaG8Y0o/sUW335VKuhT7nVmU/9j6aoIbBiK3qz2vMEZqx7NmmAVmFWY1Zlxvkl7AY/WIhsrfhXaKalojXC1r8+HfFzq//G2Ky2BoE9DqHr8Ag0DiST316cbIbkFzG69VWMWN2u58EmMn96uBgiOcZX5TRC+3vsPRCTeRJ/A2gGM7k4gfhCM0afmmZ4GCz3DoNkuXcq+weCcU4jNMd+sF/x900Iwf+F3wcaZSaah8B4/EXNrSWn232gkbYNg78GxiI3wJKg7QseKym0jeaA42AS2NhF/TjoBnnbYAY0BjP6zQX/lML2fbZzQ962AgPeAcYlz8LGkLRUQscFi+H4REeH4/F94vMys3iUTJZPyTp6DPvGZQLPy3ow0DkQS9hH+AdBZyi2qoSOi9fGeRRC8AfwV4+TddwOLYzp0uESkhR6APsm8G+gP9TTutD5b+FjUAOrn3NhPihlNQltZ07UamQCOJjJySzbC+phS9Cp9ajj/Ay0pNDuXwjGcqM7dbLN6HcsxEN2G/5yKcaqWejouzuOWfVrcPAWMOvOBlnaNXRm/yMTnRYL3ZNznxXaKUiW5ltyPYTAL+NvW8UA7RY6xuqHY5aNQMy+ZuEs7Od0Yr9fwCIQViy0x/8AtvWr0Ve8vWZyHQYuSfbrjTwCZoVqLDOhY9CNcZ6FENxsbFau1Uws/iRrf0cVddKW0Arg02b73xe1r2bXmnxPeA/sy/V/BCwEtVjmQhuE4ph9zcIGaVY2O/eAam1/LrCPN2D2oovbEtomW4PXmKxqGXM9rnu80If9jIEB0B6ri9ARkFnYbBy/SThxs3XaV3pe2n4ITnZ7KLZSQtvOJOV157mT0nrTbhR4nbwFu0AWVlehI0Cz8miICZi1N42TZbZnFq75b4k25YRelmu8wb5NK5a4Pg774fVn8EPMGCfB8eCHWlaWi9ARrFn6FQjBzeJLxcmi7U/ZnwyujSsXnYvdckLb5ixwrDvdKWE7cdwnN2K6En/xEm3bczhXoQ3UZGXWNns7ObP5MDC7J+0Wdjx/fvJgkV9JaJeuyBPbFV27Gvv3QQj8GP66RW2y3M1d6Aje7G0W94l1su+BWd5svxV47BNYAEpZJaG97jdgX6+Btb3jXgjJcfdh33HraQ0TOiY1AMesHk+W2X5cYf9gtuUsjdBWQM+A/d8MLQXfN+k06A55WMOFjkma3ZNrpUtL3zhZYptGaC89CuJGur0RSuUGTtXFmkZoZ2cS+gpCFKsAq4FS2b+S0MtzbbLasV/LvkbYVELXe52qNMFjaOBHyZ1wFSiwZdZLsBOktflpeBY8BZuC9fsJ4HLh/hrQcIunKe9AVmFAE5Ql3TKFwa0CrAYiJqsEq4Ww4ifa9fgAmAheYw3tB4vCa38Bjz8AnSBPm+qJduCYVJ5BONbd4NinQ9J8y6wKrEo8782warB6SAq9CfvPQcR/O/4KkLS52HkXbLNb8kQOflMIvWNh8h+wnafEpK2zrRJ8/RXKZDm24PuEhsCv4hfXzBz60Ybg2fZtmPPHo/V3Gi60a/Kb4OQNppItRQOrhhA2ti0cOxJmhXLmkvEIeN2J5RpmfK7hQpsAnfSTkCYZK9QQiHU4hL6bY8tBGlubRt+DFU6fNBdk0KahQi/KBPwxX7E2TDGZdWjzaKG914TYnxeOTWFrtTEfVLLLaWAf/67UMKPzDRU6JntVhcksxvloqzjjYVeIZLgLvtWFVUbcgAPwrUJKWbU3uVQ/aY83TOg0r691tEvLJFBAP2BcV7uBFkIPat2t+n+g+RPX2W/aZaswTE2bhgidJiFZiYwDhRCf+t6QtGKh45xVh9VHXHstfr84mdgmE/GvE8fr4TZE6CHMRBHehuISa1WO3Vs4b5snYH1oy0oJbVt/qbMKaQH78V/pT4bukLQ0pWWyfa1+7kInPxpcZ8N64gwHP0gU5n0wuHKVSDmhufQH68XfS8Eqw34nwBDwrQq7B8dzp8eBOmxzF9qnykn5keFku8Kh8Bl43E9wJ+wHSiVLI3T0sTrO/eAYYvViFaO19fnfeia7v7kKvSRx+wr7dK0BW8HLEJO/Cb8/pLVqhI4+fYusWmJMqxmrmn8Ujt3Mth6Wq9AmJSd4Hdxa8N1/HjaHaq0WoR3DqsXqxSrG8SeBb9qnhf0t2WZtuQm9EZE7KX+rmFLwP2Z7MHSBWqxWoWOsPjhWM8YlEwvbF9h2hSwtF6EN2gojJuSHxfnQA9pj7RU6xt4Ax+om4nN7WpzMaFt3oQcSaFLkV9g3+WRhWQltLFY3R4BvnEKbR0aC1VAWVjeh+xLdNRBPietg+LWuycUTzkpo1+zjIdZsKx/fOuN13T4UfCvbY5kLbZ08FKwuDNQffI6C2WAQJKsMheoPtVoWQu/M4MkqZBT7ViFLg1VQPBwv4Vsl1WqZCd2JCAbDu2Bw8eotjJ+0Wdk5DKJu9lV1PUxTN9NsKmuP0OXq6uQgW7BjcgzBrZaWTTZI6Wci9FoM9jBEMA/ir1khANe+iyD5Jbg3++W+BIu7rEXoXnQyAnwQjHcC7Ak+KKXMqsjq6BPwGqumM2FeSGvtEnpRRrkMImiT3u5QLmhOT2UD2BsDcZMex19vqhald6oR2jfpcGgBx/JNOgW6Q1pbgIZWS7F+f4i/P3SGSlaT0P7qdTR8AQb9FZwEc0KtthMXjoMQ/Ar83hU6Syv0tvTzaqLv6/H7Vei73OmVOHkXRKxP4w8sdwHnqhZ6By56A2KQq/GXgCxsDjo5FqJCsQo4DqwK2rJKQi/PRbdDxPoc/iZtdVTjse257nWI/q2y+pboK7XQK9PB3RCdPoW/IdTDFqfTURBjvYW/cxsDlRJ6ftqeA/GKT8Q/ENK84jSryqymrKrin9OstoaC1VfSKgq9IK0vgEhaH+DvB9UkLZrXZOty1WMQgt+Hv1qip2Khu3BOQRXWa6aAgit8vW0RBhgJka/ewR8MnUArKXRXTh4Cn4JBT4YzYB7I0wx0L3gPjMOJjICFICn0puy7NMRNGY3v0pG3WW1ZdUUcVmNWZSWFfjHR+Bb8ZaCRZnVglWC14CRaYGzBf6iw9fgrsA000nw4rL7eAWPy4Qjxh+P/YHEn3Cr2lq2Hm+bvUkRyAyTj1Fd4yzfLuGYxq7CTwKos4r0wgoui3ETyN6imKI8+8thuwiCK6wRcJlxKmtFcSp6AEPrUCNLkp+rJ5LcP+3kkv4gh7fZGGjqBQWkvyLHdwox1CbhsGOO7sAdEcsRttVXY3ANxJ57E36D1VNP8TSbDZglqNgI5EpLl3snsF5d708T7S468CSH4lfh9oBms2YT+BaK8DqHVdfh9qxHKT+5jIPnJfQL77fnkrmb8Um2bRegVCfBOCIGfwd+oVNBpji9Ko39CrDtv4+8C06w7HMvDGi10Dyb5d4gv0I/wD4DMvkDXprNHIO7gA/hrQN7WKKG7MNHfwcegBlPgbJgPMjef4j3AbOpgPuWXgNk2L2uE0JszuechHrJb8ZfNY8Jm02HwNTi42fYIMPvW2/IUuj+TifGc58vQkLJySQY2y8adfg3fLFxPi4nXc8JzM4HTYDI4t8/gj9AVGmpm22cgBDcbm5XrYfUU+icEvDe8D87lO7gIekLTmFnX7GsWNkizstnZLJ2l1Uvo9Qky+dl8L/urZhl41n2Zhc8Gs7KCm6UPArN2Fpa10L0J6gqIt3Ec/k5ZBJpXH2bl2yAmYNbeLIPBsxK6G7EcD1+CMU6CY2EOmC7NpGW2DsEVymxeq2Uh9M4MPh4iplH4i9UaUDNdNyvBHAZmbyf3DZwKZvdqrT1Cr85g90MI/Cj+OtUGMD20N3ubxc3mTtbsbpY326e1WoTuRecjIH5GmIC/J/gBNkPbAGY3BuLJehx/vZQzrkZo36TDoQXiTToFvzvMVGZ2N8uH4GZ/q4ByllbobenkVYi+r8fvV67jGf2cWf5YMOsrilXAcWBV0JZVEnp5LrodQmD/lXyTtjqaWY8tzsTN/iHQW/hWB8VWSuj5aXgufAv2MREOhM7QYW0osC7HHoMQ/D781RLtioX2Q0hBFdZr/FA6BxS+wyooYDWwF7wHime1cDH4r95JoTdl36UhbspofJeODqtSAasDqwTrbsVsgbEF/6HC1uOvwDbQYe1UYCmuvwHiyY2twlu+WcZ1WIYKWD28CC4lI8GlpMPqpIDJb+k69d3R7YygwP8BZjx0IBJLJOUAAAAASUVORK5CYII=\r\n    \e[32mdecimal: \e[39m       \e[34m18\e[39m\r\n    \e[32minitial_supply: \e[39m\e[34m7500000000\e[39m\r\n    \e[32mtotal_supply: \e[39m  \e[34m7500000000\e[39m\r\n    \e[32minflation_rate: \e[39m\e[34m0\e[39m\r\n\e[32mtendermint: \e[39m\r\n  \e[32mmoniker: \e[39m            demo\r\n  \e[32mpath: \e[39m               /Users/wangshijun/.forge_chains/forge_demo/forge_release/tendermint\r\n  \e[32mkeypath: \e[39m            /Users/wangshijun/.forge_chains/forge_demo/keys\r\n  \e[32mlogpath: \e[39m            logs\r\n  \e[32msock_proxy_app: \e[39m     unix://socks/tm_proxy_app.sock\r\n  \e[32msock_rpc: \e[39m           tcp://127.0.0.1:28221\r\n  \e[32msock_grpc: \e[39m          tcp://127.0.0.1:28222\r\n  \e[32msock_p2p: \e[39m           tcp://0.0.0.0:26656\r\n  \e[32msock_prof: \e[39m          \r\n  \e[32mpersistent_peers: \e[39m   \r\n  \e[32mseed_peers: \e[39m         \r\n  \e[32mtimeout_commit: \e[39m     5s\r\n  \e[32mcreate_empty_blocks: \e[39m\e[32mtrue\e[39m\r\n  \e[32mseed_mode: \e[39m          \e[31mfalse\e[39m\r\n  \e[32mrecheck: \e[39m            \e[31mfalse\e[39m\r\n  \e[32mgenesis: \e[39m\r\n    \e[32mgenesis_time: \e[39m2019-02-10T17:29:13.31415926Z\r\n    \e[32mchain_id: \e[39m    demo\r\n    \e[32mmax_bytes: \e[39m   \e[34m150000\e[39m\r\n    \e[32mmax_gas: \e[39m     \e[34m-1\e[39m\r\n    \e[32mapp_hash: \e[39m    \r\n    \e[32mvalidators: \e[39m\r\n      \e[32m- \e[39m\r\n\e[32mipfs: \e[39m\r\n  \e[32mpath: \e[39m   /Users/wangshijun/.forge_chains/forge_demo/forge_release/ipfs\r\n  \e[32mlogpath: \e[39mlogs\r\n\e[32mcache: \e[39m\r\n  \e[32mpath: \e[39m/Users/wangshijun/.forge_chains/forge_demo/forge_release/cache/mnesia_data_dir\r\n\e[32mworkshop: \e[39m\r\n  \e[32mpath: \e[39m/Users/wangshijun/.forge_chains/forge_demo/workshop\r\n  \e[32mdb: \e[39m  sqlite://workshop.sqlite3\r\n\r\n\e[2m──────────────\e[22m\r\n"
+  - delay: 28
+    content: "Initialized a new empty chain in /Users/wangshijun/.forge_chains/forge_demo\r\n\e[32m✔\e[39m Config file \e[36m/Users/wangshijun/.forge_chains/forge_demo/forge_release.toml\e[39m is updated!\r\n\e[34mℹ\e[39m Full configuration documentation: \e[36mhttps://docs.arcblock.io/zh/docs/instruction/configuration\e[39m!\r\n\e[2m──────────────\e[22m\r\n\e[34mℹ\e[39m Run \e[36mforge start demo\e[39m to start the chain\r\n"
+  - delay: 22
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 51
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1738
+    content: "\e[H\e[2J\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K"
+  - delay: 221
+    content: "\e[4mf\e[24m\e[90morge chain:create demo -d\e[39m\e[25D"
+  - delay: 144
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 46
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 170
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 69
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 97
+    content: "\e[39m "
+  - delay: 98
+    content: "\e[39ms\e[90mt\e[90mo\e[90mp\e[90m \e[90m-\e[90ma\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[19D"
+  - delay: 136
+    content: "\e[39mt"
+  - delay: 127
+    content: "\e[39ma\e[90mt\e[90mu\e[90ms\e[39m\e[39m \b\b\b\b"
+  - delay: 46
+    content: "\e[39mr\e[90mt\e[90m \e[90masset-chain\e[39m\e[13D"
+  - delay: 173
+    content: "\e[39mt"
+  - delay: 109
+    content: "\e[39m "
+  - delay: 153
+    content: "\e[39m\e[4md\e[24m\e[90me\e[90mm\e[90mo\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[10D"
+  - delay: 177
+    content: "\b\e[4md\e[39m\e[4me\e[24m"
+  - delay: 38
+    content: "\b\e[4me\e[39m\e[4mm\e[24m"
+  - delay: 185
+    content: "\b\e[4mm\e[39m\e[4mo\e[24m"
+  - delay: 272
+    content: "\b\b\b\b\e[24md\e[24me\e[24mm\e[24mo\e[?1l\e>"
+  - delay: 15
+    content: "\e[?2004l\r\r\n\e]2;forge start demo\a\e]1;forge\a\e]0;arcblock: forge start demo\a"
+  - delay: 890
+    content: "\e[34mℹ\e[39m Working on \e[36mdemo\e[39m chain\r\n"
+  - delay: 155
+    content: "\e[?25l\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 268
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 99
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 101
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 100
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 102
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 105
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 104
+    content: "\e[2K\e[1G\e[36m☲\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m☴\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 103
+    content: "\e[2K\e[1G\e[36m☱\e[39m Waiting for chain \e[33mdemo\e[39m to start..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[?25h\e[32m✔\e[39m Chain \e[33mdemo\e[39m successfully started\r\n"
+  - delay: 70
+    content: "\e[?25l\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 297
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 55
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 52
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 50
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 52
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 50
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 55
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 50
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 55
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 52
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 55
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 55
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 52
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 50
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 50
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 52
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 52
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 55
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 55
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 50
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 51
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 53
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 55
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 52
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 50
+    content: "\e[2K\e[1G\e[36m◒\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◐\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◓\e[39m Waiting for forge web to start..."
+  - delay: 54
+    content: "\e[2K\e[1G\e[36m◑\e[39m Waiting for forge web to start..."
+  - delay: 13
+    content: "\e[2K\e[1G\e[?25h\e[32m✔\e[39m Forge web successfully started\r\n\e[34mℹ\e[39m forge web running at:     http://localhost:8212\r\n\e[34mℹ\e[39m graphql endpoint at:      http://localhost:8212/api\r\n"
+  - delay: 1202
+    content: "\r\n Chain: \e[32mdemo\e[39m \e[33mv0.38.4\e[39m\r\n\e[90m┌───────────────┬──────────┬──────────┬──────────┬──────────┬──────────────────────────────┐\e[39m\r\n\e[90m│\e[39m\e[1m\e[36m Name          \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m PID      \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Uptime   \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Memory   \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m CPU      \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Endpoint                     \e[39m\e[22m\e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m web           \e[90m│\e[39m 55865    \e[90m│\e[39m 4s       \e[90m│\e[39m 140 MB   \e[90m│\e[39m 81.50 %  \e[90m│\e[39m http://127.0.0.1:8212/api    \e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m forge         \e[90m│\e[39m 55741    \e[90m│\e[39m 13s      \e[90m│\e[39m 180 MB   \e[90m│\e[39m 64.15 %  \e[90m│\e[39m tcp://127.0.0.1:28212        \e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m tendermint    \e[90m│\e[39m 55765    \e[90m│\e[39m 11s      \e[90m│\e[39m 26.2 MB  \e[90m│\e[39m 1.55 %   \e[90m│\e[39m -                            \e[90m│\e[39m\r\n\e[90m└───────────────┴──────────┴──────────┴──────────┴──────────┴──────────────────────────────┘\e[39m\r\n\r\n\e[34mℹ\e[39m For interactive console, please run \e[36mforge remote -c demo\e[39m\r\n\e[34mℹ\e[39m For forge web interface, please run \e[36mforge web open -c demo\e[39m\r\n\e[34mℹ\e[39m For above process list, please run \e[36mforge ps\e[39m\r\n\e[34mℹ\e[39m If you want to know forge status detail, please run \e[36mforge status -c demo\e[39m\r\n\e[?25h"
+  - delay: 8
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 52
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m14s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 820
+    content: "\e[4mf\e[24m\e[90morge start demo\e[39m\e[15D"
+  - delay: 95
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 94
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 177
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 64
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 73
+    content: "\e[39m "
+  - delay: 169
+    content: "\e[39ml\e[90ms\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[9D"
+  - delay: 137
+    content: "\e[39ms"
+  - delay: 238
+    content: "\e[?1l\e>"
+  - delay: 16
+    content: "\e[?2004l\r\r\n\e]2;forge ls\a\e]1;forge\a\e]0;arcblock: forge ls\a"
+  - delay: 1053
+    content: "Installed:\r\n\e[36m->    0.38.4\e[39m\r\n      0.38.7\r\n      0.38.9\r\n      0.39.1\r\n"
+  - delay: 2358
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 55
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1115
+    content: "\e[4mf\e[24m\e[90morge ls\e[39m\b\b\b\b\b\b\b"
+  - delay: 114
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 111
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 201
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 79
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 70
+    content: "\e[39m "
+  - delay: 266
+    content: "\e[39m\e[4mu\e[24m\e[90ms\e[90me v0.38.4\e[39m\e[10D"
+  - delay: 232
+    content: "\b\e[24mu\e[39mp\e[90mg\e[90mr\e[90ma\e[90md\e[90me\e[39m\e[39m \e[39m \e[39m \e[39m \e[9D"
+  - delay: 128
+    content: "\e[39mg"
+  - delay: 185
+    content: "\e[39mr"
+  - delay: 70
+    content: "\e[39ma"
+  - delay: 186
+    content: "\e[39md"
+  - delay: 168
+    content: "\e[39me"
+  - delay: 985
+    content: "\e[?1l\e>"
+  - delay: 18
+    content: "\e[?2004l\r\r\n\e]2;forge upgrade\a\e]1;forge\a\e]0;arcblock: forge upgrade\a"
+  - delay: 1485
+    content: "\e[34mℹ\e[39m Working on \e[36mdemo\e[39m chain\r\n"
+  - delay: 728
+    content: "\e[34mℹ\e[39m Connect to grpc endpoint: tcp://127.0.0.1:28212\r\n"
+  - delay: 174
+    content: "\e[32m✔\e[39m moderator checked success\r\n"
+  - delay: 17
+    content: "\e[?25l\e[32m?\e[39m \e[1mTo which version your want to upgrade?\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ 0.39.1\e[39m \r\n  0.38.9 \r\n  0.38.7 \e[9D\e[9C"
+  - delay: 1976
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mTo which version your want to upgrade?\e[22m\e[0m \e[0m\r\n  0.39.1 \r\n\e[36m❯ 0.38.9\e[39m \r\n  0.38.7 \e[9D\e[9C"
+  - delay: 239
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mTo which version your want to upgrade?\e[22m\e[0m \e[0m\r\n  0.39.1 \r\n  0.38.9 \r\n\e[36m❯ 0.38.7\e[39m \e[9D\e[9C"
+  - delay: 460
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mTo which version your want to upgrade?\e[22m\e[0m \e[0m\e[36m0.38.7\e[39m\e[47D\e[47C\r\n\e[?25h\e[32m?\e[39m \e[1mBlock height to perform the upgrade (latest 3)?\e[22m\e[0m \e[0m\e[2m(23) \e[22m\e[55D\e[55C"
+  - delay: 2274
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mBlock height to perform the upgrade (latest 3)?\e[22m\e[0m \e[0m\e[36m23\e[39m\e[52D\e[52C\r\n\e[32m?\e[39m \e[1mWill upgrade node from v\e[36m0.38.4\e[39m to v\e[36m0.38.7\e[39m at height \e[36m23\e[39m, and this cannot be undo, are your sure?\e[22m\e[0m \e[0m\e[2m(y/N) \e[22m\e[104D\e[104C"
+  - delay: 1158
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWill upgrade node from v\e[36m0.38.4\e[39m to v\e[36m0.38.7\e[39m at height \e[36m23\e[39m, and this cannot be undo, are your sure?\e[22m\e[0m \e[0m\e[2m(y/N) \e[22my\e[105D\e[105C"
+  - delay: 257
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWill upgrade node from v\e[36m0.38.4\e[39m to v\e[36m0.38.7\e[39m at height \e[36m23\e[39m, and this cannot be undo, are your sure?\e[22m\e[0m \e[0m\e[36mYes\e[39m\e[101D\e[101C\r\n"
+  - delay: 50
+    content: "\e[32m✔\e[39m Upgrade node transaction sent\r\n\e[2m──────────────\e[22m\r\n\e[?25l\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 302
+    content: "\e[2K\e[1G\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 303
+    content: "\e[2K\e[1G\e[36m\U0001F649 \e[39m Waiting for transaction commit..."
+  - delay: 303
+    content: "\e[2K\e[1G\e[36m\U0001F64A \e[39m Waiting for transaction commit..."
+  - delay: 303
+    content: "\e[2K\e[1G\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 303
+    content: "\e[2K\e[1G\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 302
+    content: "\e[2K\e[1G\e[36m\U0001F649 \e[39m Waiting for transaction commit..."
+  - delay: 305
+    content: "\e[2K\e[1G\e[36m\U0001F64A \e[39m Waiting for transaction commit..."
+  - delay: 301
+    content: "\e[2K\e[1G\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 303
+    content: "\e[2K\e[1G\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 304
+    content: "\e[2K\e[1G\e[36m\U0001F649 \e[39m Waiting for transaction commit..."
+  - delay: 304
+    content: "\e[2K\e[1G\e[36m\U0001F64A \e[39m Waiting for transaction commit..."
+  - delay: 305
+    content: "\e[2K\e[1G\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 303
+    content: "\e[2K\e[1G\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 304
+    content: "\e[2K\e[1G\e[36m\U0001F649 \e[39m Waiting for transaction commit..."
+  - delay: 304
+    content: "\e[2K\e[1G\e[36m\U0001F64A \e[39m Waiting for transaction commit..."
+  - delay: 301
+    content: "\e[2K\e[1G\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 305
+    content: "\e[2K\e[1G\e[36m\U0001F648 \e[39m Waiting for transaction commit..."
+  - delay: 303
+    content: "\e[2K\e[1G\e[36m\U0001F649 \e[39m Waiting for transaction commit..."
+  - delay: 303
+    content: "\e[2K\e[1G\e[36m\U0001F64A \e[39m Waiting for transaction commit..."
+  - delay: 241
+    content: "\e[2K\e[1G\e[?25h"
+  - delay: 942
+    content: "ℹ Working on demo chain\r\n"
+  - delay: 734
+    content: "ℹ Connect to grpc endpoint: tcp://127.0.0.1:28212\r\n"
+  - delay: 13
+    content: "\r\n\e[32mfrom: \e[39m      z1VFy8hB9ndynkWAAH9P1a2L5WaU7AvtKGy\r\n\e[32mnonce: \e[39m     \e[34m1571309030585\e[39m\r\n\e[32mchainId: \e[39m   demo\r\n\e[32mpk: \e[39m        WUtmovNw/DfkDPaffxQc7JjGQ9qOB85hOoC6Oi8an9k=\r\n\e[32mgas: \e[39m       \e[34m0\e[39m\r\n\e[32mdelegator: \e[39m \r\n\e[32msignature: \e[39m AJIwLQ/k4JOwcHy0DgRR6PpoHesEDQuYig8zbcYpHnMECdbtLu4CVQd/7iXCMbuo4kfdBFSeff4gYV0DDGqYDg==\r\n\e[32msignatures: \e[39m\r\n  (empty array)\r\n\e[32mitx: \e[39m\r\n  \e[32mtype: \e[39m UpgradeNodeTx\r\n  \e[32mvalue: \e[39m\r\n    \e[32mheight: \e[39m  \e[34m23\e[39m\r\n    \e[32mversion: \e[39m 0.38.7\r\n    \e[32moverride: \e[39m\e[31mfalse\e[39m\r\n\r\n"
+  - delay: 20
+    content: "\e[?25l\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 89
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 78
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 87
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 89
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 87
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 88
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢄\e[39m Stopping forge..."
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⢂\e[39m Stopping forge..."
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⢁\e[39m Stopping forge..."
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m⡁\e[39m Stopping forge..."
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⡈\e[39m Stopping forge..."
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⡐\e[39m Stopping forge..."
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⡠\e[39m Stopping forge..."
+  - delay: 78
+    content: "\e[2K\e[1G\e[?25h\e[34mℹ\e[39m Stopping \e[33mdemo\e[39m chain...\r\n\e[?25l\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 124
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 123
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 119
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 124
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 120
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 121
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 120
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 121
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 121
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 123
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 124
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 123
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 125
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 121
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 123
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 123
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 123
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 123
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 120
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 125
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 125
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 121
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 123
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 120
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 121
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 124
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 124
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 121
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 125
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 120
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 120
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 124
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 124
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 121
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 125
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 125
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 120
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 121
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 124
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 122
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 125
+    content: "\e[2K\e[1G\e[36m☖\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 120
+    content: "\e[2K\e[1G\e[36m☗\e[39m Waiting for chain \e[33mdemo\e[39m to stop..."
+  - delay: 67
+    content: "\e[2K\e[1G\e[?25h\e[32m✔\e[39m Chain \e[33mdemo\e[39m stopped!\r\n\e[?25h\e[32m✔\e[39m Forge stopped\r\n"
+  - delay: 983
+    content: "\e[34mℹ\e[39m Working on \e[36mdemo\e[39m chain\r\n"
+  - delay: 152
+    content: "\e[33m⚠\e[39m Chain \e[33mdemo\e[39m is not started yet!\r\n\e[34mℹ\e[39m Please run \e[36mforge start demo\e[39m first!\r\n"
+  - delay: 956
+    content: "\e[34mℹ\e[39m Working on \e[36mdemo\e[39m chain\r\n"
+  - delay: 167
+    content: "- Waiting for chain \e[33mdemo\e[39m to start...\r\n"
+  - delay: 8236
+    content: "\e[32m✔\e[39m Chain \e[33mdemo\e[39m successfully started\r\n"
+  - delay: 71
+    content: "- Waiting for forge web to start...\r\n"
+  - delay: 1329
+    content: "\e[32m✔\e[39m Forge web successfully started\r\n\e[34mℹ\e[39m forge web running at:     http://localhost:8212\r\n\e[34mℹ\e[39m graphql endpoint at:      http://localhost:8212/api\r\n"
+  - delay: 1256
+    content: "\r\n Chain: \e[32mdemo\e[39m \e[33mv0.38.7\e[39m\r\n\e[90m┌───────────────┬──────────┬──────────┬──────────┬──────────┬──────────────────────────────┐\e[39m\r\n\e[90m│\e[39m\e[1m\e[36m Name          \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m PID      \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Uptime   \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Memory   \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m CPU      \e[39m\e[22m\e[90m│\e[39m\e[1m\e[36m Endpoint                     \e[39m\e[22m\e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m web           \e[90m│\e[39m 56772    \e[90m│\e[39m 2s       \e[90m│\e[39m 150 MB   \e[90m│\e[39m 145.00 % \e[90m│\e[39m http://127.0.0.1:8212/api    \e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m forge         \e[90m│\e[39m 56649    \e[90m│\e[39m 11s      \e[90m│\e[39m 186 MB   \e[90m│\e[39m 71.00 %  \e[90m│\e[39m tcp://127.0.0.1:28212        \e[90m│\e[39m\r\n\e[90m├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────────────────────────┤\e[39m\r\n\e[90m│\e[39m tendermint    \e[90m│\e[39m 56672    \e[90m│\e[39m 9s       \e[90m│\e[39m 34 MB    \e[90m│\e[39m 1.78 %   \e[90m│\e[39m -                            \e[90m│\e[39m\r\n\e[90m└───────────────┴──────────┴──────────┴──────────┴──────────┴──────────────────────────────┘\e[39m\r\n\r\n\e[34mℹ\e[39m For interactive console, please run \e[36mforge remote -c demo\e[39m\r\n\e[34mℹ\e[39m For forge web interface, please run \e[36mforge web open -c demo\e[39m\r\n\e[34mℹ\e[39m For above process list, please run \e[36mforge ps\e[39m\r\n\e[34mℹ\e[39m If you want to know forge status detail, please run \e[36mforge status -c demo\e[39m\r\n"
+  - delay: 15
+    content: "\e[34mℹ\e[39m Version:\r\n"
+  - delay: 931
+    content: "\e[34mℹ\e[39m Working on \e[36mdemo\e[39m chain\r\n"
+  - delay: 27
+    content: "Versions of \e[36mdemo\e[39m chain:\r\n\r\nforge-core version 0.38.7 on darwin\r\nforge-cli version 0.39.14\r\n"
+  - delay: 97
+    content: "forge_web 0.38.7\r\n"
+  - delay: 104
+    content: "simulator 0.38.7\r\n"
+  - delay: 103
+    content: "forge_workshop 0.38.7\r\n"
+  - delay: 123
+    content: "\r\n\e[32m✔\e[39m Upgrade success!\r\n\e[?25h"
+  - delay: 10
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 59
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m \e[33m2m 6s\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1553
+    content: "\e[4mf\e[24m\e[90morge upgrade\e[39m\e[12D"
+  - delay: 114
+    content: "\b\e[4mf\e[39m\e[4mo\e[24m"
+  - delay: 86
+    content: "\b\b\e[24m\e[33mf\e[24m\e[33mo\e[33mr\e[39m"
+  - delay: 168
+    content: "\b\b\b\e[39m\e[4mf\e[39m\e[4mo\e[39m\e[4mr\e[39m\e[4mg\e[24m"
+  - delay: 71
+    content: "\b\b\b\b\e[24m\e[32mf\e[24m\e[32mo\e[24m\e[32mr\e[24m\e[32mg\e[32me\e[39m"
+  - delay: 87
+    content: "\e[39m "
+  - delay: 266
+    content: "\e[39ms\e[90mt\e[90ma\e[90mr\e[90mt\e[90m \e[90md\e[90memo\e[39m\e[9D"
+  - delay: 542
+    content: "\e[39mt"
+  - delay: 58
+    content: "\e[39ma"
+  - delay: 239
+    content: "\e[39mt\e[90mu\e[90ms\e[39m\e[39m \e[39m \e[39m \e[39m \b\b\b\b\b\b"
+  - delay: 201
+    content: "\e[39mu"
+  - delay: 104
+    content: "\e[39ms"
+  - delay: 134
+    content: " \e[90mdemo\e[39m\b\b\b\b"
+  - delay: 305
+    content: "\e[39m-\e[90mc\e[90m \e[90ma\e[90msset\e[39m\b\b\b\b\b\b\b"
+  - delay: 98
+    content: "\e[39mc"
+  - delay: 109
+    content: "\e[39m "
+  - delay: 172
+    content: "\e[39m\e[4md\e[24m\e[39m \e[39m \e[39m \e[39m \b\b\b\b"
+  - delay: 190
+    content: "\b\e[4md\e[4me\e[24m"
+  - delay: 11
+    content: "\b\e[4me\e[4mm\e[24m"
+  - delay: 215
+    content: "\b\e[4mm\e[4mo\e[24m"
+  - delay: 638
+    content: "\b\b\b\b\e[24md\e[24me\e[24mm\e[24mo\e[?1l\e>"
+  - delay: 17
+    content: "\e[?2004l\r\r\n\e]2;forge status -c demo\a\e]1;forge\a\e]0;arcblock: forge status -c demo\a"
+  - delay: 902
+    content: "\e[34mℹ\e[39m Working on \e[36mdemo\e[39m chain\r\n"
+  - delay: 772
+    content: "\e[34mℹ\e[39m Connect to grpc endpoint: tcp://127.0.0.1:28212\r\n"
+  - delay: 15
+    content: "\e[2m──────────────\e[22m\r\n\e[32m✔\e[39m \e[36mChain Info\e[39m\r\n\e[2m──────────────\e[22m\r\n\r\n\e[32mid: \e[39m              3533409dd5ef2bf6743d5a1d65c789d32970cbb2\r\n\e[32mnetwork: \e[39m         demo\r\n\e[32mmoniker: \e[39m         demo\r\n\e[32mconsensusVersion: \e[39m0.32.3\r\n\e[32msynced: \e[39m          \e[32mtrue\e[39m\r\n\e[32mappHash: \e[39m         bed17cb797a3816a7bc66e207575f42e34d26345a556ffa870d87be02289e999\r\n\e[32mblockHash: \e[39m       dfb327c5143fd12a6415c162fc76d901815166dcac87e0d043ead6cb57376403\r\n\e[32mblockHeight: \e[39m     \e[34m26\e[39m\r\n\e[32mblockTime: \e[39m       2019-10-17T10:45:45.000Z\r\n\e[32maddress: \e[39m         zysrNAhwVPptHkT7y459rAvZ45mGjaHcmqGF\r\n\e[32mvotingPower: \e[39m     \e[34m10\e[39m\r\n\e[32mtotalTxs: \e[39m        \e[34m1\e[39m\r\n\e[32mversion: \e[39m         0.38.7\r\n\e[32mforgeAppsVersion: \e[39m\r\n\e[32msupportedTxs: \e[39m\r\n  \e[32m- \e[39mfg:t:create_asset\r\n  \e[32m- \e[39mfg:t:deploy_protocol\r\n  \e[32m- \e[39mfg:t:activate_protocol\r\n  \e[32m- \e[39mfg:t:consume_asset\r\n  \e[32m- \e[39mfg:t:transfer\r\n  \e[32m- \e[39mfg:t:update_asset\r\n  \e[32m- \e[39mfg:t:deposit_token\r\n  \e[32m- \e[39mfg:t:acquire_asset\r\n  \e[32m- \e[39mfg:t:setup_swap\r\n  \e[32m- \e[39mfg:t:exchange\r\n  \e[32m- \e[39mfg:t:account_migrate\r\n  \e[32m- \e[39mfg:t:revoke_delegate\r\n  \e[32m- \e[39mfg:t:deactivate_protocol\r\n  \e[32m- \e[39mfg:t:revoke_withdraw\r\n  \e[32m- \e[39mfg:t:upgrade_node\r\n  \e[32m- \e[39mfg:t:poke\r\n  \e[32m- \e[39mfg:t:withdraw_token\r\n  \e[32m- \e[39mfg:t:delegate\r\n  \e[32m- \e[39mfg:t:approve_withdraw\r\n  \e[32m- \e[39mfg:t:declare\r\n  \e[32m- \e[39mfg:t:revoke_swap\r\n  \e[32m- \e[39mfg:t:retrieve_swap\r\n\r\n\r\n"
+  - delay: 207
+    content: "\e[2m──────────────\e[22m\r\n\e[32m✔\e[39m \e[36mEndpoints\e[39m\r\n\r\n\e[32mweb: \e[39m  http://127.0.0.1:8212/api\r\n\e[32mforge: \e[39mtcp://127.0.0.1:28212\r\n\r\n"
+  - delay: 10
+    content: "\e]2;wangshijun@feweekly: ~/Develop/arcblock\a\e]1;..elop/arcblock\a"
+  - delay: 52
+    content: "\e]0;~/Develop/arcblock\a\r\n\e[0m\e[27m\e[24m\e[J\e[34m~/Develop/arcblock\e[39m\r\n\r\e[35m❯\e[39m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 3199
+    content: "\e[?2004l\r\r\n"
