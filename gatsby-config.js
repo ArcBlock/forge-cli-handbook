@@ -25,7 +25,7 @@ module.exports = {
           sidebarWidth: 360,
         },
         algoliaSearch: {
-          enabled: process.env.NODE_ENV === 'production',
+          enabled: false,
           appId: process.env.GATSBY_ALGOLIA_APP_ID,
           adminKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
           searchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
