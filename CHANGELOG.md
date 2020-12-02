@@ -1,3 +1,8 @@
+## 1.2.2 (December 02, 2020)
+
+- fix edit on github
+- fix github actions error
+
 ## 1.2.1 (December 02, 2020)
 
 - be a blocklet
