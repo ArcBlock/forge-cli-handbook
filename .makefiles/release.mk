@@ -7,8 +7,8 @@ RELEASE_DATA='{"tag_name": "$(RELEASE_VERSION)", "name": "$(RELEASE_VERSION)", "
 RELEASE_URL=https://api.github.com/repos/ArcBlock/forge-cli-power-user/releases
 
 release:
-	@git config --local user.name "Tyr Chen"
-	@git config --local user.email "tyr.chen@gmail.com"
+	@git config --local user.name "wangshijun"
+	@git config --local user.email "wangshijun2010@gmail.com"
 	@git tag -a $(RELEASE_VERSION) -m "Release $(RELEASE_VERSION). Revision is: $(GIT_VERSION)" | true
 	@git push origin $(RELEASE_VERSION) | true
 
@@ -21,6 +21,7 @@ bump-version:
 	@echo "Bump version..."
 	@.makefiles/bump_version.sh
 	@@test -f "package.json" && .makefiles/bump_node_version.sh
+	@@test -f "blocklet.yml" && .makefiles/bump_blocklet_version.sh
 
 create-pr:
 	@echo "Creating pull request..."
