@@ -1,3 +1,7 @@
+## 1.2.3 (December 03, 2020)
+
+- update gatsby extension lib
+
 ## 1.2.2 (December 02, 2020)
 
 - fix edit on github
