@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "forge-cli-power-user",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A book that helps you to become a power user on forge-cli",
   "main": "index.js",
   "directories": {
@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/ArcBlock/forge-cli-power-user#readme",
   "dependencies": {
-    "@arcblock/gatsby-i18n-redirect": "^7.31.1",
-    "@arcblock/gatsby-theme-docs": "^7.33.0",
+    "@arcblock/gatsby-i18n-redirect": "^7.33.1",
+    "@arcblock/gatsby-theme-docs": "^7.33.2",
     "fs-extra": "^8.1.0",
     "gatsby": "2.27.1",
     "gatsby-plugin-netlify-cache": "^1.2.0",
