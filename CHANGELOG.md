@@ -1,3 +1,7 @@
+## 1.2.4 (January 14, 2021)
+
+- replace abtnode command with blocklet command
+
 ## 1.2.3 (December 03, 2020)
 
 - update gatsby extension lib
