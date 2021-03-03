@@ -1,3 +1,7 @@
+## 1.2.5 (March 03, 2021)
+
+- add search
+
 ## 1.2.4 (January 14, 2021)
 
 - replace abtnode command with blocklet command

@@ -1,5 +1,5 @@
 name: forge-cli-power-user
-version: 1.2.4
+version: 1.2.5
 description: A book that helps you to become a power user on forge-cli
 main: public
 repository:
@@ -35,3 +35,7 @@ environments: []
 screenshots: []
 specVersion: 1.0.2
 scripts: {}
+requirements:
+  abtnode: '>=1.1.0'
+  os: '*'
+  cpu: '*'
