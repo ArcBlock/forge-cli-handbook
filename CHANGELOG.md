@@ -1,3 +1,7 @@
+## 1.2.6 (April 07, 2021)
+
+- update gatsby extension lib
+
 ## 1.2.5 (March 03, 2021)
 
 - add search
